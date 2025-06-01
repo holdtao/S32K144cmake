@@ -1,0 +1,542 @@
+Gpt_Ipw_DisableInterrupt (const struct Gpt_Ipw_HwChannelConfigType * pHwChannelConfig)
+{
+  <unnamed type> _1;
+  unsigned char _2;
+  unsigned char _3;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = pHwChannelConfig_6(D)->instanceType;
+  switch (_1) <default: <L6> [INV], case 3: <L1> [INV]>
+
+  <bb 3> :
+<L1>:
+  # DEBUG BEGIN_STMT
+  _2 = pHwChannelConfig_6(D)->instance;
+  _3 = pHwChannelConfig_6(D)->channel;
+  Lpit_Gpt_Ip_DisableChInterrupt (_2, _3);
+  # DEBUG BEGIN_STMT
+
+  <bb 4> :
+<L6>:
+  # DEBUG BEGIN_STMT
+  return;
+
+}
+
+
+Gpt_Ipw_DeInit (const struct Gpt_Ipw_HwChannelConfigType * pHwChannelConfig)
+{
+  <unnamed type> _1;
+  unsigned char _2;
+  unsigned char _3;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = pHwChannelConfig_6(D)->instanceType;
+  switch (_1) <default: <L6> [INV], case 0: <L0> [INV], case 3: <L1> [INV]>
+
+  <bb 3> :
+<L0>:
+  # DEBUG BEGIN_STMT
+  _2 = pHwChannelConfig_6(D)->instance;
+  Ftm_Gpt_Ip_Deinit (_2);
+  # DEBUG BEGIN_STMT
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+<L1>:
+  # DEBUG BEGIN_STMT
+  _3 = pHwChannelConfig_6(D)->instance;
+  Lpit_Gpt_Ip_Deinit (_3);
+  # DEBUG BEGIN_STMT
+
+  <bb 5> :
+<L6>:
+  # DEBUG BEGIN_STMT
+  return;
+
+}
+
+
+Gpt_Ipw_EnableInterrupt (const struct Gpt_Ipw_HwChannelConfigType * pHwChannelConfig)
+{
+  <unnamed type> _1;
+  unsigned char _2;
+  unsigned char _3;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = pHwChannelConfig_6(D)->instanceType;
+  switch (_1) <default: <L6> [INV], case 3: <L1> [INV]>
+
+  <bb 3> :
+<L1>:
+  # DEBUG BEGIN_STMT
+  _2 = pHwChannelConfig_6(D)->instance;
+  _3 = pHwChannelConfig_6(D)->channel;
+  Lpit_Gpt_Ip_EnableChInterrupt (_2, _3);
+  # DEBUG BEGIN_STMT
+
+  <bb 4> :
+<L6>:
+  # DEBUG BEGIN_STMT
+  return;
+
+}
+
+
+Gpt_Ipw_StopTimer (const struct Gpt_Ipw_HwChannelConfigType * pHwChannelConfig)
+{
+  <unnamed type> _1;
+  unsigned char _2;
+  unsigned char _3;
+  unsigned char _4;
+  unsigned char _5;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = pHwChannelConfig_8(D)->instanceType;
+  switch (_1) <default: <L6> [INV], case 0: <L0> [INV], case 3: <L1> [INV]>
+
+  <bb 3> :
+<L0>:
+  # DEBUG BEGIN_STMT
+  _2 = pHwChannelConfig_8(D)->instance;
+  _3 = pHwChannelConfig_8(D)->channel;
+  Ftm_Gpt_Ip_DisableChannelInterrupt (_2, _3);
+  # DEBUG BEGIN_STMT
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+<L1>:
+  # DEBUG BEGIN_STMT
+  _4 = pHwChannelConfig_8(D)->instance;
+  _5 = pHwChannelConfig_8(D)->channel;
+  Lpit_Gpt_Ip_StopTimer (_4, _5);
+  # DEBUG BEGIN_STMT
+
+  <bb 5> :
+<L6>:
+  # DEBUG BEGIN_STMT
+  return;
+
+}
+
+
+Gpt_Ipw_GetTimeElapsed (const struct Gpt_Ipw_HwChannelConfigType * pHwChannelConfig, struct Gpt_HwChannelInfoType * pReturnHwChannelInfo)
+{
+  uint32 returnValue;
+  <unnamed type> _1;
+  Gpt_ValueType _12;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  returnValue_4 = 0;
+  # DEBUG returnValue => returnValue_4
+  # DEBUG BEGIN_STMT
+  _1 = pHwChannelConfig_6(D)->instanceType;
+  switch (_1) <default: <L5> [INV], case 0: <L0> [INV], case 3: <L1> [INV]>
+
+  <bb 3> :
+<L0>:
+  # DEBUG BEGIN_STMT
+  returnValue_11 = Gpt_Ipw_FtmGetTimeElapsed (pHwChannelConfig_6(D), pReturnHwChannelInfo_7(D));
+  # DEBUG returnValue => returnValue_11
+  # DEBUG BEGIN_STMT
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+<L1>:
+  # DEBUG BEGIN_STMT
+  returnValue_9 = Gpt_Ipw_LpitGetTimeElapsed (pHwChannelConfig_6(D), pReturnHwChannelInfo_7(D));
+  # DEBUG returnValue => returnValue_9
+  # DEBUG BEGIN_STMT
+
+  <bb 5> :
+  # returnValue_2 = PHI <returnValue_11(3), returnValue_9(4), returnValue_4(2)>
+<L5>:
+  # DEBUG returnValue => returnValue_2
+  # DEBUG BEGIN_STMT
+  _12 = returnValue_2;
+  return _12;
+
+}
+
+
+Gpt_Ipw_StartTimer (const struct Gpt_Ipw_HwChannelConfigType * pHwChannelConfig, Gpt_ValueType uValue)
+{
+  Std_ReturnType returnValue;
+  <unnamed type> _1;
+  unsigned char _2;
+  unsigned char _3;
+  short unsigned int _4;
+  unsigned char _5;
+  unsigned char _6;
+  Std_ReturnType _17;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  returnValue_9 = 1;
+  # DEBUG returnValue => returnValue_9
+  # DEBUG BEGIN_STMT
+  _1 = pHwChannelConfig_11(D)->instanceType;
+  switch (_1) <default: <L5> [INV], case 0: <L0> [INV], case 3: <L1> [INV]>
+
+  <bb 3> :
+<L0>:
+  # DEBUG BEGIN_STMT
+  _2 = pHwChannelConfig_11(D)->instance;
+  _3 = pHwChannelConfig_11(D)->channel;
+  _4 = (short unsigned int) uValue_12(D);
+  Ftm_Gpt_Ip_StartCounting (_2, _3, _4);
+  # DEBUG BEGIN_STMT
+  returnValue_16 = 0;
+  # DEBUG returnValue => returnValue_16
+  # DEBUG BEGIN_STMT
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+<L1>:
+  # DEBUG BEGIN_STMT
+  _5 = pHwChannelConfig_11(D)->instance;
+  _6 = pHwChannelConfig_11(D)->channel;
+  Lpit_Gpt_Ip_StartTimer (_5, _6, uValue_12(D));
+  # DEBUG BEGIN_STMT
+  returnValue_14 = 0;
+  # DEBUG returnValue => returnValue_14
+  # DEBUG BEGIN_STMT
+
+  <bb 5> :
+  # returnValue_7 = PHI <returnValue_16(3), returnValue_14(4), returnValue_9(2)>
+<L5>:
+  # DEBUG returnValue => returnValue_7
+  # DEBUG BEGIN_STMT
+  _17 = returnValue_7;
+  return _17;
+
+}
+
+
+Gpt_Ipw_Init (const struct Gpt_Ipw_HwChannelConfigType * pHwChannelConfig)
+{
+  <unnamed type> _1;
+  unsigned char _2;
+  const struct Ftm_Gpt_Ip_ChannelConfigType * _3;
+  unsigned char _4;
+  const struct Lpit_Gpt_Ip_ChannelConfigType * _5;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = pHwChannelConfig_8(D)->instanceType;
+  switch (_1) <default: <L6> [INV], case 0: <L0> [INV], case 3: <L1> [INV]>
+
+  <bb 3> :
+<L0>:
+  # DEBUG BEGIN_STMT
+  _2 = pHwChannelConfig_8(D)->instance;
+  _3 = pHwChannelConfig_8(D)->Gpt_Ipw_ChannelConfig.Ftm_Gpt_Ip_ChannelConfig;
+  Ftm_Gpt_Ip_InitChannel (_2, _3);
+  # DEBUG BEGIN_STMT
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+<L1>:
+  # DEBUG BEGIN_STMT
+  _4 = pHwChannelConfig_8(D)->instance;
+  _5 = pHwChannelConfig_8(D)->Gpt_Ipw_ChannelConfig.Lpit_Gpt_Ip_ChannelConfig;
+  Lpit_Gpt_Ip_InitChannel (_4, _5);
+  # DEBUG BEGIN_STMT
+
+  <bb 5> :
+<L6>:
+  # DEBUG BEGIN_STMT
+  return;
+
+}
+
+
+Gpt_Ipw_InitInstances (const struct Gpt_ConfigType * configPtr)
+{
+  uint8 index;
+  struct Gpt_Ipw_HwInstanceConfigType[<unknown>] * _1;
+  int _2;
+  <unnamed type> _3;
+  struct Gpt_Ipw_HwInstanceConfigType[<unknown>] * _4;
+  int _5;
+  unsigned char _6;
+  struct Gpt_Ipw_HwInstanceConfigType[<unknown>] * _7;
+  int _8;
+  const struct Ftm_Gpt_Ip_InstanceConfigType * _9;
+  struct Gpt_Ipw_HwInstanceConfigType[<unknown>] * _10;
+  int _11;
+  unsigned char _12;
+  struct Gpt_Ipw_HwInstanceConfigType[<unknown>] * _13;
+  int _14;
+  const struct Lpit_Gpt_Ip_InstanceConfigType * _15;
+  unsigned char index.0_16;
+  unsigned char _17;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  index_21 = 0;
+  # DEBUG index => index_21
+  # DEBUG BEGIN_STMT
+  index_22 = 0;
+  # DEBUG index => index_22
+  goto <bb 7>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  _1 = configPtr_24(D)->Gpt_Ipw_HwInstanceConfig;
+  _2 = (int) index_18;
+  _3 = *_1[_2].instanceType;
+  switch (_3) <default: <L8> [INV], case 0: <L1> [INV], case 3: <L2> [INV]>
+
+  <bb 4> :
+<L1>:
+  # DEBUG BEGIN_STMT
+  _4 = configPtr_24(D)->Gpt_Ipw_HwInstanceConfig;
+  _5 = (int) index_18;
+  _6 = *_4[_5].instance;
+  _7 = configPtr_24(D)->Gpt_Ipw_HwInstanceConfig;
+  _8 = (int) index_18;
+  _9 = *_7[_8].Gpt_Ipw_InstanceConfig.Ftm_Gpt_Ip_InstanceConfig;
+  Ftm_Gpt_Ip_Init (_6, _9);
+  # DEBUG BEGIN_STMT
+  goto <bb 6>; [INV]
+
+  <bb 5> :
+<L2>:
+  # DEBUG BEGIN_STMT
+  _10 = configPtr_24(D)->Gpt_Ipw_HwInstanceConfig;
+  _11 = (int) index_18;
+  _12 = *_10[_11].instance;
+  _13 = configPtr_24(D)->Gpt_Ipw_HwInstanceConfig;
+  _14 = (int) index_18;
+  _15 = *_13[_14].Gpt_Ipw_InstanceConfig.Lpit_Gpt_Ip_InstanceConfig;
+  Lpit_Gpt_Ip_Init (_12, _15);
+  # DEBUG BEGIN_STMT
+
+  <bb 6> :
+<L8>:
+  # DEBUG BEGIN_STMT
+  index.0_16 = index_18;
+  index_27 = index.0_16 + 1;
+  # DEBUG index => index_27
+
+  <bb 7> :
+  # index_18 = PHI <index_22(2), index_27(6)>
+  # DEBUG index => index_18
+  # DEBUG BEGIN_STMT
+  _17 = configPtr_24(D)->instanceCount;
+  if (index_18 < _17)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 8> :
+  # DEBUG BEGIN_STMT
+  return;
+
+}
+
+
+Gpt_Ipw_LpitGetTimeElapsed (const struct Gpt_Ipw_HwChannelConfigType * pHwChannelConfig, struct Gpt_HwChannelInfoType * pReturnHwChannelInfo)
+{
+  uint32 tempValue;
+  uint32 returnValue;
+  unsigned char _1;
+  unsigned char _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  unsigned char _5;
+  unsigned char _6;
+  long unsigned int _7;
+  unsigned char _8;
+  unsigned char _9;
+  int _10;
+  unsigned int _11;
+  unsigned char _12;
+  long unsigned int _13;
+  unsigned char _14;
+  int _15;
+  Gpt_ValueType _30;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  returnValue_17 = 0;
+  # DEBUG returnValue => returnValue_17
+  # DEBUG BEGIN_STMT
+  tempValue_18 = 0;
+  # DEBUG tempValue => tempValue_18
+  # DEBUG BEGIN_STMT
+  _1 = pHwChannelConfig_20(D)->instance;
+  _2 = pHwChannelConfig_20(D)->channel;
+  _3 = Lpit_Gpt_Ip_GetTimerValue (_1, _2);
+  pReturnHwChannelInfo_22(D)->uTargetTime = _3;
+  # DEBUG BEGIN_STMT
+  _4 = pReturnHwChannelInfo_22(D)->uTargetTime;
+  _5 = pHwChannelConfig_20(D)->instance;
+  _6 = pHwChannelConfig_20(D)->channel;
+  _7 = Lpit_Gpt_Ip_GetCurrentTimervalue (_5, _6);
+  returnValue_25 = _4 - _7;
+  # DEBUG returnValue => returnValue_25
+  # DEBUG BEGIN_STMT
+  _8 = pHwChannelConfig_20(D)->instance;
+  _9 = pHwChannelConfig_20(D)->channel;
+  _10 = (int) _9;
+  _11 = 1 << _10;
+  _12 = (unsigned char) _11;
+  _13 = Lpit_Gpt_Ip_GetInterruptFlagTimerChannels (_8, _12);
+  _14 = pHwChannelConfig_20(D)->channel;
+  _15 = (int) _14;
+  tempValue_27 = _13 >> _15;
+  # DEBUG tempValue => tempValue_27
+  # DEBUG BEGIN_STMT
+  if (tempValue_27 != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  pReturnHwChannelInfo_22(D)->bChannelRollover = 1;
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  pReturnHwChannelInfo_22(D)->bChannelRollover = 0;
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  _30 = returnValue_25;
+  return _30;
+
+}
+
+
+Gpt_Ipw_FtmGetTimeElapsed (const struct Gpt_Ipw_HwChannelConfigType * pHwChannelConfig, struct Gpt_HwChannelInfoType * pReturnHwChannelInfo)
+{
+  uint32 counterValue;
+  uint32 compareValue;
+  uint32 tempValue;
+  uint32 returnValue;
+  unsigned char _1;
+  int _2;
+  unsigned char _3;
+  int _4;
+  long unsigned int _5;
+  unsigned char _6;
+  unsigned char _7;
+  unsigned char _8;
+  long unsigned int _9;
+  long unsigned int _10;
+  long unsigned int _11;
+  long unsigned int _12;
+  long unsigned int _13;
+  long unsigned int _14;
+  long unsigned int _15;
+  long unsigned int _16;
+  unsigned char _17;
+  unsigned char _18;
+  Gpt_ValueType _40;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  returnValue_21 = 0;
+  # DEBUG returnValue => returnValue_21
+  # DEBUG BEGIN_STMT
+  tempValue_22 = 0;
+  # DEBUG tempValue => tempValue_22
+  # DEBUG BEGIN_STMT
+  compareValue_23 = 0;
+  # DEBUG compareValue => compareValue_23
+  # DEBUG BEGIN_STMT
+  counterValue_24 = 0;
+  # DEBUG counterValue => counterValue_24
+  # DEBUG BEGIN_STMT
+  _1 = pHwChannelConfig_26(D)->instance;
+  _2 = (int) _1;
+  _3 = pHwChannelConfig_26(D)->channel;
+  _4 = (int) _3;
+  _5 = Ftm_Gpt_Ip_u32TargetValue[_2][_4];
+  pReturnHwChannelInfo_27(D)->uTargetTime = _5;
+  # DEBUG BEGIN_STMT
+  _6 = pHwChannelConfig_26(D)->instance;
+  counterValue_30 = Ftm_Gpt_Ip_GetCounter (_6);
+  # DEBUG counterValue => counterValue_30
+  # DEBUG BEGIN_STMT
+  _7 = pHwChannelConfig_26(D)->instance;
+  _8 = pHwChannelConfig_26(D)->channel;
+  compareValue_32 = Ftm_Gpt_Ip_GetCompareValue (_7, _8);
+  # DEBUG compareValue => compareValue_32
+  # DEBUG BEGIN_STMT
+  if (counterValue_30 > compareValue_32)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  _9 = compareValue_32 - counterValue_30;
+  _10 = _9 + 65535;
+  _11 = pReturnHwChannelInfo_27(D)->uTargetTime;
+  if (_10 <= _11)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  _12 = pReturnHwChannelInfo_27(D)->uTargetTime;
+  _13 = counterValue_30 - compareValue_32;
+  _14 = _12 + _13;
+  returnValue_35 = _14 + 4294901762;
+  # DEBUG returnValue => returnValue_35
+  goto <bb 7>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  returnValue_34 = pReturnHwChannelInfo_27(D)->uTargetTime;
+  # DEBUG returnValue => returnValue_34
+  goto <bb 7>; [INV]
+
+  <bb 6> :
+  # DEBUG BEGIN_STMT
+  _15 = pReturnHwChannelInfo_27(D)->uTargetTime;
+  _16 = counterValue_30 - compareValue_32;
+  returnValue_33 = _15 + _16;
+  # DEBUG returnValue => returnValue_33
+
+  <bb 7> :
+  # returnValue_19 = PHI <returnValue_34(5), returnValue_33(6), returnValue_35(4)>
+  # DEBUG returnValue => returnValue_19
+  # DEBUG BEGIN_STMT
+  _17 = pHwChannelConfig_26(D)->instance;
+  _18 = pHwChannelConfig_26(D)->channel;
+  tempValue_37 = Ftm_Gpt_Ip_GetInterruptFlag (_17, _18);
+  # DEBUG tempValue => tempValue_37
+  # DEBUG BEGIN_STMT
+  if (tempValue_37 != 0)
+    goto <bb 8>; [INV]
+  else
+    goto <bb 9>; [INV]
+
+  <bb 8> :
+  # DEBUG BEGIN_STMT
+  pReturnHwChannelInfo_27(D)->bChannelRollover = 1;
+  goto <bb 10>; [INV]
+
+  <bb 9> :
+  # DEBUG BEGIN_STMT
+  pReturnHwChannelInfo_27(D)->bChannelRollover = 0;
+
+  <bb 10> :
+  # DEBUG BEGIN_STMT
+  _40 = returnValue_19;
+  return _40;
+
+}
+
+

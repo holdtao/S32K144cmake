@@ -1,0 +1,581 @@
+Wdg_ChannelGetVersionInfo (const Wdg_Ipw_InstanceType Wdg_Instance, struct Std_VersionInfoType * pVersioninfo)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  pVersioninfo->vendorID = 43;
+  # DEBUG BEGIN_STMT
+  pVersioninfo->moduleID = 102;
+  # DEBUG BEGIN_STMT
+  pVersioninfo->sw_major_version = 1;
+  # DEBUG BEGIN_STMT
+  pVersioninfo->sw_minor_version = 0;
+  # DEBUG BEGIN_STMT
+  pVersioninfo->sw_patch_version = 0;
+  return;
+
+}
+
+
+Wdg_ChannelSetTriggerCondition (const Wdg_Ipw_InstanceType Wdg_Instance, uint16 u16Timeout)
+{
+  Gpt_ValueType uElapsedTime;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  uElapsedTime = 0;
+  # DEBUG BEGIN_STMT
+  _1 = Wdg_apConfigPtr[Wdg_Instance];
+  _2 = _1->Wdg_TimerChannel;
+  uElapsedTime = Gpt_GetTimeElapsed (_2);
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_05 ();
+  # DEBUG BEGIN_STMT
+  _3 = Wdg_au32Timeout[Wdg_Instance];
+  if (uElapsedTime > _3)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 3>; [INV]
+
+  <bb 3> :
+  if (u16Timeout == 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  Wdg_au32Timeout[Wdg_Instance] = 0;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05 ();
+  # DEBUG BEGIN_STMT
+  _4 = Wdg_apConfigPtr[Wdg_Instance];
+  _5 = _4->Wdg_TimerChannel;
+  Gpt_StopTimer (_5);
+  goto <bb 6>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  _6 = (long unsigned int) u16Timeout;
+  _7 = Wdg_apConfigPtr[Wdg_Instance];
+  _8 = _7->Wdg_u32TriggerSourceClock;
+  _9 = _6 * _8;
+  _10 = uElapsedTime + _9;
+  Wdg_au32Timeout[Wdg_Instance] = _10;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05 ();
+
+  <bb 6> :
+  return;
+
+}
+
+
+Wdg_ChannelSetMode (const Wdg_Ipw_InstanceType Wdg_Instance, WdgIf_ModeType Mode)
+{
+  Std_ReturnType valid;
+  Std_ReturnType ret;
+  Std_ReturnType D.6489;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  ret = 1;
+  # DEBUG BEGIN_STMT
+  valid = 1;
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  valid = Wdg_ChannelValidateMode (Mode, 1, 17, Wdg_Instance);
+  # DEBUG BEGIN_STMT
+  if (valid == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  valid = Wdg_DoChannelSetMode (Wdg_Instance, Mode);
+  # DEBUG BEGIN_STMT
+  ret = Wdg_VadidateDoChannelSetMode (Wdg_Instance, Mode, valid);
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  D.6489 = ret;
+  return D.6489;
+
+}
+
+
+Wdg_ChannelInit (const Wdg_Ipw_InstanceType Wdg_Instance, const struct Wdg_ConfigType * pConfigPtr)
+{
+  Std_ReturnType valid;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  valid = 1;
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  Wdg_apConfigPtr[Wdg_Instance] = pConfigPtr;
+  # DEBUG BEGIN_STMT
+  _1 = Wdg_aePreviousMode[Wdg_Instance];
+  if (_1 == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 3> :
+  _2 = Wdg_au16CfgInitialTimeout[Wdg_Instance];
+  if (_2 != 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  _3 = Wdg_apConfigPtr[Wdg_Instance];
+  _4 = _3->Wdg_DefaultMode;
+  valid = Wdg_ChannelValidateMode (_4, 0, 18, Wdg_Instance);
+  goto <bb 6>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  valid = 1;
+
+  <bb 6> :
+  # DEBUG BEGIN_STMT
+  valid = Wdg_InitialHardware (Wdg_Instance, valid);
+  # DEBUG BEGIN_STMT
+  valid = Wdg_VadidateHardwareSetting (Wdg_Instance, valid);
+  # DEBUG BEGIN_STMT
+  if (valid == 0)
+    goto <bb 7>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 7> :
+  # DEBUG BEGIN_STMT
+  Wdg_ChannelStartGpt (Wdg_Instance);
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_02 ();
+  # DEBUG BEGIN_STMT
+  _5 = Wdg_apConfigPtr[Wdg_Instance];
+  _6 = _5->Wdg_DefaultMode;
+  Wdg_aePreviousMode[Wdg_Instance] = _6;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_02 ();
+
+  <bb 8> :
+  return;
+
+}
+
+
+Wdg_ChannelStartGpt (const Wdg_Ipw_InstanceType Wdg_Instance)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = Wdg_apConfigPtr[Wdg_Instance];
+  _2 = _1->Wdg_TimerChannel;
+  Gpt_StopTimer (_2);
+  # DEBUG BEGIN_STMT
+  _3 = Wdg_apConfigPtr[Wdg_Instance];
+  _4 = Wdg_apConfigPtr[Wdg_Instance];
+  _5 = _4->Wdg_DefaultMode;
+  _6 = _3->Wdg_ModeSettings[_5];
+  _7 = _6->Wdg_u32TimerTriggeringPeriod;
+  Wdg_au32GptPeriod[Wdg_Instance] = _7;
+  # DEBUG BEGIN_STMT
+  _8 = Wdg_apConfigPtr[Wdg_Instance];
+  _9 = _8->Wdg_TimerChannel;
+  Gpt_EnableNotification (_9);
+  # DEBUG BEGIN_STMT
+  _10 = Wdg_apConfigPtr[Wdg_Instance];
+  _11 = _10->Wdg_DefaultMode;
+  if (_11 != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  _12 = Wdg_apConfigPtr[Wdg_Instance];
+  _13 = _12->Wdg_TimerChannel;
+  _14 = Wdg_au32GptPeriod[Wdg_Instance];
+  Gpt_StartTimer (_13, _14);
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_01 ();
+  # DEBUG BEGIN_STMT
+  _15 = Wdg_au16CfgInitialTimeout[Wdg_Instance];
+  _16 = (long unsigned int) _15;
+  _17 = Wdg_apConfigPtr[Wdg_Instance];
+  _18 = _17->Wdg_u32TriggerSourceClock;
+  _19 = _16 * _18;
+  Wdg_au32Timeout[Wdg_Instance] = _19;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_01 ();
+  return;
+
+}
+
+
+Wdg_VadidateDoChannelSetMode (const Wdg_Ipw_InstanceType Wdg_Instance, const WdgIf_ModeType mode, const Std_ReturnType status)
+{
+  uint32 u32Temp;
+  Gpt_ValueType uElapsedTime;
+  Std_ReturnType valid;
+  Std_ReturnType D.6513;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  valid = status;
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  if (valid == 1)
+    goto <bb 9>; [INV]
+  else
+    goto <bb 3>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  _1 = Wdg_apConfigPtr[Wdg_Instance];
+  _2 = _1->Wdg_TimerChannel;
+  Gpt_StopTimer (_2);
+  # DEBUG BEGIN_STMT
+  _3 = Wdg_apConfigPtr[Wdg_Instance];
+  _4 = _3->Wdg_TimerChannel;
+  uElapsedTime = Gpt_GetTimeElapsed (_4);
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_03 ();
+  # DEBUG BEGIN_STMT
+  _5 = Wdg_au32Timeout[Wdg_Instance];
+  if (uElapsedTime > _5)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  u32Temp = 0;
+  goto <bb 6>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  _6 = Wdg_au32Timeout[Wdg_Instance];
+  u32Temp = _6 - uElapsedTime;
+
+  <bb 6> :
+  # DEBUG BEGIN_STMT
+  Wdg_au32Timeout[Wdg_Instance] = u32Temp;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_03 ();
+  # DEBUG BEGIN_STMT
+  _7 = Wdg_apConfigPtr[Wdg_Instance];
+  _8 = _7->Wdg_ModeSettings[mode];
+  _9 = _8->Wdg_u32TimerTriggeringPeriod;
+  Wdg_au32GptPeriod[Wdg_Instance] = _9;
+  # DEBUG BEGIN_STMT
+  if (mode != 0)
+    goto <bb 7>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 7> :
+  # DEBUG BEGIN_STMT
+  _10 = Wdg_apConfigPtr[Wdg_Instance];
+  _11 = _10->Wdg_TimerChannel;
+  _12 = Wdg_au32GptPeriod[Wdg_Instance];
+  Gpt_StartTimer (_11, _12);
+
+  <bb 8> :
+  # DEBUG BEGIN_STMT
+  valid = 0;
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_04 ();
+  # DEBUG BEGIN_STMT
+  Wdg_aePreviousMode[Wdg_Instance] = mode;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_04 ();
+
+  <bb 9> :
+  # DEBUG BEGIN_STMT
+  D.6513 = valid;
+  return D.6513;
+
+}
+
+
+Wdg_DoChannelSetMode (const Wdg_Ipw_InstanceType Wdg_Instance, const WdgIf_ModeType mode)
+{
+  Std_ReturnType valid;
+  Std_ReturnType D.6503;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  valid = 0;
+  # DEBUG BEGIN_STMT
+  if (mode == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  _1 = Wdg_Ipw_StopTimer (Wdg_Instance);
+  if (_1 == 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  _2 = Wdg_apConfigPtr[Wdg_Instance];
+  _3 = _2->Wdg_ModeSettings[mode];
+  _4 = _3->Wdg_Ipw_pConfig;
+  valid = Wdg_Ipw_SetMode (Wdg_Instance, _4);
+  goto <bb 11>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  valid = 1;
+  goto <bb 11>; [INV]
+
+  <bb 6> :
+  # DEBUG BEGIN_STMT
+  _5 = Wdg_aePreviousMode[Wdg_Instance];
+  if (_5 == 0)
+    goto <bb 7>; [INV]
+  else
+    goto <bb 10>; [INV]
+
+  <bb 7> :
+  # DEBUG BEGIN_STMT
+  _6 = Wdg_apConfigPtr[Wdg_Instance];
+  _7 = _6->Wdg_ModeSettings[mode];
+  _8 = _7->Wdg_Ipw_pConfig;
+  _9 = Wdg_Ipw_SetMode (Wdg_Instance, _8);
+  if (_9 == 0)
+    goto <bb 8>; [INV]
+  else
+    goto <bb 9>; [INV]
+
+  <bb 8> :
+  # DEBUG BEGIN_STMT
+  valid = Wdg_Ipw_StartTimer (Wdg_Instance);
+  goto <bb 11>; [INV]
+
+  <bb 9> :
+  # DEBUG BEGIN_STMT
+  valid = 1;
+  goto <bb 11>; [INV]
+
+  <bb 10> :
+  # DEBUG BEGIN_STMT
+  _10 = Wdg_apConfigPtr[Wdg_Instance];
+  _11 = _10->Wdg_ModeSettings[mode];
+  _12 = _11->Wdg_Ipw_pConfig;
+  valid = Wdg_Ipw_SetMode (Wdg_Instance, _12);
+
+  <bb 11> :
+  # DEBUG BEGIN_STMT
+  D.6503 = valid;
+  return D.6503;
+
+}
+
+
+Wdg_VadidateHardwareSetting (const Wdg_Ipw_InstanceType Wdg_Instance, const Std_ReturnType status)
+{
+  Std_ReturnType valid;
+  Std_ReturnType D.6483;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  valid = status;
+  # DEBUG BEGIN_STMT
+  if (valid == 1)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  Wdg_apConfigPtr[Wdg_Instance] = 0B;
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  D.6483 = valid;
+  return D.6483;
+
+}
+
+
+Wdg_InitialHardware (const Wdg_Ipw_InstanceType Wdg_Instance, const Std_ReturnType status)
+{
+  Std_ReturnType valid;
+  Std_ReturnType D.6478;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  valid = status;
+  # DEBUG BEGIN_STMT
+  if (valid == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  _1 = Wdg_apConfigPtr[Wdg_Instance];
+  _2 = _1->Wdg_DefaultMode;
+  if (_2 == 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  _3 = Wdg_apConfigPtr[Wdg_Instance];
+  _4 = Wdg_apConfigPtr[Wdg_Instance];
+  _5 = _4->Wdg_DefaultMode;
+  _6 = _3->Wdg_ModeSettings[_5];
+  _7 = _6->Wdg_Ipw_pConfig;
+  valid = Wdg_Ipw_SetMode (Wdg_Instance, _7);
+  goto <bb 6>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  _8 = Wdg_apConfigPtr[Wdg_Instance];
+  _9 = Wdg_apConfigPtr[Wdg_Instance];
+  _10 = _9->Wdg_DefaultMode;
+  _11 = _8->Wdg_ModeSettings[_10];
+  _12 = _11->Wdg_Ipw_pConfig;
+  valid = Wdg_Ipw_Init (Wdg_Instance, _12);
+
+  <bb 6> :
+  # DEBUG BEGIN_STMT
+  D.6478 = valid;
+  return D.6478;
+
+}
+
+
+Wdg_ChannelValidateMode (WdgIf_ModeType Wdg_Mode, Wdg_ServiceIdType uServiceId, Wdg_ErrorIdType uErrorId, const Wdg_Ipw_InstanceType Wdg_Instance)
+{
+  boolean modeFailedErrActive;
+  boolean disableRejectedErrActive;
+  Std_ReturnType valid;
+  Std_ReturnType D.6471;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  valid = 0;
+  # DEBUG BEGIN_STMT
+  disableRejectedErrActive = 0;
+  # DEBUG BEGIN_STMT
+  modeFailedErrActive = 0;
+  # DEBUG BEGIN_STMT
+  if (Wdg_Mode != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 3> :
+  if (Wdg_Mode != 2)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 4> :
+  if (Wdg_Mode != 1)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  modeFailedErrActive = 1;
+  # DEBUG BEGIN_STMT
+  valid = 1;
+
+  <bb 6> :
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  D.6471 = valid;
+  return D.6471;
+
+}
+
+
+Wdg_Cbk_GptNotification1 ()
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  Wdg_ChannelTrigger (1);
+  return;
+
+}
+
+
+Wdg_Cbk_GptNotification0 ()
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  Wdg_ChannelTrigger (0);
+  return;
+
+}
+
+
+Wdg_ChannelTrigger (const Wdg_Ipw_InstanceType Wdg_Instance)
+{
+  uint32 u32TempTimeout;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_00 ();
+  # DEBUG BEGIN_STMT
+  _1 = Wdg_au32Timeout[Wdg_Instance];
+  _2 = Wdg_au32GptPeriod[Wdg_Instance];
+  if (_1 < _2)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00 ();
+  # DEBUG BEGIN_STMT
+  _3 = Wdg_apConfigPtr[Wdg_Instance];
+  _4 = _3->Wdg_TimerChannel;
+  Gpt_StopTimer (_4);
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  _5 = Wdg_au32Timeout[Wdg_Instance];
+  _6 = Wdg_au32GptPeriod[Wdg_Instance];
+  u32TempTimeout = _5 - _6;
+  # DEBUG BEGIN_STMT
+  Wdg_au32Timeout[Wdg_Instance] = u32TempTimeout;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00 ();
+  # DEBUG BEGIN_STMT
+  Wdg_Ipw_Service (Wdg_Instance);
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  return;
+
+}
+
+

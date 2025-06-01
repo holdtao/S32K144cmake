@@ -1,0 +1,7 @@
+Wdg_Channel.c:536:24:Wdg_ChannelTrigger	8	static
+Wdg_Channel.c:589:10:Wdg_Cbk_GptNotification0	0	static
+Wdg_Channel.c:603:10:Wdg_Cbk_GptNotification1	0	static
+Wdg_Channel.c:1082:6:Wdg_ChannelInit	24	static
+Wdg_Channel.c:1188:16:Wdg_ChannelSetMode	24	static
+Wdg_Channel.c:1241:10:Wdg_ChannelSetTriggerCondition	24	static
+Wdg_Channel.c:1312:6:Wdg_ChannelGetVersionInfo	0	static

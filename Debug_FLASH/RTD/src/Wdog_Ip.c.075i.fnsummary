@@ -1,0 +1,1669 @@
+
+Analyzing function: Wdog_Ip_HwConfig.part.0/25
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 16 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+;; 16 succs { 2 }
+;; 2 succs { 4 3 }
+;; 3 succs { 4 }
+;; 4 succs { 6 5 }
+;; 5 succs { 6 }
+;; 6 succs { 8 7 }
+;; 7 succs { 8 }
+;; 8 succs { 10 9 }
+;; 9 succs { 10 }
+;; 10 succs { 12 11 }
+;; 11 succs { 12 }
+;; 12 succs { 14 13 }
+;; 13 succs { 14 }
+;; 14 succs { 15 }
+;; 15 succs { 1 }
+
+Analyzing function body size: Wdog_Ip_HwConfig.part.0
+
+IPA function summary for Wdog_Ip_HwConfig.part.0/25 inlinable
+  global time:     34.000000
+  self size:       35
+  global size:     0
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:0.500000, time:0.500000
+    size:3.500000, time:2.500000,  executed if:(not inlined)
+    size:0.500000, time:0.500000,  executed if:(not inlined),  nonconst if:(op1[ref offset: 0] changed) && (not inlined)
+    size:1.500000, time:1.500000,  nonconst if:(op1[ref offset: 0] changed)
+    size:0.500000, time:0.500000,  executed if:(not inlined),  nonconst if:(op0[ref offset: 0] changed) && (not inlined)
+    size:2.500000, time:2.500000,  nonconst if:(op0[ref offset: 0] changed)
+    size:1.000000, time:1.000000,  nonconst if:(op1[ref offset: 0] changed || op0[ref offset: 0] changed)
+    size:0.500000, time:0.500000,  executed if:(not inlined),  nonconst if:(op0[ref offset: 112] changed) && (not inlined)
+    size:2.500000, time:2.500000,  nonconst if:(op0[ref offset: 112] changed)
+    size:1.000000, time:1.000000,  nonconst if:(op1[ref offset: 0] changed || op0[ref offset: 0] changed || op0[ref offset: 112] changed)
+    size:0.500000, time:0.500000,  executed if:(not inlined),  nonconst if:(op0[ref offset: 64] changed) && (not inlined)
+    size:2.500000, time:2.500000,  nonconst if:(op0[ref offset: 64] changed)
+    size:1.000000, time:1.000000,  nonconst if:(op1[ref offset: 0] changed || op0[ref offset: 0] changed || op0[ref offset: 112] changed || op0[ref offset: 64] changed)
+    size:0.500000, time:0.500000,  executed if:(not inlined),  nonconst if:(op0[ref offset: 56] changed) && (not inlined)
+    size:2.500000, time:2.500000,  nonconst if:(op0[ref offset: 56] changed)
+    size:1.000000, time:1.000000,  nonconst if:(op1[ref offset: 0] changed || op0[ref offset: 0] changed || op0[ref offset: 112] changed || op0[ref offset: 64] changed || op0[ref offset: 56] changed)
+    size:0.500000, time:0.500000,  executed if:(not inlined),  nonconst if:(op0[ref offset: 48] changed) && (not inlined)
+    size:2.500000, time:2.500000,  nonconst if:(op0[ref offset: 48] changed)
+    size:1.000000, time:1.000000,  nonconst if:(op1[ref offset: 0] changed || op0[ref offset: 0] changed || op0[ref offset: 112] changed || op0[ref offset: 64] changed || op0[ref offset: 56] changed || op0[ref offset: 48] changed)
+    size:0.500000, time:0.500000,  executed if:(not inlined),  nonconst if:(op0[ref offset: 32] changed) && (not inlined)
+    size:2.500000, time:2.500000,  nonconst if:(op0[ref offset: 32] changed)
+    size:1.000000, time:1.000000,  nonconst if:(op1[ref offset: 0] changed || op0[ref offset: 0] changed || op0[ref offset: 112] changed || op0[ref offset: 64] changed || op0[ref offset: 56] changed || op0[ref offset: 48] changed || op0[ref offset: 32] changed)
+    size:0.500000, time:0.500000,  executed if:(not inlined),  nonconst if:(op0[ref offset: 40] changed) && (not inlined)
+    size:2.500000, time:2.500000,  nonconst if:(op0[ref offset: 40] changed)
+    size:2.000000, time:2.000000,  nonconst if:(op1[ref offset: 0] changed || op0[ref offset: 0] changed || op0[ref offset: 112] changed || op0[ref offset: 64] changed || op0[ref offset: 56] changed || op0[ref offset: 48] changed || op0[ref offset: 32] changed || op0[ref offset: 40] changed)
+  calls:
+
+
+Analyzing function: Wdog_Ip_IrqHandler/21
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2 3 4 5 6
+;; 2 succs { 3 6 }
+;; 3 succs { 4 6 }
+;; 4 succs { 5 6 }
+;; 5 succs { 6 }
+;; 6 succs { 1 }
+
+Analyzing function body size: Wdog_Ip_IrqHandler
+
+IPA function summary for Wdog_Ip_IrqHandler/21 inlinable
+  global time:     13.276500
+  self size:       19
+  global size:     0
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:11.000000, time:5.914000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+  array index:(op0 changed)
+  calls:
+    Wdog_Ip_ClearIntFlag/9 function not considered for inlining
+      loop depth: 0 freq:0.33 size: 2 time: 11
+       op0 is compile time invariant
+    indirect call loop depth: 0 freq:0.12 size: 3 time: 15
+
+
+Analyzing function: Wdog_Ip_StopTimer/20
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2 3 4 5 6 7
+;; 2 succs { 3 7 }
+;; 3 succs { 4 7 }
+;; 4 succs { 5 6 }
+;; 5 succs { 6 }
+;; 6 succs { 7 }
+;; 7 succs { 1 }
+
+Analyzing function body size: Wdog_Ip_StopTimer
+
+IPA function summary for Wdog_Ip_StopTimer/20 inlinable
+  global time:     11.456750
+  self size:       24
+  global size:     0
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:15.000000, time:6.823350
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+  calls:
+    Wdog_Ip_IsReconfigurationComplete/11 function not considered for inlining
+      loop depth: 0 freq:0.05 size: 3 time: 12
+       op0 is compile time invariant
+    Wdog_Ip_Unlock/8 function not considered for inlining
+      loop depth: 0 freq:0.17 size: 3 time: 12
+       op0 is compile time invariant
+
+
+Analyzing function: Wdog_Ip_StartTimer/19
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2 3 4 5 6 7
+;; 2 succs { 3 7 }
+;; 3 succs { 4 7 }
+;; 4 succs { 5 6 }
+;; 5 succs { 6 }
+;; 6 succs { 7 }
+;; 7 succs { 1 }
+
+Analyzing function body size: Wdog_Ip_StartTimer
+
+IPA function summary for Wdog_Ip_StartTimer/19 inlinable
+  global time:     11.456750
+  self size:       24
+  global size:     0
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:15.000000, time:6.823350
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+  calls:
+    Wdog_Ip_IsReconfigurationComplete/11 function not considered for inlining
+      loop depth: 0 freq:0.05 size: 3 time: 12
+       op0 is compile time invariant
+    Wdog_Ip_Unlock/8 function not considered for inlining
+      loop depth: 0 freq:0.17 size: 3 time: 12
+       op0 is compile time invariant
+
+
+Analyzing function: Wdog_Ip_Config/18
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+;; 2 succs { 16 3 }
+;; 3 succs { 4 5 }
+;; 4 succs { 5 }
+;; 5 succs { 6 16 }
+;; 6 succs { 7 8 }
+;; 7 succs { 8 }
+;; 8 succs { 9 15 }
+;; 9 succs { 10 11 }
+;; 10 succs { 11 }
+;; 11 succs { 12 13 }
+;; 12 succs { 14 }
+;; 13 succs { 14 }
+;; 14 succs { 15 }
+;; 15 succs { 16 }
+;; 16 succs { 1 }
+
+Analyzing function body size: Wdog_Ip_Config
+
+IPA function summary for Wdog_Ip_Config/18 inlinable
+  global time:     26.375000
+  self size:       54
+  global size:     0
+  min size:       0
+  self stack:      4
+  global stack:    4
+    size:38.500000, time:13.125000
+    size:5.500000, time:2.250000,  executed if:(not inlined)
+  array index:(op0 changed)
+  calls:
+    Wdog_Ip_IsReconfigurationComplete/11 function not considered for inlining
+      loop depth: 0 freq:0.12 size: 3 time: 12
+       op0 is compile time invariant
+    Wdog_Ip_Unlock/8 function not considered for inlining
+      loop depth: 0 freq:0.25 size: 3 time: 12
+       op0 is compile time invariant
+    Wdog_Ip_HwConfig/13 function not considered for inlining
+      loop depth: 0 freq:0.50 size: 4 time: 13
+       op1 is compile time invariant
+
+
+Analyzing function: Wdog_Ip_SetTimeout/17
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2 3 4 5 6 7 8 9 10
+;; 2 succs { 3 10 }
+;; 3 succs { 4 9 }
+;; 4 succs { 5 6 }
+;; 5 succs { 6 }
+;; 6 succs { 8 7 }
+;; 7 succs { 8 }
+;; 8 succs { 9 }
+;; 9 succs { 10 }
+;; 10 succs { 1 }
+
+Analyzing function body size: Wdog_Ip_SetTimeout
+
+IPA function summary for Wdog_Ip_SetTimeout/17 inlinable
+  global time:     14.827500
+  self size:       27
+  global size:     0
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:13.000000, time:6.145000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+    size:4.000000, time:0.660000,  nonconst if:(op2 changed)
+    size:1.000000, time:0.082500,  executed if:(op2 != 0)
+  calls:
+    Wdog_Ip_IsReconfigurationComplete/11 function not considered for inlining
+      loop depth: 0 freq:0.17 size: 3 time: 12
+       op0 is compile time invariant
+    Wdog_Ip_Unlock/8 function not considered for inlining
+      loop depth: 0 freq:0.33 size: 3 time: 12
+       op0 is compile time invariant
+
+
+Analyzing function: Wdog_Ip_Service/16
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2
+;; 2 succs { 1 }
+
+Analyzing function body size: Wdog_Ip_Service
+
+IPA function summary for Wdog_Ip_Service/16 inlinable
+  global time:     13.000000
+  self size:       5
+  global size:     0
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:0.000000, time:0.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+  calls:
+    Wdog_Ip_Trigger/4 function not considered for inlining
+      loop depth: 0 freq:1.00 size: 2 time: 11
+       op0 is compile time invariant
+
+
+Analyzing function: Wdog_Ip_DeInit/15
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2 3 4 5 6
+;; 2 succs { 3 6 }
+;; 3 succs { 4 5 }
+;; 4 succs { 5 }
+;; 5 succs { 6 }
+;; 6 succs { 1 }
+
+Analyzing function body size: Wdog_Ip_DeInit
+
+IPA function summary for Wdog_Ip_DeInit/15 inlinable
+  global time:     13.893600
+  self size:       20
+  global size:     0
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:9.000000, time:5.428900
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+  array index:(op0 changed)
+  calls:
+    Wdog_Ip_IsReconfigurationComplete/11 function not considered for inlining
+      loop depth: 0 freq:0.11 size: 3 time: 12
+       op0 is compile time invariant
+    Wdog_Ip_HwDeInit/12 function not considered for inlining
+      loop depth: 0 freq:0.11 size: 2 time: 11
+       op0 is compile time invariant
+    Wdog_Ip_Unlock/8 function not considered for inlining
+      loop depth: 0 freq:0.33 size: 3 time: 12
+       op0 is compile time invariant
+
+
+Analyzing function: Wdog_Ip_Init/14
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2 3 4 5 6 7 8 9 10 11 12
+;; 2 succs { 12 3 }
+;; 3 succs { 4 12 }
+;; 4 succs { 5 11 }
+;; 5 succs { 6 7 }
+;; 6 succs { 7 }
+;; 7 succs { 8 9 }
+;; 8 succs { 10 }
+;; 9 succs { 10 }
+;; 10 succs { 11 }
+;; 11 succs { 12 }
+;; 12 succs { 1 }
+
+Analyzing function body size: Wdog_Ip_Init
+
+IPA function summary for Wdog_Ip_Init/14 inlinable
+  global time:     15.434800
+  self size:       45
+  global size:     0
+  min size:       0
+  self stack:      4
+  global stack:    4
+    size:29.500000, time:7.075700
+    size:5.500000, time:2.108900,  executed if:(not inlined)
+  array index:(op0 changed)
+  calls:
+    Wdog_Ip_IsReconfigurationComplete/11 function not considered for inlining
+      loop depth: 0 freq:0.05 size: 3 time: 12
+       op0 is compile time invariant
+    Wdog_Ip_Unlock/8 function not considered for inlining
+      loop depth: 0 freq:0.11 size: 3 time: 12
+       op0 is compile time invariant
+    Wdog_Ip_HwConfig/13 function not considered for inlining
+      loop depth: 0 freq:0.33 size: 4 time: 13
+       op1 is compile time invariant
+
+
+Analyzing function: Wdog_Ip_HwConfig/13
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2 3 4 5 6
+;; 2 succs { 3 4 }
+;; 3 succs { 6 4 }
+;; 4 succs { 6 5 }
+;; 5 succs { 6 }
+;; 6 succs { 1 }
+
+Analyzing function body size: Wdog_Ip_HwConfig
+
+IPA function summary for Wdog_Ip_HwConfig/13 inlinable
+  global time:     14.125000
+  self size:       17
+  global size:     0
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:0.000000, time:0.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+    size:0.500000, time:0.500000,  executed if:(not inlined),  nonconst if:(op0[ref offset: 72] changed) && (not inlined)
+    size:2.500000, time:2.500000,  nonconst if:(op0[ref offset: 72] changed)
+    size:0.500000, time:0.250000,  executed if:(op0[ref offset: 72] != 0) && (not inlined),  nonconst if:(op0[ref offset: 80] changed) && (op0[ref offset: 72] != 0) && (not inlined)
+    size:0.500000, time:0.250000,  executed if:(op0[ref offset: 72] != 0),  nonconst if:(op0[ref offset: 80] changed) && (op0[ref offset: 72] != 0)
+    size:0.500000, time:0.250000,  executed if:(op0[ref offset: 72] != 0) && (not inlined),  nonconst if:(op0[ref offset: 96] changed) && (op0[ref offset: 72] != 0) && (not inlined)
+    size:0.500000, time:0.250000,  executed if:(op0[ref offset: 72] != 0),  nonconst if:(op0[ref offset: 96] changed) && (op0[ref offset: 72] != 0)
+    size:2.000000, time:1.000000,  executed if:(op0[ref offset: 72] != 0),  nonconst if:(op0[ref offset: 80] changed || op0[ref offset: 96] changed) && (op0[ref offset: 72] != 0)
+    size:0.500000, time:0.375000,  executed if:(not inlined),  nonconst if:(op0[ref offset: 96] changed) && (not inlined)
+    size:2.500000, time:1.875000,  nonconst if:(op0[ref offset: 96] changed)
+  calls:
+    Wdog_Ip_HwConfig.part.0/25 function not considered for inlining
+      loop depth: 0 freq:0.38 size: 4 time: 13callee size:17 stack: 0 predicate: (op0[ref offset: 96] != 0)
+
+
+Analyzing function: Wdog_Ip_HwDeInit/12
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2
+;; 2 succs { 1 }
+
+Analyzing function body size: Wdog_Ip_HwDeInit
+
+IPA function summary for Wdog_Ip_HwDeInit/12 inlinable
+  global time:     16.000000
+  self size:       8
+  global size:     0
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:1.500000, time:1.500000
+    size:4.500000, time:3.500000,  executed if:(not inlined)
+  calls:
+    Wdog_Ip_Trigger/4 function not considered for inlining
+      loop depth: 0 freq:1.00 size: 2 time: 11
+
+
+Analyzing function: Wdog_Ip_IsReconfigurationComplete/11
+;; 2 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2 3 4 5 6 7 8
+;;
+;; Loop 1
+;;  header 4, latch 3
+;;  depth 1, outer 0
+;;  nodes: 4 3 5
+;; 2 succs { 4 }
+;; 3 succs { 4 }
+;; 4 succs { 5 6 }
+;; 5 succs { 3 6 }
+;; 6 succs { 7 8 }
+;; 7 succs { 8 }
+;; 8 succs { 1 }
+
+Analyzing function body size: Wdog_Ip_IsReconfigurationComplete
+
+IPA function summary for Wdog_Ip_IsReconfigurationComplete/11 inlinable
+  global time:     201.931292
+  self size:       24
+  global size:     0
+  min size:       0
+  self stack:      4
+  global stack:    4
+    size:9.500000, time:61.733582
+    size:3.500000, time:6.673989,  executed if:(not inlined)
+  calls:
+    OsIf_GetElapsed/24 function body not available
+      loop depth: 1 freq:8.35 size: 4 time: 13
+       op0 is compile time invariant
+       op1 is compile time invariant
+    OsIf_GetCounter/23 function body not available
+      loop depth: 0 freq:1.00 size: 3 time: 12
+       op0 is compile time invariant
+    OsIf_MicrosToTicks/22 function body not available
+      loop depth: 0 freq:1.00 size: 4 time: 13
+       op0 is compile time invariant
+       op1 is compile time invariant
+
+
+Analyzing function: Wdog_Ip_ClearIntFlag/9
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2 3 4
+;; 2 succs { 3 4 }
+;; 3 succs { 4 }
+;; 4 succs { 1 }
+
+Analyzing function body size: Wdog_Ip_ClearIntFlag
+
+IPA function summary for Wdog_Ip_ClearIntFlag/9 inlinable
+  global time:     17.500000
+  self size:       11
+  global size:     0
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:4.000000, time:3.000000
+    size:4.000000, time:2.500000,  executed if:(not inlined)
+  calls:
+    Wdog_Ip_Unlock/8 function not considered for inlining
+      loop depth: 0 freq:1.00 size: 3 time: 12
+
+
+Analyzing function: Wdog_Ip_Unlock/8
+;; 2 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2 3 4 5 6 7 8
+;;
+;; Loop 1
+;;  header 4, latch 3
+;;  depth 1, outer 0
+;;  nodes: 4 3 5
+;; 2 succs { 4 }
+;; 3 succs { 4 }
+;; 4 succs { 5 6 }
+;; 5 succs { 3 6 }
+;; 6 succs { 7 8 }
+;; 7 succs { 8 }
+;; 8 succs { 1 }
+
+Analyzing function body size: Wdog_Ip_Unlock
+
+IPA function summary for Wdog_Ip_Unlock/8 inlinable
+  global time:     212.931292
+  self size:       26
+  global size:     0
+  min size:       0
+  self stack:      4
+  global stack:    4
+    size:9.500000, time:61.733582
+    size:3.500000, time:6.673989,  executed if:(not inlined)
+  calls:
+    OsIf_GetElapsed/24 function body not available
+      loop depth: 1 freq:8.35 size: 4 time: 13
+       op0 is compile time invariant
+       op1 is compile time invariant
+    Wdog_Ip_UnlockCmd/7 function not considered for inlining
+      loop depth: 0 freq:1.00 size: 2 time: 11
+    OsIf_GetCounter/23 function body not available
+      loop depth: 0 freq:1.00 size: 3 time: 12
+       op0 is compile time invariant
+    OsIf_MicrosToTicks/22 function body not available
+      loop depth: 0 freq:1.00 size: 4 time: 13
+       op0 is compile time invariant
+       op1 is compile time invariant
+
+
+Analyzing function: Wdog_Ip_UnlockCmd/7
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2 3 4 5
+;; 2 succs { 3 4 }
+;; 3 succs { 5 }
+;; 4 succs { 5 }
+;; 5 succs { 1 }
+
+Analyzing function body size: Wdog_Ip_UnlockCmd
+
+IPA function summary for Wdog_Ip_UnlockCmd/7 inlinable
+  global time:     8.500000
+  self size:       12
+  global size:     0
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:2.500000, time:1.250000
+    size:5.500000, time:3.250000,  executed if:(not inlined)
+    size:0.500000, time:0.500000,  executed if:(not inlined),  nonconst if:(op0[ref offset: 0] changed) && (not inlined)
+    size:3.500000, time:3.500000,  nonconst if:(op0[ref offset: 0] changed)
+  calls:
+
+
+Analyzing function: Wdog_Ip_Trigger/4
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2 3 4 5
+;; 2 succs { 3 4 }
+;; 3 succs { 5 }
+;; 4 succs { 5 }
+;; 5 succs { 1 }
+
+Analyzing function body size: Wdog_Ip_Trigger
+
+IPA function summary for Wdog_Ip_Trigger/4 inlinable
+  global time:     10.000000
+  self size:       13
+  global size:     0
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:7.500000, time:6.500000
+    size:5.500000, time:3.500000,  executed if:(not inlined)
+  calls:
+
+Symbol table:
+
+Wdog_Ip_Trigger.constprop.0/38 (Wdog_Ip_Trigger.constprop) @05fb0380
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Clone of Wdog_Ip_Trigger/4
+  Availability: local
+  Function flags: count:1073741824 (estimated locally) local optimize_size
+  Called by: Wdog_Ip_Service/16 (1073741824 (estimated locally),1.00 per call) Wdog_Ip_HwDeInit.constprop/33 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Wdog_Ip_UnlockCmd.constprop.0/37 (Wdog_Ip_UnlockCmd.constprop) @05fb0d20
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Clone of Wdog_Ip_UnlockCmd/7
+  Availability: local
+  Function flags: count:1073741824 (estimated locally) local optimize_size
+  Called by: Wdog_Ip_Unlock.constprop/36 (114863532 (estimated locally),1.00 per call) 
+  Calls: 
+Wdog_Ip_Unlock.constprop.0/36 (Wdog_Ip_Unlock.constprop) @05dbe460
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Clone of Wdog_Ip_Unlock/8
+  Availability: local
+  Function flags: count:114863532 (estimated locally) local optimize_size
+  Called by: Wdog_Ip_Init/14 (116930485 (estimated locally),0.11 per call) Wdog_Ip_DeInit/15 (354334802 (estimated locally),0.33 per call) Wdog_Ip_SetTimeout/17 (354334802 (estimated locally),0.33 per call) Wdog_Ip_Config/18 (268435456 (estimated locally),0.25 per call) Wdog_Ip_StartTimer/19 (177167401 (estimated locally),0.17 per call) Wdog_Ip_StopTimer/20 (177167401 (estimated locally),0.17 per call) Wdog_Ip_ClearIntFlag.constprop/35 (1073741824 (estimated locally),1.00 per call) 
+  Calls: OsIf_MicrosToTicks/22 (114863532 (estimated locally),1.00 per call) OsIf_GetCounter/23 (114863532 (estimated locally),1.00 per call) Wdog_Ip_UnlockCmd.constprop/37 (114863532 (estimated locally),1.00 per call) OsIf_GetElapsed/24 (958878293 (estimated locally),8.35 per call) 
+Wdog_Ip_ClearIntFlag.constprop.0/35 (Wdog_Ip_ClearIntFlag.constprop) @05dc37e0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Clone of Wdog_Ip_ClearIntFlag/9
+  Availability: local
+  Function flags: count:1073741824 (estimated locally) local optimize_size
+  Called by: Wdog_Ip_IrqHandler/21 (354334802 (estimated locally),0.33 per call) 
+  Calls: Wdog_Ip_Unlock.constprop/36 (1073741824 (estimated locally),1.00 per call) 
+Wdog_Ip_IsReconfigurationComplete.constprop.0/34 (Wdog_Ip_IsReconfigurationComplete.constprop) @05dbe9a0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Clone of Wdog_Ip_IsReconfigurationComplete/11
+  Availability: local
+  Function flags: count:114863532 (estimated locally) local optimize_size
+  Called by: Wdog_Ip_Init/14 (58465242 (estimated locally),0.05 per call) Wdog_Ip_DeInit/15 (116930485 (estimated locally),0.11 per call) Wdog_Ip_SetTimeout/17 (177167401 (estimated locally),0.17 per call) Wdog_Ip_Config/18 (134217728 (estimated locally),0.12 per call) Wdog_Ip_StartTimer/19 (58465242 (estimated locally),0.05 per call) Wdog_Ip_StopTimer/20 (58465242 (estimated locally),0.05 per call) 
+  Calls: OsIf_MicrosToTicks/22 (114863532 (estimated locally),1.00 per call) OsIf_GetCounter/23 (114863532 (estimated locally),1.00 per call) OsIf_GetElapsed/24 (958878293 (estimated locally),8.35 per call) 
+Wdog_Ip_HwDeInit.constprop.0/33 (Wdog_Ip_HwDeInit.constprop) @05dbec40
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Clone of Wdog_Ip_HwDeInit/12
+  Availability: local
+  Function flags: count:1073741824 (estimated locally) local optimize_size
+  Called by: Wdog_Ip_DeInit/15 (116930485 (estimated locally),0.11 per call) 
+  Calls: Wdog_Ip_Trigger.constprop/38 (1073741824 (estimated locally),1.00 per call) 
+Wdog_Ip_HwConfig.part.0/25 (Wdog_Ip_HwConfig.part.0) @05dda380
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly artificial
+  References: 
+  Referring: 
+  Availability: local
+  Function flags: count:1073741824 (estimated locally) first_run:1 body local split_part optimize_size
+  Called by: Wdog_Ip_HwConfig/13 (402653185 (estimated locally),0.38 per call) 
+  Calls: 
+OsIf_GetElapsed/24 (OsIf_GetElapsed) @05e4bc40
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdog_Ip_Unlock.constprop/36 (958878293 (estimated locally),8.35 per call) Wdog_Ip_IsReconfigurationComplete.constprop/34 (958878293 (estimated locally),8.35 per call) 
+  Calls: 
+OsIf_GetCounter/23 (OsIf_GetCounter) @05e4bb60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdog_Ip_Unlock.constprop/36 (114863532 (estimated locally),1.00 per call) Wdog_Ip_IsReconfigurationComplete.constprop/34 (114863532 (estimated locally),1.00 per call) 
+  Calls: 
+OsIf_MicrosToTicks/22 (OsIf_MicrosToTicks) @05e4ba80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdog_Ip_Unlock.constprop/36 (114863532 (estimated locally),1.00 per call) Wdog_Ip_IsReconfigurationComplete.constprop/34 (114863532 (estimated locally),1.00 per call) 
+  Calls: 
+Wdog_Ip_IrqHandler/21 (Wdog_Ip_IrqHandler) @05e4b1c0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: Wdog_Ip_apCallbackPtr/2 (read)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741823 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_ClearIntFlag.constprop/35 (354334802 (estimated locally),0.33 per call) 
+   Indirect call(124017180 (estimated locally),0.12 per call) 
+Wdog_Ip_StopTimer/20 (Wdog_Ip_StopTimer) @05e3ae00
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete.constprop/34 (58465242 (estimated locally),0.05 per call) Wdog_Ip_Unlock.constprop/36 (177167401 (estimated locally),0.17 per call) 
+Wdog_Ip_StartTimer/19 (Wdog_Ip_StartTimer) @05e3a7e0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete.constprop/34 (58465242 (estimated locally),0.05 per call) Wdog_Ip_Unlock.constprop/36 (177167401 (estimated locally),0.17 per call) 
+Wdog_Ip_Config/18 (Wdog_Ip_Config) @05e3a2a0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: Wdog_Ip_apCallbackPtr/2 (write)Wdog_Ip_apCallbackPtr/2 (write)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete.constprop/34 (134217728 (estimated locally),0.12 per call) Wdog_Ip_Unlock.constprop/36 (268435456 (estimated locally),0.25 per call) Wdog_Ip_HwConfig/13 (536870913 (estimated locally),0.50 per call) 
+Wdog_Ip_SetTimeout/17 (Wdog_Ip_SetTimeout) @05e3ad20
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete.constprop/34 (177167401 (estimated locally),0.17 per call) Wdog_Ip_Unlock.constprop/36 (354334802 (estimated locally),0.33 per call) 
+Wdog_Ip_Service/16 (Wdog_Ip_Service) @05e3a9a0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_Trigger.constprop/38 (1073741824 (estimated locally),1.00 per call) 
+Wdog_Ip_DeInit/15 (Wdog_Ip_DeInit) @05e3a700
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: Wdog_Ip_apCallbackPtr/2 (write)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete.constprop/34 (116930485 (estimated locally),0.11 per call) Wdog_Ip_HwDeInit.constprop/33 (116930485 (estimated locally),0.11 per call) Wdog_Ip_Unlock.constprop/36 (354334802 (estimated locally),0.33 per call) 
+Wdog_Ip_Init/14 (Wdog_Ip_Init) @05e3a460
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: Wdog_Ip_apCallbackPtr/2 (write)Wdog_Ip_apCallbackPtr/2 (write)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete.constprop/34 (58465242 (estimated locally),0.05 per call) Wdog_Ip_Unlock.constprop/36 (116930485 (estimated locally),0.11 per call) Wdog_Ip_HwConfig/13 (354334802 (estimated locally),0.33 per call) 
+Wdog_Ip_HwConfig/13 (Wdog_Ip_HwConfig) @05e3a0e0
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: local
+  Function flags: count:1073741824 (estimated locally) body local optimize_size
+  Called by: Wdog_Ip_Config/18 (536870913 (estimated locally),0.50 per call) Wdog_Ip_Init/14 (354334802 (estimated locally),0.33 per call) 
+  Calls: Wdog_Ip_HwConfig.part.0/25 (402653185 (estimated locally),0.38 per call) 
+Wdog_Ip_HwDeInit/12 (Wdog_Ip_HwDeInit) @05dc3d20
+  Type: function
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+Wdog_Ip_IsReconfigurationComplete/11 (Wdog_Ip_IsReconfigurationComplete) @05dc3a80
+  Type: function
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: count:114863532 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+Wdog_Ip_ClearIntFlag/9 (Wdog_Ip_ClearIntFlag) @05dc3540
+  Type: function
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+Wdog_Ip_Unlock/8 (Wdog_Ip_Unlock) @05dc31c0
+  Type: function
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: count:114863532 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+Wdog_Ip_UnlockCmd/7 (Wdog_Ip_UnlockCmd) @05dbeee0
+  Type: function
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+Wdog_Ip_Trigger/4 (Wdog_Ip_Trigger) @05dbe700
+  Type: function
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+Wdog_Ip_apCallbackPtr/2 (Wdog_Ip_apCallbackPtr) @05dba708
+  Type: variable definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: Wdog_Ip_Init/14 (write)Wdog_Ip_DeInit/15 (write)Wdog_Ip_Config/18 (write)Wdog_Ip_Config/18 (write)Wdog_Ip_Init/14 (write)Wdog_Ip_IrqHandler/21 (read)
+  Availability: available
+  Varpool flags:
+Wdog_Ip_HwConfig.part.0 (const struct Wdog_Ip_ConfigType * ConfigPtr, uint32 * u32Cs)
+{
+  Wdog_Ip_StatusType status;
+  long unsigned int _2;
+  long unsigned int _3;
+  <unnamed type> _5;
+  long unsigned int _6;
+  long unsigned int _7;
+  long unsigned int _8;
+  _Bool _9;
+  long unsigned int iftmp.3_10;
+  long unsigned int _11;
+  _Bool _12;
+  long unsigned int iftmp.4_13;
+  long unsigned int _14;
+  _Bool _15;
+  long unsigned int iftmp.5_16;
+  long unsigned int _17;
+  _Bool _18;
+  long unsigned int iftmp.6_19;
+  long unsigned int _20;
+  _Bool _21;
+  long unsigned int iftmp.7_22;
+  long unsigned int _23;
+  _Bool _24;
+  long unsigned int iftmp.8_25;
+  long unsigned int _26;
+  long unsigned int _27;
+
+  <bb 16> [local count: 1073741824]:
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _2 = *u32Cs_1(D);
+  _3 = _2 & 4294929560;
+  # DEBUG BEGIN_STMT
+  _5 = ConfigPtr_4(D)->clkSource;
+  _6 = _5 << 8;
+  _7 = _6 & 768;
+  _8 = _3 | _7;
+  # DEBUG BEGIN_STMT
+  _9 = ConfigPtr_4(D)->PrescalerEnable;
+  if (_9 != 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 3>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+
+  <bb 4> [local count: 1073741824]:
+  # iftmp.3_10 = PHI <4096(2), 0(3)>
+  _11 = _8 | iftmp.3_10;
+  # DEBUG BEGIN_STMT
+  _12 = ConfigPtr_4(D)->IntEnable;
+  if (_12 != 0)
+    goto <bb 6>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 5> [local count: 536870913]:
+
+  <bb 6> [local count: 1073741824]:
+  # iftmp.4_13 = PHI <64(4), 0(5)>
+  _14 = _11 | iftmp.4_13;
+  # DEBUG BEGIN_STMT
+  _15 = ConfigPtr_4(D)->UpdateEnable;
+  if (_15 != 0)
+    goto <bb 8>; [50.00%]
+  else
+    goto <bb 7>; [50.00%]
+
+  <bb 7> [local count: 536870913]:
+
+  <bb 8> [local count: 1073741824]:
+  # iftmp.5_16 = PHI <32(6), 0(7)>
+  _17 = _14 | iftmp.5_16;
+  # DEBUG BEGIN_STMT
+  _18 = ConfigPtr_4(D)->opMode.bDebug;
+  if (_18 != 0)
+    goto <bb 10>; [50.00%]
+  else
+    goto <bb 9>; [50.00%]
+
+  <bb 9> [local count: 536870913]:
+
+  <bb 10> [local count: 1073741824]:
+  # iftmp.6_19 = PHI <4(8), 0(9)>
+  _20 = _17 | iftmp.6_19;
+  # DEBUG BEGIN_STMT
+  _21 = ConfigPtr_4(D)->opMode.bWait;
+  if (_21 != 0)
+    goto <bb 12>; [50.00%]
+  else
+    goto <bb 11>; [50.00%]
+
+  <bb 11> [local count: 536870913]:
+
+  <bb 12> [local count: 1073741824]:
+  # iftmp.7_22 = PHI <2(10), 0(11)>
+  _23 = _20 | iftmp.7_22;
+  # DEBUG BEGIN_STMT
+  _24 = ConfigPtr_4(D)->opMode.bStop;
+  if (_24 != 0)
+    goto <bb 14>; [50.00%]
+  else
+    goto <bb 13>; [50.00%]
+
+  <bb 13> [local count: 536870913]:
+
+  <bb 14> [local count: 1073741824]:
+  # iftmp.8_25 = PHI <1(12), 0(13)>
+  _26 = _23 | iftmp.8_25;
+  # DEBUG BEGIN_STMT
+  _27 = _26 | 16384;
+  *u32Cs_1(D) = _27;
+
+  <bb 15> [local count: 1073741824]:
+  # status_28 = PHI <0(14)>
+  # DEBUG status => status_28
+  # DEBUG BEGIN_STMT
+  return status_28;
+
+}
+
+
+Wdog_Ip_IrqHandler (uint8 Instance)
+{
+  int _1;
+  void (*<T487>) (void) _2;
+  long unsigned int _8;
+  long unsigned int _9;
+  long unsigned int _10;
+  long unsigned int _11;
+
+  <bb 2> [local count: 1073741823]:
+  # DEBUG BEGIN_STMT
+  _1 = (int) Instance_4(D);
+  # DEBUG base => 1074077696B
+  # DEBUG BEGIN_STMT
+  # DEBUG base => 1074077696B
+  # DEBUG INLINE_ENTRY Wdog_Ip_GetIntFlag
+  # DEBUG BEGIN_STMT
+  _8 ={v} MEM[(const struct WDOG_Type *)1074077696B].CS;
+  _9 = _8 & 16384;
+  # DEBUG base => NULL
+  if (_9 != 0)
+    goto <bb 3>; [33.00%]
+  else
+    goto <bb 6>; [67.00%]
+
+  <bb 3> [local count: 354334802]:
+  # DEBUG BEGIN_STMT
+  Wdog_Ip_ClearIntFlag (1074077696B);
+  # DEBUG BEGIN_STMT
+  _2 = Wdog_Ip_apCallbackPtr[_1];
+  if (_2 != 0B)
+    goto <bb 4>; [70.00%]
+  else
+    goto <bb 6>; [30.00%]
+
+  <bb 4> [local count: 248034361]:
+  # DEBUG base => 1074077696B
+  # DEBUG INLINE_ENTRY Wdog_Ip_IsIntEnabled
+  # DEBUG BEGIN_STMT
+  _10 ={v} MEM[(const struct WDOG_Type *)1074077696B].CS;
+  _11 = _10 & 64;
+  # DEBUG base => NULL
+  if (_11 != 0)
+    goto <bb 5>; [50.00%]
+  else
+    goto <bb 6>; [50.00%]
+
+  <bb 5> [local count: 124017180]:
+  # DEBUG BEGIN_STMT
+  _2 ();
+
+  <bb 6> [local count: 1073741824]:
+  return;
+
+}
+
+
+Wdog_Ip_StopTimer (const uint8 Instance)
+{
+  Wdog_Ip_StatusType status;
+  <unnamed type> _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _16;
+  long unsigned int _17;
+  long unsigned int _18;
+  long unsigned int _19;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG base => 1074077696B
+  # DEBUG BEGIN_STMT
+  # DEBUG status => 0
+  # DEBUG BEGIN_STMT
+  # DEBUG base => 1074077696B
+  # DEBUG INLINE_ENTRY Wdog_Ip_IsEnabled
+  # DEBUG BEGIN_STMT
+  _16 ={v} MEM[(const struct WDOG_Type *)1074077696B].CS;
+  _17 = _16 & 128;
+  # DEBUG base => NULL
+  if (_17 != 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 7>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  # DEBUG base => 1074077696B
+  # DEBUG INLINE_ENTRY Wdog_Ip_IsUpdateEnabled
+  # DEBUG BEGIN_STMT
+  _18 ={v} MEM[(const struct WDOG_Type *)1074077696B].CS;
+  _19 = _18 & 32;
+  # DEBUG base => NULL
+  if (_19 != 0)
+    goto <bb 4>; [33.00%]
+  else
+    goto <bb 7>; [67.00%]
+
+  <bb 4> [local count: 177167401]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+  # DEBUG BEGIN_STMT
+  _1 = Wdog_Ip_Unlock (1074077696B);
+  if (_1 == 0)
+    goto <bb 5>; [33.00%]
+  else
+    goto <bb 6>; [67.00%]
+
+  <bb 5> [local count: 58465242]:
+  # DEBUG BEGIN_STMT
+  _2 ={v} MEM[(struct WDOG_Type *)1074077696B].CS;
+  _3 = _2 & 4294967167;
+  MEM[(struct WDOG_Type *)1074077696B].CS ={v} _3;
+  # DEBUG BEGIN_STMT
+  status_14 = Wdog_Ip_IsReconfigurationComplete (1074077696B);
+  # DEBUG status => status_14
+
+  <bb 6> [local count: 177167401]:
+  # status_4 = PHI <status_14(5), 2(4)>
+  # DEBUG status => status_4
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+
+  <bb 7> [local count: 1073741824]:
+  # status_5 = PHI <0(2), status_4(6), 1(3)>
+  # DEBUG status => status_5
+  # DEBUG BEGIN_STMT
+  return status_5;
+
+}
+
+
+Wdog_Ip_StartTimer (const uint8 Instance)
+{
+  Wdog_Ip_StatusType status;
+  <unnamed type> _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _16;
+  long unsigned int _17;
+  long unsigned int _18;
+  long unsigned int _19;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG base => 1074077696B
+  # DEBUG BEGIN_STMT
+  # DEBUG status => 0
+  # DEBUG BEGIN_STMT
+  # DEBUG base => 1074077696B
+  # DEBUG INLINE_ENTRY Wdog_Ip_IsEnabled
+  # DEBUG BEGIN_STMT
+  _16 ={v} MEM[(const struct WDOG_Type *)1074077696B].CS;
+  _17 = _16 & 128;
+  # DEBUG base => NULL
+  if (_17 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 7>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  # DEBUG base => 1074077696B
+  # DEBUG INLINE_ENTRY Wdog_Ip_IsUpdateEnabled
+  # DEBUG BEGIN_STMT
+  _18 ={v} MEM[(const struct WDOG_Type *)1074077696B].CS;
+  _19 = _18 & 32;
+  # DEBUG base => NULL
+  if (_19 != 0)
+    goto <bb 4>; [33.00%]
+  else
+    goto <bb 7>; [67.00%]
+
+  <bb 4> [local count: 177167401]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+  # DEBUG BEGIN_STMT
+  _1 = Wdog_Ip_Unlock (1074077696B);
+  if (_1 == 0)
+    goto <bb 5>; [33.00%]
+  else
+    goto <bb 6>; [67.00%]
+
+  <bb 5> [local count: 58465242]:
+  # DEBUG BEGIN_STMT
+  _2 ={v} MEM[(struct WDOG_Type *)1074077696B].CS;
+  _3 = _2 | 128;
+  MEM[(struct WDOG_Type *)1074077696B].CS ={v} _3;
+  # DEBUG BEGIN_STMT
+  status_14 = Wdog_Ip_IsReconfigurationComplete (1074077696B);
+  # DEBUG status => status_14
+
+  <bb 6> [local count: 177167401]:
+  # status_4 = PHI <status_14(5), 2(4)>
+  # DEBUG status => status_4
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+
+  <bb 7> [local count: 1073741824]:
+  # status_5 = PHI <0(2), status_4(6), 1(3)>
+  # DEBUG status => status_5
+  # DEBUG BEGIN_STMT
+  return status_5;
+
+}
+
+
+Wdog_Ip_Config (const uint8 Instance, const struct Wdog_Ip_ConfigType * const ConfigPtr)
+{
+  uint32 u32Cs;
+  Wdog_Ip_StatusType status;
+  int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int u32Cs.13_4;
+  long unsigned int _5;
+  <unnamed type> _6;
+  short unsigned int _7;
+  long unsigned int _8;
+  _Bool _9;
+  long unsigned int u32Cs.14_10;
+  long unsigned int _11;
+  short unsigned int _12;
+  long unsigned int _13;
+  long unsigned int u32Cs.15_14;
+  _Bool _15;
+  void (*<T487>) (void) _16;
+  long unsigned int _45;
+  long unsigned int _46;
+  long unsigned int _47;
+  long unsigned int _48;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _1 = (int) Instance_25(D);
+  # DEBUG base => 1074077696B
+  # DEBUG BEGIN_STMT
+  # DEBUG status => 0
+  # DEBUG BEGIN_STMT
+  u32Cs = 0;
+  # DEBUG BEGIN_STMT
+  # DEBUG base => 1074077696B
+  # DEBUG INLINE_ENTRY Wdog_Ip_IsEnabled
+  # DEBUG BEGIN_STMT
+  _47 ={v} MEM[(const struct WDOG_Type *)1074077696B].CS;
+  _48 = _47 & 128;
+  # DEBUG base => NULL
+  # DEBUG bWdogEnabled => _48 != 0
+  # DEBUG BEGIN_STMT
+  # DEBUG base => 1074077696B
+  # DEBUG INLINE_ENTRY Wdog_Ip_IsUpdateEnabled
+  # DEBUG BEGIN_STMT
+  _45 ={v} MEM[(const struct WDOG_Type *)1074077696B].CS;
+  _46 = _45 & 32;
+  # DEBUG base => NULL
+  # DEBUG bUpdateEnabled => _46 != 0
+  # DEBUG BEGIN_STMT
+  if (_46 == 0)
+    goto <bb 16>; [50.00%]
+  else
+    goto <bb 3>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  if (_48 != 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  _2 ={v} MEM[(struct WDOG_Type *)1074077696B].CS;
+  _3 = _2 & 4294967167;
+  MEM[(struct WDOG_Type *)1074077696B].CS ={v} _3;
+
+  <bb 5> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  status_31 = Wdog_Ip_HwConfig (ConfigPtr_29(D), &u32Cs);
+  # DEBUG status => status_31
+  # DEBUG BEGIN_STMT
+  if (status_31 == 0)
+    goto <bb 6>; [50.00%]
+  else
+    goto <bb 16>; [50.00%]
+
+  <bb 6> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  if (_48 != 0)
+    goto <bb 7>; [50.00%]
+  else
+    goto <bb 8>; [50.00%]
+
+  <bb 7> [local count: 134217728]:
+  # DEBUG BEGIN_STMT
+  u32Cs.13_4 = u32Cs;
+  _5 = u32Cs.13_4 | 8320;
+  u32Cs = _5;
+
+  <bb 8> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+  # DEBUG BEGIN_STMT
+  _6 = Wdog_Ip_Unlock (1074077696B);
+  if (_6 == 0)
+    goto <bb 9>; [50.00%]
+  else
+    goto <bb 15>; [50.00%]
+
+  <bb 9> [local count: 134217728]:
+  # DEBUG BEGIN_STMT
+  _7 = ConfigPtr_29(D)->TimeoutValue;
+  _8 = (long unsigned int) _7;
+  MEM[(struct WDOG_Type *)1074077696B].TOVAL ={v} _8;
+  # DEBUG BEGIN_STMT
+  _9 = ConfigPtr_29(D)->WinEnable;
+  if (_9 != 0)
+    goto <bb 10>; [50.00%]
+  else
+    goto <bb 11>; [50.00%]
+
+  <bb 10> [local count: 67108864]:
+  # DEBUG BEGIN_STMT
+  u32Cs.14_10 = u32Cs;
+  _11 = u32Cs.14_10 | 32768;
+  u32Cs = _11;
+  # DEBUG BEGIN_STMT
+  _12 = ConfigPtr_29(D)->WindowValue;
+  _13 = (long unsigned int) _12;
+  MEM[(struct WDOG_Type *)1074077696B].WIN ={v} _13;
+
+  <bb 11> [local count: 134217728]:
+  # DEBUG BEGIN_STMT
+  u32Cs.15_14 = u32Cs;
+  MEM[(struct WDOG_Type *)1074077696B].CS ={v} u32Cs.15_14;
+  # DEBUG BEGIN_STMT
+  _15 = ConfigPtr_29(D)->IntEnable;
+  if (_15 != 0)
+    goto <bb 12>; [50.00%]
+  else
+    goto <bb 13>; [50.00%]
+
+  <bb 12> [local count: 67108864]:
+  # DEBUG BEGIN_STMT
+  _16 = ConfigPtr_29(D)->pfWdogCallback;
+  Wdog_Ip_apCallbackPtr[_1] = _16;
+  goto <bb 14>; [100.00%]
+
+  <bb 13> [local count: 67108864]:
+  # DEBUG BEGIN_STMT
+  Wdog_Ip_apCallbackPtr[_1] = 0B;
+
+  <bb 14> [local count: 134217728]:
+  # DEBUG BEGIN_STMT
+  status_42 = Wdog_Ip_IsReconfigurationComplete (1074077696B);
+  # DEBUG status => status_42
+
+  <bb 15> [local count: 268435456]:
+  # status_17 = PHI <status_42(14), 2(8)>
+  # DEBUG status => status_17
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+
+  <bb 16> [local count: 1073741824]:
+  # status_18 = PHI <status_31(5), status_17(15), 1(2)>
+  # DEBUG status => status_18
+  # DEBUG BEGIN_STMT
+  u32Cs ={v} {CLOBBER};
+  return status_18;
+
+}
+
+
+Wdog_Ip_SetTimeout (const uint8 Instance, uint16 Timeout, uint16 WindowValue)
+{
+  Wdog_Ip_StatusType status;
+  <unnamed type> _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+  long unsigned int _6;
+  long unsigned int iftmp.12_9;
+  long unsigned int _25;
+  long unsigned int _26;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG base => 1074077696B
+  # DEBUG BEGIN_STMT
+  # DEBUG status => 0
+  # DEBUG BEGIN_STMT
+  # DEBUG windowEnable => WindowValue_14(D) != 0
+  # DEBUG BEGIN_STMT
+  # DEBUG base => 1074077696B
+  # DEBUG INLINE_ENTRY Wdog_Ip_IsUpdateEnabled
+  # DEBUG BEGIN_STMT
+  _25 ={v} MEM[(const struct WDOG_Type *)1074077696B].CS;
+  _26 = _25 & 32;
+  # DEBUG base => NULL
+  if (_26 != 0)
+    goto <bb 3>; [33.00%]
+  else
+    goto <bb 10>; [67.00%]
+
+  <bb 3> [local count: 354334802]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+  # DEBUG BEGIN_STMT
+  _1 = Wdog_Ip_Unlock (1074077696B);
+  if (_1 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 9>; [50.00%]
+
+  <bb 4> [local count: 177167401]:
+  # DEBUG BEGIN_STMT
+  _2 = (long unsigned int) Timeout_18(D);
+  MEM[(struct WDOG_Type *)1074077696B].TOVAL ={v} _2;
+  # DEBUG BEGIN_STMT
+  if (WindowValue_14(D) != 0)
+    goto <bb 5>; [50.00%]
+  else
+    goto <bb 6>; [50.00%]
+
+  <bb 5> [local count: 88583701]:
+  # DEBUG BEGIN_STMT
+  _3 = (long unsigned int) WindowValue_14(D);
+  MEM[(struct WDOG_Type *)1074077696B].WIN ={v} _3;
+
+  <bb 6> [local count: 177167401]:
+  # DEBUG BEGIN_STMT
+  _4 ={v} MEM[(struct WDOG_Type *)1074077696B].CS;
+  _5 = _4 & 4294934527;
+  if (WindowValue_14(D) != 0)
+    goto <bb 8>; [50.00%]
+  else
+    goto <bb 7>; [50.00%]
+
+  <bb 7> [local count: 88583701]:
+
+  <bb 8> [local count: 177167401]:
+  # iftmp.12_9 = PHI <32768(6), 0(7)>
+  _6 = _5 | iftmp.12_9;
+  MEM[(struct WDOG_Type *)1074077696B].CS ={v} _6;
+  # DEBUG BEGIN_STMT
+  status_23 = Wdog_Ip_IsReconfigurationComplete (1074077696B);
+  # DEBUG status => status_23
+
+  <bb 9> [local count: 354334802]:
+  # status_7 = PHI <status_23(8), 2(3)>
+  # DEBUG status => status_7
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+
+  <bb 10> [local count: 1073741824]:
+  # status_8 = PHI <status_7(9), 1(2)>
+  # DEBUG status => status_8
+  # DEBUG BEGIN_STMT
+  return status_8;
+
+}
+
+
+Wdog_Ip_Service (const uint8 Instance)
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG base => 1074077696B
+  # DEBUG BEGIN_STMT
+  Wdog_Ip_Trigger (1074077696B);
+  return;
+
+}
+
+
+Wdog_Ip_DeInit (const uint8 Instance)
+{
+  Wdog_Ip_StatusType status;
+  int _1;
+  <unnamed type> _2;
+  long unsigned int _16;
+  long unsigned int _17;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _1 = (int) Instance_7(D);
+  # DEBUG base => 1074077696B
+  # DEBUG BEGIN_STMT
+  # DEBUG status => 0
+  # DEBUG BEGIN_STMT
+  # DEBUG base => 1074077696B
+  # DEBUG INLINE_ENTRY Wdog_Ip_IsUpdateEnabled
+  # DEBUG BEGIN_STMT
+  _16 ={v} MEM[(const struct WDOG_Type *)1074077696B].CS;
+  _17 = _16 & 32;
+  # DEBUG base => NULL
+  if (_17 != 0)
+    goto <bb 3>; [33.00%]
+  else
+    goto <bb 6>; [67.00%]
+
+  <bb 3> [local count: 354334802]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+  # DEBUG BEGIN_STMT
+  _2 = Wdog_Ip_Unlock (1074077696B);
+  if (_2 == 0)
+    goto <bb 4>; [33.00%]
+  else
+    goto <bb 5>; [67.00%]
+
+  <bb 4> [local count: 116930485]:
+  # DEBUG BEGIN_STMT
+  Wdog_Ip_HwDeInit (1074077696B);
+  # DEBUG BEGIN_STMT
+  Wdog_Ip_apCallbackPtr[_1] = 0B;
+  # DEBUG BEGIN_STMT
+  status_14 = Wdog_Ip_IsReconfigurationComplete (1074077696B);
+  # DEBUG status => status_14
+
+  <bb 5> [local count: 354334802]:
+  # status_3 = PHI <status_14(4), 2(3)>
+  # DEBUG status => status_3
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+
+  <bb 6> [local count: 1073741824]:
+  # status_4 = PHI <status_3(5), 1(2)>
+  # DEBUG status => status_4
+  # DEBUG BEGIN_STMT
+  return status_4;
+
+}
+
+
+Wdog_Ip_Init (const uint8 Instance, const struct Wdog_Ip_ConfigType * const ConfigPtr)
+{
+  uint32 u32Cs;
+  Wdog_Ip_StatusType status;
+  int _1;
+  long unsigned int u32Cs.0_2;
+  long unsigned int _3;
+  <unnamed type> _4;
+  short unsigned int _5;
+  long unsigned int _6;
+  _Bool _7;
+  long unsigned int u32Cs.1_8;
+  long unsigned int _9;
+  short unsigned int _10;
+  long unsigned int _11;
+  long unsigned int u32Cs.2_12;
+  _Bool _13;
+  void (*<T487>) (void) _14;
+  long unsigned int _40;
+  long unsigned int _41;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _1 = (int) Instance_21(D);
+  # DEBUG base => 1074077696B
+  # DEBUG BEGIN_STMT
+  # DEBUG status => 0
+  # DEBUG BEGIN_STMT
+  u32Cs = 0;
+  # DEBUG BEGIN_STMT
+  # DEBUG base => 1074077696B
+  # DEBUG INLINE_ENTRY Wdog_Ip_IsUpdateEnabled
+  # DEBUG BEGIN_STMT
+  _40 ={v} MEM[(const struct WDOG_Type *)1074077696B].CS;
+  _41 = _40 & 32;
+  # DEBUG base => NULL
+  if (_41 == 0)
+    goto <bb 12>; [67.00%]
+  else
+    goto <bb 3>; [33.00%]
+
+  <bb 3> [local count: 354334802]:
+  # DEBUG BEGIN_STMT
+  status_26 = Wdog_Ip_HwConfig (ConfigPtr_24(D), &u32Cs);
+  # DEBUG status => status_26
+  # DEBUG BEGIN_STMT
+  if (status_26 == 0)
+    goto <bb 4>; [33.00%]
+  else
+    goto <bb 12>; [67.00%]
+
+  <bb 4> [local count: 116930485]:
+  # DEBUG BEGIN_STMT
+  u32Cs.0_2 = u32Cs;
+  _3 = u32Cs.0_2 | 8320;
+  u32Cs = _3;
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+  # DEBUG BEGIN_STMT
+  _4 = Wdog_Ip_Unlock (1074077696B);
+  if (_4 == 0)
+    goto <bb 5>; [50.00%]
+  else
+    goto <bb 11>; [50.00%]
+
+  <bb 5> [local count: 58465242]:
+  # DEBUG BEGIN_STMT
+  _5 = ConfigPtr_24(D)->TimeoutValue;
+  _6 = (long unsigned int) _5;
+  MEM[(struct WDOG_Type *)1074077696B].TOVAL ={v} _6;
+  # DEBUG BEGIN_STMT
+  _7 = ConfigPtr_24(D)->WinEnable;
+  if (_7 != 0)
+    goto <bb 6>; [50.00%]
+  else
+    goto <bb 7>; [50.00%]
+
+  <bb 6> [local count: 29232621]:
+  # DEBUG BEGIN_STMT
+  u32Cs.1_8 = u32Cs;
+  _9 = u32Cs.1_8 | 32768;
+  u32Cs = _9;
+  # DEBUG BEGIN_STMT
+  _10 = ConfigPtr_24(D)->WindowValue;
+  _11 = (long unsigned int) _10;
+  MEM[(struct WDOG_Type *)1074077696B].WIN ={v} _11;
+
+  <bb 7> [local count: 58465242]:
+  # DEBUG BEGIN_STMT
+  u32Cs.2_12 = u32Cs;
+  MEM[(struct WDOG_Type *)1074077696B].CS ={v} u32Cs.2_12;
+  # DEBUG BEGIN_STMT
+  _13 = ConfigPtr_24(D)->IntEnable;
+  if (_13 != 0)
+    goto <bb 8>; [50.00%]
+  else
+    goto <bb 9>; [50.00%]
+
+  <bb 8> [local count: 29232621]:
+  # DEBUG BEGIN_STMT
+  _14 = ConfigPtr_24(D)->pfWdogCallback;
+  Wdog_Ip_apCallbackPtr[_1] = _14;
+  goto <bb 10>; [100.00%]
+
+  <bb 9> [local count: 29232621]:
+  # DEBUG BEGIN_STMT
+  Wdog_Ip_apCallbackPtr[_1] = 0B;
+
+  <bb 10> [local count: 58465242]:
+  # DEBUG BEGIN_STMT
+  status_37 = Wdog_Ip_IsReconfigurationComplete (1074077696B);
+  # DEBUG status => status_37
+
+  <bb 11> [local count: 116930485]:
+  # status_15 = PHI <status_37(10), 2(4)>
+  # DEBUG status => status_15
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+
+  <bb 12> [local count: 1073741824]:
+  # status_16 = PHI <status_26(3), status_15(11), 1(2)>
+  # DEBUG status => status_16
+  # DEBUG BEGIN_STMT
+  u32Cs ={v} {CLOBBER};
+  return status_16;
+
+}
+
+
+Wdog_Ip_HwConfig (const struct Wdog_Ip_ConfigType * ConfigPtr, uint32 * u32Cs)
+{
+  Wdog_Ip_StatusType status;
+  _Bool _1;
+  short unsigned int _2;
+  short unsigned int _3;
+  short unsigned int _4;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG status => 0
+  # DEBUG BEGIN_STMT
+  _1 = ConfigPtr_7(D)->WinEnable;
+  if (_1 != 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 4>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  _2 = ConfigPtr_7(D)->WindowValue;
+  _3 = ConfigPtr_7(D)->TimeoutValue;
+  if (_2 >= _3)
+    goto <bb 6>; [50.00%]
+  else
+    goto <bb 4>; [50.00%]
+
+  <bb 4> [local count: 805306369]:
+  _4 = ConfigPtr_7(D)->TimeoutValue;
+  if (_4 == 0)
+    goto <bb 6>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 5> [local count: 402653185]:
+  status_9 = Wdog_Ip_HwConfig.part.0 (ConfigPtr_7(D), u32Cs_8(D));
+
+  <bb 6> [local count: 1073741824]:
+  # status_5 = PHI <1(4), status_9(5), 1(3)>
+  # DEBUG status => status_5
+  # DEBUG BEGIN_STMT
+  return status_5;
+
+}
+
+

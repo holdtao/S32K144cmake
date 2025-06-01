@@ -1,0 +1,356 @@
+Wdg_Ipw_Service (Wdg_Ipw_InstanceType Wdg_Instance)
+{
+  <unnamed type> _1;
+  unsigned char _2;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = aeWdg_Ipw_Ip[Wdg_Instance_5(D)];
+  switch (_1) <default: <L4> [INV], case 0: <L0> [INV], case 1: <L1> [INV]>
+
+  <bb 3> :
+<L0>:
+  # DEBUG BEGIN_STMT
+  _2 = (unsigned char) Wdg_Instance_5(D);
+  Wdog_Ip_Service (_2);
+  # DEBUG BEGIN_STMT
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+<L1>:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  Ewm_Ip_Service (0);
+  # DEBUG BEGIN_STMT
+
+  <bb 5> :
+<L4>:
+  return;
+
+}
+
+
+Wdg_Ipw_StopTimer (Wdg_Ipw_InstanceType Wdg_Instance)
+{
+  Wdog_Ip_StatusType retIp;
+  Std_ReturnType ret;
+  <unnamed type> _1;
+  unsigned char _2;
+  unsigned char _3;
+  Std_ReturnType _17;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  ret_7 = 0;
+  # DEBUG ret => ret_7
+  # DEBUG BEGIN_STMT
+  retIp_8 = 0;
+  # DEBUG retIp => retIp_8
+  # DEBUG BEGIN_STMT
+  _1 = aeWdg_Ipw_Ip[Wdg_Instance_10(D)];
+  switch (_1) <default: <L6> [INV], case 0: <L0> [INV], case 1: <L5> [INV]>
+
+  <bb 3> :
+<L0>:
+  # DEBUG BEGIN_STMT
+  _2 = (unsigned char) Wdg_Instance_10(D);
+  retIp_13 = Wdog_Ip_StopTimer (_2);
+  # DEBUG retIp => retIp_13
+  # DEBUG BEGIN_STMT
+  if (retIp_13 != 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 9>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  if (retIp_13 == 2)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  _3 = (unsigned char) Wdg_Instance_10(D);
+  Det_ReportRuntimeError (102, _3, 1, 19);
+
+  <bb 6> :
+  # DEBUG BEGIN_STMT
+  ret_15 = 1;
+  # DEBUG ret => ret_15
+  goto <bb 9>; [INV]
+
+  <bb 7> :
+<L5>:
+  # DEBUG BEGIN_STMT
+  ret_11 = 1;
+  # DEBUG ret => ret_11
+  # DEBUG BEGIN_STMT
+  goto <bb 9>; [INV]
+
+  <bb 8> :
+<L6>:
+  # DEBUG BEGIN_STMT
+  ret_16 = 1;
+  # DEBUG ret => ret_16
+  # DEBUG BEGIN_STMT
+
+  <bb 9> :
+  # ret_4 = PHI <ret_15(6), ret_11(7), ret_16(8), ret_7(3)>
+  # DEBUG ret => ret_4
+  # DEBUG BEGIN_STMT
+  _17 = ret_4;
+  return _17;
+
+}
+
+
+Wdg_Ipw_StartTimer (Wdg_Ipw_InstanceType Wdg_Instance)
+{
+  Wdog_Ip_StatusType retIp;
+  Std_ReturnType ret;
+  <unnamed type> _1;
+  unsigned char _2;
+  unsigned char _3;
+  Std_ReturnType _17;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  ret_7 = 0;
+  # DEBUG ret => ret_7
+  # DEBUG BEGIN_STMT
+  retIp_8 = 0;
+  # DEBUG retIp => retIp_8
+  # DEBUG BEGIN_STMT
+  _1 = aeWdg_Ipw_Ip[Wdg_Instance_10(D)];
+  switch (_1) <default: <L6> [INV], case 0: <L0> [INV], case 1: <L5> [INV]>
+
+  <bb 3> :
+<L0>:
+  # DEBUG BEGIN_STMT
+  _2 = (unsigned char) Wdg_Instance_10(D);
+  retIp_13 = Wdog_Ip_StartTimer (_2);
+  # DEBUG retIp => retIp_13
+  # DEBUG BEGIN_STMT
+  if (retIp_13 != 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 9>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  if (retIp_13 == 2)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  _3 = (unsigned char) Wdg_Instance_10(D);
+  Det_ReportRuntimeError (102, _3, 1, 19);
+
+  <bb 6> :
+  # DEBUG BEGIN_STMT
+  ret_15 = 1;
+  # DEBUG ret => ret_15
+  goto <bb 9>; [INV]
+
+  <bb 7> :
+<L5>:
+  # DEBUG BEGIN_STMT
+  ret_11 = 1;
+  # DEBUG ret => ret_11
+  # DEBUG BEGIN_STMT
+  goto <bb 9>; [INV]
+
+  <bb 8> :
+<L6>:
+  # DEBUG BEGIN_STMT
+  ret_16 = 1;
+  # DEBUG ret => ret_16
+  # DEBUG BEGIN_STMT
+
+  <bb 9> :
+  # ret_4 = PHI <ret_15(6), ret_11(7), ret_16(8), ret_7(3)>
+  # DEBUG ret => ret_4
+  # DEBUG BEGIN_STMT
+  _17 = ret_4;
+  return _17;
+
+}
+
+
+Wdg_Ipw_SetMode (Wdg_Ipw_InstanceType Wdg_Instance, const struct Wdg_Ipw_ConfigType * const pIpwConfig)
+{
+  Wdog_Ip_StatusType retIp;
+  Std_ReturnType ret;
+  <unnamed type> _1;
+  <unnamed type> _2;
+  unsigned char _3;
+  const struct Wdog_Ip_ConfigType * _4;
+  unsigned char _5;
+  Std_ReturnType _21;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  ret_9 = 0;
+  # DEBUG ret => ret_9
+  # DEBUG BEGIN_STMT
+  retIp_10 = 0;
+  # DEBUG retIp => retIp_10
+  # DEBUG BEGIN_STMT
+  _1 = pIpwConfig_12(D)->eWdgIp;
+  aeWdg_Ipw_Ip[Wdg_Instance_13(D)] = _1;
+  # DEBUG BEGIN_STMT
+  _2 = aeWdg_Ipw_Ip[Wdg_Instance_13(D)];
+  switch (_2) <default: <L6> [INV], case 0: <L0> [INV], case 1: <L5> [INV]>
+
+  <bb 3> :
+<L0>:
+  # DEBUG BEGIN_STMT
+  _3 = (unsigned char) Wdg_Instance_13(D);
+  _4 = pIpwConfig_12(D)->pWdogConfig;
+  retIp_17 = Wdog_Ip_Config (_3, _4);
+  # DEBUG retIp => retIp_17
+  # DEBUG BEGIN_STMT
+  if (retIp_17 != 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 9>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  if (retIp_17 == 2)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  _5 = (unsigned char) Wdg_Instance_13(D);
+  Det_ReportRuntimeError (102, _5, 1, 19);
+
+  <bb 6> :
+  # DEBUG BEGIN_STMT
+  ret_19 = 1;
+  # DEBUG ret => ret_19
+  goto <bb 9>; [INV]
+
+  <bb 7> :
+<L5>:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  ret_15 = 1;
+  # DEBUG ret => ret_15
+  # DEBUG BEGIN_STMT
+  goto <bb 9>; [INV]
+
+  <bb 8> :
+<L6>:
+  # DEBUG BEGIN_STMT
+  ret_20 = 1;
+  # DEBUG ret => ret_20
+  # DEBUG BEGIN_STMT
+
+  <bb 9> :
+  # ret_6 = PHI <ret_19(6), ret_15(7), ret_20(8), ret_9(3)>
+  # DEBUG ret => ret_6
+  # DEBUG BEGIN_STMT
+  _21 = ret_6;
+  return _21;
+
+}
+
+
+Wdg_Ipw_Init (Wdg_Ipw_InstanceType Wdg_Instance, const struct Wdg_Ipw_ConfigType * const pIpwConfig)
+{
+  Wdog_Ip_StatusType retIp;
+  Std_ReturnType ret;
+  <unnamed type> _1;
+  <unnamed type> _2;
+  unsigned char _3;
+  const struct Wdog_Ip_ConfigType * _4;
+  unsigned char _5;
+  const struct Ewm_Ip_ConfigType * _6;
+  <unnamed type> _7;
+  Std_ReturnType _24;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  ret_11 = 0;
+  # DEBUG ret => ret_11
+  # DEBUG BEGIN_STMT
+  retIp_12 = 0;
+  # DEBUG retIp => retIp_12
+  # DEBUG BEGIN_STMT
+  _1 = pIpwConfig_14(D)->eWdgIp;
+  aeWdg_Ipw_Ip[Wdg_Instance_15(D)] = _1;
+  # DEBUG BEGIN_STMT
+  _2 = pIpwConfig_14(D)->eWdgIp;
+  switch (_2) <default: <L8> [INV], case 0: <L0> [INV], case 1: <L5> [INV]>
+
+  <bb 3> :
+<L0>:
+  # DEBUG BEGIN_STMT
+  _3 = (unsigned char) Wdg_Instance_15(D);
+  _4 = pIpwConfig_14(D)->pWdogConfig;
+  retIp_20 = Wdog_Ip_Init (_3, _4);
+  # DEBUG retIp => retIp_20
+  # DEBUG BEGIN_STMT
+  if (retIp_20 != 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 10>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  if (retIp_20 == 2)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  _5 = (unsigned char) Wdg_Instance_15(D);
+  Det_ReportRuntimeError (102, _5, 0, 19);
+
+  <bb 6> :
+  # DEBUG BEGIN_STMT
+  ret_22 = 1;
+  # DEBUG ret => ret_22
+  goto <bb 10>; [INV]
+
+  <bb 7> :
+<L5>:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  _6 = pIpwConfig_14(D)->pEwmConfig;
+  _7 = Ewm_Ip_Init (0, _6);
+  if (_7 != 0)
+    goto <bb 8>; [INV]
+  else
+    goto <bb 10>; [INV]
+
+  <bb 8> :
+  # DEBUG BEGIN_STMT
+  ret_18 = 1;
+  # DEBUG ret => ret_18
+  goto <bb 10>; [INV]
+
+  <bb 9> :
+<L8>:
+  # DEBUG BEGIN_STMT
+  ret_23 = 1;
+  # DEBUG ret => ret_23
+  # DEBUG BEGIN_STMT
+
+  <bb 10> :
+  # ret_8 = PHI <ret_22(6), ret_18(8), ret_23(9), ret_11(3), ret_11(7)>
+  # DEBUG ret => ret_8
+  # DEBUG BEGIN_STMT
+  _24 = ret_8;
+  return _24;
+
+}
+
+

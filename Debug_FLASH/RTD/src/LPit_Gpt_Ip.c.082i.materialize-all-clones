@@ -1,0 +1,710 @@
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1
+
+Symbols to be put in SSA form
+{ D.6094 }
+Incremental SSA update started at block: 0
+Number of blocks in CFG: 5
+Number of blocks to update: 4 ( 80%)
+
+
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1
+
+Symbols to be put in SSA form
+{ D.6099 }
+Incremental SSA update started at block: 0
+Number of blocks in CFG: 9
+Number of blocks to update: 8 ( 89%)
+
+
+Lpit_Gpt_Ip_SetMode.isra.0.constprop (uint8 channel)
+{
+  uint32 mode;
+  int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+  long unsigned int _6;
+  long unsigned int _7;
+
+  <bb 4> [local count: 1073741824]:
+  # DEBUG mode => 0
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG instance s=> instance
+
+  <bb 3> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_52 ();
+  # DEBUG BEGIN_STMT
+  _2 = (int) channel_1(D);
+  _3 ={v} MEM[(struct LPIT_Type *)1073967104B].TMR[_2].TCTRL;
+  _4 = _3 & 4294967283;
+  _5 = 0;
+  _6 = _5 & 12;
+  _7 = _4 | _6;
+  MEM[(struct LPIT_Type *)1073967104B].TMR[_2].TCTRL ={v} _7;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_52 ();
+  return;
+
+}
+
+
+Lpit_Gpt_Ip_ProcessCommonInterrupt.constprop ()
+{
+  uint32 flag;
+  uint32 returnValue;
+  uint8 instance;
+  uint8 channel;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+  int _7;
+  int _8;
+  _Bool _9;
+  void (*<T496>) (uint8) _10;
+  unsigned char _11;
+
+  <bb 8> [local count: 1073741824]:
+  # DEBUG channel => 0
+  # DEBUG instance => 0
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  flag_1 = Lpit_Gpt_Ip_GetInterruptFlagTimerChannels (0, 0);
+  # DEBUG flag => flag_1
+  # DEBUG BEGIN_STMT
+  # DEBUG instance => 0
+  # DEBUG channel => 0
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_GetTimerInterruptEnable
+  # DEBUG BEGIN_STMT
+  # DEBUG returnValue => 0
+  # DEBUG BEGIN_STMT
+  _2 ={v} MEM[(struct LPIT_Type *)1073967104B].MIER;
+  _3 = 0;
+  _4 = 1 << _3;
+  _5 = _2 & _4;
+  returnValue_6 = _5 >> _3;
+  # DEBUG returnValue => returnValue_6
+  # DEBUG BEGIN_STMT
+  # DEBUG instance => NULL
+  # DEBUG channel => NULL
+  # DEBUG returnValue => NULL
+  # DEBUG interruptEnabled => returnValue_6
+  # DEBUG BEGIN_STMT
+  if (flag_1 == 1)
+    goto <bb 3>; [34.00%]
+  else
+    goto <bb 7>; [66.00%]
+
+  <bb 3> [local count: 365072220]:
+  if (returnValue_6 == 1)
+    goto <bb 4>; [34.00%]
+  else
+    goto <bb 7>; [66.00%]
+
+  <bb 4> [local count: 124124555]:
+  # DEBUG BEGIN_STMT
+  _7 = 0;
+  _8 = 0;
+  _9 = Lpit_Gpt_Ip_u32ChState[_7][_8].chInit;
+  if (_9 != 0)
+    goto <bb 5>; [50.00%]
+  else
+    goto <bb 7>; [50.00%]
+
+  <bb 5> [local count: 62062277]:
+  _10 = Lpit_Gpt_Ip_u32ChState[_7][_8].callback;
+  if (_10 != 0B)
+    goto <bb 6>; [70.00%]
+  else
+    goto <bb 7>; [30.00%]
+
+  <bb 6> [local count: 43443594]:
+  # DEBUG BEGIN_STMT
+  _11 = Lpit_Gpt_Ip_u32ChState[_7][_8].callbackParam;
+  _10 (_11);
+
+  <bb 7> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG D#2 => 0
+  # DEBUG channel => 0
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_ClearInterruptFlagTimerChannels
+  # DEBUG instance => D#2
+  # DEBUG BEGIN_STMT
+  MEM[(struct LPIT_Type *)1073967104B].MSR ={v} _4;
+  # DEBUG channel => NULL
+  return;
+
+}
+
+
+Lpit_Gpt_Ip_InterruptTimerChannels.isra.0 (uint8 channel, boolean enable)
+{
+  long unsigned int _2;
+  long unsigned int _4;
+  long unsigned int _5;
+  long unsigned int _6;
+  long unsigned int _7;
+  long unsigned int _8;
+  long unsigned int _9;
+  long unsigned int _10;
+  long unsigned int _11;
+
+  <bb 6> [local count: 1073741824]:
+  # DEBUG instance s=> instance
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_55 ();
+  # DEBUG BEGIN_STMT
+  if (enable_1(D) != 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 4>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  _2 ={v} MEM[(struct LPIT_Type *)1073967104B].MIER;
+  _4 = (long unsigned int) channel_3(D);
+  _5 = 1 << _4;
+  _6 = _2 | _5;
+  MEM[(struct LPIT_Type *)1073967104B].MIER ={v} _6;
+  goto <bb 5>; [100.00%]
+
+  <bb 4> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  _7 ={v} MEM[(struct LPIT_Type *)1073967104B].MIER;
+  _8 = (long unsigned int) channel_3(D);
+  _9 = 1 << _8;
+  _10 = ~_9;
+  _11 = _7 & _10;
+  MEM[(struct LPIT_Type *)1073967104B].MIER ={v} _11;
+
+  <bb 5> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_55 ();
+  return;
+
+}
+
+
+Lpit_Gpt_Ip_TimerEnable.isra.0 (uint8 channel, boolean enable)
+{
+  int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+  int _6;
+  long unsigned int _7;
+  long unsigned int _8;
+
+  <bb 6> [local count: 1073741824]:
+  # DEBUG instance s=> instance
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_51 ();
+  # DEBUG BEGIN_STMT
+  if (enable_1(D) != 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 4>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  _3 = (int) channel_2(D);
+  _4 ={v} MEM[(struct LPIT_Type *)1073967104B].TMR[_3].TCTRL;
+  _5 = _4 | 1;
+  MEM[(struct LPIT_Type *)1073967104B].TMR[_3].TCTRL ={v} _5;
+  goto <bb 5>; [100.00%]
+
+  <bb 4> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  _6 = (int) channel_2(D);
+  _7 ={v} MEM[(struct LPIT_Type *)1073967104B].TMR[_6].TCTRL;
+  _8 = _7 & 4294967294;
+  MEM[(struct LPIT_Type *)1073967104B].TMR[_6].TCTRL ={v} _8;
+
+  <bb 5> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_51 ();
+  return;
+
+}
+
+
+Lpit_Gpt_Ip_SetDozeMode.isra.0 (boolean running)
+{
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 6> [local count: 1073741824]:
+  # DEBUG instance s=> instance
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_54 ();
+  # DEBUG BEGIN_STMT
+  if (running_1(D) != 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 4>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  _2 ={v} MEM[(struct LPIT_Type *)1073967104B].MCR;
+  _3 = _2 | 4;
+  MEM[(struct LPIT_Type *)1073967104B].MCR ={v} _3;
+  goto <bb 5>; [100.00%]
+
+  <bb 4> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  _4 ={v} MEM[(struct LPIT_Type *)1073967104B].MCR;
+  _5 = _4 & 4294967291;
+  MEM[(struct LPIT_Type *)1073967104B].MCR ={v} _5;
+
+  <bb 5> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_54 ();
+  return;
+
+}
+
+
+Lpit_Gpt_Ip_SetDebugMode.isra.0 (boolean stopRun)
+{
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 6> [local count: 1073741824]:
+  # DEBUG instance s=> instance
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_53 ();
+  # DEBUG BEGIN_STMT
+  if (stopRun_1(D) != 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 4>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  _2 ={v} MEM[(struct LPIT_Type *)1073967104B].MCR;
+  _3 = _2 | 8;
+  MEM[(struct LPIT_Type *)1073967104B].MCR ={v} _3;
+  goto <bb 5>; [100.00%]
+
+  <bb 4> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  _4 ={v} MEM[(struct LPIT_Type *)1073967104B].MCR;
+  _5 = _4 & 4294967287;
+  MEM[(struct LPIT_Type *)1073967104B].MCR ={v} _5;
+
+  <bb 5> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_53 ();
+  return;
+
+}
+
+
+Lpit_Gpt_Ip_EnableMdlClk.isra.0 (boolean enable)
+{
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 6> [local count: 1073741824]:
+  # DEBUG instance s=> instance
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_50 ();
+  # DEBUG BEGIN_STMT
+  if (enable_1(D) != 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 4>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  _2 ={v} MEM[(struct LPIT_Type *)1073967104B].MCR;
+  _3 = _2 | 1;
+  MEM[(struct LPIT_Type *)1073967104B].MCR ={v} _3;
+  goto <bb 5>; [100.00%]
+
+  <bb 4> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  _4 ={v} MEM[(struct LPIT_Type *)1073967104B].MCR;
+  _5 = _4 & 4294967294;
+  MEM[(struct LPIT_Type *)1073967104B].MCR ={v} _5;
+
+  <bb 5> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_50 ();
+  return;
+
+}
+
+
+LPIT_0_CH_0_ISR ()
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  Lpit_Gpt_Ip_ProcessCommonInterrupt (0, 0);
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" DSB");
+  return;
+
+}
+
+
+Lpit_Gpt_Ip_DisableChInterrupt (uint8 instance, uint8 channel)
+{
+  long unsigned int _5;
+  long unsigned int _6;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG D#2 => instance_2(D)
+  # DEBUG channel => channel_3(D)
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_ClearInterruptFlagTimerChannels
+  # DEBUG instance => D#2
+  # DEBUG BEGIN_STMT
+  _5 = (long unsigned int) channel_3(D);
+  _6 = 1 << _5;
+  MEM[(struct LPIT_Type *)1073967104B].MSR ={v} _6;
+  # DEBUG channel => NULL
+  # DEBUG BEGIN_STMT
+  # DEBUG D#8 => instance_2(D)
+  Lpit_Gpt_Ip_InterruptTimerChannels.isra.0 (channel_3(D), 0);
+  return;
+
+}
+
+
+Lpit_Gpt_Ip_EnableChInterrupt (uint8 instance, uint8 channel)
+{
+  long unsigned int _5;
+  long unsigned int _6;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG D#2 => instance_2(D)
+  # DEBUG channel => channel_3(D)
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_ClearInterruptFlagTimerChannels
+  # DEBUG instance => D#2
+  # DEBUG BEGIN_STMT
+  _5 = (long unsigned int) channel_3(D);
+  _6 = 1 << _5;
+  MEM[(struct LPIT_Type *)1073967104B].MSR ={v} _6;
+  # DEBUG channel => NULL
+  # DEBUG BEGIN_STMT
+  # DEBUG D#8 => instance_2(D)
+  Lpit_Gpt_Ip_InterruptTimerChannels.isra.0 (channel_3(D), 1);
+  return;
+
+}
+
+
+Lpit_Gpt_Ip_StopTimer (uint8 instance, uint8 channel)
+{
+  long unsigned int _5;
+  long unsigned int _6;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG D#6 => instance_2(D)
+  Lpit_Gpt_Ip_TimerEnable.isra.0 (channel_3(D), 0);
+  # DEBUG BEGIN_STMT
+  # DEBUG D#2 => instance_2(D)
+  # DEBUG channel => channel_3(D)
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_ClearInterruptFlagTimerChannels
+  # DEBUG instance => D#2
+  # DEBUG BEGIN_STMT
+  _5 = (long unsigned int) channel_3(D);
+  _6 = 1 << _5;
+  MEM[(struct LPIT_Type *)1073967104B].MSR ={v} _6;
+  # DEBUG channel => NULL
+  return;
+
+}
+
+
+Lpit_Gpt_Ip_StartTimer (uint8 instance, uint8 channel, uint32 countValue)
+{
+  int _7;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG D#6 => instance_2(D)
+  Lpit_Gpt_Ip_TimerEnable.isra.0 (channel_3(D), 0);
+  # DEBUG BEGIN_STMT
+  # DEBUG D#1 => instance_2(D)
+  # DEBUG channel => channel_3(D)
+  # DEBUG value => countValue_5(D)
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_SetCmpValue
+  # DEBUG instance => D#1
+  # DEBUG BEGIN_STMT
+  _7 = (int) channel_3(D);
+  MEM[(struct LPIT_Type *)1073967104B].TMR[_7].TVAL ={v} countValue_5(D);
+  # DEBUG channel => NULL
+  # DEBUG value => NULL
+  # DEBUG BEGIN_STMT
+  # DEBUG D#6 => instance_2(D)
+  Lpit_Gpt_Ip_TimerEnable.isra.0 (channel_3(D), 1);
+  return;
+
+}
+
+
+Lpit_Gpt_Ip_Deinit (uint8 instance)
+{
+  uint8 channelIndex;
+  long unsigned int _13;
+  long unsigned int _14;
+
+  <bb 2> [local count: 214748364]:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  # DEBUG D#3 => instance_4(D)
+  Lpit_Gpt_Ip_EnableMdlClk.isra.0 (1);
+  # DEBUG BEGIN_STMT
+  # DEBUG channelIndex => 0
+  goto <bb 4>; [100.00%]
+
+  <bb 3> [local count: 858993459]:
+  # DEBUG BEGIN_STMT
+  # DEBUG D#6 => instance_4(D)
+  Lpit_Gpt_Ip_TimerEnable.isra.0 (channelIndex_1, 0);
+  # DEBUG BEGIN_STMT
+  # DEBUG D#7 => instance_4(D)
+  Lpit_Gpt_Ip_SetMode.isra.0 (channelIndex_1, 0);
+  # DEBUG BEGIN_STMT
+  # DEBUG D#8 => instance_4(D)
+  Lpit_Gpt_Ip_InterruptTimerChannels.isra.0 (channelIndex_1, 0);
+  # DEBUG BEGIN_STMT
+  # DEBUG D#2 => instance_4(D)
+  # DEBUG channel => channelIndex_1
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_ClearInterruptFlagTimerChannels
+  # DEBUG instance => D#2
+  # DEBUG BEGIN_STMT
+  _13 = (long unsigned int) channelIndex_1;
+  _14 = 1 << _13;
+  MEM[(struct LPIT_Type *)1073967104B].MSR ={v} _14;
+  # DEBUG channel => NULL
+  # DEBUG BEGIN_STMT
+  channelIndex_12 = channelIndex_1 + 1;
+  # DEBUG channelIndex => channelIndex_12
+
+  <bb 4> [local count: 1073741824]:
+  # channelIndex_1 = PHI <0(2), channelIndex_12(3)>
+  # DEBUG channelIndex => channelIndex_1
+  # DEBUG BEGIN_STMT
+  if (channelIndex_1 != 4)
+    goto <bb 3>; [80.00%]
+  else
+    goto <bb 5>; [20.00%]
+
+  <bb 5> [local count: 214748365]:
+  # DEBUG BEGIN_STMT
+  # DEBUG D#4 => instance_4(D)
+  Lpit_Gpt_Ip_SetDebugMode.isra.0 (0);
+  # DEBUG BEGIN_STMT
+  # DEBUG D#5 => instance_4(D)
+  Lpit_Gpt_Ip_SetDozeMode.isra.0 (0);
+  # DEBUG BEGIN_STMT
+  # DEBUG D#3 => instance_4(D)
+  Lpit_Gpt_Ip_EnableMdlClk.isra.0 (0);
+  return;
+
+}
+
+
+Lpit_Gpt_Ip_InitChannel (uint8 instance, const struct Lpit_Gpt_Ip_ChannelConfigType * configChannel)
+{
+  unsigned char _1;
+  unsigned char _2;
+  unsigned char _3;
+  unsigned char _4;
+  int _5;
+  int _6;
+  void (*<T496>) (uint8) _7;
+  unsigned char _8;
+  long unsigned int _19;
+  long unsigned int _20;
+  int _21;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG D#3 => instance_10(D)
+  Lpit_Gpt_Ip_EnableMdlClk.isra.0 (1);
+  # DEBUG BEGIN_STMT
+  _1 = configChannel_12(D)->hwChannel;
+  # DEBUG D#6 => instance_10(D)
+  Lpit_Gpt_Ip_TimerEnable.isra.0 (_1, 0);
+  # DEBUG BEGIN_STMT
+  _2 = configChannel_12(D)->hwChannel;
+  # DEBUG D#7 => instance_10(D)
+  Lpit_Gpt_Ip_SetMode.isra.0 (_2, 0);
+  # DEBUG BEGIN_STMT
+  _3 = configChannel_12(D)->hwChannel;
+  # DEBUG D#1 => instance_10(D)
+  # DEBUG channel => _3
+  # DEBUG value => 4294967295
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_SetCmpValue
+  # DEBUG instance => D#1
+  # DEBUG BEGIN_STMT
+  _21 = (int) _3;
+  MEM[(struct LPIT_Type *)1073967104B].TMR[_21].TVAL ={v} 4294967295;
+  # DEBUG channel => NULL
+  # DEBUG value => NULL
+  # DEBUG BEGIN_STMT
+  # DEBUG D#8 => instance_10(D)
+  Lpit_Gpt_Ip_InterruptTimerChannels.isra.0 (_3, 0);
+  # DEBUG BEGIN_STMT
+  _4 = configChannel_12(D)->hwChannel;
+  # DEBUG D#2 => instance_10(D)
+  # DEBUG channel => _4
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_ClearInterruptFlagTimerChannels
+  # DEBUG instance => D#2
+  # DEBUG BEGIN_STMT
+  _19 = (long unsigned int) _4;
+  _20 = 1 << _19;
+  MEM[(struct LPIT_Type *)1073967104B].MSR ={v} _20;
+  # DEBUG channel => NULL
+  # DEBUG BEGIN_STMT
+  _5 = (int) instance_10(D);
+  _6 = (int) _4;
+  Lpit_Gpt_Ip_u32ChState[_5][_6].chInit = 1;
+  # DEBUG BEGIN_STMT
+  _7 = configChannel_12(D)->callback;
+  Lpit_Gpt_Ip_u32ChState[_5][_6].callback = _7;
+  # DEBUG BEGIN_STMT
+  _8 = configChannel_12(D)->callbackParam;
+  Lpit_Gpt_Ip_u32ChState[_5][_6].callbackParam = _8;
+  return;
+
+}
+
+
+Lpit_Gpt_Ip_Init (uint8 instance, const struct Lpit_Gpt_Ip_InstanceConfigType * config)
+{
+  _Bool _1;
+  _Bool _2;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG D#3 => instance_4(D)
+  Lpit_Gpt_Ip_EnableMdlClk.isra.0 (1);
+  # DEBUG BEGIN_STMT
+  _1 = config_6(D)->stopRunInDebug;
+  # DEBUG D#4 => instance_4(D)
+  Lpit_Gpt_Ip_SetDebugMode.isra.0 (_1);
+  # DEBUG BEGIN_STMT
+  _2 = config_6(D)->runInDozeMode;
+  # DEBUG D#5 => instance_4(D)
+  Lpit_Gpt_Ip_SetDozeMode.isra.0 (_2);
+  return;
+
+}
+
+
+Lpit_Gpt_Ip_GetTimerValue (uint8 instance, uint8 channel)
+{
+  int _1;
+  uint32 _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _1 = (int) channel_3(D);
+  _5 ={v} MEM[(struct LPIT_Type *)1073967104B].TMR[_1].TVAL;
+  return _5;
+
+}
+
+
+Lpit_Gpt_Ip_GetCurrentTimervalue (uint8 instance, uint8 channel)
+{
+  int _1;
+  uint32 _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _1 = (int) channel_3(D);
+  _5 ={v} MEM[(struct LPIT_Type *)1073967104B].TMR[_1].CVAL;
+  return _5;
+
+}
+
+
+Lpit_Gpt_Ip_GetTimerInterruptEnable (uint8 instance, uint8 channel)
+{
+  uint32 returnValue;
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG returnValue => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} MEM[(struct LPIT_Type *)1073967104B].MIER;
+  _2 = (long unsigned int) channel_7(D);
+  _3 = 1 << _2;
+  _4 = _1 & _3;
+  returnValue_8 = _4 >> _2;
+  # DEBUG returnValue => returnValue_8
+  # DEBUG BEGIN_STMT
+  return returnValue_8;
+
+}
+
+
+Lpit_Gpt_Ip_GetInterruptFlagTimerChannels (uint8 instance, uint8 channel)
+{
+  volatile uint32 returnValue;
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+  uint32 _11;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  returnValue ={v} 0;
+  # DEBUG BEGIN_STMT
+  _1 ={v} MEM[(struct LPIT_Type *)1073967104B].MSR;
+  _2 = (long unsigned int) channel_9(D);
+  _3 = 1 << _2;
+  _4 = _1 & _3;
+  _5 = _4 >> _2;
+  returnValue ={v} _5;
+  # DEBUG BEGIN_STMT
+  _11 ={v} returnValue;
+  return _11;
+
+}
+
+

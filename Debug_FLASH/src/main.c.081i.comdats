@@ -1,0 +1,165 @@
+main ()
+{
+  volatile boolean x;
+  int index;
+  unsigned char notificationCount.2_1;
+  unsigned char notificationCount.3_2;
+  _Bool _3;
+  _Bool x.4_31;
+
+  <bb 2> [local count: 214748]:
+  # DEBUG BEGIN_STMT
+  Mcu_Init (0B);
+  # DEBUG BEGIN_STMT
+  Mcu_InitClock (0);
+  # DEBUG BEGIN_STMT
+  Mcu_SetMode (0);
+  # DEBUG BEGIN_STMT
+  Platform_Init (0B);
+  # DEBUG BEGIN_STMT
+  Platform_SetIrq (48, 1);
+  # DEBUG BEGIN_STMT
+  Platform_InstallIrqHandler (48, LPIT_0_CH_0_ISR, 0B);
+  # DEBUG BEGIN_STMT
+  Platform_SetIrq (99, 1);
+  # DEBUG BEGIN_STMT
+  Platform_InstallIrqHandler (99, FTM_0_CH_0_CH_1_ISR, 0B);
+  # DEBUG BEGIN_STMT
+  Platform_SetIrq (22, 1);
+  # DEBUG BEGIN_STMT
+  Platform_InstallIrqHandler (22, Wdg_Ipw_Isr, 0B);
+  # DEBUG BEGIN_STMT
+  Gpt_Init (&Gpt_Config_VS_0);
+  # DEBUG BEGIN_STMT
+  Gpt_EnableNotification (0);
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance0_Init (&Wdg_Config_0_VS_0);
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance0_SetTriggerCondition (64768);
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance0_SetMode (2);
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance0_SetTriggerCondition (64768);
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  # DEBUG index => 0
+  goto <bb 4>; [100.00%]
+
+  <bb 3> [local count: 2147716]:
+  # DEBUG BEGIN_STMT
+  delay (50000);
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance0_SetTriggerCondition (64768);
+  # DEBUG BEGIN_STMT
+  index_30 = index_4 + 1;
+  # DEBUG index => index_30
+
+  <bb 4> [local count: 2362464]:
+  # index_4 = PHI <0(2), index_30(3)>
+  # DEBUG index => index_4
+  # DEBUG BEGIN_STMT
+  if (index_4 != 10)
+    goto <bb 3>; [90.91%]
+  else
+    goto <bb 5>; [9.09%]
+
+  <bb 5> [local count: 214748]:
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance0_SetMode (0);
+  # DEBUG BEGIN_STMT
+  delay (5000000);
+  # DEBUG BEGIN_STMT
+  Gpt_EnableNotification (1);
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance1_Init (&Wdg_Config_1_VS_0);
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance1_SetTriggerCondition (64768);
+  # DEBUG BEGIN_STMT
+
+  <bb 6> [local count: 1952255]:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  notificationCount.2_1 ={v} notificationCount;
+  if (notificationCount.2_1 == 0)
+    goto <bb 12>; [89.00%]
+  else
+    goto <bb 7>; [11.00%]
+
+  <bb 12> [local count: 1737507]:
+  goto <bb 6>; [100.00%]
+
+  <bb 7> [local count: 214748]:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  notificationCount.3_2 ={v} notificationCount;
+  _3 = notificationCount.3_2 == 1;
+  x ={v} _3;
+  # DEBUG x => x
+  # DEBUG INLINE_ENTRY DevAssert
+  # DEBUG BEGIN_STMT
+  x.4_31 ={v} x;
+  if (x.4_31 != 0)
+    goto <bb 9>; [50.00%]
+  else
+    goto <bb 10>; [50.00%]
+
+  <bb 10> [local count: 107374]:
+
+  <bb 8> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+
+  <bb 11> [local count: 1073741824]:
+  goto <bb 8>; [100.00%]
+
+  <bb 9> [local count: 107374]:
+  # DEBUG BEGIN_STMT
+  # DEBUG x => NULL
+  # DEBUG BEGIN_STMT
+  return 0;
+
+}
+
+
+Wdg_CallBackNotification1 ()
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  notificationCount ={v} 1;
+  return;
+
+}
+
+
+delay (uint32 timeout)
+{
+  volatile uint32 i;
+  long unsigned int i.0_1;
+  long unsigned int _2;
+
+  <bb 2> [local count: 118111600]:
+  # DEBUG BEGIN_STMT
+  i ={v} timeout_5(D);
+  # DEBUG BEGIN_STMT
+
+  <bb 3> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  i.0_1 ={v} i;
+  _2 = i.0_1 + 4294967295;
+  i ={v} _2;
+  if (i.0_1 != 0)
+    goto <bb 5>; [89.00%]
+  else
+    goto <bb 4>; [11.00%]
+
+  <bb 5> [local count: 955630223]:
+  goto <bb 3>; [100.00%]
+
+  <bb 4> [local count: 118111601]:
+  return;
+
+}
+
+

@@ -1,0 +1,11 @@
+Callgraph clone;Gpt_ValidateChannelStatus;4;../RTD/src/Gpt.c;584;30;Gpt_ValidateChannelStatus.isra.0;27;../RTD/src/Gpt.c;584;30;isra
+Callgraph clone;Gpt_ValidateChannelStatus.isra.0;27;../RTD/src/Gpt.c;584;30;Gpt_ValidateChannelStatus.isra.0.part.0;28;../RTD/src/Gpt.c;584;30;part
+Callgraph removal;Gpt_ValidateChannelStatus;4;../RTD/src/Gpt.c;584;30
+Callgraph clone;Gpt_ConvertChannelIndexToChannel;5;../RTD/src/Gpt.c;1035;31;Gpt_ConvertChannelIndexToChannel.constprop.0;29;../RTD/src/Gpt.c;1035;31;constprop
+Callgraph clone;Gpt_ValidateChannelStatus.isra.0;27;../RTD/src/Gpt.c;584;30;Gpt_DeInit;7;../RTD/src/Gpt.c;1219;6;inlining to
+Callgraph clone;Gpt_ValidateChannelStatus.isra.0.part.0;28;../RTD/src/Gpt.c;584;30;Gpt_DeInit;7;../RTD/src/Gpt.c;1219;6;inlining to
+Callgraph clone;Gpt_ValidateChannelStatus.isra.0;27;../RTD/src/Gpt.c;584;30;Gpt_StartTimer;10;../RTD/src/Gpt.c;1512;6;inlining to
+Callgraph clone;Gpt_ValidateChannelStatus.isra.0.part.0;28;../RTD/src/Gpt.c;584;30;Gpt_StartTimer;10;../RTD/src/Gpt.c;1512;6;inlining to
+Callgraph removal;Gpt_ConvertChannelIndexToChannel;5;../RTD/src/Gpt.c;1035;31
+Callgraph removal;Gpt_ValidateChannelStatus.isra.0;27;../RTD/src/Gpt.c;584;30
+Callgraph removal;Gpt_ValidateChannelStatus.isra.0.part.0;28;../RTD/src/Gpt.c;584;30

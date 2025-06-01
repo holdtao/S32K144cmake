@@ -1,0 +1,951 @@
+callgraph:
+
+Lpit_Gpt_Ip_DisableChInterrupt/28 (Lpit_Gpt_Ip_DisableChInterrupt) @06131380
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_DisableInterrupt/9 (217325345 (estimated locally),0.20 per call) 
+  Calls: 
+Lpit_Gpt_Ip_Deinit/27 (Lpit_Gpt_Ip_Deinit) @061311c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_DeInit/8 (357878150 (estimated locally),0.33 per call) 
+  Calls: 
+Ftm_Gpt_Ip_Deinit/26 (Ftm_Gpt_Ip_Deinit) @061310e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_DeInit/8 (357878150 (estimated locally),0.33 per call) 
+  Calls: 
+Lpit_Gpt_Ip_EnableChInterrupt/25 (Lpit_Gpt_Ip_EnableChInterrupt) @0612aee0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_EnableInterrupt/7 (217325345 (estimated locally),0.20 per call) 
+  Calls: 
+Lpit_Gpt_Ip_StopTimer/24 (Lpit_Gpt_Ip_StopTimer) @0612ad20
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_StopTimer/6 (357878150 (estimated locally),0.33 per call) 
+  Calls: 
+Ftm_Gpt_Ip_DisableChannelInterrupt/23 (Ftm_Gpt_Ip_DisableChannelInterrupt) @0612ac40
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_StopTimer/6 (357878150 (estimated locally),0.33 per call) 
+  Calls: 
+Lpit_Gpt_Ip_GetInterruptFlagTimerChannels/22 (Lpit_Gpt_Ip_GetInterruptFlagTimerChannels) @0612aa80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_LpitGetTimeElapsed/1 (357878150 (estimated locally),0.33 per call) 
+  Calls: 
+Lpit_Gpt_Ip_GetCurrentTimervalue/21 (Lpit_Gpt_Ip_GetCurrentTimervalue) @0612a9a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_LpitGetTimeElapsed/1 (357878150 (estimated locally),0.33 per call) 
+  Calls: 
+Lpit_Gpt_Ip_GetTimerValue/20 (Lpit_Gpt_Ip_GetTimerValue) @0612a8c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_LpitGetTimeElapsed/1 (357878150 (estimated locally),0.33 per call) 
+  Calls: 
+Ftm_Gpt_Ip_GetInterruptFlag/19 (Ftm_Gpt_Ip_GetInterruptFlag) @0612a700
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_FtmGetTimeElapsed/0 (357878150 (estimated locally),0.33 per call) 
+  Calls: 
+Ftm_Gpt_Ip_GetCompareValue/18 (Ftm_Gpt_Ip_GetCompareValue) @0612a620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_FtmGetTimeElapsed/0 (357878150 (estimated locally),0.33 per call) 
+  Calls: 
+Ftm_Gpt_Ip_GetCounter/17 (Ftm_Gpt_Ip_GetCounter) @0612a540
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_FtmGetTimeElapsed/0 (357878150 (estimated locally),0.33 per call) 
+  Calls: 
+Lpit_Gpt_Ip_StartTimer/15 (Lpit_Gpt_Ip_StartTimer) @0612a2a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_StartTimer/4 (357878150 (estimated locally),0.33 per call) 
+  Calls: 
+Ftm_Gpt_Ip_StartCounting/14 (Ftm_Gpt_Ip_StartCounting) @0612a1c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_StartTimer/4 (357878150 (estimated locally),0.33 per call) 
+  Calls: 
+Lpit_Gpt_Ip_InitChannel/13 (Lpit_Gpt_Ip_InitChannel) @0612a000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_Init/3 (357878150 (estimated locally),0.33 per call) 
+  Calls: 
+Ftm_Gpt_Ip_InitChannel/12 (Ftm_Gpt_Ip_InitChannel) @060ffa80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_Init/3 (357878150 (estimated locally),0.33 per call) 
+  Calls: 
+Lpit_Gpt_Ip_Init/11 (Lpit_Gpt_Ip_Init) @060ff540
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_InitInstances/2 (318511554 (estimated locally),2.69 per call) 
+  Calls: 
+Ftm_Gpt_Ip_Init/10 (Ftm_Gpt_Ip_Init) @060ff2a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_InitInstances/2 (318511554 (estimated locally),2.69 per call) 
+  Calls: 
+Gpt_Ipw_DisableInterrupt/9 (Gpt_Ipw_DisableInterrupt) @060ffc40
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Lpit_Gpt_Ip_DisableChInterrupt/28 (217325345 (estimated locally),0.20 per call) 
+Gpt_Ipw_DeInit/8 (Gpt_Ipw_DeInit) @060ff9a0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Lpit_Gpt_Ip_Deinit/27 (357878150 (estimated locally),0.33 per call) Ftm_Gpt_Ip_Deinit/26 (357878150 (estimated locally),0.33 per call) 
+Gpt_Ipw_EnableInterrupt/7 (Gpt_Ipw_EnableInterrupt) @060ff700
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Lpit_Gpt_Ip_EnableChInterrupt/25 (217325345 (estimated locally),0.20 per call) 
+Gpt_Ipw_StopTimer/6 (Gpt_Ipw_StopTimer) @060ff460
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Lpit_Gpt_Ip_StopTimer/24 (357878150 (estimated locally),0.33 per call) Ftm_Gpt_Ip_DisableChannelInterrupt/23 (357878150 (estimated locally),0.33 per call) 
+Gpt_Ipw_GetTimeElapsed/5 (Gpt_Ipw_GetTimeElapsed) @060ff1c0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Gpt_Ipw_LpitGetTimeElapsed/1 (inlined) (357878150 (estimated locally),0.33 per call) Gpt_Ipw_FtmGetTimeElapsed/0 (inlined) (357878150 (estimated locally),0.33 per call) 
+Gpt_Ipw_StartTimer/4 (Gpt_Ipw_StartTimer) @060f8ee0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Lpit_Gpt_Ip_StartTimer/15 (357878150 (estimated locally),0.33 per call) Ftm_Gpt_Ip_StartCounting/14 (357878150 (estimated locally),0.33 per call) 
+Gpt_Ipw_Init/3 (Gpt_Ipw_Init) @060f89a0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Lpit_Gpt_Ip_InitChannel/13 (357878150 (estimated locally),0.33 per call) Ftm_Gpt_Ip_InitChannel/12 (357878150 (estimated locally),0.33 per call) 
+Gpt_Ipw_InitInstances/2 (Gpt_Ipw_InitInstances) @060f8e00
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:118207164 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Lpit_Gpt_Ip_Init/11 (318511554 (estimated locally),2.69 per call) Ftm_Gpt_Ip_Init/10 (318511554 (estimated locally),2.69 per call) 
+Gpt_Ipw_LpitGetTimeElapsed/1 (Gpt_Ipw_LpitGetTimeElapsed) @060f8b60
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Function Gpt_Ipw_LpitGetTimeElapsed/1 is inline copy in Gpt_Ipw_GetTimeElapsed/5
+  Availability: local
+  Function flags: count:357878150 (estimated locally) body local optimize_size
+  Called by: Gpt_Ipw_GetTimeElapsed/5 (inlined) (357878150 (estimated locally),0.33 per call) 
+  Calls: Lpit_Gpt_Ip_GetInterruptFlagTimerChannels/22 (357878150 (estimated locally),0.33 per call) Lpit_Gpt_Ip_GetCurrentTimervalue/21 (357878150 (estimated locally),0.33 per call) Lpit_Gpt_Ip_GetTimerValue/20 (357878150 (estimated locally),0.33 per call) 
+Gpt_Ipw_FtmGetTimeElapsed/0 (Gpt_Ipw_FtmGetTimeElapsed) @060f88c0
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly
+  References: Ftm_Gpt_Ip_u32TargetValue/16 (read)
+  Referring: 
+  Function Gpt_Ipw_FtmGetTimeElapsed/0 is inline copy in Gpt_Ipw_GetTimeElapsed/5
+  Availability: local
+  Function flags: count:357878150 (estimated locally) body local optimize_size
+  Called by: Gpt_Ipw_GetTimeElapsed/5 (inlined) (357878150 (estimated locally),0.33 per call) 
+  Calls: Ftm_Gpt_Ip_GetInterruptFlag/19 (357878150 (estimated locally),0.33 per call) Ftm_Gpt_Ip_GetCompareValue/18 (357878150 (estimated locally),0.33 per call) Ftm_Gpt_Ip_GetCounter/17 (357878150 (estimated locally),0.33 per call) 
+Clearing variable flags:
+
+Function name:Gpt_Ipw_DisableInterrupt/9:
+  locals read: 
+  locals written: 
+Function name:Gpt_Ipw_DeInit/8:
+  locals read: 
+  locals written: 
+Function name:Gpt_Ipw_EnableInterrupt/7:
+  locals read: 
+  locals written: 
+Function name:Gpt_Ipw_StopTimer/6:
+  locals read: 
+  locals written: 
+Function name:Gpt_Ipw_GetTimeElapsed/5:
+  locals read: 
+  locals written: 
+Function name:Gpt_Ipw_StartTimer/4:
+  locals read: 
+  locals written: 
+Function name:Gpt_Ipw_Init/3:
+  locals read: 
+  locals written: 
+Function name:Gpt_Ipw_InitInstances/2:
+  locals read: 
+  locals written: 
+Function name:Gpt_Ipw_LpitGetTimeElapsed/1:
+  locals read: 
+  locals written: 
+Function name:Gpt_Ipw_FtmGetTimeElapsed/0:
+  locals read: 
+  locals written: 
+
+ ordered call graph: reduced
+Gpt_Ipw_DisableInterrupt/9 (Gpt_Ipw_DisableInterrupt) @060ffc40
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @061b0220
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Lpit_Gpt_Ip_DisableChInterrupt/28 (217325345 (estimated locally),0.20 per call) 
+Gpt_Ipw_DeInit/8 (Gpt_Ipw_DeInit) @060ff9a0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @061b0300
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Lpit_Gpt_Ip_Deinit/27 (357878150 (estimated locally),0.33 per call) Ftm_Gpt_Ip_Deinit/26 (357878150 (estimated locally),0.33 per call) 
+Gpt_Ipw_EnableInterrupt/7 (Gpt_Ipw_EnableInterrupt) @060ff700
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @061b0400
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Lpit_Gpt_Ip_EnableChInterrupt/25 (217325345 (estimated locally),0.20 per call) 
+Gpt_Ipw_StopTimer/6 (Gpt_Ipw_StopTimer) @060ff460
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @061b0380
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Lpit_Gpt_Ip_StopTimer/24 (357878150 (estimated locally),0.33 per call) Ftm_Gpt_Ip_DisableChannelInterrupt/23 (357878150 (estimated locally),0.33 per call) 
+Gpt_Ipw_GetTimeElapsed/5 (Gpt_Ipw_GetTimeElapsed) @060ff1c0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @061b0240
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Gpt_Ipw_LpitGetTimeElapsed/1 (inlined) (357878150 (estimated locally),0.33 per call) Gpt_Ipw_FtmGetTimeElapsed/0 (inlined) (357878150 (estimated locally),0.33 per call) 
+Gpt_Ipw_StartTimer/4 (Gpt_Ipw_StartTimer) @060f8ee0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @061b0180
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Lpit_Gpt_Ip_StartTimer/15 (357878150 (estimated locally),0.33 per call) Ftm_Gpt_Ip_StartCounting/14 (357878150 (estimated locally),0.33 per call) 
+Gpt_Ipw_Init/3 (Gpt_Ipw_Init) @060f89a0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @061b0120
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Lpit_Gpt_Ip_InitChannel/13 (357878150 (estimated locally),0.33 per call) Ftm_Gpt_Ip_InitChannel/12 (357878150 (estimated locally),0.33 per call) 
+Gpt_Ipw_InitInstances/2 (Gpt_Ipw_InitInstances) @060f8e00
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @061b0320
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:118207164 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Lpit_Gpt_Ip_Init/11 (318511554 (estimated locally),2.69 per call) Ftm_Gpt_Ip_Init/10 (318511554 (estimated locally),2.69 per call) 
+Gpt_Ipw_LpitGetTimeElapsed/1 (Gpt_Ipw_LpitGetTimeElapsed) @060f8b60
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly
+  Aux: @061b03a0
+  References: 
+  Referring: 
+  Function Gpt_Ipw_LpitGetTimeElapsed/1 is inline copy in Gpt_Ipw_GetTimeElapsed/5
+  Availability: local
+  Function flags: count:357878150 (estimated locally) body local optimize_size
+  Called by: Gpt_Ipw_GetTimeElapsed/5 (inlined) (357878150 (estimated locally),0.33 per call) 
+  Calls: Lpit_Gpt_Ip_GetInterruptFlagTimerChannels/22 (357878150 (estimated locally),0.33 per call) Lpit_Gpt_Ip_GetCurrentTimervalue/21 (357878150 (estimated locally),0.33 per call) Lpit_Gpt_Ip_GetTimerValue/20 (357878150 (estimated locally),0.33 per call) 
+Gpt_Ipw_FtmGetTimeElapsed/0 (Gpt_Ipw_FtmGetTimeElapsed) @060f88c0
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly
+  Aux: @061b00a0
+  References: Ftm_Gpt_Ip_u32TargetValue/16 (read)
+  Referring: 
+  Function Gpt_Ipw_FtmGetTimeElapsed/0 is inline copy in Gpt_Ipw_GetTimeElapsed/5
+  Availability: local
+  Function flags: count:357878150 (estimated locally) body local optimize_size
+  Called by: Gpt_Ipw_GetTimeElapsed/5 (inlined) (357878150 (estimated locally),0.33 per call) 
+  Calls: Ftm_Gpt_Ip_GetInterruptFlag/19 (357878150 (estimated locally),0.33 per call) Ftm_Gpt_Ip_GetCompareValue/18 (357878150 (estimated locally),0.33 per call) Ftm_Gpt_Ip_GetCounter/17 (357878150 (estimated locally),0.33 per call) 
+
+
+Function name:Gpt_Ipw_FtmGetTimeElapsed/0:
+    locals read: 
+    locals written: 
+  globals read: ALL
+  globals written: ALL
+
+Function name:Gpt_Ipw_LpitGetTimeElapsed/1:
+    locals read: 
+    locals written: 
+  globals read: ALL
+  globals written: ALL
+
+Function name:Gpt_Ipw_InitInstances/2:
+    locals read: 
+    locals written: 
+  globals read: ALL
+  globals written: ALL
+
+Function name:Gpt_Ipw_Init/3:
+    locals read: 
+    locals written: 
+  globals read: ALL
+  globals written: ALL
+
+Function name:Gpt_Ipw_StartTimer/4:
+    locals read: 
+    locals written: 
+  globals read: ALL
+  globals written: ALL
+
+Function name:Gpt_Ipw_GetTimeElapsed/5:
+    locals read: 
+    locals written: 
+  globals read: ALL
+  globals written: ALL
+
+Function name:Gpt_Ipw_StopTimer/6:
+    locals read: 
+    locals written: 
+  globals read: ALL
+  globals written: ALL
+
+Function name:Gpt_Ipw_EnableInterrupt/7:
+    locals read: 
+    locals written: 
+  globals read: ALL
+  globals written: ALL
+
+Function name:Gpt_Ipw_DeInit/8:
+    locals read: 
+    locals written: 
+  globals read: ALL
+  globals written: ALL
+
+Function name:Gpt_Ipw_DisableInterrupt/9:
+    locals read: 
+    locals written: 
+  globals read: ALL
+  globals written: ALL
+Gpt_Ipw_DisableInterrupt (const struct Gpt_Ipw_HwChannelConfigType * pHwChannelConfig)
+{
+  <unnamed type> _1;
+  unsigned char _2;
+  unsigned char _3;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _1 = pHwChannelConfig_6(D)->instanceType;
+  if (_1 == 3)
+    goto <bb 3>; [20.24%]
+  else
+    goto <bb 4>; [79.76%]
+
+  <bb 3> [local count: 217325345]:
+<L1>:
+  # DEBUG BEGIN_STMT
+  _2 = pHwChannelConfig_6(D)->instance;
+  _3 = pHwChannelConfig_6(D)->channel;
+  Lpit_Gpt_Ip_DisableChInterrupt (_2, _3);
+  # DEBUG BEGIN_STMT
+
+  <bb 4> [local count: 1073741824]:
+<L6>:
+  # DEBUG BEGIN_STMT
+  return;
+
+}
+
+
+Gpt_Ipw_DeInit (const struct Gpt_Ipw_HwChannelConfigType * pHwChannelConfig)
+{
+  <unnamed type> _1;
+  unsigned char _2;
+  unsigned char _3;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _1 = pHwChannelConfig_6(D)->instanceType;
+  switch (_1) <default: <L6> [33.33%], case 0: <L0> [33.33%], case 3: <L1> [33.33%]>
+
+  <bb 3> [local count: 357878150]:
+<L0>:
+  # DEBUG BEGIN_STMT
+  _2 = pHwChannelConfig_6(D)->instance;
+  Ftm_Gpt_Ip_Deinit (_2);
+  # DEBUG BEGIN_STMT
+  goto <bb 5>; [100.00%]
+
+  <bb 4> [local count: 357878150]:
+<L1>:
+  # DEBUG BEGIN_STMT
+  _3 = pHwChannelConfig_6(D)->instance;
+  Lpit_Gpt_Ip_Deinit (_3);
+  # DEBUG BEGIN_STMT
+
+  <bb 5> [local count: 1073634451]:
+<L6>:
+  # DEBUG BEGIN_STMT
+  return;
+
+}
+
+
+Gpt_Ipw_EnableInterrupt (const struct Gpt_Ipw_HwChannelConfigType * pHwChannelConfig)
+{
+  <unnamed type> _1;
+  unsigned char _2;
+  unsigned char _3;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _1 = pHwChannelConfig_6(D)->instanceType;
+  if (_1 == 3)
+    goto <bb 3>; [20.24%]
+  else
+    goto <bb 4>; [79.76%]
+
+  <bb 3> [local count: 217325345]:
+<L1>:
+  # DEBUG BEGIN_STMT
+  _2 = pHwChannelConfig_6(D)->instance;
+  _3 = pHwChannelConfig_6(D)->channel;
+  Lpit_Gpt_Ip_EnableChInterrupt (_2, _3);
+  # DEBUG BEGIN_STMT
+
+  <bb 4> [local count: 1073741824]:
+<L6>:
+  # DEBUG BEGIN_STMT
+  return;
+
+}
+
+
+Gpt_Ipw_StopTimer (const struct Gpt_Ipw_HwChannelConfigType * pHwChannelConfig)
+{
+  <unnamed type> _1;
+  unsigned char _2;
+  unsigned char _3;
+  unsigned char _4;
+  unsigned char _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _1 = pHwChannelConfig_8(D)->instanceType;
+  switch (_1) <default: <L6> [33.33%], case 0: <L0> [33.33%], case 3: <L1> [33.33%]>
+
+  <bb 3> [local count: 357878150]:
+<L0>:
+  # DEBUG BEGIN_STMT
+  _2 = pHwChannelConfig_8(D)->instance;
+  _3 = pHwChannelConfig_8(D)->channel;
+  Ftm_Gpt_Ip_DisableChannelInterrupt (_2, _3);
+  # DEBUG BEGIN_STMT
+  goto <bb 5>; [100.00%]
+
+  <bb 4> [local count: 357878150]:
+<L1>:
+  # DEBUG BEGIN_STMT
+  _4 = pHwChannelConfig_8(D)->instance;
+  _5 = pHwChannelConfig_8(D)->channel;
+  Lpit_Gpt_Ip_StopTimer (_4, _5);
+  # DEBUG BEGIN_STMT
+
+  <bb 5> [local count: 1073634451]:
+<L6>:
+  # DEBUG BEGIN_STMT
+  return;
+
+}
+
+
+Gpt_Ipw_GetTimeElapsed (const struct Gpt_Ipw_HwChannelConfigType * pHwChannelConfig, struct Gpt_HwChannelInfoType * pReturnHwChannelInfo)
+{
+  uint32 returnValue;
+  <unnamed type> _1;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG returnValue => 0
+  # DEBUG BEGIN_STMT
+  _1 = pHwChannelConfig_5(D)->instanceType;
+  switch (_1) <default: <L5> [33.33%], case 0: <L0> [33.33%], case 3: <L1> [33.33%]>
+
+  <bb 3> [local count: 357878150]:
+<L0>:
+  # DEBUG BEGIN_STMT
+  returnValue_10 = Gpt_Ipw_FtmGetTimeElapsed (pHwChannelConfig_5(D), pReturnHwChannelInfo_6(D));
+  # DEBUG returnValue => returnValue_10
+  # DEBUG BEGIN_STMT
+  goto <bb 5>; [100.00%]
+
+  <bb 4> [local count: 357878150]:
+<L1>:
+  # DEBUG BEGIN_STMT
+  returnValue_8 = Gpt_Ipw_LpitGetTimeElapsed (pHwChannelConfig_5(D), pReturnHwChannelInfo_6(D));
+  # DEBUG returnValue => returnValue_8
+  # DEBUG BEGIN_STMT
+
+  <bb 5> [local count: 1073634451]:
+  # returnValue_2 = PHI <returnValue_10(3), returnValue_8(4), 0(2)>
+<L5>:
+  # DEBUG returnValue => returnValue_2
+  # DEBUG BEGIN_STMT
+  return returnValue_2;
+
+}
+
+
+Gpt_Ipw_StartTimer (const struct Gpt_Ipw_HwChannelConfigType * pHwChannelConfig, Gpt_ValueType uValue)
+{
+  Std_ReturnType returnValue;
+  <unnamed type> _1;
+  unsigned char _2;
+  unsigned char _3;
+  short unsigned int _4;
+  unsigned char _5;
+  unsigned char _6;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG returnValue => 1
+  # DEBUG BEGIN_STMT
+  _1 = pHwChannelConfig_10(D)->instanceType;
+  switch (_1) <default: <L5> [33.33%], case 0: <L0> [33.33%], case 3: <L1> [33.33%]>
+
+  <bb 3> [local count: 357878150]:
+<L0>:
+  # DEBUG BEGIN_STMT
+  _2 = pHwChannelConfig_10(D)->instance;
+  _3 = pHwChannelConfig_10(D)->channel;
+  _4 = (short unsigned int) uValue_11(D);
+  Ftm_Gpt_Ip_StartCounting (_2, _3, _4);
+  # DEBUG BEGIN_STMT
+  # DEBUG returnValue => 0
+  # DEBUG BEGIN_STMT
+  goto <bb 5>; [100.00%]
+
+  <bb 4> [local count: 357878150]:
+<L1>:
+  # DEBUG BEGIN_STMT
+  _5 = pHwChannelConfig_10(D)->instance;
+  _6 = pHwChannelConfig_10(D)->channel;
+  Lpit_Gpt_Ip_StartTimer (_5, _6, uValue_11(D));
+  # DEBUG BEGIN_STMT
+  # DEBUG returnValue => 0
+  # DEBUG BEGIN_STMT
+
+  <bb 5> [local count: 1073634451]:
+  # returnValue_7 = PHI <0(3), 0(4), 1(2)>
+<L5>:
+  # DEBUG returnValue => returnValue_7
+  # DEBUG BEGIN_STMT
+  return returnValue_7;
+
+}
+
+
+Gpt_Ipw_Init (const struct Gpt_Ipw_HwChannelConfigType * pHwChannelConfig)
+{
+  <unnamed type> _1;
+  unsigned char _2;
+  const struct Ftm_Gpt_Ip_ChannelConfigType * _3;
+  unsigned char _4;
+  const struct Lpit_Gpt_Ip_ChannelConfigType * _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _1 = pHwChannelConfig_8(D)->instanceType;
+  switch (_1) <default: <L6> [33.33%], case 0: <L0> [33.33%], case 3: <L1> [33.33%]>
+
+  <bb 3> [local count: 357878150]:
+<L0>:
+  # DEBUG BEGIN_STMT
+  _2 = pHwChannelConfig_8(D)->instance;
+  _3 = pHwChannelConfig_8(D)->Gpt_Ipw_ChannelConfig.Ftm_Gpt_Ip_ChannelConfig;
+  Ftm_Gpt_Ip_InitChannel (_2, _3);
+  # DEBUG BEGIN_STMT
+  goto <bb 5>; [100.00%]
+
+  <bb 4> [local count: 357878150]:
+<L1>:
+  # DEBUG BEGIN_STMT
+  _4 = pHwChannelConfig_8(D)->instance;
+  _5 = pHwChannelConfig_8(D)->Gpt_Ipw_ChannelConfig.Lpit_Gpt_Ip_ChannelConfig;
+  Lpit_Gpt_Ip_InitChannel (_4, _5);
+  # DEBUG BEGIN_STMT
+
+  <bb 5> [local count: 1073634451]:
+<L6>:
+  # DEBUG BEGIN_STMT
+  return;
+
+}
+
+
+Gpt_Ipw_InitInstances (const struct Gpt_ConfigType * configPtr)
+{
+  uint8 index;
+  struct Gpt_Ipw_HwInstanceConfigType[<unknown>] * _1;
+  int _2;
+  <unnamed type> _3;
+  unsigned char _4;
+  const struct Ftm_Gpt_Ip_InstanceConfigType * _5;
+  unsigned char _6;
+  const struct Lpit_Gpt_Ip_InstanceConfigType * _7;
+  unsigned char _8;
+
+  <bb 2> [local count: 118207164]:
+  # DEBUG BEGIN_STMT
+  # DEBUG index => 0
+  # DEBUG BEGIN_STMT
+  # DEBUG index => 0
+  goto <bb 7>; [100.00%]
+
+  <bb 3> [local count: 955630225]:
+  # DEBUG BEGIN_STMT
+  _1 = configPtr_13(D)->Gpt_Ipw_HwInstanceConfig;
+  _2 = (int) index_9;
+  _3 = *_1[_2].instanceType;
+  switch (_3) <default: <L8> [33.33%], case 0: <L1> [33.33%], case 3: <L2> [33.33%]>
+
+  <bb 4> [local count: 318511554]:
+<L1>:
+  # DEBUG BEGIN_STMT
+  _4 = *_1[_2].instance;
+  _5 = *_1[_2].Gpt_Ipw_InstanceConfig.Ftm_Gpt_Ip_InstanceConfig;
+  Ftm_Gpt_Ip_Init (_4, _5);
+  # DEBUG BEGIN_STMT
+  goto <bb 6>; [100.00%]
+
+  <bb 5> [local count: 318511554]:
+<L2>:
+  # DEBUG BEGIN_STMT
+  _6 = *_1[_2].instance;
+  _7 = *_1[_2].Gpt_Ipw_InstanceConfig.Lpit_Gpt_Ip_InstanceConfig;
+  Lpit_Gpt_Ip_Init (_6, _7);
+  # DEBUG BEGIN_STMT
+
+  <bb 6> [local count: 955534663]:
+<L8>:
+  # DEBUG BEGIN_STMT
+  index_16 = index_9 + 1;
+  # DEBUG index => index_16
+
+  <bb 7> [local count: 1073741824]:
+  # index_9 = PHI <0(2), index_16(6)>
+  # DEBUG index => index_9
+  # DEBUG BEGIN_STMT
+  _8 = configPtr_13(D)->instanceCount;
+  if (_8 > index_9)
+    goto <bb 3>; [89.00%]
+  else
+    goto <bb 8>; [11.00%]
+
+  <bb 8> [local count: 118111601]:
+  # DEBUG BEGIN_STMT
+  return;
+
+}
+
+
+Gpt_Ipw_LpitGetTimeElapsed (const struct Gpt_Ipw_HwChannelConfigType * pHwChannelConfig, struct Gpt_HwChannelInfoType * pReturnHwChannelInfo)
+{
+  uint32 tempValue;
+  uint32 returnValue;
+  unsigned char _1;
+  unsigned char _2;
+  long unsigned int _3;
+  unsigned char _4;
+  unsigned char _5;
+  long unsigned int _6;
+  unsigned char _7;
+  unsigned char _8;
+  int _9;
+  unsigned int _10;
+  unsigned char _11;
+  long unsigned int _12;
+  unsigned char _13;
+  int _14;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG returnValue => 0
+  # DEBUG BEGIN_STMT
+  # DEBUG tempValue => 0
+  # DEBUG BEGIN_STMT
+  _1 = pHwChannelConfig_17(D)->instance;
+  _2 = pHwChannelConfig_17(D)->channel;
+  _3 = Lpit_Gpt_Ip_GetTimerValue (_1, _2);
+  pReturnHwChannelInfo_19(D)->uTargetTime = _3;
+  # DEBUG BEGIN_STMT
+  _4 = pHwChannelConfig_17(D)->instance;
+  _5 = pHwChannelConfig_17(D)->channel;
+  _6 = Lpit_Gpt_Ip_GetCurrentTimervalue (_4, _5);
+  returnValue_22 = _3 - _6;
+  # DEBUG returnValue => returnValue_22
+  # DEBUG BEGIN_STMT
+  _7 = pHwChannelConfig_17(D)->instance;
+  _8 = pHwChannelConfig_17(D)->channel;
+  _9 = (int) _8;
+  _10 = 1 << _9;
+  _11 = (unsigned char) _10;
+  _12 = Lpit_Gpt_Ip_GetInterruptFlagTimerChannels (_7, _11);
+  _13 = pHwChannelConfig_17(D)->channel;
+  _14 = (int) _13;
+  tempValue_24 = _12 >> _14;
+  # DEBUG tempValue => tempValue_24
+  # DEBUG BEGIN_STMT
+  if (tempValue_24 != 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 4>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  pReturnHwChannelInfo_19(D)->bChannelRollover = 1;
+  goto <bb 5>; [100.00%]
+
+  <bb 4> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  pReturnHwChannelInfo_19(D)->bChannelRollover = 0;
+
+  <bb 5> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  return returnValue_22;
+
+}
+
+
+Gpt_Ipw_FtmGetTimeElapsed (const struct Gpt_Ipw_HwChannelConfigType * pHwChannelConfig, struct Gpt_HwChannelInfoType * pReturnHwChannelInfo)
+{
+  uint32 counterValue;
+  uint32 compareValue;
+  uint32 tempValue;
+  uint32 returnValue;
+  unsigned char _1;
+  int _2;
+  unsigned char _3;
+  int _4;
+  long unsigned int _5;
+  unsigned char _6;
+  unsigned char _7;
+  long unsigned int _8;
+  long unsigned int _9;
+  long unsigned int _10;
+  long unsigned int _11;
+  long unsigned int _12;
+  long unsigned int _13;
+  long unsigned int _14;
+  unsigned char _15;
+  unsigned char _16;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG returnValue => 0
+  # DEBUG BEGIN_STMT
+  # DEBUG tempValue => 0
+  # DEBUG BEGIN_STMT
+  # DEBUG compareValue => 0
+  # DEBUG BEGIN_STMT
+  # DEBUG counterValue => 0
+  # DEBUG BEGIN_STMT
+  _1 = pHwChannelConfig_20(D)->instance;
+  _2 = (int) _1;
+  _3 = pHwChannelConfig_20(D)->channel;
+  _4 = (int) _3;
+  _5 = Ftm_Gpt_Ip_u32TargetValue[_2][_4];
+  pReturnHwChannelInfo_21(D)->uTargetTime = _5;
+  # DEBUG BEGIN_STMT
+  counterValue_24 = Ftm_Gpt_Ip_GetCounter (_1);
+  # DEBUG counterValue => counterValue_24
+  # DEBUG BEGIN_STMT
+  _6 = pHwChannelConfig_20(D)->instance;
+  _7 = pHwChannelConfig_20(D)->channel;
+  compareValue_26 = Ftm_Gpt_Ip_GetCompareValue (_6, _7);
+  # DEBUG compareValue => compareValue_26
+  # DEBUG BEGIN_STMT
+  if (counterValue_24 > compareValue_26)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  _8 = compareValue_26 - counterValue_24;
+  _9 = _8 + 65535;
+  _10 = pReturnHwChannelInfo_21(D)->uTargetTime;
+  if (_9 <= _10)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 6>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  _11 = counterValue_24 - compareValue_26;
+  _12 = _10 + _11;
+  returnValue_28 = _12 + 4294901762;
+  # DEBUG returnValue => returnValue_28
+  goto <bb 6>; [100.00%]
+
+  <bb 5> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  _13 = pReturnHwChannelInfo_21(D)->uTargetTime;
+  _14 = counterValue_24 - compareValue_26;
+  returnValue_27 = _13 + _14;
+  # DEBUG returnValue => returnValue_27
+
+  <bb 6> [local count: 1073741824]:
+  # returnValue_17 = PHI <_10(3), returnValue_27(5), returnValue_28(4)>
+  # DEBUG returnValue => returnValue_17
+  # DEBUG BEGIN_STMT
+  _15 = pHwChannelConfig_20(D)->instance;
+  _16 = pHwChannelConfig_20(D)->channel;
+  tempValue_30 = Ftm_Gpt_Ip_GetInterruptFlag (_15, _16);
+  # DEBUG tempValue => tempValue_30
+  # DEBUG BEGIN_STMT
+  if (tempValue_30 != 0)
+    goto <bb 7>; [50.00%]
+  else
+    goto <bb 8>; [50.00%]
+
+  <bb 7> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  pReturnHwChannelInfo_21(D)->bChannelRollover = 1;
+  goto <bb 9>; [100.00%]
+
+  <bb 8> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  pReturnHwChannelInfo_21(D)->bChannelRollover = 0;
+
+  <bb 9> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  return returnValue_17;
+
+}
+
+

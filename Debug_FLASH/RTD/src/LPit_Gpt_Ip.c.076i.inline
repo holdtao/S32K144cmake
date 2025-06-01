@@ -1,0 +1,2288 @@
+IPA function summary for Lpit_Gpt_Ip_SetMode.isra.0.constprop/51 inlinable
+  global time:     26.000000
+  self size:       11
+  global size:     9
+  min size:       8
+  self stack:      0
+  global stack:    0
+    size:4.000000, time:4.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+  array index:(op0 changed)
+  calls:
+    SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_52/31 function body not available
+      loop depth: 0 freq:1.00 size: 1 time: 10
+    SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_52/32 function body not available
+      loop depth: 0 freq:1.00 size: 1 time: 10
+
+IPA function summary for Lpit_Gpt_Ip_ProcessCommonInterrupt.constprop/50 inlinable
+  global time:     22.888020
+  self size:       27
+  global size:     26
+  min size:       32
+  self stack:      0
+  global stack:    0
+    size:15.000000, time:7.240660
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+  calls:
+    Lpit_Gpt_Ip_GetInterruptFlagTimerChannels/10 function not considered for inlining
+      loop depth: 0 freq:1.00 size: 4 time: 13callee size: 5 stack: 4
+    indirect call loop depth: 0 freq:0.04 size: 4 time: 16
+
+IPA function summary for Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/42 inlinable
+  global time:     28.500000
+  self size:       16
+  global size:     16
+  min size:       4
+  self stack:      0
+  global stack:    0
+    size:0.000000, time:0.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+    size:2.000000, time:2.000000,  nonconst if:(op1 changed)
+    size:3.000000, time:1.500000,  executed if:(op1 == 0)
+    size:2.000000, time:1.000000,  executed if:(op1 == 0),  nonconst if:(op0 changed) && (op1 == 0)
+    size:3.000000, time:1.500000,  executed if:(op1 != 0)
+    size:1.000000, time:0.500000,  executed if:(op1 != 0),  nonconst if:(op0 changed) && (op1 != 0)
+  calls:
+    SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_55/34 function body not available
+      loop depth: 0 freq:1.00 size: 1 time: 10
+    SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_55/33 function body not available
+      loop depth: 0 freq:1.00 size: 1 time: 10
+
+IPA function summary for Lpit_Gpt_Ip_TimerEnable.isra.0/40 inlinable
+  global time:     27.000000
+  self size:       13
+  global size:     13
+  min size:       4
+  self stack:      0
+  global stack:    0
+    size:0.000000, time:0.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+    size:2.000000, time:2.000000,  nonconst if:(op1 changed)
+    size:3.000000, time:1.500000,  executed if:(op1 == 0)
+    size:3.000000, time:1.500000,  executed if:(op1 != 0)
+  array index:(op0 changed)
+  calls:
+    SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_51/30 function body not available
+      loop depth: 0 freq:1.00 size: 1 time: 10
+    SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_51/29 function body not available
+      loop depth: 0 freq:1.00 size: 1 time: 10
+
+IPA function summary for Lpit_Gpt_Ip_SetDozeMode.isra.0/39 inlinable
+  global time:     27.000000
+  self size:       13
+  global size:     13
+  min size:       4
+  self stack:      0
+  global stack:    0
+    size:0.000000, time:0.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+    size:2.000000, time:2.000000,  nonconst if:(op0 changed)
+    size:3.000000, time:1.500000,  executed if:(op0 == 0)
+    size:3.000000, time:1.500000,  executed if:(op0 != 0)
+  calls:
+    SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_54/28 function body not available
+      loop depth: 0 freq:1.00 size: 1 time: 10
+    SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_54/27 function body not available
+      loop depth: 0 freq:1.00 size: 1 time: 10
+
+IPA function summary for Lpit_Gpt_Ip_SetDebugMode.isra.0/38 inlinable
+  global time:     27.000000
+  self size:       13
+  global size:     13
+  min size:       4
+  self stack:      0
+  global stack:    0
+    size:0.000000, time:0.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+    size:2.000000, time:2.000000,  nonconst if:(op0 changed)
+    size:3.000000, time:1.500000,  executed if:(op0 == 0)
+    size:3.000000, time:1.500000,  executed if:(op0 != 0)
+  calls:
+    SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_53/26 function body not available
+      loop depth: 0 freq:1.00 size: 1 time: 10
+    SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_53/25 function body not available
+      loop depth: 0 freq:1.00 size: 1 time: 10
+
+IPA function summary for Lpit_Gpt_Ip_EnableMdlClk.isra.0/37 inlinable
+  global time:     27.000000
+  self size:       13
+  global size:     13
+  min size:       4
+  self stack:      0
+  global stack:    0
+    size:0.000000, time:0.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+    size:2.000000, time:2.000000,  nonconst if:(op0 changed)
+    size:3.000000, time:1.500000,  executed if:(op0 == 0)
+    size:3.000000, time:1.500000,  executed if:(op0 != 0)
+  calls:
+    SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_50/24 function body not available
+      loop depth: 0 freq:1.00 size: 1 time: 10
+    SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_50/23 function body not available
+      loop depth: 0 freq:1.00 size: 1 time: 10
+
+IPA function summary for LPIT_0_CH_0_ISR/22 inlinable
+  global time:     15.000000
+  self size:       7
+  global size:     7
+  min size:       6
+  self stack:      0
+  global stack:    0
+    size:1.000000, time:1.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+  calls:
+    Lpit_Gpt_Ip_ProcessCommonInterrupt.constprop/50 function not considered for inlining
+      loop depth: 0 freq:1.00 size: 3 time: 12callee size:13 stack: 0
+       op0 is compile time invariant
+       op1 is compile time invariant
+
+IPA function summary for Lpit_Gpt_Ip_DisableChInterrupt/20 inlinable
+  global time:     16.000000
+  self size:       8
+  global size:     8
+  min size:       6
+  self stack:      0
+  global stack:    0
+    size:1.000000, time:1.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+    size:1.000000, time:1.000000,  nonconst if:(op1 changed)
+  calls:
+    Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/42 function not considered for inlining
+      loop depth: 0 freq:1.00 size: 3 time: 12callee size: 8 stack: 0
+       op1 is compile time invariant
+
+IPA function summary for Lpit_Gpt_Ip_EnableChInterrupt/19 inlinable
+  global time:     16.000000
+  self size:       8
+  global size:     8
+  min size:       6
+  self stack:      0
+  global stack:    0
+    size:1.000000, time:1.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+    size:1.000000, time:1.000000,  nonconst if:(op1 changed)
+  calls:
+    Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/42 function not considered for inlining
+      loop depth: 0 freq:1.00 size: 3 time: 12callee size: 8 stack: 0
+       op1 is compile time invariant
+
+IPA function summary for Lpit_Gpt_Ip_StopTimer/18 inlinable
+  global time:     16.000000
+  self size:       8
+  global size:     8
+  min size:       6
+  self stack:      0
+  global stack:    0
+    size:1.000000, time:1.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+    size:1.000000, time:1.000000,  nonconst if:(op1 changed)
+  calls:
+    Lpit_Gpt_Ip_TimerEnable.isra.0/40 function not considered for inlining
+      loop depth: 0 freq:1.00 size: 3 time: 12callee size: 6 stack: 0
+       op1 is compile time invariant
+
+IPA function summary for Lpit_Gpt_Ip_StartTimer/17 inlinable
+  global time:     27.000000
+  self size:       10
+  global size:     10
+  min size:       12
+  self stack:      0
+  global stack:    0
+    size:1.000000, time:1.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+  array index:(op1 changed)
+  calls:
+    Lpit_Gpt_Ip_TimerEnable.isra.0/40 function not considered for inlining
+      loop depth: 0 freq:1.00 size: 3 time: 12callee size: 6 stack: 0
+       op1 is compile time invariant
+    Lpit_Gpt_Ip_TimerEnable.isra.0/40 function not considered for inlining
+      loop depth: 0 freq:1.00 size: 3 time: 12callee size: 6 stack: 0
+       op1 is compile time invariant
+
+IPA function summary for Lpit_Gpt_Ip_Deinit/16 inlinable
+  global time:     212.000001
+  self size:       25
+  global size:     25
+  min size:       34
+  self stack:      0
+  global stack:    0
+    size:5.000000, time:22.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+  calls:
+    Lpit_Gpt_Ip_EnableMdlClk.isra.0/37 function not considered for inlining
+      loop depth: 0 freq:1.00 size: 2 time: 11callee size: 6 stack: 0
+       op0 is compile time invariant
+    Lpit_Gpt_Ip_SetDozeMode.isra.0/39 function not considered for inlining
+      loop depth: 0 freq:1.00 size: 2 time: 11callee size: 6 stack: 0
+       op0 is compile time invariant
+    Lpit_Gpt_Ip_SetDebugMode.isra.0/38 function not considered for inlining
+      loop depth: 0 freq:1.00 size: 2 time: 11callee size: 6 stack: 0
+       op0 is compile time invariant
+    Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/42 function not considered for inlining
+      loop depth: 1 freq:4.00 size: 3 time: 12callee size: 8 stack: 0
+       op1 is compile time invariant
+    Lpit_Gpt_Ip_SetMode.isra.0.constprop/51 function not considered for inlining
+      loop depth: 1 freq:4.00 size: 3 time: 12callee size: 4 stack: 0
+       op1 is compile time invariant
+    Lpit_Gpt_Ip_TimerEnable.isra.0/40 function not considered for inlining
+      loop depth: 1 freq:4.00 size: 3 time: 12callee size: 6 stack: 0
+       op1 is compile time invariant
+    Lpit_Gpt_Ip_EnableMdlClk.isra.0/37 function not considered for inlining
+      loop depth: 0 freq:1.00 size: 2 time: 11callee size: 6 stack: 0
+       op0 is compile time invariant
+
+IPA function summary for Lpit_Gpt_Ip_InitChannel/15 inlinable
+  global time:     61.000000
+  self size:       26
+  global size:     26
+  min size:       22
+  self stack:      0
+  global stack:    0
+    size:9.000000, time:9.000000
+    size:6.000000, time:5.000000,  executed if:(not inlined)
+  calls:
+    Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/42 function not considered for inlining
+      loop depth: 0 freq:1.00 size: 3 time: 12callee size: 8 stack: 0
+       op1 is compile time invariant
+    Lpit_Gpt_Ip_SetMode.isra.0.constprop/51 function not considered for inlining
+      loop depth: 0 freq:1.00 size: 3 time: 12callee size: 4 stack: 0
+       op1 is compile time invariant
+    Lpit_Gpt_Ip_TimerEnable.isra.0/40 function not considered for inlining
+      loop depth: 0 freq:1.00 size: 3 time: 12callee size: 6 stack: 0
+       op1 is compile time invariant
+    Lpit_Gpt_Ip_EnableMdlClk.isra.0/37 function not considered for inlining
+      loop depth: 0 freq:1.00 size: 2 time: 11callee size: 6 stack: 0
+       op0 is compile time invariant
+
+IPA function summary for Lpit_Gpt_Ip_Init/14 inlinable
+  global time:     37.000000
+  self size:       11
+  global size:     11
+  min size:       12
+  self stack:      0
+  global stack:    0
+    size:1.000000, time:1.000000
+    size:4.000000, time:3.000000,  executed if:(not inlined)
+  calls:
+    Lpit_Gpt_Ip_SetDozeMode.isra.0/39 function not considered for inlining
+      loop depth: 0 freq:1.00 size: 2 time: 11callee size: 6 stack: 0
+    Lpit_Gpt_Ip_SetDebugMode.isra.0/38 function not considered for inlining
+      loop depth: 0 freq:1.00 size: 2 time: 11callee size: 6 stack: 0
+    Lpit_Gpt_Ip_EnableMdlClk.isra.0/37 function not considered for inlining
+      loop depth: 0 freq:1.00 size: 2 time: 11callee size: 6 stack: 0
+       op0 is compile time invariant
+
+IPA function summary for Lpit_Gpt_Ip_GetTimerValue/13 inlinable
+  global time:     3.000000
+  self size:       4
+  global size:     4
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:1.000000, time:1.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+  array index:(op1 changed)
+  calls:
+
+IPA function summary for Lpit_Gpt_Ip_GetCurrentTimervalue/12 inlinable
+  global time:     3.000000
+  self size:       4
+  global size:     4
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:1.000000, time:1.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+  array index:(op1 changed)
+  calls:
+
+IPA function summary for Lpit_Gpt_Ip_GetTimerInterruptEnable/11 inlinable
+  global time:     6.000000
+  self size:       7
+  global size:     7
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:3.000000, time:3.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+    size:1.000000, time:1.000000,  nonconst if:(op1 changed)
+  calls:
+
+IPA function summary for Lpit_Gpt_Ip_GetInterruptFlagTimerChannels/10 inlinable
+  global time:     9.000000
+  self size:       10
+  global size:     10
+  min size:       0
+  self stack:      4
+  global stack:    4
+    size:6.000000, time:6.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+    size:1.000000, time:1.000000,  nonconst if:(op1 changed)
+  calls:
+
+
+Flattening functions:
+Overall time estimate: 606.388021 weighted by profile: 0.000000
+
+Deciding on inlining of small functions.  Starting with size 0.
+Enqueueing calls in Lpit_Gpt_Ip_SetMode.isra.0.constprop/51.
+Enqueueing calls in Lpit_Gpt_Ip_ProcessCommonInterrupt.constprop/50.
+Enqueueing calls in Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/42.
+Enqueueing calls in Lpit_Gpt_Ip_TimerEnable.isra.0/40.
+Enqueueing calls in Lpit_Gpt_Ip_SetDozeMode.isra.0/39.
+Enqueueing calls in Lpit_Gpt_Ip_SetDebugMode.isra.0/38.
+Enqueueing calls in Lpit_Gpt_Ip_EnableMdlClk.isra.0/37.
+Enqueueing calls in LPIT_0_CH_0_ISR/22.
+Enqueueing calls in Lpit_Gpt_Ip_DisableChInterrupt/20.
+Enqueueing calls in Lpit_Gpt_Ip_EnableChInterrupt/19.
+Enqueueing calls in Lpit_Gpt_Ip_StopTimer/18.
+Enqueueing calls in Lpit_Gpt_Ip_StartTimer/17.
+Enqueueing calls in Lpit_Gpt_Ip_Deinit/16.
+Enqueueing calls in Lpit_Gpt_Ip_InitChannel/15.
+Enqueueing calls in Lpit_Gpt_Ip_Init/14.
+Enqueueing calls in Lpit_Gpt_Ip_GetTimerValue/13.
+Enqueueing calls in Lpit_Gpt_Ip_GetCurrentTimervalue/12.
+Enqueueing calls in Lpit_Gpt_Ip_GetTimerInterruptEnable/11.
+Enqueueing calls in Lpit_Gpt_Ip_GetInterruptFlagTimerChannels/10.
+
+Considering Lpit_Gpt_Ip_TimerEnable.isra.0/40 with 13 size
+ to be inlined into Lpit_Gpt_Ip_Deinit/16 in ../RTD/src/LPit_Gpt_Ip.c:597
+ Estimated badness is -37.925926, frequency 4.00.
+
+Considering Lpit_Gpt_Ip_TimerEnable.isra.0/40 with 13 size
+ to be inlined into Lpit_Gpt_Ip_StopTimer/18 in ../RTD/src/LPit_Gpt_Ip.c:668
+ Estimated badness is -25.600000, frequency 1.00.
+
+Considering Lpit_Gpt_Ip_SetMode.isra.0.constprop/51 with 9 size
+ to be inlined into Lpit_Gpt_Ip_Deinit/16 in ../RTD/src/LPit_Gpt_Ip.c:600
+ Estimated badness is -21.333333, frequency 4.00.
+
+Considering Lpit_Gpt_Ip_TimerEnable.isra.0/40 with 13 size
+ to be inlined into Lpit_Gpt_Ip_StartTimer/17 in ../RTD/src/LPit_Gpt_Ip.c:640
+ Estimated badness is -21.333333, frequency 1.00.
+
+Considering Lpit_Gpt_Ip_TimerEnable.isra.0/40 with 13 size
+ to be inlined into Lpit_Gpt_Ip_StartTimer/17 in ../RTD/src/LPit_Gpt_Ip.c:646
+ Estimated badness is -21.333333, frequency 1.00.
+
+Considering Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/42 with 16 size
+ to be inlined into Lpit_Gpt_Ip_Deinit/16 in ../RTD/src/LPit_Gpt_Ip.c:603
+ Estimated badness is -17.655173, frequency 4.00.
+
+Considering Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/42 with 16 size
+ to be inlined into Lpit_Gpt_Ip_EnableChInterrupt/19 in ../RTD/src/LPit_Gpt_Ip.c:696
+ Estimated badness is -15.515152, frequency 1.00.
+
+Considering Lpit_Gpt_Ip_EnableMdlClk.isra.0/37 with 13 size
+ to be inlined into Lpit_Gpt_Ip_Init/14 in ../RTD/src/LPit_Gpt_Ip.c:510
+ Estimated badness is -11.428571, frequency 1.00.
+
+Considering Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/42 with 16 size
+ to be inlined into Lpit_Gpt_Ip_DisableChInterrupt/20 in ../RTD/src/LPit_Gpt_Ip.c:720
+ Estimated badness is -10.666667, frequency 1.00.
+
+Considering Lpit_Gpt_Ip_TimerEnable.isra.0/40 with 13 size
+ to be inlined into Lpit_Gpt_Ip_InitChannel/15 in ../RTD/src/LPit_Gpt_Ip.c:546
+ Estimated badness is -9.142857, frequency 1.00.
+
+Considering Lpit_Gpt_Ip_EnableMdlClk.isra.0/37 with 13 size
+ to be inlined into Lpit_Gpt_Ip_Deinit/16 in ../RTD/src/LPit_Gpt_Ip.c:615
+ Estimated badness is -5.714286, frequency 1.00.
+
+Considering Lpit_Gpt_Ip_SetDozeMode.isra.0/39 with 13 size
+ to be inlined into Lpit_Gpt_Ip_Deinit/16 in ../RTD/src/LPit_Gpt_Ip.c:612
+ Estimated badness is -5.714286, frequency 1.00.
+
+Considering Lpit_Gpt_Ip_EnableMdlClk.isra.0/37 with 13 size
+ to be inlined into Lpit_Gpt_Ip_Deinit/16 in ../RTD/src/LPit_Gpt_Ip.c:592
+ Estimated badness is -5.714286, frequency 1.00.
+
+Considering Lpit_Gpt_Ip_SetDebugMode.isra.0/38 with 13 size
+ to be inlined into Lpit_Gpt_Ip_Deinit/16 in ../RTD/src/LPit_Gpt_Ip.c:609
+ Estimated badness is -5.714286, frequency 1.00.
+
+Considering Lpit_Gpt_Ip_EnableMdlClk.isra.0/37 with 13 size
+ to be inlined into Lpit_Gpt_Ip_InitChannel/15 in ../RTD/src/LPit_Gpt_Ip.c:544
+ Estimated badness is -5.517241, frequency 1.00.
+
+Considering Lpit_Gpt_Ip_SetMode.isra.0.constprop/51 with 9 size
+ to be inlined into Lpit_Gpt_Ip_InitChannel/15 in ../RTD/src/LPit_Gpt_Ip.c:549
+ Estimated badness is -5.149425, frequency 1.00.
+
+Considering Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/42 with 16 size
+ to be inlined into Lpit_Gpt_Ip_InitChannel/15 in ../RTD/src/LPit_Gpt_Ip.c:560
+ Estimated badness is -4.266667, frequency 1.00.
+
+Considering Lpit_Gpt_Ip_SetDebugMode.isra.0/38 with 13 size
+ to be inlined into Lpit_Gpt_Ip_Init/14 in ../RTD/src/LPit_Gpt_Ip.c:513
+ Estimated badness is -2.736842, frequency 1.00.
+
+Considering Lpit_Gpt_Ip_SetDozeMode.isra.0/39 with 13 size
+ to be inlined into Lpit_Gpt_Ip_Init/14 in ../RTD/src/LPit_Gpt_Ip.c:516
+ Estimated badness is -2.736842, frequency 1.00.
+
+Considering Lpit_Gpt_Ip_ProcessCommonInterrupt.constprop/50 with 26 size
+ to be inlined into LPIT_0_CH_0_ISR/22 in ../RTD/src/LPit_Gpt_Ip.c:825
+ Estimated badness is -0.103704, frequency 1.00.
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+
+Deciding on functions to be inlined into all callers and removing useless speculations:
+Overall time estimate: 729.888022 weighted by profile: 0.000000
+
+Why inlining failed?
+function body not available                       :       38 calls, 56.000000 freq, 0 count
+call is unlikely and code size would grow         :        1 calls, 1.000000 freq, 0 count
+IPA function summary for LPIT_0_CH_0_ISR/22 inlinable
+  global time:     23.888020
+  self size:       7
+  global size:     27
+  min size:       22
+  self stack:      0
+  global stack:    0
+    size:16.000000, time:8.240660
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+  calls:
+    Lpit_Gpt_Ip_ProcessCommonInterrupt.constprop/50 inlined
+      loop depth: 0 freq:1.00 size: 3 time: 12callee size:13 stack: 0
+      Stack frame offset 0, callee self size 0, callee size 0
+      Lpit_Gpt_Ip_GetInterruptFlagTimerChannels/10 call is unlikely and code size would grow
+        loop depth: 0 freq:1.00 size: 4 time: 13callee size: 5 stack: 4
+         op0 is compile time invariant
+         op1 is compile time invariant
+      indirect call loop depth: 0 freq:0.04 size: 4 time: 16
+
+IPA function summary for Lpit_Gpt_Ip_DisableChInterrupt/20 inlinable
+  global time:     26.500000
+  self size:       8
+  global size:     12
+  min size:       10
+  self stack:      0
+  global stack:    0
+    size:4.000000, time:2.500000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+    size:3.000000, time:2.000000,  nonconst if:(op1 changed)
+  calls:
+    Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/60 inlined
+      loop depth: 0 freq:1.00 size: 3 time: 12callee size: 8 stack: 0
+      Stack frame offset 0, callee self size 0, callee size 0
+      SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_55/33 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+      SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_55/34 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+
+IPA function summary for Lpit_Gpt_Ip_EnableChInterrupt/19 inlinable
+  global time:     26.000000
+  self size:       8
+  global size:     11
+  min size:       10
+  self stack:      0
+  global stack:    0
+    size:4.000000, time:2.500000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+    size:2.000000, time:1.500000,  nonconst if:(op1 changed)
+  calls:
+    Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/58 inlined
+      loop depth: 0 freq:1.00 size: 3 time: 12callee size: 8 stack: 0
+      Stack frame offset 0, callee self size 0, callee size 0
+      SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_55/33 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+      SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_55/34 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+
+IPA function summary for Lpit_Gpt_Ip_StopTimer/18 inlinable
+  global time:     25.500000
+  self size:       8
+  global size:     10
+  min size:       10
+  self stack:      0
+  global stack:    0
+    size:4.000000, time:2.500000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+    size:1.000000, time:1.000000,  nonconst if:(op1 changed)
+  calls:
+    Lpit_Gpt_Ip_TimerEnable.isra.0/53 inlined
+      loop depth: 0 freq:1.00 size: 3 time: 12callee size: 6 stack: 0
+      Stack frame offset 0, callee self size 0, callee size 0
+      SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_51/29 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+      SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_51/30 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+
+IPA function summary for Lpit_Gpt_Ip_StartTimer/17 inlinable
+  global time:     46.000000
+  self size:       10
+  global size:     14
+  min size:       30
+  self stack:      0
+  global stack:    0
+    size:7.000000, time:4.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+  array index:(op1 changed)
+  calls:
+    Lpit_Gpt_Ip_TimerEnable.isra.0/56 inlined
+      loop depth: 0 freq:1.00 size: 3 time: 12callee size: 6 stack: 0
+      Stack frame offset 0, callee self size 0, callee size 0
+      SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_51/29 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+      SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_51/30 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+    Lpit_Gpt_Ip_TimerEnable.isra.0/55 inlined
+      loop depth: 0 freq:1.00 size: 3 time: 12callee size: 6 stack: 0
+      Stack frame offset 0, callee self size 0, callee size 0
+      SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_51/29 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+      SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_51/30 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+
+IPA function summary for Lpit_Gpt_Ip_Deinit/16 inlinable
+  global time:     382.000002
+  self size:       25
+  global size:     46
+  min size:       236
+  self stack:      0
+  global stack:    0
+    size:29.000000, time:60.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+  calls:
+    Lpit_Gpt_Ip_EnableMdlClk.isra.0/61 inlined
+      loop depth: 0 freq:1.00 size: 2 time: 11callee size: 6 stack: 0
+      Stack frame offset 0, callee self size 0, callee size 0
+      SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_50/23 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+      SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_50/24 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+    Lpit_Gpt_Ip_SetDozeMode.isra.0/62 inlined
+      loop depth: 0 freq:1.00 size: 2 time: 11callee size: 6 stack: 0
+      Stack frame offset 0, callee self size 0, callee size 0
+      SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_54/27 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+      SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_54/28 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+    Lpit_Gpt_Ip_SetDebugMode.isra.0/64 inlined
+      loop depth: 0 freq:1.00 size: 2 time: 11callee size: 6 stack: 0
+      Stack frame offset 0, callee self size 0, callee size 0
+      SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_53/25 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+      SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_53/26 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+    Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/57 inlined
+      loop depth: 1 freq:4.00 size: 3 time: 12callee size: 8 stack: 0
+      Stack frame offset 0, callee self size 0, callee size 0
+      SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_55/33 function body not available
+        loop depth: 1 freq:4.00 size: 1 time: 10
+      SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_55/34 function body not available
+        loop depth: 1 freq:4.00 size: 1 time: 10
+    Lpit_Gpt_Ip_SetMode.isra.0.constprop/54 inlined
+      loop depth: 1 freq:4.00 size: 3 time: 12callee size: 4 stack: 0
+      Stack frame offset 0, callee self size 0, callee size 0
+      SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_52/32 function body not available
+        loop depth: 1 freq:4.00 size: 1 time: 10
+      SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_52/31 function body not available
+        loop depth: 1 freq:4.00 size: 1 time: 10
+    Lpit_Gpt_Ip_TimerEnable.isra.0/52 inlined
+      loop depth: 1 freq:4.00 size: 3 time: 12callee size: 6 stack: 0
+      Stack frame offset 0, callee self size 0, callee size 0
+      SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_51/29 function body not available
+        loop depth: 1 freq:4.00 size: 1 time: 10
+      SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_51/30 function body not available
+        loop depth: 1 freq:4.00 size: 1 time: 10
+    Lpit_Gpt_Ip_EnableMdlClk.isra.0/63 inlined
+      loop depth: 0 freq:1.00 size: 2 time: 11callee size: 6 stack: 0
+      Stack frame offset 0, callee self size 0, callee size 0
+      SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_50/23 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+      SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_50/24 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+
+IPA function summary for Lpit_Gpt_Ip_InitChannel/15 inlinable
+  global time:     103.500000
+  self size:       26
+  global size:     38
+  min size:       96
+  self stack:      0
+  global stack:    0
+    size:24.000000, time:18.500000
+    size:6.000000, time:5.000000,  executed if:(not inlined)
+  calls:
+    Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/42 inlined
+      loop depth: 0 freq:1.00 size: 3 time: 12callee size: 8 stack: 0
+      Stack frame offset 0, callee self size 0, callee size 0
+      SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_55/34 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+      SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_55/33 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+    Lpit_Gpt_Ip_SetMode.isra.0.constprop/51 inlined
+      loop depth: 0 freq:1.00 size: 3 time: 12callee size: 4 stack: 0
+      Stack frame offset 0, callee self size 0, callee size 0
+      SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_52/31 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+      SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_52/32 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+    Lpit_Gpt_Ip_TimerEnable.isra.0/40 inlined
+      loop depth: 0 freq:1.00 size: 3 time: 12callee size: 6 stack: 0
+      Stack frame offset 0, callee self size 0, callee size 0
+      SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_51/30 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+      SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_51/29 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+    Lpit_Gpt_Ip_EnableMdlClk.isra.0/37 inlined
+      loop depth: 0 freq:1.00 size: 2 time: 11callee size: 6 stack: 0
+      Stack frame offset 0, callee self size 0, callee size 0
+      SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_50/24 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+      SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_50/23 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+
+IPA function summary for Lpit_Gpt_Ip_Init/14 inlinable
+  global time:     75.500000
+  self size:       11
+  global size:     30
+  min size:       48
+  self stack:      0
+  global stack:    0
+    size:20.000000, time:12.500000
+    size:4.000000, time:3.000000,  executed if:(not inlined)
+  calls:
+    Lpit_Gpt_Ip_SetDozeMode.isra.0/39 inlined
+      loop depth: 0 freq:1.00 size: 2 time: 11callee size: 6 stack: 0
+      Stack frame offset 0, callee self size 0, callee size 0
+      SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_54/28 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+      SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_54/27 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+    Lpit_Gpt_Ip_SetDebugMode.isra.0/38 inlined
+      loop depth: 0 freq:1.00 size: 2 time: 11callee size: 6 stack: 0
+      Stack frame offset 0, callee self size 0, callee size 0
+      SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_53/26 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+      SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_53/25 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+    Lpit_Gpt_Ip_EnableMdlClk.isra.0/59 inlined
+      loop depth: 0 freq:1.00 size: 2 time: 11callee size: 6 stack: 0
+      Stack frame offset 0, callee self size 0, callee size 0
+      SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_50/23 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+      SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_50/24 function body not available
+        loop depth: 0 freq:1.00 size: 1 time: 10
+
+IPA function summary for Lpit_Gpt_Ip_GetTimerValue/13 inlinable
+  global time:     3.000000
+  self size:       4
+  global size:     4
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:1.000000, time:1.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+  array index:(op1 changed)
+  calls:
+
+IPA function summary for Lpit_Gpt_Ip_GetCurrentTimervalue/12 inlinable
+  global time:     3.000000
+  self size:       4
+  global size:     4
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:1.000000, time:1.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+  array index:(op1 changed)
+  calls:
+
+IPA function summary for Lpit_Gpt_Ip_GetTimerInterruptEnable/11 inlinable
+  global time:     6.000000
+  self size:       7
+  global size:     7
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:3.000000, time:3.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+    size:1.000000, time:1.000000,  nonconst if:(op1 changed)
+  calls:
+
+IPA function summary for Lpit_Gpt_Ip_GetInterruptFlagTimerChannels/10 inlinable
+  global time:     9.000000
+  self size:       10
+  global size:     10
+  min size:       6
+  self stack:      4
+  global stack:    4
+  estimated growth:2
+    size:6.000000, time:6.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+    size:1.000000, time:1.000000,  nonconst if:(op1 changed)
+  calls:
+
+Symbol table:
+
+Lpit_Gpt_Ip_SetDebugMode.isra.0/64 (Lpit_Gpt_Ip_SetDebugMode.isra.0) @060d89a0
+  Type: function definition analyzed
+  Visibility: artificial
+  next sharing asm name: 38
+  References: 
+  Referring: 
+  Function Lpit_Gpt_Ip_SetDebugMode.isra.0/64 is inline copy in Lpit_Gpt_Ip_Deinit/16
+  Clone of Lpit_Gpt_Ip_SetDebugMode.isra.0/38
+  Availability: local
+  Function flags: count:214748365 (estimated locally) body local optimize_size
+  Called by: Lpit_Gpt_Ip_Deinit/16 (inlined) (214748365 (estimated locally),1.00 per call) 
+  Calls: SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_53/25 (214748365 (estimated locally),1.00 per call) SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_53/26 (214748365 (estimated locally),1.00 per call) 
+Lpit_Gpt_Ip_EnableMdlClk.isra.0/63 (Lpit_Gpt_Ip_EnableMdlClk.isra.0) @060d8700
+  Type: function definition analyzed
+  Visibility: artificial
+  next sharing asm name: 61
+  References: 
+  Referring: 
+  Function Lpit_Gpt_Ip_EnableMdlClk.isra.0/63 is inline copy in Lpit_Gpt_Ip_Deinit/16
+  Clone of Lpit_Gpt_Ip_EnableMdlClk.isra.0/37
+  Availability: local
+  Function flags: count:214748364 (estimated locally) body local optimize_size
+  Called by: Lpit_Gpt_Ip_Deinit/16 (inlined) (214748364 (estimated locally),1.00 per call) 
+  Calls: SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_50/23 (214748364 (estimated locally),1.00 per call) SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_50/24 (214748364 (estimated locally),1.00 per call) 
+Lpit_Gpt_Ip_SetDozeMode.isra.0/62 (Lpit_Gpt_Ip_SetDozeMode.isra.0) @060d8540
+  Type: function definition analyzed
+  Visibility: artificial
+  next sharing asm name: 39
+  References: 
+  Referring: 
+  Function Lpit_Gpt_Ip_SetDozeMode.isra.0/62 is inline copy in Lpit_Gpt_Ip_Deinit/16
+  Clone of Lpit_Gpt_Ip_SetDozeMode.isra.0/39
+  Availability: local
+  Function flags: count:214748365 (estimated locally) body local optimize_size
+  Called by: Lpit_Gpt_Ip_Deinit/16 (inlined) (214748365 (estimated locally),1.00 per call) 
+  Calls: SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_54/27 (214748365 (estimated locally),1.00 per call) SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_54/28 (214748365 (estimated locally),1.00 per call) 
+Lpit_Gpt_Ip_EnableMdlClk.isra.0/61 (Lpit_Gpt_Ip_EnableMdlClk.isra.0) @05f9bd20
+  Type: function definition analyzed
+  Visibility: artificial
+  next sharing asm name: 59
+  previous sharing asm name: 63
+  References: 
+  Referring: 
+  Function Lpit_Gpt_Ip_EnableMdlClk.isra.0/61 is inline copy in Lpit_Gpt_Ip_Deinit/16
+  Clone of Lpit_Gpt_Ip_EnableMdlClk.isra.0/37
+  Availability: local
+  Function flags: count:214748365 (estimated locally) body local optimize_size
+  Called by: Lpit_Gpt_Ip_Deinit/16 (inlined) (214748365 (estimated locally),1.00 per call) 
+  Calls: SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_50/23 (214748365 (estimated locally),1.00 per call) SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_50/24 (214748365 (estimated locally),1.00 per call) 
+Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/60 (Lpit_Gpt_Ip_InterruptTimerChannels.isra.0) @05f9bee0
+  Type: function definition analyzed
+  Visibility: artificial
+  next sharing asm name: 58
+  References: 
+  Referring: 
+  Function Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/60 is inline copy in Lpit_Gpt_Ip_DisableChInterrupt/20
+  Clone of Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/42
+  Availability: local
+  Function flags: count:1073741824 (estimated locally) body local optimize_size
+  Called by: Lpit_Gpt_Ip_DisableChInterrupt/20 (inlined) (1073741824 (estimated locally),1.00 per call) 
+  Calls: SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_55/33 (1073741824 (estimated locally),1.00 per call) SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_55/34 (1073741824 (estimated locally),1.00 per call) 
+Lpit_Gpt_Ip_EnableMdlClk.isra.0/59 (Lpit_Gpt_Ip_EnableMdlClk.isra.0) @05e55e00
+  Type: function definition analyzed
+  Visibility: artificial
+  next sharing asm name: 37
+  previous sharing asm name: 61
+  References: 
+  Referring: 
+  Function Lpit_Gpt_Ip_EnableMdlClk.isra.0/59 is inline copy in Lpit_Gpt_Ip_Init/14
+  Clone of Lpit_Gpt_Ip_EnableMdlClk.isra.0/37
+  Availability: local
+  Function flags: count:1073741824 (estimated locally) body local optimize_size
+  Called by: Lpit_Gpt_Ip_Init/14 (inlined) (1073741824 (estimated locally),1.00 per call) 
+  Calls: SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_50/23 (1073741824 (estimated locally),1.00 per call) SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_50/24 (1073741824 (estimated locally),1.00 per call) 
+Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/58 (Lpit_Gpt_Ip_InterruptTimerChannels.isra.0) @05f56460
+  Type: function definition analyzed
+  Visibility: artificial
+  next sharing asm name: 57
+  previous sharing asm name: 60
+  References: 
+  Referring: 
+  Function Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/58 is inline copy in Lpit_Gpt_Ip_EnableChInterrupt/19
+  Clone of Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/42
+  Availability: local
+  Function flags: count:1073741824 (estimated locally) body local optimize_size
+  Called by: Lpit_Gpt_Ip_EnableChInterrupt/19 (inlined) (1073741824 (estimated locally),1.00 per call) 
+  Calls: SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_55/33 (1073741824 (estimated locally),1.00 per call) SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_55/34 (1073741824 (estimated locally),1.00 per call) 
+Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/57 (Lpit_Gpt_Ip_InterruptTimerChannels.isra.0) @05ddb7e0
+  Type: function definition analyzed
+  Visibility: artificial
+  next sharing asm name: 42
+  previous sharing asm name: 58
+  References: 
+  Referring: 
+  Function Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/57 is inline copy in Lpit_Gpt_Ip_Deinit/16
+  Clone of Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/42
+  Availability: local
+  Function flags: count:858993459 (estimated locally) body local optimize_size
+  Called by: Lpit_Gpt_Ip_Deinit/16 (inlined) (858993459 (estimated locally),4.00 per call) 
+  Calls: SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_55/33 (858993459 (estimated locally),4.00 per call) SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_55/34 (858993459 (estimated locally),4.00 per call) 
+Lpit_Gpt_Ip_TimerEnable.isra.0/56 (Lpit_Gpt_Ip_TimerEnable.isra.0) @05ddb540
+  Type: function definition analyzed
+  Visibility: artificial
+  next sharing asm name: 55
+  References: 
+  Referring: 
+  Function Lpit_Gpt_Ip_TimerEnable.isra.0/56 is inline copy in Lpit_Gpt_Ip_StartTimer/17
+  Clone of Lpit_Gpt_Ip_TimerEnable.isra.0/40
+  Availability: local
+  Function flags: count:1073741824 (estimated locally) body local optimize_size
+  Called by: Lpit_Gpt_Ip_StartTimer/17 (inlined) (1073741824 (estimated locally),1.00 per call) 
+  Calls: SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_51/29 (1073741824 (estimated locally),1.00 per call) SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_51/30 (1073741824 (estimated locally),1.00 per call) 
+Lpit_Gpt_Ip_TimerEnable.isra.0/55 (Lpit_Gpt_Ip_TimerEnable.isra.0) @05ddb2a0
+  Type: function definition analyzed
+  Visibility: artificial
+  next sharing asm name: 53
+  previous sharing asm name: 56
+  References: 
+  Referring: 
+  Function Lpit_Gpt_Ip_TimerEnable.isra.0/55 is inline copy in Lpit_Gpt_Ip_StartTimer/17
+  Clone of Lpit_Gpt_Ip_TimerEnable.isra.0/40
+  Availability: local
+  Function flags: count:1073741824 (estimated locally) body local optimize_size
+  Called by: Lpit_Gpt_Ip_StartTimer/17 (inlined) (1073741824 (estimated locally),1.00 per call) 
+  Calls: SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_51/29 (1073741824 (estimated locally),1.00 per call) SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_51/30 (1073741824 (estimated locally),1.00 per call) 
+Lpit_Gpt_Ip_SetMode.isra.0.constprop.0/54 (Lpit_Gpt_Ip_SetMode.isra.0.constprop) @05ddb000
+  Type: function definition analyzed
+  Visibility: artificial
+  next sharing asm name: 51
+  References: 
+  Referring: 
+  Function Lpit_Gpt_Ip_SetMode.isra.0.constprop/54 is inline copy in Lpit_Gpt_Ip_Deinit/16
+  Clone of Lpit_Gpt_Ip_SetMode.isra.0.constprop.0/51
+  Availability: local
+  Function flags: count:858993459 (estimated locally) local optimize_size
+  Called by: Lpit_Gpt_Ip_Deinit/16 (inlined) (858993459 (estimated locally),4.00 per call) 
+  Calls: SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_52/32 (858993459 (estimated locally),4.00 per call) SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_52/31 (858993459 (estimated locally),4.00 per call) 
+Lpit_Gpt_Ip_TimerEnable.isra.0/53 (Lpit_Gpt_Ip_TimerEnable.isra.0) @05dd59a0
+  Type: function definition analyzed
+  Visibility: artificial
+  next sharing asm name: 52
+  previous sharing asm name: 55
+  References: 
+  Referring: 
+  Function Lpit_Gpt_Ip_TimerEnable.isra.0/53 is inline copy in Lpit_Gpt_Ip_StopTimer/18
+  Clone of Lpit_Gpt_Ip_TimerEnable.isra.0/40
+  Availability: local
+  Function flags: count:1073741824 (estimated locally) body local optimize_size
+  Called by: Lpit_Gpt_Ip_StopTimer/18 (inlined) (1073741824 (estimated locally),1.00 per call) 
+  Calls: SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_51/29 (1073741824 (estimated locally),1.00 per call) SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_51/30 (1073741824 (estimated locally),1.00 per call) 
+Lpit_Gpt_Ip_TimerEnable.isra.0/52 (Lpit_Gpt_Ip_TimerEnable.isra.0) @05dd5ee0
+  Type: function definition analyzed
+  Visibility: artificial
+  next sharing asm name: 40
+  previous sharing asm name: 53
+  References: 
+  Referring: 
+  Function Lpit_Gpt_Ip_TimerEnable.isra.0/52 is inline copy in Lpit_Gpt_Ip_Deinit/16
+  Clone of Lpit_Gpt_Ip_TimerEnable.isra.0/40
+  Availability: local
+  Function flags: count:858993459 (estimated locally) body local optimize_size
+  Called by: Lpit_Gpt_Ip_Deinit/16 (inlined) (858993459 (estimated locally),4.00 per call) 
+  Calls: SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_51/29 (858993459 (estimated locally),4.00 per call) SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_51/30 (858993459 (estimated locally),4.00 per call) 
+Lpit_Gpt_Ip_SetMode.isra.0.constprop.0/51 (Lpit_Gpt_Ip_SetMode.isra.0.constprop) @05dd5b60
+  Type: function definition analyzed
+  Visibility: artificial
+  previous sharing asm name: 54
+  References: 
+  Referring: 
+  Function Lpit_Gpt_Ip_SetMode.isra.0.constprop/51 is inline copy in Lpit_Gpt_Ip_InitChannel/15
+  Clone of Lpit_Gpt_Ip_SetMode.isra.0/41
+  Availability: local
+  Function flags: count:1073741824 (estimated locally) local optimize_size
+  Called by: Lpit_Gpt_Ip_InitChannel/15 (inlined) (1073741824 (estimated locally),1.00 per call) 
+  Calls: SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_52/31 (1073741824 (estimated locally),1.00 per call) SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_52/32 (1073741824 (estimated locally),1.00 per call) 
+Lpit_Gpt_Ip_ProcessCommonInterrupt.constprop.0/50 (Lpit_Gpt_Ip_ProcessCommonInterrupt.constprop) @05dd58c0
+  Type: function definition analyzed
+  Visibility:
+  References: Lpit_Gpt_Ip_u32ChState/0 (read)Lpit_Gpt_Ip_u32ChState/0 (read)Lpit_Gpt_Ip_u32ChState/0 (read)
+  Referring: 
+  Function Lpit_Gpt_Ip_ProcessCommonInterrupt.constprop/50 is inline copy in LPIT_0_CH_0_ISR/22
+  Clone of Lpit_Gpt_Ip_ProcessCommonInterrupt/21
+  Availability: local
+  Function flags: count:1073741824 (estimated locally) local optimize_size
+  Called by: LPIT_0_CH_0_ISR/22 (inlined) (1073741824 (estimated locally),1.00 per call) 
+  Calls: Lpit_Gpt_Ip_GetInterruptFlagTimerChannels/10 (1073741824 (estimated locally),1.00 per call) 
+   Indirect call(43443594 (estimated locally),0.04 per call) 
+Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/42 (Lpit_Gpt_Ip_InterruptTimerChannels.isra.0) @05f9b540
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly artificial
+  previous sharing asm name: 57
+  References: 
+  Referring: 
+  Function Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/42 is inline copy in Lpit_Gpt_Ip_InitChannel/15
+  Availability: local
+  Function flags: count:1073741824 (estimated locally) body local optimize_size
+  Called by: Lpit_Gpt_Ip_InitChannel/15 (inlined) (1073741824 (estimated locally),1.00 per call) 
+  Calls: SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_55/34 (1073741824 (estimated locally),1.00 per call) SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_55/33 (1073741824 (estimated locally),1.00 per call) 
+Lpit_Gpt_Ip_SetMode.isra.0/41 (Lpit_Gpt_Ip_SetMode.isra.0) @05f91c40
+  Type: function
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: prevailing_def_ironly artificial
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+Lpit_Gpt_Ip_TimerEnable.isra.0/40 (Lpit_Gpt_Ip_TimerEnable.isra.0) @05f91b60
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly artificial
+  previous sharing asm name: 52
+  References: 
+  Referring: 
+  Function Lpit_Gpt_Ip_TimerEnable.isra.0/40 is inline copy in Lpit_Gpt_Ip_InitChannel/15
+  Availability: local
+  Function flags: count:1073741824 (estimated locally) body local optimize_size
+  Called by: Lpit_Gpt_Ip_InitChannel/15 (inlined) (1073741824 (estimated locally),1.00 per call) 
+  Calls: SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_51/30 (1073741824 (estimated locally),1.00 per call) SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_51/29 (1073741824 (estimated locally),1.00 per call) 
+Lpit_Gpt_Ip_SetDozeMode.isra.0/39 (Lpit_Gpt_Ip_SetDozeMode.isra.0) @05f91540
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly artificial
+  previous sharing asm name: 62
+  References: 
+  Referring: 
+  Function Lpit_Gpt_Ip_SetDozeMode.isra.0/39 is inline copy in Lpit_Gpt_Ip_Init/14
+  Availability: local
+  Function flags: count:1073741824 (estimated locally) body local optimize_size
+  Called by: Lpit_Gpt_Ip_Init/14 (inlined) (1073741824 (estimated locally),1.00 per call) 
+  Calls: SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_54/28 (1073741824 (estimated locally),1.00 per call) SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_54/27 (1073741824 (estimated locally),1.00 per call) 
+Lpit_Gpt_Ip_SetDebugMode.isra.0/38 (Lpit_Gpt_Ip_SetDebugMode.isra.0) @05e55ee0
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly artificial
+  previous sharing asm name: 64
+  References: 
+  Referring: 
+  Function Lpit_Gpt_Ip_SetDebugMode.isra.0/38 is inline copy in Lpit_Gpt_Ip_Init/14
+  Availability: local
+  Function flags: count:1073741824 (estimated locally) body local optimize_size
+  Called by: Lpit_Gpt_Ip_Init/14 (inlined) (1073741824 (estimated locally),1.00 per call) 
+  Calls: SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_53/26 (1073741824 (estimated locally),1.00 per call) SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_53/25 (1073741824 (estimated locally),1.00 per call) 
+Lpit_Gpt_Ip_EnableMdlClk.isra.0/37 (Lpit_Gpt_Ip_EnableMdlClk.isra.0) @05f56c40
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly artificial
+  previous sharing asm name: 59
+  References: 
+  Referring: 
+  Function Lpit_Gpt_Ip_EnableMdlClk.isra.0/37 is inline copy in Lpit_Gpt_Ip_InitChannel/15
+  Availability: local
+  Function flags: count:1073741824 (estimated locally) body local optimize_size
+  Called by: Lpit_Gpt_Ip_InitChannel/15 (inlined) (1073741824 (estimated locally),1.00 per call) 
+  Calls: SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_50/24 (1073741824 (estimated locally),1.00 per call) SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_50/23 (1073741824 (estimated locally),1.00 per call) 
+SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_55/34 (SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_55) @05df7540
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/60 (1073741824 (estimated locally),1.00 per call) Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/58 (1073741824 (estimated locally),1.00 per call) Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/57 (858993459 (estimated locally),4.00 per call) Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/42 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_55/33 (SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_55) @05df7460
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/60 (1073741824 (estimated locally),1.00 per call) Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/58 (1073741824 (estimated locally),1.00 per call) Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/57 (858993459 (estimated locally),4.00 per call) Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/42 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_52/32 (SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_52) @05df71c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Lpit_Gpt_Ip_SetMode.isra.0.constprop/54 (858993459 (estimated locally),4.00 per call) Lpit_Gpt_Ip_SetMode.isra.0.constprop/51 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_52/31 (SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_52) @05df70e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Lpit_Gpt_Ip_SetMode.isra.0.constprop/54 (858993459 (estimated locally),4.00 per call) Lpit_Gpt_Ip_SetMode.isra.0.constprop/51 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_51/30 (SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_51) @05decee0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Lpit_Gpt_Ip_TimerEnable.isra.0/56 (1073741824 (estimated locally),1.00 per call) Lpit_Gpt_Ip_TimerEnable.isra.0/55 (1073741824 (estimated locally),1.00 per call) Lpit_Gpt_Ip_TimerEnable.isra.0/53 (1073741824 (estimated locally),1.00 per call) Lpit_Gpt_Ip_TimerEnable.isra.0/52 (858993459 (estimated locally),4.00 per call) Lpit_Gpt_Ip_TimerEnable.isra.0/40 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_51/29 (SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_51) @05dece00
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Lpit_Gpt_Ip_TimerEnable.isra.0/56 (1073741824 (estimated locally),1.00 per call) Lpit_Gpt_Ip_TimerEnable.isra.0/55 (1073741824 (estimated locally),1.00 per call) Lpit_Gpt_Ip_TimerEnable.isra.0/53 (1073741824 (estimated locally),1.00 per call) Lpit_Gpt_Ip_TimerEnable.isra.0/52 (858993459 (estimated locally),4.00 per call) Lpit_Gpt_Ip_TimerEnable.isra.0/40 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_54/28 (SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_54) @05decb60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Lpit_Gpt_Ip_SetDozeMode.isra.0/62 (214748365 (estimated locally),1.00 per call) Lpit_Gpt_Ip_SetDozeMode.isra.0/39 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_54/27 (SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_54) @05deca80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Lpit_Gpt_Ip_SetDozeMode.isra.0/62 (214748365 (estimated locally),1.00 per call) Lpit_Gpt_Ip_SetDozeMode.isra.0/39 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_53/26 (SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_53) @05dec8c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Lpit_Gpt_Ip_SetDebugMode.isra.0/64 (214748365 (estimated locally),1.00 per call) Lpit_Gpt_Ip_SetDebugMode.isra.0/38 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_53/25 (SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_53) @05dec7e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Lpit_Gpt_Ip_SetDebugMode.isra.0/64 (214748365 (estimated locally),1.00 per call) Lpit_Gpt_Ip_SetDebugMode.isra.0/38 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_50/24 (SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_50) @05dec620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Lpit_Gpt_Ip_EnableMdlClk.isra.0/63 (214748364 (estimated locally),1.00 per call) Lpit_Gpt_Ip_EnableMdlClk.isra.0/61 (214748365 (estimated locally),1.00 per call) Lpit_Gpt_Ip_EnableMdlClk.isra.0/59 (1073741824 (estimated locally),1.00 per call) Lpit_Gpt_Ip_EnableMdlClk.isra.0/37 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_50/23 (SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_50) @05dec540
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Lpit_Gpt_Ip_EnableMdlClk.isra.0/63 (214748364 (estimated locally),1.00 per call) Lpit_Gpt_Ip_EnableMdlClk.isra.0/61 (214748365 (estimated locally),1.00 per call) Lpit_Gpt_Ip_EnableMdlClk.isra.0/59 (1073741824 (estimated locally),1.00 per call) Lpit_Gpt_Ip_EnableMdlClk.isra.0/37 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+LPIT_0_CH_0_ISR/22 (LPIT_0_CH_0_ISR) @05de2620
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Lpit_Gpt_Ip_ProcessCommonInterrupt.constprop/50 (inlined) (1073741824 (estimated locally),1.00 per call) 
+Lpit_Gpt_Ip_ProcessCommonInterrupt/21 (Lpit_Gpt_Ip_ProcessCommonInterrupt) @05de20e0
+  Type: function
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+Lpit_Gpt_Ip_DisableChInterrupt/20 (Lpit_Gpt_Ip_DisableChInterrupt) @05de2d20
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/60 (inlined) (1073741824 (estimated locally),1.00 per call) 
+Lpit_Gpt_Ip_EnableChInterrupt/19 (Lpit_Gpt_Ip_EnableChInterrupt) @05de2a80
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/58 (inlined) (1073741824 (estimated locally),1.00 per call) 
+Lpit_Gpt_Ip_StopTimer/18 (Lpit_Gpt_Ip_StopTimer) @05de27e0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Lpit_Gpt_Ip_TimerEnable.isra.0/53 (inlined) (1073741824 (estimated locally),1.00 per call) 
+Lpit_Gpt_Ip_StartTimer/17 (Lpit_Gpt_Ip_StartTimer) @05de2540
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Lpit_Gpt_Ip_TimerEnable.isra.0/56 (inlined) (1073741824 (estimated locally),1.00 per call) Lpit_Gpt_Ip_TimerEnable.isra.0/55 (inlined) (1073741824 (estimated locally),1.00 per call) 
+Lpit_Gpt_Ip_Deinit/16 (Lpit_Gpt_Ip_Deinit) @05de22a0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:214748364 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Lpit_Gpt_Ip_EnableMdlClk.isra.0/61 (inlined) (214748365 (estimated locally),1.00 per call) Lpit_Gpt_Ip_SetDozeMode.isra.0/62 (inlined) (214748365 (estimated locally),1.00 per call) Lpit_Gpt_Ip_SetDebugMode.isra.0/64 (inlined) (214748365 (estimated locally),1.00 per call) Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/57 (inlined) (858993459 (estimated locally),4.00 per call) Lpit_Gpt_Ip_SetMode.isra.0.constprop/54 (inlined) (858993459 (estimated locally),4.00 per call) Lpit_Gpt_Ip_TimerEnable.isra.0/52 (inlined) (858993459 (estimated locally),4.00 per call) Lpit_Gpt_Ip_EnableMdlClk.isra.0/63 (inlined) (214748364 (estimated locally),1.00 per call) 
+Lpit_Gpt_Ip_InitChannel/15 (Lpit_Gpt_Ip_InitChannel) @05de2000
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: Lpit_Gpt_Ip_u32ChState/0 (write)Lpit_Gpt_Ip_u32ChState/0 (write)Lpit_Gpt_Ip_u32ChState/0 (write)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Lpit_Gpt_Ip_InterruptTimerChannels.isra.0/42 (inlined) (1073741824 (estimated locally),1.00 per call) Lpit_Gpt_Ip_SetMode.isra.0.constprop/51 (inlined) (1073741824 (estimated locally),1.00 per call) Lpit_Gpt_Ip_TimerEnable.isra.0/40 (inlined) (1073741824 (estimated locally),1.00 per call) Lpit_Gpt_Ip_EnableMdlClk.isra.0/37 (inlined) (1073741824 (estimated locally),1.00 per call) 
+Lpit_Gpt_Ip_Init/14 (Lpit_Gpt_Ip_Init) @05ddbb60
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Lpit_Gpt_Ip_SetDozeMode.isra.0/39 (inlined) (1073741824 (estimated locally),1.00 per call) Lpit_Gpt_Ip_SetDebugMode.isra.0/38 (inlined) (1073741824 (estimated locally),1.00 per call) Lpit_Gpt_Ip_EnableMdlClk.isra.0/59 (inlined) (1073741824 (estimated locally),1.00 per call) 
+Lpit_Gpt_Ip_GetTimerValue/13 (Lpit_Gpt_Ip_GetTimerValue) @05ddb620
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+Lpit_Gpt_Ip_GetCurrentTimervalue/12 (Lpit_Gpt_Ip_GetCurrentTimervalue) @05ddb0e0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+Lpit_Gpt_Ip_GetTimerInterruptEnable/11 (Lpit_Gpt_Ip_GetTimerInterruptEnable) @05ddbd20
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+Lpit_Gpt_Ip_GetInterruptFlagTimerChannels/10 (Lpit_Gpt_Ip_GetInterruptFlagTimerChannels) @05ddba80
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: Lpit_Gpt_Ip_ProcessCommonInterrupt.constprop/50 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+LPitGptBase/1 (LPitGptBase) @05d3d8b8
+  Type: variable definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags: initialized read-only const-value-known
+Lpit_Gpt_Ip_u32ChState/0 (Lpit_Gpt_Ip_u32ChState) @05d3d870
+  Type: variable definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: Lpit_Gpt_Ip_ProcessCommonInterrupt.constprop.0/50 (read)Lpit_Gpt_Ip_ProcessCommonInterrupt.constprop.0/50 (read)Lpit_Gpt_Ip_ProcessCommonInterrupt.constprop.0/50 (read)Lpit_Gpt_Ip_InitChannel/15 (write)Lpit_Gpt_Ip_InitChannel/15 (write)Lpit_Gpt_Ip_InitChannel/15 (write)
+  Availability: available
+  Varpool flags: initialized
+
+;; Function Lpit_Gpt_Ip_GetInterruptFlagTimerChannels (Lpit_Gpt_Ip_GetInterruptFlagTimerChannels, funcdef_no=8, decl_uid=5785, cgraph_uid=9, symbol_order=10)
+
+Lpit_Gpt_Ip_GetInterruptFlagTimerChannels (uint8 instance, uint8 channel)
+{
+  volatile uint32 returnValue;
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+  uint32 _11;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  returnValue ={v} 0;
+  # DEBUG BEGIN_STMT
+  _1 ={v} MEM[(struct LPIT_Type *)1073967104B].MSR;
+  _2 = (long unsigned int) channel_9(D);
+  _3 = 1 << _2;
+  _4 = _1 & _3;
+  _5 = _4 >> _2;
+  returnValue ={v} _5;
+  # DEBUG BEGIN_STMT
+  _11 ={v} returnValue;
+  return _11;
+
+}
+
+
+
+;; Function Lpit_Gpt_Ip_GetTimerInterruptEnable (Lpit_Gpt_Ip_GetTimerInterruptEnable, funcdef_no=9, decl_uid=5788, cgraph_uid=10, symbol_order=11)
+
+Lpit_Gpt_Ip_GetTimerInterruptEnable (uint8 instance, uint8 channel)
+{
+  uint32 returnValue;
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG returnValue => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} MEM[(struct LPIT_Type *)1073967104B].MIER;
+  _2 = (long unsigned int) channel_7(D);
+  _3 = 1 << _2;
+  _4 = _1 & _3;
+  returnValue_8 = _4 >> _2;
+  # DEBUG returnValue => returnValue_8
+  # DEBUG BEGIN_STMT
+  return returnValue_8;
+
+}
+
+
+
+;; Function Lpit_Gpt_Ip_GetCurrentTimervalue (Lpit_Gpt_Ip_GetCurrentTimervalue, funcdef_no=10, decl_uid=5779, cgraph_uid=11, symbol_order=12)
+
+Lpit_Gpt_Ip_GetCurrentTimervalue (uint8 instance, uint8 channel)
+{
+  int _1;
+  uint32 _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _1 = (int) channel_3(D);
+  _5 ={v} MEM[(struct LPIT_Type *)1073967104B].TMR[_1].CVAL;
+  return _5;
+
+}
+
+
+
+;; Function Lpit_Gpt_Ip_GetTimerValue (Lpit_Gpt_Ip_GetTimerValue, funcdef_no=11, decl_uid=5782, cgraph_uid=12, symbol_order=13)
+
+Lpit_Gpt_Ip_GetTimerValue (uint8 instance, uint8 channel)
+{
+  int _1;
+  uint32 _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _1 = (int) channel_3(D);
+  _5 ={v} MEM[(struct LPIT_Type *)1073967104B].TMR[_1].TVAL;
+  return _5;
+
+}
+
+
+
+;; Function Lpit_Gpt_Ip_Init (Lpit_Gpt_Ip_Init, funcdef_no=12, decl_uid=5792, cgraph_uid=13, symbol_order=14)
+
+Removing basic block 19
+
+Symbols to be put in SSA form
+{ D.5989 }
+Incremental SSA update started at block: 0
+Number of blocks in CFG: 21
+Number of blocks to update: 19 ( 90%)
+
+
+Merging blocks 2 and 16
+Removing basic block 4
+Merging blocks 8 and 3
+Removing basic block 10
+Merging blocks 14 and 9
+Merging blocks 2 and 17
+Merging blocks 2 and 18
+Merging blocks 2 and 20
+Merging blocks 2 and 15
+Merging blocks 2 and 11
+Merging blocks 14 and 5
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2 3 4 5 6 7 8
+;; 2 succs { 3 4 }
+;; 3 succs { 5 }
+;; 4 succs { 5 }
+;; 5 succs { 6 7 }
+;; 6 succs { 8 }
+;; 7 succs { 8 }
+;; 8 succs { 1 }
+Lpit_Gpt_Ip_Init (uint8 instance, const struct Lpit_Gpt_Ip_InstanceConfigType * config)
+{
+  _Bool _1;
+  _Bool _2;
+  long unsigned int _9;
+  long unsigned int _10;
+  long unsigned int _11;
+  long unsigned int _12;
+  long unsigned int _13;
+  long unsigned int _14;
+  long unsigned int _15;
+  long unsigned int _16;
+  long unsigned int _17;
+  long unsigned int _18;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG D#3 => instance_4(D)
+  # DEBUG enable => 1
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_EnableMdlClk
+  # DEBUG instance => D#3
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_50 ();
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  _17 ={v} MEM[(struct LPIT_Type *)1073967104B].MCR;
+  _18 = _17 | 1;
+  MEM[(struct LPIT_Type *)1073967104B].MCR ={v} _18;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_50 ();
+  # DEBUG enable => NULL
+  # DEBUG BEGIN_STMT
+  _1 = config_6(D)->stopRunInDebug;
+  # DEBUG D#4 => instance_4(D)
+  # DEBUG stopRun => _1
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_SetDebugMode
+  # DEBUG instance => D#4
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_53 ();
+  # DEBUG BEGIN_STMT
+  if (_1 != 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 4>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  _13 ={v} MEM[(struct LPIT_Type *)1073967104B].MCR;
+  _14 = _13 | 8;
+  MEM[(struct LPIT_Type *)1073967104B].MCR ={v} _14;
+  goto <bb 5>; [100.00%]
+
+  <bb 4> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  _15 ={v} MEM[(struct LPIT_Type *)1073967104B].MCR;
+  _16 = _15 & 4294967287;
+  MEM[(struct LPIT_Type *)1073967104B].MCR ={v} _16;
+
+  <bb 5> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_53 ();
+  # DEBUG stopRun => NULL
+  # DEBUG BEGIN_STMT
+  _2 = config_6(D)->runInDozeMode;
+  # DEBUG D#5 => instance_4(D)
+  # DEBUG running => _2
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_SetDozeMode
+  # DEBUG instance => D#5
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_54 ();
+  # DEBUG BEGIN_STMT
+  if (_2 != 0)
+    goto <bb 6>; [50.00%]
+  else
+    goto <bb 7>; [50.00%]
+
+  <bb 6> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  _9 ={v} MEM[(struct LPIT_Type *)1073967104B].MCR;
+  _10 = _9 | 4;
+  MEM[(struct LPIT_Type *)1073967104B].MCR ={v} _10;
+  goto <bb 8>; [100.00%]
+
+  <bb 7> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  _11 ={v} MEM[(struct LPIT_Type *)1073967104B].MCR;
+  _12 = _11 & 4294967291;
+  MEM[(struct LPIT_Type *)1073967104B].MCR ={v} _12;
+
+  <bb 8> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_54 ();
+  # DEBUG running => NULL
+  return;
+
+}
+
+
+
+;; Function Lpit_Gpt_Ip_InitChannel (Lpit_Gpt_Ip_InitChannel, funcdef_no=13, decl_uid=5795, cgraph_uid=14, symbol_order=15)
+
+Removing basic block 6
+Removing basic block 16
+Removing basic block 23
+
+Symbols to be put in SSA form
+{ D.5990 }
+Incremental SSA update started at block: 0
+Number of blocks in CFG: 25
+Number of blocks to update: 21 ( 84%)
+
+
+Merging blocks 2 and 20
+Removing basic block 4
+Removing basic block 10
+Removing basic block 11
+Removing basic block 14
+Merging blocks 2 and 21
+Merging blocks 2 and 22
+Merging blocks 2 and 24
+Merging blocks 2 and 19
+Merging blocks 2 and 15
+Merging blocks 2 and 17
+Merging blocks 2 and 18
+Merging blocks 2 and 13
+Merging blocks 2 and 12
+Merging blocks 2 and 9
+Merging blocks 2 and 5
+Merging blocks 2 and 7
+Merging blocks 2 and 8
+Merging blocks 2 and 3
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2
+;; 2 succs { 1 }
+Lpit_Gpt_Ip_InitChannel (uint8 instance, const struct Lpit_Gpt_Ip_ChannelConfigType * configChannel)
+{
+  unsigned char _1;
+  unsigned char _2;
+  unsigned char _3;
+  unsigned char _4;
+  int _5;
+  int _6;
+  void (*<T496>) (uint8) _7;
+  unsigned char _8;
+  long unsigned int _19;
+  long unsigned int _20;
+  int _21;
+  long unsigned int _28;
+  long unsigned int _29;
+  long unsigned int _30;
+  long unsigned int _31;
+  long unsigned int _32;
+  int _33;
+  long unsigned int _34;
+  long unsigned int _35;
+  long unsigned int _36;
+  long unsigned int _37;
+  long unsigned int _38;
+  int _42;
+  long unsigned int _43;
+  long unsigned int _44;
+  long unsigned int _45;
+  long unsigned int _46;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG D#3 => instance_10(D)
+  # DEBUG enable => 1
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_EnableMdlClk
+  # DEBUG instance => D#3
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_50 ();
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  _45 ={v} MEM[(struct LPIT_Type *)1073967104B].MCR;
+  _46 = _45 | 1;
+  MEM[(struct LPIT_Type *)1073967104B].MCR ={v} _46;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_50 ();
+  # DEBUG enable => NULL
+  # DEBUG BEGIN_STMT
+  _1 = configChannel_12(D)->hwChannel;
+  # DEBUG D#6 => instance_10(D)
+  # DEBUG channel => _1
+  # DEBUG enable => 0
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_TimerEnable
+  # DEBUG instance => D#6
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_51 ();
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  _42 = (int) _1;
+  _43 ={v} MEM[(struct LPIT_Type *)1073967104B].TMR[_42].TCTRL;
+  _44 = _43 & 4294967294;
+  MEM[(struct LPIT_Type *)1073967104B].TMR[_42].TCTRL ={v} _44;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_51 ();
+  # DEBUG channel => NULL
+  # DEBUG enable => NULL
+  # DEBUG BEGIN_STMT
+  _2 = configChannel_12(D)->hwChannel;
+  # DEBUG D#7 => instance_10(D)
+  # DEBUG channel => _2
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_SetMode
+  # DEBUG mode => 0
+  # DEBUG instance => D#7
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_52 ();
+  # DEBUG BEGIN_STMT
+  _33 = (int) _2;
+  _34 ={v} MEM[(struct LPIT_Type *)1073967104B].TMR[_33].TCTRL;
+  _35 = _34 & 4294967283;
+  _36 = 0;
+  _37 = _36 & 12;
+  _38 = _35 | _37;
+  MEM[(struct LPIT_Type *)1073967104B].TMR[_33].TCTRL ={v} _38;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_52 ();
+  # DEBUG channel => NULL
+  # DEBUG mode => NULL
+  # DEBUG BEGIN_STMT
+  _3 = configChannel_12(D)->hwChannel;
+  # DEBUG D#1 => instance_10(D)
+  # DEBUG channel => _3
+  # DEBUG value => 4294967295
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_SetCmpValue
+  # DEBUG instance => D#1
+  # DEBUG BEGIN_STMT
+  _21 = (int) _3;
+  MEM[(struct LPIT_Type *)1073967104B].TMR[_21].TVAL ={v} 4294967295;
+  # DEBUG channel => NULL
+  # DEBUG value => NULL
+  # DEBUG BEGIN_STMT
+  # DEBUG D#8 => instance_10(D)
+  # DEBUG channel => _3
+  # DEBUG enable => 0
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_InterruptTimerChannels
+  # DEBUG instance => D#8
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_55 ();
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  _28 ={v} MEM[(struct LPIT_Type *)1073967104B].MIER;
+  _29 = (long unsigned int) _3;
+  _30 = 1 << _29;
+  _31 = ~_30;
+  _32 = _28 & _31;
+  MEM[(struct LPIT_Type *)1073967104B].MIER ={v} _32;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_55 ();
+  # DEBUG channel => NULL
+  # DEBUG enable => NULL
+  # DEBUG BEGIN_STMT
+  _4 = configChannel_12(D)->hwChannel;
+  # DEBUG D#2 => instance_10(D)
+  # DEBUG channel => _4
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_ClearInterruptFlagTimerChannels
+  # DEBUG instance => D#2
+  # DEBUG BEGIN_STMT
+  _19 = (long unsigned int) _4;
+  _20 = 1 << _19;
+  MEM[(struct LPIT_Type *)1073967104B].MSR ={v} _20;
+  # DEBUG channel => NULL
+  # DEBUG BEGIN_STMT
+  _5 = (int) instance_10(D);
+  _6 = (int) _4;
+  Lpit_Gpt_Ip_u32ChState[_5][_6].chInit = 1;
+  # DEBUG BEGIN_STMT
+  _7 = configChannel_12(D)->callback;
+  Lpit_Gpt_Ip_u32ChState[_5][_6].callback = _7;
+  # DEBUG BEGIN_STMT
+  _8 = configChannel_12(D)->callbackParam;
+  Lpit_Gpt_Ip_u32ChState[_5][_6].callbackParam = _8;
+  return;
+
+}
+
+
+
+;; Function Lpit_Gpt_Ip_Deinit (Lpit_Gpt_Ip_Deinit, funcdef_no=14, decl_uid=5797, cgraph_uid=15, symbol_order=16)
+
+Removing basic block 10
+Removing basic block 15
+Removing basic block 25
+Removing basic block 31
+Removing basic block 37
+Removing basic block 43
+
+Symbols to be put in SSA form
+{ D.5991 }
+Incremental SSA update started at block: 0
+Number of blocks in CFG: 46
+Number of blocks to update: 39 ( 85%)
+
+
+Merging blocks 2 and 7
+Removing basic block 3
+Removing basic block 5
+Removing basic block 6
+Removing basic block 13
+Removing basic block 18
+Removing basic block 19
+Removing basic block 20
+Removing basic block 22
+Removing basic block 23
+Merging blocks 24 and 26
+Removing basic block 29
+Removing basic block 34
+Removing basic block 35
+Removing basic block 40
+Removing basic block 41
+Merging blocks 42 and 44
+Merging blocks 2 and 8
+Merging blocks 2 and 9
+Merging blocks 2 and 11
+Merging blocks 24 and 27
+Merging blocks 24 and 21
+Merging blocks 24 and 14
+Merging blocks 24 and 16
+Merging blocks 24 and 17
+Merging blocks 24 and 12
+Merging blocks 42 and 45
+Merging blocks 42 and 36
+Merging blocks 42 and 38
+Merging blocks 42 and 39
+Merging blocks 42 and 30
+Merging blocks 42 and 32
+Merging blocks 42 and 33
+Merging blocks 42 and 28
+;; 2 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2 3 4 5
+;;
+;; Loop 1
+;;  header 4, latch 3
+;;  depth 1, outer 0
+;;  nodes: 4 3
+;; 2 succs { 4 }
+;; 3 succs { 4 }
+;; 4 succs { 3 5 }
+;; 5 succs { 1 }
+Lpit_Gpt_Ip_Deinit (uint8 instance)
+{
+  uint8 channelIndex;
+  long unsigned int _13;
+  long unsigned int _14;
+  long unsigned int _16;
+  long unsigned int _17;
+  long unsigned int _24;
+  long unsigned int _25;
+  long unsigned int _26;
+  long unsigned int _27;
+  long unsigned int _28;
+  int _29;
+  long unsigned int _30;
+  long unsigned int _31;
+  long unsigned int _32;
+  long unsigned int _33;
+  long unsigned int _34;
+  int _38;
+  long unsigned int _39;
+  long unsigned int _40;
+  long unsigned int _43;
+  long unsigned int _44;
+  long unsigned int _47;
+  long unsigned int _48;
+  long unsigned int _51;
+  long unsigned int _52;
+
+  <bb 2> [local count: 214748364]:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  # DEBUG D#3 => instance_4(D)
+  # DEBUG enable => 1
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_EnableMdlClk
+  # DEBUG instance => D#3
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_50 ();
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  _16 ={v} MEM[(struct LPIT_Type *)1073967104B].MCR;
+  _17 = _16 | 1;
+  MEM[(struct LPIT_Type *)1073967104B].MCR ={v} _17;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_50 ();
+  goto <bb 4>; [100.00%]
+
+  <bb 3> [local count: 858993459]:
+  # DEBUG BEGIN_STMT
+  # DEBUG D#6 => instance_4(D)
+  # DEBUG channel => channelIndex_1
+  # DEBUG enable => 0
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_TimerEnable
+  # DEBUG instance => D#6
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_51 ();
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  _38 = (int) channelIndex_1;
+  _39 ={v} MEM[(struct LPIT_Type *)1073967104B].TMR[_38].TCTRL;
+  _40 = _39 & 4294967294;
+  MEM[(struct LPIT_Type *)1073967104B].TMR[_38].TCTRL ={v} _40;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_51 ();
+  # DEBUG channel => NULL
+  # DEBUG enable => NULL
+  # DEBUG BEGIN_STMT
+  # DEBUG D#7 => instance_4(D)
+  # DEBUG channel => channelIndex_1
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_SetMode
+  # DEBUG mode => 0
+  # DEBUG instance => D#7
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_52 ();
+  # DEBUG BEGIN_STMT
+  _29 = (int) channelIndex_1;
+  _30 ={v} MEM[(struct LPIT_Type *)1073967104B].TMR[_29].TCTRL;
+  _31 = _30 & 4294967283;
+  _32 = 0;
+  _33 = _32 & 12;
+  _34 = _31 | _33;
+  MEM[(struct LPIT_Type *)1073967104B].TMR[_29].TCTRL ={v} _34;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_52 ();
+  # DEBUG channel => NULL
+  # DEBUG mode => NULL
+  # DEBUG BEGIN_STMT
+  # DEBUG D#8 => instance_4(D)
+  # DEBUG channel => channelIndex_1
+  # DEBUG enable => 0
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_InterruptTimerChannels
+  # DEBUG instance => D#8
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_55 ();
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  _24 ={v} MEM[(struct LPIT_Type *)1073967104B].MIER;
+  _25 = (long unsigned int) channelIndex_1;
+  _26 = 1 << _25;
+  _27 = ~_26;
+  _28 = _24 & _27;
+  MEM[(struct LPIT_Type *)1073967104B].MIER ={v} _28;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_55 ();
+  # DEBUG channel => NULL
+  # DEBUG enable => NULL
+  # DEBUG BEGIN_STMT
+  # DEBUG D#2 => instance_4(D)
+  # DEBUG channel => channelIndex_1
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_ClearInterruptFlagTimerChannels
+  # DEBUG instance => D#2
+  # DEBUG BEGIN_STMT
+  _13 = (long unsigned int) channelIndex_1;
+  _14 = 1 << _13;
+  MEM[(struct LPIT_Type *)1073967104B].MSR ={v} _14;
+  # DEBUG channel => NULL
+  # DEBUG BEGIN_STMT
+  channelIndex_12 = channelIndex_1 + 1;
+  # DEBUG channelIndex => channelIndex_12
+
+  <bb 4> [local count: 1073741824]:
+  # channelIndex_1 = PHI <0(2), channelIndex_12(3)>
+  # DEBUG enable => NULL
+  # DEBUG channelIndex => NULL
+  # DEBUG channelIndex => channelIndex_1
+  # DEBUG BEGIN_STMT
+  if (channelIndex_1 != 4)
+    goto <bb 3>; [80.00%]
+  else
+    goto <bb 5>; [20.00%]
+
+  <bb 5> [local count: 214748365]:
+  # DEBUG BEGIN_STMT
+  # DEBUG D#4 => instance_4(D)
+  # DEBUG stopRun => 0
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_SetDebugMode
+  # DEBUG instance => D#4
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_53 ();
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  _51 ={v} MEM[(struct LPIT_Type *)1073967104B].MCR;
+  _52 = _51 & 4294967287;
+  MEM[(struct LPIT_Type *)1073967104B].MCR ={v} _52;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_53 ();
+  # DEBUG stopRun => NULL
+  # DEBUG BEGIN_STMT
+  # DEBUG D#5 => instance_4(D)
+  # DEBUG running => 0
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_SetDozeMode
+  # DEBUG instance => D#5
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_54 ();
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  _47 ={v} MEM[(struct LPIT_Type *)1073967104B].MCR;
+  _48 = _47 & 4294967291;
+  MEM[(struct LPIT_Type *)1073967104B].MCR ={v} _48;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_54 ();
+  # DEBUG running => NULL
+  # DEBUG BEGIN_STMT
+  # DEBUG D#3 => instance_4(D)
+  # DEBUG enable => 0
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_EnableMdlClk
+  # DEBUG instance => D#3
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_50 ();
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  _43 ={v} MEM[(struct LPIT_Type *)1073967104B].MCR;
+  _44 = _43 & 4294967294;
+  MEM[(struct LPIT_Type *)1073967104B].MCR ={v} _44;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_50 ();
+  # DEBUG enable => NULL
+  return;
+
+}
+
+
+
+;; Function Lpit_Gpt_Ip_StartTimer (Lpit_Gpt_Ip_StartTimer, funcdef_no=15, decl_uid=5801, cgraph_uid=16, symbol_order=17)
+
+Removing basic block 7
+Removing basic block 12
+
+Symbols to be put in SSA form
+{ D.5992 }
+Incremental SSA update started at block: 0
+Number of blocks in CFG: 15
+Number of blocks to update: 12 ( 80%)
+
+
+Merging blocks 2 and 10
+Removing basic block 4
+Merging blocks 2 and 11
+Merging blocks 2 and 13
+Merging blocks 2 and 14
+Merging blocks 2 and 9
+Merging blocks 2 and 5
+Merging blocks 2 and 6
+Merging blocks 2 and 8
+Merging blocks 2 and 3
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2
+;; 2 succs { 1 }
+Lpit_Gpt_Ip_StartTimer (uint8 instance, uint8 channel, uint32 countValue)
+{
+  int _7;
+  int _9;
+  long unsigned int _10;
+  long unsigned int _11;
+  int _18;
+  long unsigned int _19;
+  long unsigned int _20;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG D#6 => instance_2(D)
+  # DEBUG channel => channel_3(D)
+  # DEBUG enable => 0
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_TimerEnable
+  # DEBUG instance => D#6
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_51 ();
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  _18 = (int) channel_3(D);
+  _19 ={v} MEM[(struct LPIT_Type *)1073967104B].TMR[_18].TCTRL;
+  _20 = _19 & 4294967294;
+  MEM[(struct LPIT_Type *)1073967104B].TMR[_18].TCTRL ={v} _20;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_51 ();
+  # DEBUG channel => NULL
+  # DEBUG enable => NULL
+  # DEBUG BEGIN_STMT
+  # DEBUG D#1 => instance_2(D)
+  # DEBUG channel => channel_3(D)
+  # DEBUG value => countValue_5(D)
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_SetCmpValue
+  # DEBUG instance => D#1
+  # DEBUG BEGIN_STMT
+  _7 = (int) channel_3(D);
+  MEM[(struct LPIT_Type *)1073967104B].TMR[_7].TVAL ={v} countValue_5(D);
+  # DEBUG channel => NULL
+  # DEBUG value => NULL
+  # DEBUG BEGIN_STMT
+  # DEBUG D#6 => instance_2(D)
+  # DEBUG channel => channel_3(D)
+  # DEBUG enable => 1
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_TimerEnable
+  # DEBUG instance => D#6
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_51 ();
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  _9 = (int) channel_3(D);
+  _10 ={v} MEM[(struct LPIT_Type *)1073967104B].TMR[_9].TCTRL;
+  _11 = _10 | 1;
+  MEM[(struct LPIT_Type *)1073967104B].TMR[_9].TCTRL ={v} _11;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_51 ();
+  # DEBUG channel => NULL
+  # DEBUG enable => NULL
+  return;
+
+}
+
+
+
+;; Function Lpit_Gpt_Ip_StopTimer (Lpit_Gpt_Ip_StopTimer, funcdef_no=16, decl_uid=5804, cgraph_uid=17, symbol_order=18)
+
+Removing basic block 6
+
+Symbols to be put in SSA form
+{ D.5993 }
+Incremental SSA update started at block: 0
+Number of blocks in CFG: 9
+Number of blocks to update: 7 ( 78%)
+
+
+Merging blocks 2 and 4
+Merging blocks 2 and 5
+Merging blocks 2 and 7
+Merging blocks 2 and 8
+Merging blocks 2 and 3
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2
+;; 2 succs { 1 }
+Lpit_Gpt_Ip_StopTimer (uint8 instance, uint8 channel)
+{
+  long unsigned int _5;
+  long unsigned int _6;
+  int _11;
+  long unsigned int _12;
+  long unsigned int _13;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG D#6 => instance_2(D)
+  # DEBUG channel => channel_3(D)
+  # DEBUG enable => 0
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_TimerEnable
+  # DEBUG instance => D#6
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_51 ();
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  _11 = (int) channel_3(D);
+  _12 ={v} MEM[(struct LPIT_Type *)1073967104B].TMR[_11].TCTRL;
+  _13 = _12 & 4294967294;
+  MEM[(struct LPIT_Type *)1073967104B].TMR[_11].TCTRL ={v} _13;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_51 ();
+  # DEBUG channel => NULL
+  # DEBUG enable => NULL
+  # DEBUG BEGIN_STMT
+  # DEBUG D#2 => instance_2(D)
+  # DEBUG channel => channel_3(D)
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_ClearInterruptFlagTimerChannels
+  # DEBUG instance => D#2
+  # DEBUG BEGIN_STMT
+  _5 = (long unsigned int) channel_3(D);
+  _6 = 1 << _5;
+  MEM[(struct LPIT_Type *)1073967104B].MSR ={v} _6;
+  # DEBUG channel => NULL
+  return;
+
+}
+
+
+
+;; Function Lpit_Gpt_Ip_EnableChInterrupt (Lpit_Gpt_Ip_EnableChInterrupt, funcdef_no=17, decl_uid=5807, cgraph_uid=18, symbol_order=19)
+
+Removing basic block 7
+
+Symbols to be put in SSA form
+{ D.5994 }
+Incremental SSA update started at block: 0
+Number of blocks in CFG: 9
+Number of blocks to update: 7 ( 78%)
+
+
+Merging blocks 2 and 4
+Merging blocks 2 and 5
+Merging blocks 2 and 6
+Merging blocks 2 and 8
+Merging blocks 2 and 3
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2
+;; 2 succs { 1 }
+Lpit_Gpt_Ip_EnableChInterrupt (uint8 instance, uint8 channel)
+{
+  long unsigned int _5;
+  long unsigned int _6;
+  long unsigned int _8;
+  long unsigned int _9;
+  long unsigned int _10;
+  long unsigned int _11;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG D#2 => instance_2(D)
+  # DEBUG channel => channel_3(D)
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_ClearInterruptFlagTimerChannels
+  # DEBUG instance => D#2
+  # DEBUG BEGIN_STMT
+  _5 = (long unsigned int) channel_3(D);
+  _6 = 1 << _5;
+  MEM[(struct LPIT_Type *)1073967104B].MSR ={v} _6;
+  # DEBUG channel => NULL
+  # DEBUG BEGIN_STMT
+  # DEBUG D#8 => instance_2(D)
+  # DEBUG channel => channel_3(D)
+  # DEBUG enable => 1
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_InterruptTimerChannels
+  # DEBUG instance => D#8
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_55 ();
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  _8 ={v} MEM[(struct LPIT_Type *)1073967104B].MIER;
+  _9 = (long unsigned int) channel_3(D);
+  _10 = 1 << _9;
+  _11 = _8 | _10;
+  MEM[(struct LPIT_Type *)1073967104B].MIER ={v} _11;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_55 ();
+  # DEBUG channel => NULL
+  # DEBUG enable => NULL
+  return;
+
+}
+
+
+
+;; Function Lpit_Gpt_Ip_DisableChInterrupt (Lpit_Gpt_Ip_DisableChInterrupt, funcdef_no=18, decl_uid=5810, cgraph_uid=19, symbol_order=20)
+
+Removing basic block 6
+
+Symbols to be put in SSA form
+{ D.5995 }
+Incremental SSA update started at block: 0
+Number of blocks in CFG: 9
+Number of blocks to update: 7 ( 78%)
+
+
+Merging blocks 2 and 4
+Merging blocks 2 and 5
+Merging blocks 2 and 7
+Merging blocks 2 and 8
+Merging blocks 2 and 3
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2
+;; 2 succs { 1 }
+Lpit_Gpt_Ip_DisableChInterrupt (uint8 instance, uint8 channel)
+{
+  long unsigned int _5;
+  long unsigned int _6;
+  long unsigned int _12;
+  long unsigned int _13;
+  long unsigned int _14;
+  long unsigned int _15;
+  long unsigned int _16;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG D#2 => instance_2(D)
+  # DEBUG channel => channel_3(D)
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_ClearInterruptFlagTimerChannels
+  # DEBUG instance => D#2
+  # DEBUG BEGIN_STMT
+  _5 = (long unsigned int) channel_3(D);
+  _6 = 1 << _5;
+  MEM[(struct LPIT_Type *)1073967104B].MSR ={v} _6;
+  # DEBUG channel => NULL
+  # DEBUG BEGIN_STMT
+  # DEBUG D#8 => instance_2(D)
+  # DEBUG channel => channel_3(D)
+  # DEBUG enable => 0
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_InterruptTimerChannels
+  # DEBUG instance => D#8
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Gpt_GPT_EXCLUSIVE_AREA_55 ();
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  _12 ={v} MEM[(struct LPIT_Type *)1073967104B].MIER;
+  _13 = (long unsigned int) channel_3(D);
+  _14 = 1 << _13;
+  _15 = ~_14;
+  _16 = _12 & _15;
+  MEM[(struct LPIT_Type *)1073967104B].MIER ={v} _16;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Gpt_GPT_EXCLUSIVE_AREA_55 ();
+  # DEBUG channel => NULL
+  # DEBUG enable => NULL
+  return;
+
+}
+
+
+
+;; Function LPIT_0_CH_0_ISR (LPIT_0_CH_0_ISR, funcdef_no=20, decl_uid=5817, cgraph_uid=21, symbol_order=22)
+
+
+Symbols to be put in SSA form
+{ D.5996 }
+Incremental SSA update started at block: 0
+Number of blocks in CFG: 11
+Number of blocks to update: 10 ( 91%)
+
+
+Merging blocks 2 and 4
+Merging blocks 10 and 3
+Merging blocks 2 and 5
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2 3 4 5 6 7
+;; 2 succs { 3 7 }
+;; 3 succs { 4 7 }
+;; 4 succs { 5 7 }
+;; 5 succs { 6 7 }
+;; 6 succs { 7 }
+;; 7 succs { 1 }
+LPIT_0_CH_0_ISR ()
+{
+  uint32 returnValue;
+  uint32 flag;
+  long unsigned int _5;
+  long unsigned int _6;
+  long unsigned int _7;
+  long unsigned int _8;
+  int _10;
+  int _11;
+  _Bool _12;
+  void (*<T496>) (uint8) _13;
+  unsigned char _14;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_ProcessCommonInterrupt
+  # DEBUG channel => 0
+  # DEBUG instance => 0
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  flag_4 = Lpit_Gpt_Ip_GetInterruptFlagTimerChannels (0, 0);
+  # DEBUG flag => flag_4
+  # DEBUG BEGIN_STMT
+  # DEBUG instance => 0
+  # DEBUG channel => 0
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_GetTimerInterruptEnable
+  # DEBUG BEGIN_STMT
+  # DEBUG returnValue => 0
+  # DEBUG BEGIN_STMT
+  _5 ={v} MEM[(struct LPIT_Type *)1073967104B].MIER;
+  _6 = 0;
+  _7 = 1 << _6;
+  _8 = _5 & _7;
+  returnValue_9 = _8 >> _6;
+  # DEBUG returnValue => returnValue_9
+  # DEBUG BEGIN_STMT
+  # DEBUG instance => NULL
+  # DEBUG channel => NULL
+  # DEBUG returnValue => NULL
+  # DEBUG interruptEnabled => returnValue_9
+  # DEBUG BEGIN_STMT
+  if (flag_4 == 1)
+    goto <bb 3>; [34.00%]
+  else
+    goto <bb 7>; [66.00%]
+
+  <bb 3> [local count: 365072220]:
+  if (returnValue_9 == 1)
+    goto <bb 4>; [34.00%]
+  else
+    goto <bb 7>; [66.00%]
+
+  <bb 4> [local count: 124124555]:
+  # DEBUG BEGIN_STMT
+  _10 = 0;
+  _11 = 0;
+  _12 = Lpit_Gpt_Ip_u32ChState[_10][_11].chInit;
+  if (_12 != 0)
+    goto <bb 5>; [50.00%]
+  else
+    goto <bb 7>; [50.00%]
+
+  <bb 5> [local count: 62062277]:
+  _13 = Lpit_Gpt_Ip_u32ChState[_10][_11].callback;
+  if (_13 != 0B)
+    goto <bb 6>; [70.00%]
+  else
+    goto <bb 7>; [30.00%]
+
+  <bb 6> [local count: 43443594]:
+  # DEBUG BEGIN_STMT
+  _14 = Lpit_Gpt_Ip_u32ChState[_10][_11].callbackParam;
+  _13 (_14);
+
+  <bb 7> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG D#2 => 0
+  # DEBUG channel => 0
+  # DEBUG INLINE_ENTRY Lpit_Gpt_Ip_ClearInterruptFlagTimerChannels
+  # DEBUG instance => D#2
+  # DEBUG BEGIN_STMT
+  MEM[(struct LPIT_Type *)1073967104B].MSR ={v} _7;
+  # DEBUG channel => NULL
+  # DEBUG flag => NULL
+  # DEBUG returnValue => NULL
+  # DEBUG instance => NULL
+  # DEBUG channel => NULL
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" DSB");
+  return;
+
+}
+
+

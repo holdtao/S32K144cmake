@@ -1,0 +1,42 @@
+Wdg_43_Instance1_GetVersionInfo (struct Std_VersionInfoType * versioninfo)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  Wdg_ChannelGetVersionInfo (1, versioninfo);
+  return;
+
+}
+
+
+Wdg_43_Instance1_SetTriggerCondition (uint16 timeout)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  Wdg_ChannelSetTriggerCondition (1, timeout);
+  return;
+
+}
+
+
+Wdg_43_Instance1_SetMode (WdgIf_ModeType Mode)
+{
+  Std_ReturnType D.6253;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  D.6253 = Wdg_ChannelSetMode (1, Mode);
+  return D.6253;
+
+}
+
+
+Wdg_43_Instance1_Init (const struct Wdg_ConfigType * ConfigPtr)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  Wdg_ChannelInit (1, ConfigPtr);
+  return;
+
+}
+
+

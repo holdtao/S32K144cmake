@@ -1,0 +1,574 @@
+
+Analyzing function: Wdg_Ipw_Service/5
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2 3 4 5
+;; 2 succs { 5 3 4 }
+;; 3 succs { 5 }
+;; 4 succs { 5 }
+;; 5 succs { 1 }
+
+Analyzing function body size: Wdg_Ipw_Service
+
+IPA function summary for Wdg_Ipw_Service/5 inlinable
+  global time:     12.332400
+  self size:       14
+  global size:     0
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:7.000000, time:3.000000
+    size:3.000000, time:1.999800,  executed if:(not inlined)
+  calls:
+    Ewm_Ip_Service/13 function body not available
+      loop depth: 0 freq:0.33 size: 2 time: 11
+       op0 is compile time invariant
+    Wdog_Ip_Service/12 function body not available
+      loop depth: 0 freq:0.33 size: 2 time: 11
+
+
+Analyzing function: Wdg_Ipw_StopTimer/4
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2 3 4 5 7
+;; 2 succs { 7 3 }
+;; 3 succs { 4 7 }
+;; 4 succs { 5 7 }
+;; 5 succs { 7 }
+;; 7 succs { 1 }
+
+Analyzing function body size: Wdg_Ipw_StopTimer
+
+IPA function summary for Wdg_Ipw_StopTimer/4 inlinable
+  global time:     10.417544
+  self size:       18
+  global size:     0
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:7.000000, time:3.990000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+  calls:
+    Det_ReportRuntimeError/7 function body not available
+      loop depth: 0 freq:0.03 size: 5 time: 14
+       op0 is compile time invariant
+       op2 is compile time invariant
+       op3 is compile time invariant
+    Wdog_Ip_StopTimer/11 function body not available
+      loop depth: 0 freq:0.33 size: 3 time: 12
+
+
+Analyzing function: Wdg_Ipw_StartTimer/3
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2 3 4 5 7
+;; 2 succs { 7 3 }
+;; 3 succs { 4 7 }
+;; 4 succs { 5 7 }
+;; 5 succs { 7 }
+;; 7 succs { 1 }
+
+Analyzing function body size: Wdg_Ipw_StartTimer
+
+IPA function summary for Wdg_Ipw_StartTimer/3 inlinable
+  global time:     10.417544
+  self size:       18
+  global size:     0
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:7.000000, time:3.990000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+  calls:
+    Det_ReportRuntimeError/7 function body not available
+      loop depth: 0 freq:0.03 size: 5 time: 14
+       op0 is compile time invariant
+       op2 is compile time invariant
+       op3 is compile time invariant
+    Wdog_Ip_StartTimer/10 function body not available
+      loop depth: 0 freq:0.33 size: 3 time: 12
+
+
+Analyzing function: Wdg_Ipw_SetMode/2
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2 3 4 5 7
+;; 2 succs { 7 3 }
+;; 3 succs { 4 7 }
+;; 4 succs { 5 7 }
+;; 5 succs { 7 }
+;; 7 succs { 1 }
+
+Analyzing function body size: Wdg_Ipw_SetMode
+
+IPA function summary for Wdg_Ipw_SetMode/2 inlinable
+  global time:     12.077544
+  self size:       21
+  global size:     0
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:1.000000, time:1.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+    size:0.500000, time:0.500000,  executed if:(not inlined),  nonconst if:(op1[ref offset: 0] changed) && (not inlined)
+    size:2.500000, time:2.500000,  nonconst if:(op1[ref offset: 0] changed)
+    size:0.500000, time:0.165000,  executed if:(op1[ref offset: 0] == 0) && (not inlined),  nonconst if:(op1[ref offset: 32] changed) && (op1[ref offset: 0] == 0) && (not inlined)
+    size:0.500000, time:0.165000,  executed if:(op1[ref offset: 0] == 0),  nonconst if:(op1[ref offset: 32] changed) && (op1[ref offset: 0] == 0)
+    size:4.000000, time:0.990000,  executed if:(op1[ref offset: 0] == 0)
+  calls:
+    Det_ReportRuntimeError/7 function body not available
+      loop depth: 0 freq:0.03 size: 5 time: 14 predicate: (op1[ref offset: 0] == 0)
+       op0 is compile time invariant
+       op2 is compile time invariant
+       op3 is compile time invariant
+    Wdog_Ip_Config/9 function body not available
+      loop depth: 0 freq:0.33 size: 4 time: 13 predicate: (op1[ref offset: 0] == 0)
+
+
+Analyzing function: Wdg_Ipw_Init/1
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2 3 4 5 7 8 9
+;; 2 succs { 9 3 7 }
+;; 3 succs { 4 9 }
+;; 4 succs { 5 9 }
+;; 5 succs { 9 }
+;; 7 succs { 8 9 }
+;; 8 succs { 9 }
+;; 9 succs { 1 }
+
+Analyzing function body size: Wdg_Ipw_Init
+
+IPA function summary for Wdg_Ipw_Init/1 inlinable
+  global time:     17.470919
+  self size:       32
+  global size:     0
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:1.000000, time:1.000000
+    size:3.000000, time:1.999800,  executed if:(not inlined)
+    size:0.500000, time:0.500000,  executed if:(not inlined),  nonconst if:(op1[ref offset: 0] changed) && (not inlined)
+    size:6.500000, time:2.500000,  nonconst if:(op1[ref offset: 0] changed)
+    size:0.500000, time:0.166650,  executed if:(op1[ref offset: 0] == 1) && (not inlined),  nonconst if:(op1[ref offset: 64] changed) && (op1[ref offset: 0] == 1) && (not inlined)
+    size:0.500000, time:0.166650,  executed if:(op1[ref offset: 0] == 1),  nonconst if:(op1[ref offset: 64] changed) && (op1[ref offset: 0] == 1)
+    size:2.000000, time:0.666600,  executed if:(op1[ref offset: 0] == 1)
+    size:0.500000, time:0.166650,  executed if:(op1[ref offset: 0] == 0) && (not inlined),  nonconst if:(op1[ref offset: 32] changed) && (op1[ref offset: 0] == 0) && (not inlined)
+    size:0.500000, time:0.166650,  executed if:(op1[ref offset: 0] == 0),  nonconst if:(op1[ref offset: 32] changed) && (op1[ref offset: 0] == 0)
+    size:4.000000, time:0.999900,  executed if:(op1[ref offset: 0] == 0)
+  calls:
+    Ewm_Ip_Init/8 function body not available
+      loop depth: 0 freq:0.33 size: 4 time: 13 predicate: (op1[ref offset: 0] == 1)
+       op0 is compile time invariant
+    Det_ReportRuntimeError/7 function body not available
+      loop depth: 0 freq:0.03 size: 5 time: 14 predicate: (op1[ref offset: 0] == 0)
+       op0 is compile time invariant
+       op2 is compile time invariant
+       op3 is compile time invariant
+    Wdog_Ip_Init/6 function body not available
+      loop depth: 0 freq:0.33 size: 4 time: 13 predicate: (op1[ref offset: 0] == 0)
+
+Symbol table:
+
+Ewm_Ip_Service/13 (Ewm_Ip_Service) @05d77700
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_Ipw_Service/5 (357878150 (estimated locally),0.33 per call) 
+  Calls: 
+Wdog_Ip_Service/12 (Wdog_Ip_Service) @05d77620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_Ipw_Service/5 (357878150 (estimated locally),0.33 per call) 
+  Calls: 
+Wdog_Ip_StopTimer/11 (Wdog_Ip_StopTimer) @05d77460
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_Ipw_StopTimer/4 (354334802 (estimated locally),0.33 per call) 
+  Calls: 
+Wdog_Ip_StartTimer/10 (Wdog_Ip_StartTimer) @05d772a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_Ipw_StartTimer/3 (354334802 (estimated locally),0.33 per call) 
+  Calls: 
+Wdog_Ip_Config/9 (Wdog_Ip_Config) @05d770e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_Ipw_SetMode/2 (354334802 (estimated locally),0.33 per call) 
+  Calls: 
+Ewm_Ip_Init/8 (Ewm_Ip_Init) @05d70b60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_Ipw_Init/1 (357878150 (estimated locally),0.33 per call) 
+  Calls: 
+Det_ReportRuntimeError/7 (Det_ReportRuntimeError) @05d708c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_Ipw_StopTimer/4 (35858682 (estimated locally),0.03 per call) Wdg_Ipw_StartTimer/3 (35858682 (estimated locally),0.03 per call) Wdg_Ipw_SetMode/2 (35858682 (estimated locally),0.03 per call) Wdg_Ipw_Init/1 (36217269 (estimated locally),0.03 per call) 
+  Calls: 
+Wdog_Ip_Init/6 (Wdog_Ip_Init) @05d70620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_Ipw_Init/1 (357878150 (estimated locally),0.33 per call) 
+  Calls: 
+Wdg_Ipw_Service/5 (Wdg_Ipw_Service) @05d70d20
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: aeWdg_Ipw_Ip/0 (read)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Ewm_Ip_Service/13 (357878150 (estimated locally),0.33 per call) Wdog_Ip_Service/12 (357878150 (estimated locally),0.33 per call) 
+Wdg_Ipw_StopTimer/4 (Wdg_Ipw_StopTimer) @05d70a80
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: aeWdg_Ipw_Ip/0 (read)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Det_ReportRuntimeError/7 (35858682 (estimated locally),0.03 per call) Wdog_Ip_StopTimer/11 (354334802 (estimated locally),0.33 per call) 
+Wdg_Ipw_StartTimer/3 (Wdg_Ipw_StartTimer) @05d707e0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: aeWdg_Ipw_Ip/0 (read)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Det_ReportRuntimeError/7 (35858682 (estimated locally),0.03 per call) Wdog_Ip_StartTimer/10 (354334802 (estimated locally),0.33 per call) 
+Wdg_Ipw_SetMode/2 (Wdg_Ipw_SetMode) @05d70540
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: aeWdg_Ipw_Ip/0 (write)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Det_ReportRuntimeError/7 (35858682 (estimated locally),0.03 per call) Wdog_Ip_Config/9 (354334802 (estimated locally),0.33 per call) 
+Wdg_Ipw_Init/1 (Wdg_Ipw_Init) @05d702a0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: aeWdg_Ipw_Ip/0 (write)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Ewm_Ip_Init/8 (357878150 (estimated locally),0.33 per call) Det_ReportRuntimeError/7 (36217269 (estimated locally),0.03 per call) Wdog_Ip_Init/6 (357878150 (estimated locally),0.33 per call) 
+aeWdg_Ipw_Ip/0 (aeWdg_Ipw_Ip) @05d6e120
+  Type: variable definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: Wdg_Ipw_StartTimer/3 (read)Wdg_Ipw_SetMode/2 (write)Wdg_Ipw_StopTimer/4 (read)Wdg_Ipw_Init/1 (write)Wdg_Ipw_Service/5 (read)
+  Availability: available
+  Varpool flags: initialized
+Wdg_Ipw_Service (Wdg_Ipw_InstanceType Wdg_Instance)
+{
+  <unnamed type> _1;
+  unsigned char _2;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _1 = aeWdg_Ipw_Ip[Wdg_Instance_5(D)];
+  switch (_1) <default: <L4> [33.33%], case 0: <L0> [33.33%], case 1: <L1> [33.33%]>
+
+  <bb 3> [local count: 357878150]:
+<L0>:
+  # DEBUG BEGIN_STMT
+  _2 = (unsigned char) Wdg_Instance_5(D);
+  Wdog_Ip_Service (_2);
+  # DEBUG BEGIN_STMT
+  goto <bb 5>; [100.00%]
+
+  <bb 4> [local count: 357878150]:
+<L1>:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  Ewm_Ip_Service (0);
+  # DEBUG BEGIN_STMT
+
+  <bb 5> [local count: 1073634451]:
+<L4>:
+  return;
+
+}
+
+
+Wdg_Ipw_StopTimer (Wdg_Ipw_InstanceType Wdg_Instance)
+{
+  Wdog_Ip_StatusType retIp;
+  Std_ReturnType ret;
+  <unnamed type> _1;
+  unsigned char _2;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG ret => 0
+  # DEBUG BEGIN_STMT
+  # DEBUG retIp => 0
+  # DEBUG BEGIN_STMT
+  _1 = aeWdg_Ipw_Ip[Wdg_Instance_6(D)];
+  if (_1 == 0)
+    goto <bb 3>; [33.00%]
+  else
+    goto <bb 7>; [67.00%]
+
+  <bb 3> [local count: 354334802]:
+<L0>:
+  # DEBUG BEGIN_STMT
+  _2 = (unsigned char) Wdg_Instance_6(D);
+  retIp_8 = Wdog_Ip_StopTimer (_2);
+  # DEBUG retIp => retIp_8
+  # DEBUG BEGIN_STMT
+  if (retIp_8 != 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 7>; [50.00%]
+
+  <bb 4> [local count: 177167401]:
+  # DEBUG BEGIN_STMT
+  if (retIp_8 == 2)
+    goto <bb 5>; [20.24%]
+  else
+    goto <bb 7>; [79.76%]
+
+  <bb 5> [local count: 35858682]:
+  # DEBUG BEGIN_STMT
+  Det_ReportRuntimeError (102, _2, 1, 19);
+
+  <bb 7> [local count: 1073741824]:
+  # ret_3 = PHI <1(5), 1(2), 0(3), 1(4)>
+<L9>:
+  # DEBUG ret => ret_3
+  # DEBUG BEGIN_STMT
+  return ret_3;
+
+}
+
+
+Wdg_Ipw_StartTimer (Wdg_Ipw_InstanceType Wdg_Instance)
+{
+  Wdog_Ip_StatusType retIp;
+  Std_ReturnType ret;
+  <unnamed type> _1;
+  unsigned char _2;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG ret => 0
+  # DEBUG BEGIN_STMT
+  # DEBUG retIp => 0
+  # DEBUG BEGIN_STMT
+  _1 = aeWdg_Ipw_Ip[Wdg_Instance_6(D)];
+  if (_1 == 0)
+    goto <bb 3>; [33.00%]
+  else
+    goto <bb 7>; [67.00%]
+
+  <bb 3> [local count: 354334802]:
+<L0>:
+  # DEBUG BEGIN_STMT
+  _2 = (unsigned char) Wdg_Instance_6(D);
+  retIp_8 = Wdog_Ip_StartTimer (_2);
+  # DEBUG retIp => retIp_8
+  # DEBUG BEGIN_STMT
+  if (retIp_8 != 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 7>; [50.00%]
+
+  <bb 4> [local count: 177167401]:
+  # DEBUG BEGIN_STMT
+  if (retIp_8 == 2)
+    goto <bb 5>; [20.24%]
+  else
+    goto <bb 7>; [79.76%]
+
+  <bb 5> [local count: 35858682]:
+  # DEBUG BEGIN_STMT
+  Det_ReportRuntimeError (102, _2, 1, 19);
+
+  <bb 7> [local count: 1073741824]:
+  # ret_3 = PHI <1(5), 1(2), 0(3), 1(4)>
+<L9>:
+  # DEBUG ret => ret_3
+  # DEBUG BEGIN_STMT
+  return ret_3;
+
+}
+
+
+Wdg_Ipw_SetMode (Wdg_Ipw_InstanceType Wdg_Instance, const struct Wdg_Ipw_ConfigType * const pIpwConfig)
+{
+  Wdog_Ip_StatusType retIp;
+  Std_ReturnType ret;
+  <unnamed type> _1;
+  unsigned char _2;
+  const struct Wdog_Ip_ConfigType * _3;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG ret => 0
+  # DEBUG BEGIN_STMT
+  # DEBUG retIp => 0
+  # DEBUG BEGIN_STMT
+  _1 = pIpwConfig_7(D)->eWdgIp;
+  aeWdg_Ipw_Ip[Wdg_Instance_8(D)] = _1;
+  # DEBUG BEGIN_STMT
+  if (_1 == 0)
+    goto <bb 3>; [33.00%]
+  else
+    goto <bb 7>; [67.00%]
+
+  <bb 3> [local count: 354334802]:
+<L0>:
+  # DEBUG BEGIN_STMT
+  _2 = (unsigned char) Wdg_Instance_8(D);
+  _3 = pIpwConfig_7(D)->pWdogConfig;
+  retIp_11 = Wdog_Ip_Config (_2, _3);
+  # DEBUG retIp => retIp_11
+  # DEBUG BEGIN_STMT
+  if (retIp_11 != 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 7>; [50.00%]
+
+  <bb 4> [local count: 177167401]:
+  # DEBUG BEGIN_STMT
+  if (retIp_11 == 2)
+    goto <bb 5>; [20.24%]
+  else
+    goto <bb 7>; [79.76%]
+
+  <bb 5> [local count: 35858682]:
+  # DEBUG BEGIN_STMT
+  Det_ReportRuntimeError (102, _2, 1, 19);
+
+  <bb 7> [local count: 1073741824]:
+  # ret_4 = PHI <1(5), 1(2), 0(3), 1(4)>
+<L9>:
+  # DEBUG ret => ret_4
+  # DEBUG BEGIN_STMT
+  return ret_4;
+
+}
+
+
+Wdg_Ipw_Init (Wdg_Ipw_InstanceType Wdg_Instance, const struct Wdg_Ipw_ConfigType * const pIpwConfig)
+{
+  Wdog_Ip_StatusType retIp;
+  Std_ReturnType ret;
+  <unnamed type> _1;
+  unsigned char _2;
+  const struct Wdog_Ip_ConfigType * _3;
+  const struct Ewm_Ip_ConfigType * _4;
+  <unnamed type> _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG ret => 0
+  # DEBUG BEGIN_STMT
+  # DEBUG retIp => 0
+  # DEBUG BEGIN_STMT
+  _1 = pIpwConfig_9(D)->eWdgIp;
+  aeWdg_Ipw_Ip[Wdg_Instance_10(D)] = _1;
+  # DEBUG BEGIN_STMT
+  switch (_1) <default: <L11> [33.33%], case 0: <L0> [33.33%], case 1: <L5> [33.33%]>
+
+  <bb 3> [local count: 357878150]:
+<L0>:
+  # DEBUG BEGIN_STMT
+  _2 = (unsigned char) Wdg_Instance_10(D);
+  _3 = pIpwConfig_9(D)->pWdogConfig;
+  retIp_14 = Wdog_Ip_Init (_2, _3);
+  # DEBUG retIp => retIp_14
+  # DEBUG BEGIN_STMT
+  if (retIp_14 != 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 9>; [50.00%]
+
+  <bb 4> [local count: 178939075]:
+  # DEBUG BEGIN_STMT
+  if (retIp_14 == 2)
+    goto <bb 5>; [20.24%]
+  else
+    goto <bb 9>; [79.76%]
+
+  <bb 5> [local count: 36217269]:
+  # DEBUG BEGIN_STMT
+  Det_ReportRuntimeError (102, _2, 0, 19);
+  goto <bb 9>; [100.00%]
+
+  <bb 7> [local count: 357878150]:
+<L5>:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  _4 = pIpwConfig_9(D)->pEwmConfig;
+  _5 = Ewm_Ip_Init (0, _4);
+  if (_5 != 0)
+    goto <bb 8>; [50.00%]
+  else
+    goto <bb 9>; [50.00%]
+
+  <bb 8> [local count: 178939075]:
+  # DEBUG BEGIN_STMT
+  # DEBUG ret => 1
+
+  <bb 9> [local count: 1073634451]:
+  # ret_6 = PHI <1(5), 1(8), 1(2), 0(3), 0(7), 1(4)>
+<L11>:
+  # DEBUG ret => ret_6
+  # DEBUG BEGIN_STMT
+  return ret_6;
+
+}
+
+

@@ -1,0 +1,4 @@
+Wdg_43_Instance0.c:174:6:Wdg_43_Instance0_Init	0	static
+Wdg_43_Instance0.c:205:16:Wdg_43_Instance0_SetMode	0	static
+Wdg_43_Instance0.c:219:10:Wdg_43_Instance0_SetTriggerCondition	0	static
+Wdg_43_Instance0.c:265:6:Wdg_43_Instance0_GetVersionInfo	0	static

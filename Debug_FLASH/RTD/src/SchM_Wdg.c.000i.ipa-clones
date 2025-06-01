@@ -1,0 +1,15 @@
+Callgraph clone;Wdg_schm_read_msr;30;../RTD/src/SchM_Wdg.c;323;8;SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_00;31;../RTD/src/SchM_Wdg.c;407;6;inlining to
+Callgraph clone;Wdg_schm_read_msr;30;../RTD/src/SchM_Wdg.c;323;8;SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_01;33;../RTD/src/SchM_Wdg.c;443;6;inlining to
+Callgraph clone;Wdg_schm_read_msr;30;../RTD/src/SchM_Wdg.c;323;8;SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_02;35;../RTD/src/SchM_Wdg.c;479;6;inlining to
+Callgraph clone;Wdg_schm_read_msr;30;../RTD/src/SchM_Wdg.c;323;8;SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_03;37;../RTD/src/SchM_Wdg.c;515;6;inlining to
+Callgraph clone;Wdg_schm_read_msr;30;../RTD/src/SchM_Wdg.c;323;8;SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_04;39;../RTD/src/SchM_Wdg.c;551;6;inlining to
+Callgraph clone;Wdg_schm_read_msr;30;../RTD/src/SchM_Wdg.c;323;8;SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_05;41;../RTD/src/SchM_Wdg.c;587;6;inlining to
+Callgraph clone;Wdg_schm_read_msr;30;../RTD/src/SchM_Wdg.c;323;8;SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_06;43;../RTD/src/SchM_Wdg.c;623;6;inlining to
+Callgraph clone;Wdg_schm_read_msr;30;../RTD/src/SchM_Wdg.c;323;8;SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_07;45;../RTD/src/SchM_Wdg.c;659;6;inlining to
+Callgraph clone;Wdg_schm_read_msr;30;../RTD/src/SchM_Wdg.c;323;8;SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_08;47;../RTD/src/SchM_Wdg.c;695;6;inlining to
+Callgraph clone;Wdg_schm_read_msr;30;../RTD/src/SchM_Wdg.c;323;8;SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_09;49;../RTD/src/SchM_Wdg.c;731;6;inlining to
+Callgraph clone;Wdg_schm_read_msr;30;../RTD/src/SchM_Wdg.c;323;8;SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_10;51;../RTD/src/SchM_Wdg.c;767;6;inlining to
+Callgraph clone;Wdg_schm_read_msr;30;../RTD/src/SchM_Wdg.c;323;8;SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_11;53;../RTD/src/SchM_Wdg.c;803;6;inlining to
+Callgraph clone;Wdg_schm_read_msr;30;../RTD/src/SchM_Wdg.c;323;8;SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_12;55;../RTD/src/SchM_Wdg.c;839;6;inlining to
+Callgraph clone;Wdg_schm_read_msr;30;../RTD/src/SchM_Wdg.c;323;8;SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_13;57;../RTD/src/SchM_Wdg.c;875;6;inlining to
+Callgraph clone;Wdg_schm_read_msr;30;../RTD/src/SchM_Wdg.c;323;8;SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_14;59;../RTD/src/SchM_Wdg.c;911;6;inlining to

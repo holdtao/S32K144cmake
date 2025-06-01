@@ -1,0 +1,12 @@
+Wdg_Ipw_Isr ()
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  Ewm_Ip_IrqHandler (0);
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" DSB");
+  return;
+
+}
+
+

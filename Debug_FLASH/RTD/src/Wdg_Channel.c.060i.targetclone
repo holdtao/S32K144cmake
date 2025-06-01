@@ -1,0 +1,668 @@
+Wdg_ChannelTrigger.part.0 (const Wdg_Ipw_InstanceType Wdg_Instance)
+{
+  uint32 u32TempTimeout;
+  const struct Wdg_ConfigType * _2;
+  unsigned char _3;
+
+  <bb 4> [local count: 1073741824]:
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00 ();
+  # DEBUG BEGIN_STMT
+  _2 = Wdg_apConfigPtr[Wdg_Instance_1(D)];
+  _3 = _2->Wdg_TimerChannel;
+  Gpt_StopTimer (_3);
+
+  <bb 3> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  return;
+
+}
+
+
+Wdg_ChannelValidateMode.isra.0.part.0 (WdgIf_ModeType Wdg_Mode)
+{
+  boolean modeFailedErrActive;
+  boolean disableRejectedErrActive;
+  Std_ReturnType valid;
+  Wdg_ServiceIdType uServiceId;
+  Wdg_ErrorIdType uErrorId;
+  const Wdg_Ipw_InstanceType Wdg_Instance;
+
+  <bb 6> [local count: 1073741823]:
+
+  <bb 2> [local count: 1073741823]:
+  if (Wdg_Mode_1(D) != 2)
+    goto <bb 3>; [66.00%]
+  else
+    goto <bb 5>; [34.00%]
+
+  <bb 3> [local count: 708669604]:
+  if (Wdg_Mode_1(D) != 1)
+    goto <bb 4>; [66.00%]
+  else
+    goto <bb 5>; [34.00%]
+
+  <bb 4> [local count: 467721938]:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  # DEBUG modeFailedErrActive => 1
+  # DEBUG BEGIN_STMT
+  # DEBUG valid => 1
+
+  <bb 5> [local count: 1073741824]:
+  # valid_2 = PHI <0(2), 0(3), 1(4)>
+  # DEBUG valid => valid_2
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  return valid_2;
+
+}
+
+
+Wdg_ChannelValidateMode.isra.0 (WdgIf_ModeType Wdg_Mode)
+{
+  Std_ReturnType valid;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG uServiceId s=> uServiceId
+  # DEBUG uErrorId s=> uErrorId
+  # DEBUG Wdg_Instance s=> Wdg_Instance
+  # DEBUG BEGIN_STMT
+  # DEBUG valid => 0
+  # DEBUG BEGIN_STMT
+  # DEBUG disableRejectedErrActive => 0
+  # DEBUG BEGIN_STMT
+  # DEBUG modeFailedErrActive => 0
+  # DEBUG BEGIN_STMT
+  if (Wdg_Mode_1(D) != 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 4>; [50.00%]
+
+  <bb 3> [local count: 536870912]:
+  valid_4 = Wdg_ChannelValidateMode.isra.0.part.0 (Wdg_Mode_1(D));
+
+  <bb 4> [local count: 1073741824]:
+  # valid_2 = PHI <0(2), valid_4(3)>
+  # DEBUG valid => valid_2
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  return valid_2;
+
+}
+
+
+Wdg_ChannelGetVersionInfo (const Wdg_Ipw_InstanceType Wdg_Instance, struct Std_VersionInfoType * pVersioninfo)
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  pVersioninfo_2(D)->vendorID = 43;
+  # DEBUG BEGIN_STMT
+  pVersioninfo_2(D)->moduleID = 102;
+  # DEBUG BEGIN_STMT
+  pVersioninfo_2(D)->sw_major_version = 1;
+  # DEBUG BEGIN_STMT
+  pVersioninfo_2(D)->sw_minor_version = 0;
+  # DEBUG BEGIN_STMT
+  pVersioninfo_2(D)->sw_patch_version = 0;
+  return;
+
+}
+
+
+Wdg_ChannelSetTriggerCondition (const Wdg_Ipw_InstanceType Wdg_Instance, uint16 u16Timeout)
+{
+  Gpt_ValueType uElapsedTime;
+  const struct Wdg_ConfigType * _1;
+  unsigned char _2;
+  long unsigned int _3;
+  const struct Wdg_ConfigType * _4;
+  unsigned char _5;
+  long unsigned int _6;
+  const struct Wdg_ConfigType * _7;
+  long unsigned int _8;
+  long unsigned int _9;
+  long unsigned int _10;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG uElapsedTime => 0
+  # DEBUG BEGIN_STMT
+  _1 = Wdg_apConfigPtr[Wdg_Instance_13(D)];
+  _2 = _1->Wdg_TimerChannel;
+  uElapsedTime_15 = Gpt_GetTimeElapsed (_2);
+  # DEBUG uElapsedTime => uElapsedTime_15
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_05 ();
+  # DEBUG BEGIN_STMT
+  _3 = Wdg_au32Timeout[Wdg_Instance_13(D)];
+  if (_3 < uElapsedTime_15)
+    goto <bb 4>; [33.00%]
+  else
+    goto <bb 3>; [67.00%]
+
+  <bb 3> [local count: 719407023]:
+  if (u16Timeout_17(D) == 0)
+    goto <bb 4>; [67.00%]
+  else
+    goto <bb 5>; [33.00%]
+
+  <bb 4> [local count: 836337508]:
+  # DEBUG BEGIN_STMT
+  Wdg_au32Timeout[Wdg_Instance_13(D)] = 0;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05 ();
+  # DEBUG BEGIN_STMT
+  _4 = Wdg_apConfigPtr[Wdg_Instance_13(D)];
+  _5 = _4->Wdg_TimerChannel;
+  Gpt_StopTimer (_5);
+  goto <bb 6>; [100.00%]
+
+  <bb 5> [local count: 237404317]:
+  # DEBUG BEGIN_STMT
+  _6 = (long unsigned int) u16Timeout_17(D);
+  _7 = Wdg_apConfigPtr[Wdg_Instance_13(D)];
+  _8 = _7->Wdg_u32TriggerSourceClock;
+  _9 = _6 * _8;
+  _10 = _9 + uElapsedTime_15;
+  Wdg_au32Timeout[Wdg_Instance_13(D)] = _10;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05 ();
+
+  <bb 6> [local count: 1073741824]:
+  return;
+
+}
+
+
+Wdg_ChannelSetMode (const Wdg_Ipw_InstanceType Wdg_Instance, WdgIf_ModeType Mode)
+{
+  Std_ReturnType valid;
+  Std_ReturnType ret;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG ret => 1
+  # DEBUG BEGIN_STMT
+  # DEBUG valid => 1
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  # DEBUG D#1 => 1
+  # DEBUG D#2 => 17
+  # DEBUG D#3 => Wdg_Instance_5(D)
+  valid_6 = Wdg_ChannelValidateMode.isra.0 (Mode_4(D));
+  # DEBUG valid => valid_6
+  # DEBUG BEGIN_STMT
+  if (valid_6 == 0)
+    goto <bb 3>; [33.00%]
+  else
+    goto <bb 4>; [67.00%]
+
+  <bb 3> [local count: 354334802]:
+  # DEBUG BEGIN_STMT
+  valid_8 = Wdg_DoChannelSetMode (Wdg_Instance_5(D), Mode_4(D));
+  # DEBUG valid => valid_8
+  # DEBUG BEGIN_STMT
+  ret_10 = Wdg_VadidateDoChannelSetMode (Wdg_Instance_5(D), Mode_4(D), valid_8);
+  # DEBUG ret => ret_10
+
+  <bb 4> [local count: 1073741824]:
+  # ret_1 = PHI <1(2), ret_10(3)>
+  # DEBUG ret => ret_1
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  return ret_1;
+
+}
+
+
+Wdg_ChannelInit (const Wdg_Ipw_InstanceType Wdg_Instance, const struct Wdg_ConfigType * pConfigPtr)
+{
+  Std_ReturnType valid;
+  <unnamed type> _1;
+  short unsigned int _2;
+  <unnamed type> _3;
+  const struct Wdg_ConfigType * _4;
+  <unnamed type> _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG valid => 1
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  Wdg_apConfigPtr[Wdg_Instance_9(D)] = pConfigPtr_10(D);
+  # DEBUG BEGIN_STMT
+  _1 = Wdg_aePreviousMode[Wdg_Instance_9(D)];
+  if (_1 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  _2 = Wdg_au16CfgInitialTimeout[Wdg_Instance_9(D)];
+  if (_2 != 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  _3 = pConfigPtr_10(D)->Wdg_DefaultMode;
+  # DEBUG D#1 => 0
+  # DEBUG D#2 => 18
+  # DEBUG D#3 => Wdg_Instance_9(D)
+  valid_13 = Wdg_ChannelValidateMode.isra.0 (_3);
+  # DEBUG valid => valid_13
+
+  <bb 5> [local count: 1073741824]:
+  # valid_6 = PHI <valid_13(4), 1(3), 1(2)>
+  # DEBUG valid => valid_6
+  # DEBUG BEGIN_STMT
+  valid_15 = Wdg_InitialHardware (Wdg_Instance_9(D), valid_6);
+  # DEBUG valid => valid_15
+  # DEBUG BEGIN_STMT
+  # DEBUG Wdg_Instance => Wdg_Instance_9(D)
+  # DEBUG status => valid_15
+  # DEBUG INLINE_ENTRY Wdg_VadidateHardwareSetting
+  # DEBUG BEGIN_STMT
+  # DEBUG valid => valid_15
+  # DEBUG BEGIN_STMT
+  if (valid_15 == 1)
+    goto <bb 6>; [34.00%]
+  else
+    goto <bb 7>; [66.00%]
+
+  <bb 6> [local count: 365072220]:
+  # DEBUG BEGIN_STMT
+  Wdg_apConfigPtr[Wdg_Instance_9(D)] = 0B;
+
+  <bb 7> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  # DEBUG Wdg_Instance => NULL
+  # DEBUG status => NULL
+  # DEBUG valid => valid_15
+  # DEBUG BEGIN_STMT
+  if (valid_15 == 0)
+    goto <bb 8>; [33.00%]
+  else
+    goto <bb 9>; [67.00%]
+
+  <bb 8> [local count: 354334802]:
+  # DEBUG BEGIN_STMT
+  Wdg_ChannelStartGpt (Wdg_Instance_9(D));
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_02 ();
+  # DEBUG BEGIN_STMT
+  _4 = Wdg_apConfigPtr[Wdg_Instance_9(D)];
+  _5 = _4->Wdg_DefaultMode;
+  Wdg_aePreviousMode[Wdg_Instance_9(D)] = _5;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_02 ();
+
+  <bb 9> [local count: 1073741824]:
+  return;
+
+}
+
+
+Wdg_ChannelStartGpt (const Wdg_Ipw_InstanceType Wdg_Instance)
+{
+  const struct Wdg_ConfigType * _1;
+  unsigned char _2;
+  const struct Wdg_ConfigType * _3;
+  <unnamed type> _4;
+  const struct Wdg_ModeType * _5;
+  long unsigned int _6;
+  unsigned char _7;
+  const struct Wdg_ConfigType * _8;
+  <unnamed type> _9;
+  unsigned char _10;
+  long unsigned int _11;
+  short unsigned int _12;
+  long unsigned int _13;
+  const struct Wdg_ConfigType * _14;
+  long unsigned int _15;
+  long unsigned int _16;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _1 = Wdg_apConfigPtr[Wdg_Instance_19(D)];
+  _2 = _1->Wdg_TimerChannel;
+  Gpt_StopTimer (_2);
+  # DEBUG BEGIN_STMT
+  _3 = Wdg_apConfigPtr[Wdg_Instance_19(D)];
+  _4 = _3->Wdg_DefaultMode;
+  _5 = _3->Wdg_ModeSettings[_4];
+  _6 = _5->Wdg_u32TimerTriggeringPeriod;
+  Wdg_au32GptPeriod[Wdg_Instance_19(D)] = _6;
+  # DEBUG BEGIN_STMT
+  _7 = _3->Wdg_TimerChannel;
+  Gpt_EnableNotification (_7);
+  # DEBUG BEGIN_STMT
+  _8 = Wdg_apConfigPtr[Wdg_Instance_19(D)];
+  _9 = _8->Wdg_DefaultMode;
+  if (_9 != 0)
+    goto <bb 3>; [33.00%]
+  else
+    goto <bb 4>; [67.00%]
+
+  <bb 3> [local count: 354334802]:
+  # DEBUG BEGIN_STMT
+  _10 = _8->Wdg_TimerChannel;
+  _11 = Wdg_au32GptPeriod[Wdg_Instance_19(D)];
+  Gpt_StartTimer (_10, _11);
+
+  <bb 4> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_01 ();
+  # DEBUG BEGIN_STMT
+  _12 = Wdg_au16CfgInitialTimeout[Wdg_Instance_19(D)];
+  _13 = (long unsigned int) _12;
+  _14 = Wdg_apConfigPtr[Wdg_Instance_19(D)];
+  _15 = _14->Wdg_u32TriggerSourceClock;
+  _16 = _13 * _15;
+  Wdg_au32Timeout[Wdg_Instance_19(D)] = _16;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_01 ();
+  return;
+
+}
+
+
+Wdg_VadidateDoChannelSetMode (const Wdg_Ipw_InstanceType Wdg_Instance, const WdgIf_ModeType mode, const Std_ReturnType status)
+{
+  uint32 u32Temp;
+  Gpt_ValueType uElapsedTime;
+  Std_ReturnType valid;
+  const struct Wdg_ConfigType * _1;
+  unsigned char _2;
+  const struct Wdg_ConfigType * _3;
+  unsigned char _4;
+  long unsigned int _5;
+  const struct Wdg_ConfigType * _6;
+  const struct Wdg_ModeType * _7;
+  long unsigned int _8;
+  unsigned char _9;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG valid => status_14(D)
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  if (status_14(D) == 1)
+    goto <bb 8>; [51.12%]
+  else
+    goto <bb 3>; [48.88%]
+
+  <bb 3> [local count: 524845004]:
+  # DEBUG BEGIN_STMT
+  _1 = Wdg_apConfigPtr[Wdg_Instance_16(D)];
+  _2 = _1->Wdg_TimerChannel;
+  Gpt_StopTimer (_2);
+  # DEBUG BEGIN_STMT
+  _3 = Wdg_apConfigPtr[Wdg_Instance_16(D)];
+  _4 = _3->Wdg_TimerChannel;
+  uElapsedTime_19 = Gpt_GetTimeElapsed (_4);
+  # DEBUG uElapsedTime => uElapsedTime_19
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_03 ();
+  # DEBUG BEGIN_STMT
+  _5 = Wdg_au32Timeout[Wdg_Instance_16(D)];
+  if (_5 < uElapsedTime_19)
+    goto <bb 5>; [50.00%]
+  else
+    goto <bb 4>; [50.00%]
+
+  <bb 4> [local count: 262422502]:
+  # DEBUG BEGIN_STMT
+  u32Temp_21 = _5 - uElapsedTime_19;
+  # DEBUG u32Temp => u32Temp_21
+
+  <bb 5> [local count: 524845004]:
+  # u32Temp_11 = PHI <0(3), u32Temp_21(4)>
+  # DEBUG u32Temp => u32Temp_11
+  # DEBUG BEGIN_STMT
+  Wdg_au32Timeout[Wdg_Instance_16(D)] = u32Temp_11;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_03 ();
+  # DEBUG BEGIN_STMT
+  _6 = Wdg_apConfigPtr[Wdg_Instance_16(D)];
+  _7 = _6->Wdg_ModeSettings[mode_24(D)];
+  _8 = _7->Wdg_u32TimerTriggeringPeriod;
+  Wdg_au32GptPeriod[Wdg_Instance_16(D)] = _8;
+  # DEBUG BEGIN_STMT
+  if (mode_24(D) != 0)
+    goto <bb 6>; [33.00%]
+  else
+    goto <bb 7>; [67.00%]
+
+  <bb 6> [local count: 173198851]:
+  # DEBUG BEGIN_STMT
+  _9 = _6->Wdg_TimerChannel;
+  Gpt_StartTimer (_9, _8);
+
+  <bb 7> [local count: 524845003]:
+  # DEBUG BEGIN_STMT
+  # DEBUG valid => 0
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_04 ();
+  # DEBUG BEGIN_STMT
+  Wdg_aePreviousMode[Wdg_Instance_16(D)] = mode_24(D);
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_04 ();
+
+  <bb 8> [local count: 1073741824]:
+  # valid_10 = PHI <status_14(D)(2), 0(7)>
+  # DEBUG valid => valid_10
+  # DEBUG BEGIN_STMT
+  return valid_10;
+
+}
+
+
+Wdg_DoChannelSetMode (const Wdg_Ipw_InstanceType Wdg_Instance, const WdgIf_ModeType mode)
+{
+  Std_ReturnType valid;
+  unsigned char _1;
+  const struct Wdg_ConfigType * _2;
+  const struct Wdg_ModeType * _3;
+  const struct Wdg_Ipw_ConfigType * _4;
+  <unnamed type> _5;
+  const struct Wdg_ConfigType * _6;
+  const struct Wdg_ModeType * _7;
+  const struct Wdg_Ipw_ConfigType * _8;
+  unsigned char _9;
+  const struct Wdg_ConfigType * _10;
+  const struct Wdg_ModeType * _11;
+  const struct Wdg_Ipw_ConfigType * _12;
+
+  <bb 2> [local count: 1073741823]:
+  # DEBUG BEGIN_STMT
+  # DEBUG valid => 0
+  # DEBUG BEGIN_STMT
+  if (mode_15(D) == 0)
+    goto <bb 3>; [33.00%]
+  else
+    goto <bb 5>; [67.00%]
+
+  <bb 3> [local count: 354334802]:
+  # DEBUG BEGIN_STMT
+  _1 = Wdg_Ipw_StopTimer (Wdg_Instance_17(D));
+  if (_1 == 0)
+    goto <bb 4>; [33.00%]
+  else
+    goto <bb 9>; [67.00%]
+
+  <bb 4> [local count: 116930484]:
+  # DEBUG BEGIN_STMT
+  _2 = Wdg_apConfigPtr[Wdg_Instance_17(D)];
+  _3 = _2->Wdg_ModeSettings[0];
+  _4 = _3->Wdg_Ipw_pConfig;
+  valid_25 = Wdg_Ipw_SetMode (Wdg_Instance_17(D), _4);
+  # DEBUG valid => valid_25
+  goto <bb 9>; [100.00%]
+
+  <bb 5> [local count: 719407022]:
+  # DEBUG BEGIN_STMT
+  _5 = Wdg_aePreviousMode[Wdg_Instance_17(D)];
+  if (_5 == 0)
+    goto <bb 6>; [50.00%]
+  else
+    goto <bb 8>; [50.00%]
+
+  <bb 6> [local count: 359703511]:
+  # DEBUG BEGIN_STMT
+  _6 = Wdg_apConfigPtr[Wdg_Instance_17(D)];
+  _7 = _6->Wdg_ModeSettings[mode_15(D)];
+  _8 = _7->Wdg_Ipw_pConfig;
+  _9 = Wdg_Ipw_SetMode (Wdg_Instance_17(D), _8);
+  if (_9 == 0)
+    goto <bb 7>; [33.00%]
+  else
+    goto <bb 9>; [67.00%]
+
+  <bb 7> [local count: 118702158]:
+  # DEBUG BEGIN_STMT
+  valid_22 = Wdg_Ipw_StartTimer (Wdg_Instance_17(D));
+  # DEBUG valid => valid_22
+  goto <bb 9>; [100.00%]
+
+  <bb 8> [local count: 359703511]:
+  # DEBUG BEGIN_STMT
+  _10 = Wdg_apConfigPtr[Wdg_Instance_17(D)];
+  _11 = _10->Wdg_ModeSettings[mode_15(D)];
+  _12 = _11->Wdg_Ipw_pConfig;
+  valid_19 = Wdg_Ipw_SetMode (Wdg_Instance_17(D), _12);
+  # DEBUG valid => valid_19
+
+  <bb 9> [local count: 1073741824]:
+  # valid_13 = PHI <1(3), 1(6), valid_19(8), valid_25(4), valid_22(7)>
+  # DEBUG valid => valid_13
+  # DEBUG BEGIN_STMT
+  return valid_13;
+
+}
+
+
+Wdg_InitialHardware (const Wdg_Ipw_InstanceType Wdg_Instance, const Std_ReturnType status)
+{
+  Std_ReturnType valid;
+  const struct Wdg_ConfigType * _1;
+  <unnamed type> _2;
+  const struct Wdg_ModeType * _3;
+  const struct Wdg_Ipw_ConfigType * _4;
+  const struct Wdg_ModeType * _5;
+  const struct Wdg_Ipw_ConfigType * _6;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG valid => status_9(D)
+  # DEBUG BEGIN_STMT
+  if (status_9(D) == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 6>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  _1 = Wdg_apConfigPtr[Wdg_Instance_11(D)];
+  _2 = _1->Wdg_DefaultMode;
+  if (_2 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  _3 = _1->Wdg_ModeSettings[0];
+  _4 = _3->Wdg_Ipw_pConfig;
+  valid_15 = Wdg_Ipw_SetMode (Wdg_Instance_11(D), _4);
+  # DEBUG valid => valid_15
+  goto <bb 6>; [100.00%]
+
+  <bb 5> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  _5 = _1->Wdg_ModeSettings[_2];
+  _6 = _5->Wdg_Ipw_pConfig;
+  valid_13 = Wdg_Ipw_Init (Wdg_Instance_11(D), _6);
+  # DEBUG valid => valid_13
+
+  <bb 6> [local count: 1073741824]:
+  # valid_7 = PHI <status_9(D)(2), valid_15(4), valid_13(5)>
+  # DEBUG valid => valid_7
+  # DEBUG BEGIN_STMT
+  return valid_7;
+
+}
+
+
+Wdg_Cbk_GptNotification1 ()
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  Wdg_ChannelTrigger (1);
+  return;
+
+}
+
+
+Wdg_Cbk_GptNotification0 ()
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  Wdg_ChannelTrigger (0);
+  return;
+
+}
+
+
+Wdg_ChannelTrigger (const Wdg_Ipw_InstanceType Wdg_Instance)
+{
+  uint32 u32TempTimeout;
+  long unsigned int _1;
+  long unsigned int _2;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_00 ();
+  # DEBUG BEGIN_STMT
+  _1 = Wdg_au32Timeout[Wdg_Instance_7(D)];
+  _2 = Wdg_au32GptPeriod[Wdg_Instance_7(D)];
+  if (_1 < _2)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 4>; [50.00%]
+
+  <bb 3> [local count: 536870912]:
+  Wdg_ChannelTrigger.part.0 (Wdg_Instance_7(D));
+  goto <bb 5>; [100.00%]
+
+  <bb 4> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  u32TempTimeout_8 = _1 - _2;
+  # DEBUG u32TempTimeout => u32TempTimeout_8
+  # DEBUG BEGIN_STMT
+  Wdg_au32Timeout[Wdg_Instance_7(D)] = u32TempTimeout_8;
+  # DEBUG BEGIN_STMT
+  SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00 ();
+  # DEBUG BEGIN_STMT
+  Wdg_Ipw_Service (Wdg_Instance_7(D));
+
+  <bb 5> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  return;
+
+}
+
+

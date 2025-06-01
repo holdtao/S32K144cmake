@@ -1,0 +1,324 @@
+
+
+ local analysis of Wdg_43_Instance1_GetVersionInfo
+   scanning: Wdg_ChannelGetVersionInfo (1, versioninfo_2(D));
+  scanning: return;
+Function is locally const.
+
+
+ local analysis of Wdg_43_Instance1_SetTriggerCondition
+   scanning: Wdg_ChannelSetTriggerCondition (1, timeout_2(D));
+  scanning: return;
+Function is locally const.
+
+
+ local analysis of Wdg_43_Instance1_SetMode
+   scanning: _4 = Wdg_ChannelSetMode (1, Mode_2(D));
+  scanning: return _4;
+Function is locally const.
+
+
+ local analysis of Wdg_43_Instance1_Init
+   scanning: Wdg_ChannelInit (1, ConfigPtr_2(D));
+  scanning: return;
+Function is locally const.
+callgraph:
+
+Wdg_ChannelGetVersionInfo/7 (Wdg_ChannelGetVersionInfo) @05f672a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_43_Instance1_GetVersionInfo/3 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Wdg_ChannelSetTriggerCondition/6 (Wdg_ChannelSetTriggerCondition) @05f67ee0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_43_Instance1_SetTriggerCondition/2 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Wdg_ChannelSetMode/5 (Wdg_ChannelSetMode) @05f67d20
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_43_Instance1_SetMode/1 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Wdg_ChannelInit/4 (Wdg_ChannelInit) @05f67b60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_43_Instance1_Init/0 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Wdg_43_Instance1_GetVersionInfo/3 (Wdg_43_Instance1_GetVersionInfo) @05f67700
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @0327b628
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdg_ChannelGetVersionInfo/7 (1073741824 (estimated locally),1.00 per call) 
+Wdg_43_Instance1_SetTriggerCondition/2 (Wdg_43_Instance1_SetTriggerCondition) @05f67460
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @0327b308
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdg_ChannelSetTriggerCondition/6 (1073741824 (estimated locally),1.00 per call) 
+Wdg_43_Instance1_SetMode/1 (Wdg_43_Instance1_SetMode) @05f671c0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @0327b468
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdg_ChannelSetMode/5 (1073741824 (estimated locally),1.00 per call) 
+Wdg_43_Instance1_Init/0 (Wdg_43_Instance1_Init) @05f15c40
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @0327b648
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdg_ChannelInit/4 (1073741824 (estimated locally),1.00 per call) 
+
+
+ ordered call graph: reduced for nothrow
+Wdg_43_Instance1_GetVersionInfo/3 (Wdg_43_Instance1_GetVersionInfo) @05f67700
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @0327b628
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdg_ChannelGetVersionInfo/7 (1073741824 (estimated locally),1.00 per call) 
+Wdg_43_Instance1_SetTriggerCondition/2 (Wdg_43_Instance1_SetTriggerCondition) @05f67460
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @0327b308
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdg_ChannelSetTriggerCondition/6 (1073741824 (estimated locally),1.00 per call) 
+Wdg_43_Instance1_SetMode/1 (Wdg_43_Instance1_SetMode) @05f671c0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @0327b468
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdg_ChannelSetMode/5 (1073741824 (estimated locally),1.00 per call) 
+Wdg_43_Instance1_Init/0 (Wdg_43_Instance1_Init) @05f15c40
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @0327b648
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdg_ChannelInit/4 (1073741824 (estimated locally),1.00 per call) 
+
+
+
+MALLOC LATTICE Initial:
+Wdg_43_Instance1_GetVersionInfo: malloc_bottom
+Wdg_43_Instance1_SetTriggerCondition: malloc_bottom
+Wdg_43_Instance1_SetMode: malloc_bottom
+Wdg_43_Instance1_Init: malloc_bottom
+
+
+MALLOC LATTICE after propagation:
+Wdg_43_Instance1_GetVersionInfo: malloc_bottom
+Wdg_43_Instance1_SetTriggerCondition: malloc_bottom
+Wdg_43_Instance1_SetMode: malloc_bottom
+Wdg_43_Instance1_Init: malloc_bottom
+callgraph:
+
+Wdg_ChannelGetVersionInfo/7 (Wdg_ChannelGetVersionInfo) @05f672a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_43_Instance1_GetVersionInfo/3 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Wdg_ChannelSetTriggerCondition/6 (Wdg_ChannelSetTriggerCondition) @05f67ee0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_43_Instance1_SetTriggerCondition/2 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Wdg_ChannelSetMode/5 (Wdg_ChannelSetMode) @05f67d20
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_43_Instance1_SetMode/1 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Wdg_ChannelInit/4 (Wdg_ChannelInit) @05f67b60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_43_Instance1_Init/0 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Wdg_43_Instance1_GetVersionInfo/3 (Wdg_43_Instance1_GetVersionInfo) @05f67700
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @0327b348
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdg_ChannelGetVersionInfo/7 (1073741824 (estimated locally),1.00 per call) 
+Wdg_43_Instance1_SetTriggerCondition/2 (Wdg_43_Instance1_SetTriggerCondition) @05f67460
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @0327b4e8
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdg_ChannelSetTriggerCondition/6 (1073741824 (estimated locally),1.00 per call) 
+Wdg_43_Instance1_SetMode/1 (Wdg_43_Instance1_SetMode) @05f671c0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @0327b668
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdg_ChannelSetMode/5 (1073741824 (estimated locally),1.00 per call) 
+Wdg_43_Instance1_Init/0 (Wdg_43_Instance1_Init) @05f15c40
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @0327b4c8
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdg_ChannelInit/4 (1073741824 (estimated locally),1.00 per call) 
+
+
+ ordered call graph: reduced
+Wdg_43_Instance1_GetVersionInfo/3 (Wdg_43_Instance1_GetVersionInfo) @05f67700
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @0327b348
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdg_ChannelGetVersionInfo/7 (1073741824 (estimated locally),1.00 per call) 
+Wdg_43_Instance1_SetTriggerCondition/2 (Wdg_43_Instance1_SetTriggerCondition) @05f67460
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @0327b4e8
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdg_ChannelSetTriggerCondition/6 (1073741824 (estimated locally),1.00 per call) 
+Wdg_43_Instance1_SetMode/1 (Wdg_43_Instance1_SetMode) @05f671c0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @0327b668
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdg_ChannelSetMode/5 (1073741824 (estimated locally),1.00 per call) 
+Wdg_43_Instance1_Init/0 (Wdg_43_Instance1_Init) @05f15c40
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @0327b4c8
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdg_ChannelInit/4 (1073741824 (estimated locally),1.00 per call) 
+
+Wdg_43_Instance1_GetVersionInfo (struct Std_VersionInfoType * versioninfo)
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  Wdg_ChannelGetVersionInfo (1, versioninfo_2(D));
+  return;
+
+}
+
+
+Wdg_43_Instance1_SetTriggerCondition (uint16 timeout)
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  Wdg_ChannelSetTriggerCondition (1, timeout_2(D));
+  return;
+
+}
+
+
+Wdg_43_Instance1_SetMode (WdgIf_ModeType Mode)
+{
+  Std_ReturnType _4;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _4 = Wdg_ChannelSetMode (1, Mode_2(D));
+  return _4;
+
+}
+
+
+Wdg_43_Instance1_Init (const struct Wdg_ConfigType * ConfigPtr)
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  Wdg_ChannelInit (1, ConfigPtr_2(D));
+  return;
+
+}
+
+

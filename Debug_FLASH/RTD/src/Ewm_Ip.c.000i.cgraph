@@ -1,0 +1,585 @@
+Trivially needed symbols: Ewm_Ip_IrqHandler Ewm_Ip_Service Ewm_Ip_Init
+
+
+Initial Symbol table:
+
+Ewm_Ip_IrqHandler/13 (Ewm_Ip_IrqHandler) @05d26d20
+  Type: function definition analyzed
+  Visibility: public
+  Aux: @01733ea0
+  References: Ewm_Ip_apCallbackPtr/2 (read)Ewm_Ip_apCallbackPtr/2 (read)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Ewm_Ip_ClearIntenBit/6 Ewm_Ip_IsIntEnabled/5 
+   Indirect call
+Ewm_Ip_Service/12 (Ewm_Ip_Service) @05d26a80
+  Type: function definition analyzed
+  Visibility: public
+  Aux: @05d26d20
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Ewm_Ip_Refresh/3 
+Ewm_Ip_Init/11 (Ewm_Ip_Init) @05d267e0
+  Type: function definition analyzed
+  Visibility: public
+  Aux: @05d26a80
+  References: Ewm_Ip_apCallbackPtr/2 (write)Ewm_Ip_apCallbackPtr/2 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Ewm_Ip_SetControl/7 Ewm_Ip_SetCompareLow/8 Ewm_Ip_SetCompareHigh/9 Ewm_Ip_SetPrescaler/10 Ewm_Ip_IsEnabled/4 
+Ewm_Ip_SetPrescaler/10 (Ewm_Ip_SetPrescaler) @05d26380
+  Type: function definition analyzed
+  Visibility:
+  Aux: @05d260e0
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_Init/11 
+  Calls: 
+Ewm_Ip_SetCompareHigh/9 (Ewm_Ip_SetCompareHigh) @05d260e0
+  Type: function definition analyzed
+  Visibility:
+  Aux: @05d22e00
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_Init/11 
+  Calls: 
+Ewm_Ip_SetCompareLow/8 (Ewm_Ip_SetCompareLow) @05d22e00
+  Type: function definition analyzed
+  Visibility:
+  Aux: @05d22b60
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_Init/11 
+  Calls: 
+Ewm_Ip_SetControl/7 (Ewm_Ip_SetControl) @05d22b60
+  Type: function definition analyzed
+  Visibility:
+  Aux: @05d26a80
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_Init/11 
+  Calls: 
+Ewm_Ip_ClearIntenBit/6 (Ewm_Ip_ClearIntenBit) @05d228c0
+  Type: function definition analyzed
+  Visibility:
+  Aux: @01733ea0
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_IrqHandler/13 
+  Calls: 
+Ewm_Ip_IsIntEnabled/5 (Ewm_Ip_IsIntEnabled) @05d22620
+  Type: function definition analyzed
+  Visibility:
+  Aux: @05d228c0
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_IrqHandler/13 
+  Calls: 
+Ewm_Ip_IsEnabled/4 (Ewm_Ip_IsEnabled) @05d22380
+  Type: function definition analyzed
+  Visibility:
+  Aux: @05d26380
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_Init/11 
+  Calls: 
+Ewm_Ip_Refresh/3 (Ewm_Ip_Refresh) @05d220e0
+  Type: function definition analyzed
+  Visibility:
+  Aux: @05d26d20
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_Service/12 
+  Calls: 
+Ewm_Ip_apCallbackPtr/2 (Ewm_Ip_apCallbackPtr) @05d20240
+  Type: variable definition analyzed
+  Visibility:
+  Aux: @05d22380
+  References: 
+  Referring: Ewm_Ip_Init/11 (write)Ewm_Ip_Init/11 (write)Ewm_Ip_IrqHandler/13 (read)Ewm_Ip_IrqHandler/13 (read)
+  Availability: not-ready
+  Varpool flags:
+s_ewmBase/1 (s_ewmBase) @05d201b0
+  Type: variable definition
+  Visibility:
+  References: 
+  Referring: 
+  Availability: not-ready
+  Varpool flags: initialized read-only const-value-known
+DevAssert/0 (DevAssert) @05caf9a0
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+
+Removing unused symbols: s_ewmBase DevAssert
+
+Reclaimed Symbol table:
+
+Ewm_Ip_IrqHandler/13 (Ewm_Ip_IrqHandler) @05d26d20
+  Type: function definition analyzed
+  Visibility: public
+  References: Ewm_Ip_apCallbackPtr/2 (read)Ewm_Ip_apCallbackPtr/2 (read)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Ewm_Ip_ClearIntenBit/6 Ewm_Ip_IsIntEnabled/5 
+   Indirect call
+Ewm_Ip_Service/12 (Ewm_Ip_Service) @05d26a80
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Ewm_Ip_Refresh/3 
+Ewm_Ip_Init/11 (Ewm_Ip_Init) @05d267e0
+  Type: function definition analyzed
+  Visibility: public
+  References: Ewm_Ip_apCallbackPtr/2 (write)Ewm_Ip_apCallbackPtr/2 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Ewm_Ip_SetControl/7 Ewm_Ip_SetCompareLow/8 Ewm_Ip_SetCompareHigh/9 Ewm_Ip_SetPrescaler/10 Ewm_Ip_IsEnabled/4 
+Ewm_Ip_SetPrescaler/10 (Ewm_Ip_SetPrescaler) @05d26380
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_Init/11 
+  Calls: 
+Ewm_Ip_SetCompareHigh/9 (Ewm_Ip_SetCompareHigh) @05d260e0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_Init/11 
+  Calls: 
+Ewm_Ip_SetCompareLow/8 (Ewm_Ip_SetCompareLow) @05d22e00
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_Init/11 
+  Calls: 
+Ewm_Ip_SetControl/7 (Ewm_Ip_SetControl) @05d22b60
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_Init/11 
+  Calls: 
+Ewm_Ip_ClearIntenBit/6 (Ewm_Ip_ClearIntenBit) @05d228c0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_IrqHandler/13 
+  Calls: 
+Ewm_Ip_IsIntEnabled/5 (Ewm_Ip_IsIntEnabled) @05d22620
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_IrqHandler/13 
+  Calls: 
+Ewm_Ip_IsEnabled/4 (Ewm_Ip_IsEnabled) @05d22380
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_Init/11 
+  Calls: 
+Ewm_Ip_Refresh/3 (Ewm_Ip_Refresh) @05d220e0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_Service/12 
+  Calls: 
+Ewm_Ip_apCallbackPtr/2 (Ewm_Ip_apCallbackPtr) @05d20240
+  Type: variable definition analyzed
+  Visibility:
+  References: 
+  Referring: Ewm_Ip_Init/11 (write)Ewm_Ip_Init/11 (write)Ewm_Ip_IrqHandler/13 (read)Ewm_Ip_IrqHandler/13 (read)
+  Availability: not-ready
+  Varpool flags:
+
+
+Initial Symbol table:
+
+Ewm_Ip_IrqHandler/13 (Ewm_Ip_IrqHandler) @05d26d20
+  Type: function definition analyzed
+  Visibility: public
+  References: Ewm_Ip_apCallbackPtr/2 (read)Ewm_Ip_apCallbackPtr/2 (read)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Ewm_Ip_ClearIntenBit/6 Ewm_Ip_IsIntEnabled/5 
+   Indirect call
+Ewm_Ip_Service/12 (Ewm_Ip_Service) @05d26a80
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Ewm_Ip_Refresh/3 
+Ewm_Ip_Init/11 (Ewm_Ip_Init) @05d267e0
+  Type: function definition analyzed
+  Visibility: public
+  References: Ewm_Ip_apCallbackPtr/2 (write)Ewm_Ip_apCallbackPtr/2 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Ewm_Ip_SetControl/7 Ewm_Ip_SetCompareLow/8 Ewm_Ip_SetCompareHigh/9 Ewm_Ip_SetPrescaler/10 Ewm_Ip_IsEnabled/4 
+Ewm_Ip_SetPrescaler/10 (Ewm_Ip_SetPrescaler) @05d26380
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_Init/11 
+  Calls: 
+Ewm_Ip_SetCompareHigh/9 (Ewm_Ip_SetCompareHigh) @05d260e0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_Init/11 
+  Calls: 
+Ewm_Ip_SetCompareLow/8 (Ewm_Ip_SetCompareLow) @05d22e00
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_Init/11 
+  Calls: 
+Ewm_Ip_SetControl/7 (Ewm_Ip_SetControl) @05d22b60
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_Init/11 
+  Calls: 
+Ewm_Ip_ClearIntenBit/6 (Ewm_Ip_ClearIntenBit) @05d228c0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_IrqHandler/13 
+  Calls: 
+Ewm_Ip_IsIntEnabled/5 (Ewm_Ip_IsIntEnabled) @05d22620
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_IrqHandler/13 
+  Calls: 
+Ewm_Ip_IsEnabled/4 (Ewm_Ip_IsEnabled) @05d22380
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_Init/11 
+  Calls: 
+Ewm_Ip_Refresh/3 (Ewm_Ip_Refresh) @05d220e0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_Service/12 
+  Calls: 
+Ewm_Ip_apCallbackPtr/2 (Ewm_Ip_apCallbackPtr) @05d20240
+  Type: variable definition analyzed
+  Visibility:
+  References: 
+  Referring: Ewm_Ip_Init/11 (write)Ewm_Ip_Init/11 (write)Ewm_Ip_IrqHandler/13 (read)Ewm_Ip_IrqHandler/13 (read)
+  Availability: not-ready
+  Varpool flags:
+
+Removing unused symbols:
+
+Reclaimed Symbol table:
+
+Ewm_Ip_IrqHandler/13 (Ewm_Ip_IrqHandler) @05d26d20
+  Type: function definition analyzed
+  Visibility: public
+  References: Ewm_Ip_apCallbackPtr/2 (read)Ewm_Ip_apCallbackPtr/2 (read)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Ewm_Ip_ClearIntenBit/6 Ewm_Ip_IsIntEnabled/5 
+   Indirect call
+Ewm_Ip_Service/12 (Ewm_Ip_Service) @05d26a80
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Ewm_Ip_Refresh/3 
+Ewm_Ip_Init/11 (Ewm_Ip_Init) @05d267e0
+  Type: function definition analyzed
+  Visibility: public
+  References: Ewm_Ip_apCallbackPtr/2 (write)Ewm_Ip_apCallbackPtr/2 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Ewm_Ip_SetControl/7 Ewm_Ip_SetCompareLow/8 Ewm_Ip_SetCompareHigh/9 Ewm_Ip_SetPrescaler/10 Ewm_Ip_IsEnabled/4 
+Ewm_Ip_SetPrescaler/10 (Ewm_Ip_SetPrescaler) @05d26380
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_Init/11 
+  Calls: 
+Ewm_Ip_SetCompareHigh/9 (Ewm_Ip_SetCompareHigh) @05d260e0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_Init/11 
+  Calls: 
+Ewm_Ip_SetCompareLow/8 (Ewm_Ip_SetCompareLow) @05d22e00
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_Init/11 
+  Calls: 
+Ewm_Ip_SetControl/7 (Ewm_Ip_SetControl) @05d22b60
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_Init/11 
+  Calls: 
+Ewm_Ip_ClearIntenBit/6 (Ewm_Ip_ClearIntenBit) @05d228c0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_IrqHandler/13 
+  Calls: 
+Ewm_Ip_IsIntEnabled/5 (Ewm_Ip_IsIntEnabled) @05d22620
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_IrqHandler/13 
+  Calls: 
+Ewm_Ip_IsEnabled/4 (Ewm_Ip_IsEnabled) @05d22380
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_Init/11 
+  Calls: 
+Ewm_Ip_Refresh/3 (Ewm_Ip_Refresh) @05d220e0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Ewm_Ip_Service/12 
+  Calls: 
+Ewm_Ip_apCallbackPtr/2 (Ewm_Ip_apCallbackPtr) @05d20240
+  Type: variable definition analyzed
+  Visibility:
+  References: 
+  Referring: Ewm_Ip_Init/11 (write)Ewm_Ip_Init/11 (write)Ewm_Ip_IrqHandler/13 (read)Ewm_Ip_IrqHandler/13 (read)
+  Availability: not-ready
+  Varpool flags:
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Optimized Symbol table:
+
+Ewm_Ip_Refresh.constprop.0/14 (Ewm_Ip_Refresh.constprop) @05d228c0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function Ewm_Ip_Refresh.constprop/14 is inline copy in Ewm_Ip_Service/12
+  Clone of Ewm_Ip_Refresh/3
+  Availability: local
+  Function flags: count:1073741824 (estimated locally) local optimize_size
+  Called by: Ewm_Ip_Service/12 (inlined) (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Ewm_Ip_IrqHandler/13 (Ewm_Ip_IrqHandler) @05d26d20
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: Ewm_Ip_apCallbackPtr/2 (read)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741823 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+   Indirect call(375809638 (estimated locally),0.35 per call) 
+Ewm_Ip_Service/12 (Ewm_Ip_Service) @05d26a80
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Ewm_Ip_Refresh.constprop/14 (inlined) (1073741824 (estimated locally),1.00 per call) 
+Ewm_Ip_Init/11 (Ewm_Ip_Init) @05d267e0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: Ewm_Ip_apCallbackPtr/2 (write)Ewm_Ip_apCallbackPtr/2 (write)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body nonfreeing_fn optimize_size
+  Called by: 
+  Calls: 
+Ewm_Ip_Refresh/3 (Ewm_Ip_Refresh) @05d220e0
+  Type: function
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+Ewm_Ip_apCallbackPtr/2 (Ewm_Ip_apCallbackPtr) @05d20240
+  Type: variable definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: Ewm_Ip_Init/11 (write)Ewm_Ip_Init/11 (write)Ewm_Ip_IrqHandler/13 (read)
+  Availability: available
+  Varpool flags:
+Materializing clones
+cloning Ewm_Ip_Refresh to Ewm_Ip_Refresh.constprop
+   replace map:  -> 1074139136B(replace);
+   args_to_skip: 0
+   combined_args_to_skip:0
+Ewm_Ip_Refresh (struct EWM_Type * const base)
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+  # DEBUG BEGIN_STMT
+  base_3(D)->SERV ={v} 180;
+  # DEBUG BEGIN_STMT
+  base_3(D)->SERV ={v} 44;
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+  return;
+
+}
+
+
+Ewm_Ip_Refresh.constprop ()
+{
+  struct EWM_Type * const base;
+
+  <bb 3> [local count: 1073741824]:
+  # DEBUG base => 1074139136B
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+  # DEBUG BEGIN_STMT
+  MEM[(struct EWM_Type *)1074139136B].SERV ={v} 180;
+  # DEBUG BEGIN_STMT
+  MEM[(struct EWM_Type *)1074139136B].SERV ={v} 44;
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+  return;
+
+}
+
+
+Materialization Call site updates done.
+
+Reclaiming functions: Ewm_Ip_Refresh/3
+Reclaiming variables:
+Clearing address taken flags:
+Time profile order in expand_all_functions:Ewm_Ip_Init:0
+Time profile order in expand_all_functions:Ewm_Ip_Service:0
+updating call of Ewm_Ip_Service/12 -> Ewm_Ip_Refresh.constprop/14: Ewm_Ip_Refresh (1074139136B);
+ combined args to skip: 0
+  updated to:Ewm_Ip_Refresh.constprop ();
+Time profile order in expand_all_functions:Ewm_Ip_IrqHandler:0
+Trivially needed variables: Ewm_Ip_apCallbackPtr
+Removing variables:
+
+Final Symbol table:
+
+Ewm_Ip_IrqHandler/13 (Ewm_Ip_IrqHandler) @05d26d20
+  Type: function definition analyzed
+  Visibility: externally_visible asm_written public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741823 (estimated locally) optimize_size
+  Called by: 
+  Calls: 
+Ewm_Ip_Service/12 (Ewm_Ip_Service) @05d26a80
+  Type: function definition analyzed
+  Visibility: externally_visible asm_written public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) optimize_size
+  Called by: 
+  Calls: 
+Ewm_Ip_Init/11 (Ewm_Ip_Init) @05d267e0
+  Type: function definition analyzed
+  Visibility: externally_visible asm_written public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) nonfreeing_fn optimize_size
+  Called by: 
+  Calls: 
+Ewm_Ip_apCallbackPtr/2 (Ewm_Ip_apCallbackPtr) @05d20240
+  Type: variable definition analyzed
+  Visibility: prevailing_def_ironly asm_written
+  Aux: @00000001
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags:

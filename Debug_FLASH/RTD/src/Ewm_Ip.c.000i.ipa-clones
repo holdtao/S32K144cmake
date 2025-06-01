@@ -1,0 +1,18 @@
+Callgraph clone;Ewm_Ip_SetControl;7;../RTD/src/Ewm_Ip.c;221;20;Ewm_Ip_Init;11;../RTD/src/Ewm_Ip.c;287;19;inlining to
+Callgraph clone;Ewm_Ip_SetCompareLow;8;../RTD/src/Ewm_Ip.c;235;20;Ewm_Ip_Init;11;../RTD/src/Ewm_Ip.c;287;19;inlining to
+Callgraph clone;Ewm_Ip_SetCompareHigh;9;../RTD/src/Ewm_Ip.c;250;20;Ewm_Ip_Init;11;../RTD/src/Ewm_Ip.c;287;19;inlining to
+Callgraph clone;Ewm_Ip_SetPrescaler;10;../RTD/src/Ewm_Ip.c;264;20;Ewm_Ip_Init;11;../RTD/src/Ewm_Ip.c;287;19;inlining to
+Callgraph clone;Ewm_Ip_IsEnabled;4;../RTD/src/Ewm_Ip.c;185;23;Ewm_Ip_Init;11;../RTD/src/Ewm_Ip.c;287;19;inlining to
+Callgraph removal;Ewm_Ip_IsEnabled;4;../RTD/src/Ewm_Ip.c;185;23
+Callgraph removal;Ewm_Ip_SetCompareLow;8;../RTD/src/Ewm_Ip.c;235;20
+Callgraph removal;Ewm_Ip_SetCompareHigh;9;../RTD/src/Ewm_Ip.c;250;20
+Callgraph removal;Ewm_Ip_SetPrescaler;10;../RTD/src/Ewm_Ip.c;264;20
+Callgraph removal;Ewm_Ip_SetControl;7;../RTD/src/Ewm_Ip.c;221;20
+Callgraph clone;Ewm_Ip_ClearIntenBit;6;../RTD/src/Ewm_Ip.c;208;20;Ewm_Ip_IrqHandler;13;../RTD/src/Ewm_Ip.c;382;6;inlining to
+Callgraph clone;Ewm_Ip_IsIntEnabled;5;../RTD/src/Ewm_Ip.c;198;23;Ewm_Ip_IrqHandler;13;../RTD/src/Ewm_Ip.c;382;6;inlining to
+Callgraph removal;Ewm_Ip_IsIntEnabled;5;../RTD/src/Ewm_Ip.c;198;23
+Callgraph removal;Ewm_Ip_ClearIntenBit;6;../RTD/src/Ewm_Ip.c;208;20
+Callgraph clone;Ewm_Ip_Refresh;3;../RTD/src/Ewm_Ip.c;165;20;Ewm_Ip_Refresh.constprop.0;14;../RTD/src/Ewm_Ip.c;165;20;constprop
+Callgraph clone;Ewm_Ip_Refresh.constprop.0;14;../RTD/src/Ewm_Ip.c;165;20;Ewm_Ip_Service;12;../RTD/src/Ewm_Ip.c;365;6;inlining to
+Callgraph removal;Ewm_Ip_Refresh;3;../RTD/src/Ewm_Ip.c;165;20
+Callgraph removal;Ewm_Ip_Refresh.constprop.0;14;../RTD/src/Ewm_Ip.c;165;20

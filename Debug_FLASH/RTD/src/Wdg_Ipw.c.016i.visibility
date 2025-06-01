@@ -1,0 +1,442 @@
+
+Marking local functions:
+
+
+Marking externally visible functions: Wdg_Ipw_Service Wdg_Ipw_StopTimer Wdg_Ipw_StartTimer Wdg_Ipw_SetMode Wdg_Ipw_Init
+
+
+Marking externally visible variables:
+
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Symbol table:
+
+Ewm_Ip_Service/13 (Ewm_Ip_Service) @05d77700
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_Ipw_Service/5 
+  Calls: 
+Wdog_Ip_Service/12 (Wdog_Ip_Service) @05d77620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_Ipw_Service/5 
+  Calls: 
+Wdog_Ip_StopTimer/11 (Wdog_Ip_StopTimer) @05d77460
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_Ipw_StopTimer/4 
+  Calls: 
+Wdog_Ip_StartTimer/10 (Wdog_Ip_StartTimer) @05d772a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_Ipw_StartTimer/3 
+  Calls: 
+Wdog_Ip_Config/9 (Wdog_Ip_Config) @05d770e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_Ipw_SetMode/2 
+  Calls: 
+Ewm_Ip_Init/8 (Ewm_Ip_Init) @05d70b60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_Ipw_Init/1 
+  Calls: 
+Det_ReportRuntimeError/7 (Det_ReportRuntimeError) @05d708c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_Ipw_StopTimer/4 Wdg_Ipw_StartTimer/3 Wdg_Ipw_SetMode/2 Wdg_Ipw_Init/1 
+  Calls: 
+Wdog_Ip_Init/6 (Wdog_Ip_Init) @05d70620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_Ipw_Init/1 
+  Calls: 
+Wdg_Ipw_Service/5 (Wdg_Ipw_Service) @05d70d20
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: aeWdg_Ipw_Ip/0 (read)
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Ewm_Ip_Service/13 Wdog_Ip_Service/12 
+Wdg_Ipw_StopTimer/4 (Wdg_Ipw_StopTimer) @05d70a80
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: aeWdg_Ipw_Ip/0 (read)
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Det_ReportRuntimeError/7 Wdog_Ip_StopTimer/11 
+Wdg_Ipw_StartTimer/3 (Wdg_Ipw_StartTimer) @05d707e0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: aeWdg_Ipw_Ip/0 (read)
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Det_ReportRuntimeError/7 Wdog_Ip_StartTimer/10 
+Wdg_Ipw_SetMode/2 (Wdg_Ipw_SetMode) @05d70540
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: aeWdg_Ipw_Ip/0 (write)aeWdg_Ipw_Ip/0 (read)
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Det_ReportRuntimeError/7 Wdog_Ip_Config/9 
+Wdg_Ipw_Init/1 (Wdg_Ipw_Init) @05d702a0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: aeWdg_Ipw_Ip/0 (write)
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Ewm_Ip_Init/8 Det_ReportRuntimeError/7 Wdog_Ip_Init/6 
+aeWdg_Ipw_Ip/0 (aeWdg_Ipw_Ip) @05d6e120
+  Type: variable definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: Wdg_Ipw_Init/1 (write)Wdg_Ipw_SetMode/2 (write)Wdg_Ipw_SetMode/2 (read)Wdg_Ipw_StartTimer/3 (read)Wdg_Ipw_StopTimer/4 (read)Wdg_Ipw_Service/5 (read)
+  Availability: available
+  Varpool flags: initialized
+Wdg_Ipw_Service (Wdg_Ipw_InstanceType Wdg_Instance)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = aeWdg_Ipw_Ip[Wdg_Instance];
+  switch (_1) <default: <L4> [INV], case 0: <L0> [INV], case 1: <L1> [INV]>
+
+  <bb 3> :
+<L0>:
+  # DEBUG BEGIN_STMT
+  _2 = (unsigned char) Wdg_Instance;
+  Wdog_Ip_Service (_2);
+  # DEBUG BEGIN_STMT
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+<L1>:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  Ewm_Ip_Service (0);
+  # DEBUG BEGIN_STMT
+
+  <bb 5> :
+<L4>:
+  return;
+
+}
+
+
+Wdg_Ipw_StopTimer (Wdg_Ipw_InstanceType Wdg_Instance)
+{
+  Wdog_Ip_StatusType retIp;
+  Std_ReturnType ret;
+  Std_ReturnType D.5727;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  ret = 0;
+  # DEBUG BEGIN_STMT
+  retIp = 0;
+  # DEBUG BEGIN_STMT
+  _1 = aeWdg_Ipw_Ip[Wdg_Instance];
+  switch (_1) <default: <L6> [INV], case 0: <L0> [INV], case 1: <L5> [INV]>
+
+  <bb 3> :
+<L0>:
+  # DEBUG BEGIN_STMT
+  _2 = (unsigned char) Wdg_Instance;
+  retIp = Wdog_Ip_StopTimer (_2);
+  # DEBUG BEGIN_STMT
+  if (retIp != 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 9>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  if (retIp == 2)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  _3 = (unsigned char) Wdg_Instance;
+  Det_ReportRuntimeError (102, _3, 1, 19);
+
+  <bb 6> :
+  # DEBUG BEGIN_STMT
+  ret = 1;
+  goto <bb 9>; [INV]
+
+  <bb 7> :
+<L5>:
+  # DEBUG BEGIN_STMT
+  ret = 1;
+  # DEBUG BEGIN_STMT
+  goto <bb 9>; [INV]
+
+  <bb 8> :
+<L6>:
+  # DEBUG BEGIN_STMT
+  ret = 1;
+  # DEBUG BEGIN_STMT
+
+  <bb 9> :
+  # DEBUG BEGIN_STMT
+  D.5727 = ret;
+  return D.5727;
+
+}
+
+
+Wdg_Ipw_StartTimer (Wdg_Ipw_InstanceType Wdg_Instance)
+{
+  Wdog_Ip_StatusType retIp;
+  Std_ReturnType ret;
+  Std_ReturnType D.5721;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  ret = 0;
+  # DEBUG BEGIN_STMT
+  retIp = 0;
+  # DEBUG BEGIN_STMT
+  _1 = aeWdg_Ipw_Ip[Wdg_Instance];
+  switch (_1) <default: <L6> [INV], case 0: <L0> [INV], case 1: <L5> [INV]>
+
+  <bb 3> :
+<L0>:
+  # DEBUG BEGIN_STMT
+  _2 = (unsigned char) Wdg_Instance;
+  retIp = Wdog_Ip_StartTimer (_2);
+  # DEBUG BEGIN_STMT
+  if (retIp != 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 9>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  if (retIp == 2)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  _3 = (unsigned char) Wdg_Instance;
+  Det_ReportRuntimeError (102, _3, 1, 19);
+
+  <bb 6> :
+  # DEBUG BEGIN_STMT
+  ret = 1;
+  goto <bb 9>; [INV]
+
+  <bb 7> :
+<L5>:
+  # DEBUG BEGIN_STMT
+  ret = 1;
+  # DEBUG BEGIN_STMT
+  goto <bb 9>; [INV]
+
+  <bb 8> :
+<L6>:
+  # DEBUG BEGIN_STMT
+  ret = 1;
+  # DEBUG BEGIN_STMT
+
+  <bb 9> :
+  # DEBUG BEGIN_STMT
+  D.5721 = ret;
+  return D.5721;
+
+}
+
+
+Wdg_Ipw_SetMode (Wdg_Ipw_InstanceType Wdg_Instance, const struct Wdg_Ipw_ConfigType * const pIpwConfig)
+{
+  Wdog_Ip_StatusType retIp;
+  Std_ReturnType ret;
+  Std_ReturnType D.5715;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  ret = 0;
+  # DEBUG BEGIN_STMT
+  retIp = 0;
+  # DEBUG BEGIN_STMT
+  _1 = pIpwConfig->eWdgIp;
+  aeWdg_Ipw_Ip[Wdg_Instance] = _1;
+  # DEBUG BEGIN_STMT
+  _2 = aeWdg_Ipw_Ip[Wdg_Instance];
+  switch (_2) <default: <L6> [INV], case 0: <L0> [INV], case 1: <L5> [INV]>
+
+  <bb 3> :
+<L0>:
+  # DEBUG BEGIN_STMT
+  _3 = (unsigned char) Wdg_Instance;
+  _4 = pIpwConfig->pWdogConfig;
+  retIp = Wdog_Ip_Config (_3, _4);
+  # DEBUG BEGIN_STMT
+  if (retIp != 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 9>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  if (retIp == 2)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  _5 = (unsigned char) Wdg_Instance;
+  Det_ReportRuntimeError (102, _5, 1, 19);
+
+  <bb 6> :
+  # DEBUG BEGIN_STMT
+  ret = 1;
+  goto <bb 9>; [INV]
+
+  <bb 7> :
+<L5>:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  ret = 1;
+  # DEBUG BEGIN_STMT
+  goto <bb 9>; [INV]
+
+  <bb 8> :
+<L6>:
+  # DEBUG BEGIN_STMT
+  ret = 1;
+  # DEBUG BEGIN_STMT
+
+  <bb 9> :
+  # DEBUG BEGIN_STMT
+  D.5715 = ret;
+  return D.5715;
+
+}
+
+
+Wdg_Ipw_Init (Wdg_Ipw_InstanceType Wdg_Instance, const struct Wdg_Ipw_ConfigType * const pIpwConfig)
+{
+  Wdog_Ip_StatusType retIp;
+  Std_ReturnType ret;
+  Std_ReturnType D.5709;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  ret = 0;
+  # DEBUG BEGIN_STMT
+  retIp = 0;
+  # DEBUG BEGIN_STMT
+  _1 = pIpwConfig->eWdgIp;
+  aeWdg_Ipw_Ip[Wdg_Instance] = _1;
+  # DEBUG BEGIN_STMT
+  _2 = pIpwConfig->eWdgIp;
+  switch (_2) <default: <L8> [INV], case 0: <L0> [INV], case 1: <L5> [INV]>
+
+  <bb 3> :
+<L0>:
+  # DEBUG BEGIN_STMT
+  _3 = (unsigned char) Wdg_Instance;
+  _4 = pIpwConfig->pWdogConfig;
+  retIp = Wdog_Ip_Init (_3, _4);
+  # DEBUG BEGIN_STMT
+  if (retIp != 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 10>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  if (retIp == 2)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  _5 = (unsigned char) Wdg_Instance;
+  Det_ReportRuntimeError (102, _5, 0, 19);
+
+  <bb 6> :
+  # DEBUG BEGIN_STMT
+  ret = 1;
+  goto <bb 10>; [INV]
+
+  <bb 7> :
+<L5>:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  _6 = pIpwConfig->pEwmConfig;
+  _7 = Ewm_Ip_Init (0, _6);
+  if (_7 != 0)
+    goto <bb 8>; [INV]
+  else
+    goto <bb 10>; [INV]
+
+  <bb 8> :
+  # DEBUG BEGIN_STMT
+  ret = 1;
+  goto <bb 10>; [INV]
+
+  <bb 9> :
+<L8>:
+  # DEBUG BEGIN_STMT
+  ret = 1;
+  # DEBUG BEGIN_STMT
+
+  <bb 10> :
+  # DEBUG BEGIN_STMT
+  D.5709 = ret;
+  return D.5709;
+
+}
+
+

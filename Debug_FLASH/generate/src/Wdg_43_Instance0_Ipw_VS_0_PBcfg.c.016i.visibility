@@ -1,0 +1,60 @@
+
+Marking local functions:
+
+
+Marking externally visible functions:
+
+
+Marking externally visible variables: Wdg_Ipw_FastModeSettings_0_VS_0 Wdg_Ipw_SlowModeSettings_0_VS_0 Wdg_Ipw_OffModeSettings_0_VS_0
+
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Symbol table:
+
+Wdog_Ip_FastModeSettings_VS_0/5 (Wdog_Ip_FastModeSettings_VS_0) @05e34e10
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: Wdg_Ipw_FastModeSettings_0_VS_0/2 (addr)
+  Availability: not_available
+  Varpool flags: read-only
+Wdog_Ip_SlowModeSettings_VS_0/4 (Wdog_Ip_SlowModeSettings_VS_0) @05e34dc8
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: Wdg_Ipw_SlowModeSettings_0_VS_0/1 (addr)
+  Availability: not_available
+  Varpool flags: read-only
+Wdog_Ip_OffModeSettings_VS_0/3 (Wdog_Ip_OffModeSettings_VS_0) @05e34d80
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: Wdg_Ipw_OffModeSettings_0_VS_0/0 (addr)
+  Availability: not_available
+  Varpool flags: read-only
+Wdg_Ipw_FastModeSettings_0_VS_0/2 (Wdg_Ipw_FastModeSettings_0_VS_0) @05e34c60
+  Type: variable definition analyzed
+  Visibility: externally_visible public
+  References: Wdog_Ip_FastModeSettings_VS_0/5 (addr)
+  Referring: 
+  Availability: available
+  Varpool flags: initialized read-only const-value-known
+Wdg_Ipw_SlowModeSettings_0_VS_0/1 (Wdg_Ipw_SlowModeSettings_0_VS_0) @05e34c18
+  Type: variable definition analyzed
+  Visibility: externally_visible public
+  References: Wdog_Ip_SlowModeSettings_VS_0/4 (addr)
+  Referring: 
+  Availability: available
+  Varpool flags: initialized read-only const-value-known
+Wdg_Ipw_OffModeSettings_0_VS_0/0 (Wdg_Ipw_OffModeSettings_0_VS_0) @05e34bd0
+  Type: variable definition analyzed
+  Visibility: externally_visible public
+  References: Wdog_Ip_OffModeSettings_VS_0/3 (addr)
+  Referring: 
+  Availability: available
+  Varpool flags: initialized read-only const-value-known

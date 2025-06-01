@@ -1,0 +1,382 @@
+
+Marking local functions: DevAssert
+
+
+Marking externally visible functions: main Wdg_CallBackNotification1 delay
+
+
+Marking externally visible variables: notificationCount
+
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Symbol table:
+
+Wdg_43_Instance1_SetTriggerCondition/23 (Wdg_43_Instance1_SetTriggerCondition) @065c8540
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/4 
+  Calls: 
+Wdg_Config_1_VS_0/22 (Wdg_Config_1_VS_0) @065c4ea0
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: main/4 (addr)
+  Availability: not_available
+  Varpool flags: read-only
+Wdg_43_Instance1_Init/21 (Wdg_43_Instance1_Init) @065c8380
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/4 
+  Calls: 
+Wdg_43_Instance0_SetMode/20 (Wdg_43_Instance0_SetMode) @065c82a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/4 main/4 
+  Calls: 
+Wdg_43_Instance0_SetTriggerCondition/19 (Wdg_43_Instance0_SetTriggerCondition) @065c81c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/4 main/4 main/4 
+  Calls: 
+Wdg_Config_0_VS_0/18 (Wdg_Config_0_VS_0) @065c4bd0
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: main/4 (addr)
+  Availability: not_available
+  Varpool flags: read-only
+Wdg_43_Instance0_Init/17 (Wdg_43_Instance0_Init) @065c80e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/4 
+  Calls: 
+Gpt_EnableNotification/16 (Gpt_EnableNotification) @065c8000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/4 main/4 
+  Calls: 
+Gpt_Config_VS_0/15 (Gpt_Config_VS_0) @065c4af8
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: main/4 (addr)
+  Availability: not_available
+  Varpool flags: read-only
+Gpt_Init/14 (Gpt_Init) @0656bee0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/4 
+  Calls: 
+Wdg_Ipw_Isr/13 (Wdg_Ipw_Isr) @0656be00
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: main/4 (addr)
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+FTM_0_CH_0_CH_1_ISR/12 (FTM_0_CH_0_CH_1_ISR) @0656bd20
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: main/4 (addr)
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+LPIT_0_CH_0_ISR/11 (LPIT_0_CH_0_ISR) @0656bc40
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: main/4 (addr)
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Platform_InstallIrqHandler/10 (Platform_InstallIrqHandler) @0656bb60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/4 main/4 main/4 
+  Calls: 
+Platform_SetIrq/9 (Platform_SetIrq) @0656ba80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/4 main/4 main/4 
+  Calls: 
+Platform_Init/8 (Platform_Init) @0656b9a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/4 
+  Calls: 
+Mcu_SetMode/7 (Mcu_SetMode) @0656b8c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/4 
+  Calls: 
+Mcu_InitClock/6 (Mcu_InitClock) @0656b7e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/4 
+  Calls: 
+Mcu_Init/5 (Mcu_Init) @0656b700
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/4 
+  Calls: 
+main/4 (main) @0656b0e0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: LPIT_0_CH_0_ISR/11 (addr)FTM_0_CH_0_CH_1_ISR/12 (addr)Wdg_Ipw_Isr/13 (addr)Gpt_Config_VS_0/15 (addr)Wdg_Config_0_VS_0/18 (addr)Wdg_Config_1_VS_0/22 (addr)notificationCount/1 (read)notificationCount/1 (read)
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: DevAssert/0 Wdg_43_Instance1_SetTriggerCondition/23 Wdg_43_Instance1_Init/21 Gpt_EnableNotification/16 delay/2 Wdg_43_Instance0_SetMode/20 Wdg_43_Instance0_SetTriggerCondition/19 delay/2 Wdg_43_Instance0_SetTriggerCondition/19 Wdg_43_Instance0_SetMode/20 Wdg_43_Instance0_SetTriggerCondition/19 Wdg_43_Instance0_Init/17 Gpt_EnableNotification/16 Gpt_Init/14 Platform_InstallIrqHandler/10 Platform_SetIrq/9 Platform_InstallIrqHandler/10 Platform_SetIrq/9 Platform_InstallIrqHandler/10 Platform_SetIrq/9 Platform_Init/8 Mcu_SetMode/7 Mcu_InitClock/6 Mcu_Init/5 
+Wdg_CallBackNotification1/3 (Wdg_CallBackNotification1) @06566e00
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: notificationCount/1 (write)
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: 
+delay/2 (delay) @065668c0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: main/4 main/4 
+  Calls: 
+notificationCount/1 (notificationCount) @06565b88
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible public
+  References: 
+  Referring: Wdg_CallBackNotification1/3 (write)main/4 (read)main/4 (read)
+  Availability: available
+  Varpool flags: initialized
+DevAssert/0 (DevAssert) @06566460
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: local
+  Function flags: body local optimize_size
+  Called by: main/4 
+  Calls: 
+main ()
+{
+  int index;
+  int D.7359;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  Mcu_Init (0B);
+  # DEBUG BEGIN_STMT
+  Mcu_InitClock (0);
+  # DEBUG BEGIN_STMT
+  Mcu_SetMode (0);
+  # DEBUG BEGIN_STMT
+  Platform_Init (0B);
+  # DEBUG BEGIN_STMT
+  Platform_SetIrq (48, 1);
+  # DEBUG BEGIN_STMT
+  Platform_InstallIrqHandler (48, LPIT_0_CH_0_ISR, 0B);
+  # DEBUG BEGIN_STMT
+  Platform_SetIrq (99, 1);
+  # DEBUG BEGIN_STMT
+  Platform_InstallIrqHandler (99, FTM_0_CH_0_CH_1_ISR, 0B);
+  # DEBUG BEGIN_STMT
+  Platform_SetIrq (22, 1);
+  # DEBUG BEGIN_STMT
+  Platform_InstallIrqHandler (22, Wdg_Ipw_Isr, 0B);
+  # DEBUG BEGIN_STMT
+  Gpt_Init (&Gpt_Config_VS_0);
+  # DEBUG BEGIN_STMT
+  Gpt_EnableNotification (0);
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance0_Init (&Wdg_Config_0_VS_0);
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance0_SetTriggerCondition (64768);
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance0_SetMode (2);
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance0_SetTriggerCondition (64768);
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  index = 0;
+  goto <bb 4>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  delay (50000);
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance0_SetTriggerCondition (64768);
+  # DEBUG BEGIN_STMT
+  index = index + 1;
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  if (index <= 9)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance0_SetMode (0);
+  # DEBUG BEGIN_STMT
+  delay (5000000);
+  # DEBUG BEGIN_STMT
+  Gpt_EnableNotification (1);
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance1_Init (&Wdg_Config_1_VS_0);
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance1_SetTriggerCondition (64768);
+  # DEBUG BEGIN_STMT
+
+  <bb 6> :
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  notificationCount.2_1 = notificationCount;
+  if (notificationCount.2_1 == 0)
+    goto <bb 6>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 7> :
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  notificationCount.3_2 = notificationCount;
+  _3 = notificationCount.3_2 == 1;
+  DevAssert (_3);
+  # DEBUG BEGIN_STMT
+  D.7359 = 0;
+  return D.7359;
+
+}
+
+
+Wdg_CallBackNotification1 ()
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  notificationCount = 1;
+  return;
+
+}
+
+
+delay (uint32 timeout)
+{
+  volatile uint32 i;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  i = timeout;
+  # DEBUG BEGIN_STMT
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  i.0_1 = i;
+  i.1_2 = i.0_1;
+  _3 = i.1_2 + 4294967295;
+  i = _3;
+  if (i.1_2 != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 4> :
+  return;
+
+}
+
+
+DevAssert (volatile boolean x)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  x.4_1 = x;
+  if (x.4_1 != 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 3>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  goto <bb 3>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  return;
+
+}
+
+

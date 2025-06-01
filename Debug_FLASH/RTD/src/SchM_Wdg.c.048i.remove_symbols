@@ -1,0 +1,1875 @@
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Symbol table:
+
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_14/60 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_14) @05e42700
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: reentry_guard_WDG_EXCLUSIVE_AREA_14/29 (read)reentry_guard_WDG_EXCLUSIVE_AREA_14/29 (write)msr_WDG_EXCLUSIVE_AREA_14/28 (read)reentry_guard_WDG_EXCLUSIVE_AREA_14/29 (read)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_14/59 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_14) @05e42460
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: reentry_guard_WDG_EXCLUSIVE_AREA_14/29 (read)msr_WDG_EXCLUSIVE_AREA_14/28 (write)msr_WDG_EXCLUSIVE_AREA_14/28 (read)reentry_guard_WDG_EXCLUSIVE_AREA_14/29 (read)reentry_guard_WDG_EXCLUSIVE_AREA_14/29 (write)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_13/58 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_13) @05e421c0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: reentry_guard_WDG_EXCLUSIVE_AREA_13/27 (read)reentry_guard_WDG_EXCLUSIVE_AREA_13/27 (write)msr_WDG_EXCLUSIVE_AREA_13/26 (read)reentry_guard_WDG_EXCLUSIVE_AREA_13/27 (read)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_13/57 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_13) @05e3dd20
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: reentry_guard_WDG_EXCLUSIVE_AREA_13/27 (read)msr_WDG_EXCLUSIVE_AREA_13/26 (write)msr_WDG_EXCLUSIVE_AREA_13/26 (read)reentry_guard_WDG_EXCLUSIVE_AREA_13/27 (read)reentry_guard_WDG_EXCLUSIVE_AREA_13/27 (write)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_12/56 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_12) @05e3d7e0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: reentry_guard_WDG_EXCLUSIVE_AREA_12/25 (read)reentry_guard_WDG_EXCLUSIVE_AREA_12/25 (write)msr_WDG_EXCLUSIVE_AREA_12/24 (read)reentry_guard_WDG_EXCLUSIVE_AREA_12/25 (read)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_12/55 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_12) @05e3d2a0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: reentry_guard_WDG_EXCLUSIVE_AREA_12/25 (read)msr_WDG_EXCLUSIVE_AREA_12/24 (write)msr_WDG_EXCLUSIVE_AREA_12/24 (read)reentry_guard_WDG_EXCLUSIVE_AREA_12/25 (read)reentry_guard_WDG_EXCLUSIVE_AREA_12/25 (write)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_11/54 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_11) @05e3dee0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: reentry_guard_WDG_EXCLUSIVE_AREA_11/23 (read)reentry_guard_WDG_EXCLUSIVE_AREA_11/23 (write)msr_WDG_EXCLUSIVE_AREA_11/22 (read)reentry_guard_WDG_EXCLUSIVE_AREA_11/23 (read)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_11/53 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_11) @05e3dc40
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: reentry_guard_WDG_EXCLUSIVE_AREA_11/23 (read)msr_WDG_EXCLUSIVE_AREA_11/22 (write)msr_WDG_EXCLUSIVE_AREA_11/22 (read)reentry_guard_WDG_EXCLUSIVE_AREA_11/23 (read)reentry_guard_WDG_EXCLUSIVE_AREA_11/23 (write)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_10/52 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_10) @05e3d9a0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: reentry_guard_WDG_EXCLUSIVE_AREA_10/21 (read)reentry_guard_WDG_EXCLUSIVE_AREA_10/21 (write)msr_WDG_EXCLUSIVE_AREA_10/20 (read)reentry_guard_WDG_EXCLUSIVE_AREA_10/21 (read)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_10/51 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_10) @05e3d700
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: reentry_guard_WDG_EXCLUSIVE_AREA_10/21 (read)msr_WDG_EXCLUSIVE_AREA_10/20 (write)msr_WDG_EXCLUSIVE_AREA_10/20 (read)reentry_guard_WDG_EXCLUSIVE_AREA_10/21 (read)reentry_guard_WDG_EXCLUSIVE_AREA_10/21 (write)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_09/50 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_09) @05e3d460
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: reentry_guard_WDG_EXCLUSIVE_AREA_09/19 (read)reentry_guard_WDG_EXCLUSIVE_AREA_09/19 (write)msr_WDG_EXCLUSIVE_AREA_09/18 (read)reentry_guard_WDG_EXCLUSIVE_AREA_09/19 (read)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_09/49 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_09) @05e3d1c0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: reentry_guard_WDG_EXCLUSIVE_AREA_09/19 (read)msr_WDG_EXCLUSIVE_AREA_09/18 (write)msr_WDG_EXCLUSIVE_AREA_09/18 (read)reentry_guard_WDG_EXCLUSIVE_AREA_09/19 (read)reentry_guard_WDG_EXCLUSIVE_AREA_09/19 (write)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_08/48 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_08) @05d43d20
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: reentry_guard_WDG_EXCLUSIVE_AREA_08/17 (read)reentry_guard_WDG_EXCLUSIVE_AREA_08/17 (write)msr_WDG_EXCLUSIVE_AREA_08/16 (read)reentry_guard_WDG_EXCLUSIVE_AREA_08/17 (read)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_08/47 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_08) @05d437e0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: reentry_guard_WDG_EXCLUSIVE_AREA_08/17 (read)msr_WDG_EXCLUSIVE_AREA_08/16 (write)msr_WDG_EXCLUSIVE_AREA_08/16 (read)reentry_guard_WDG_EXCLUSIVE_AREA_08/17 (read)reentry_guard_WDG_EXCLUSIVE_AREA_08/17 (write)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_07/46 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_07) @05d432a0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: reentry_guard_WDG_EXCLUSIVE_AREA_07/15 (read)reentry_guard_WDG_EXCLUSIVE_AREA_07/15 (write)msr_WDG_EXCLUSIVE_AREA_07/14 (read)reentry_guard_WDG_EXCLUSIVE_AREA_07/15 (read)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_07/45 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_07) @05d43ee0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: reentry_guard_WDG_EXCLUSIVE_AREA_07/15 (read)msr_WDG_EXCLUSIVE_AREA_07/14 (write)msr_WDG_EXCLUSIVE_AREA_07/14 (read)reentry_guard_WDG_EXCLUSIVE_AREA_07/15 (read)reentry_guard_WDG_EXCLUSIVE_AREA_07/15 (write)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_06/44 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_06) @05d43c40
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: reentry_guard_WDG_EXCLUSIVE_AREA_06/13 (read)reentry_guard_WDG_EXCLUSIVE_AREA_06/13 (write)msr_WDG_EXCLUSIVE_AREA_06/12 (read)reentry_guard_WDG_EXCLUSIVE_AREA_06/13 (read)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_06/43 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_06) @05d439a0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: reentry_guard_WDG_EXCLUSIVE_AREA_06/13 (read)msr_WDG_EXCLUSIVE_AREA_06/12 (write)msr_WDG_EXCLUSIVE_AREA_06/12 (read)reentry_guard_WDG_EXCLUSIVE_AREA_06/13 (read)reentry_guard_WDG_EXCLUSIVE_AREA_06/13 (write)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05/42 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05) @05d43700
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: reentry_guard_WDG_EXCLUSIVE_AREA_05/11 (read)reentry_guard_WDG_EXCLUSIVE_AREA_05/11 (write)msr_WDG_EXCLUSIVE_AREA_05/10 (read)reentry_guard_WDG_EXCLUSIVE_AREA_05/11 (read)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_05/41 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_05) @05d43460
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: reentry_guard_WDG_EXCLUSIVE_AREA_05/11 (read)msr_WDG_EXCLUSIVE_AREA_05/10 (write)msr_WDG_EXCLUSIVE_AREA_05/10 (read)reentry_guard_WDG_EXCLUSIVE_AREA_05/11 (read)reentry_guard_WDG_EXCLUSIVE_AREA_05/11 (write)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_04/40 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_04) @05d431c0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: reentry_guard_WDG_EXCLUSIVE_AREA_04/9 (read)reentry_guard_WDG_EXCLUSIVE_AREA_04/9 (write)msr_WDG_EXCLUSIVE_AREA_04/8 (read)reentry_guard_WDG_EXCLUSIVE_AREA_04/9 (read)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_04/39 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_04) @05d40d20
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: reentry_guard_WDG_EXCLUSIVE_AREA_04/9 (read)msr_WDG_EXCLUSIVE_AREA_04/8 (write)msr_WDG_EXCLUSIVE_AREA_04/8 (read)reentry_guard_WDG_EXCLUSIVE_AREA_04/9 (read)reentry_guard_WDG_EXCLUSIVE_AREA_04/9 (write)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_03/38 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_03) @05d407e0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: reentry_guard_WDG_EXCLUSIVE_AREA_03/7 (read)reentry_guard_WDG_EXCLUSIVE_AREA_03/7 (write)msr_WDG_EXCLUSIVE_AREA_03/6 (read)reentry_guard_WDG_EXCLUSIVE_AREA_03/7 (read)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_03/37 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_03) @05d402a0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: reentry_guard_WDG_EXCLUSIVE_AREA_03/7 (read)msr_WDG_EXCLUSIVE_AREA_03/6 (write)msr_WDG_EXCLUSIVE_AREA_03/6 (read)reentry_guard_WDG_EXCLUSIVE_AREA_03/7 (read)reentry_guard_WDG_EXCLUSIVE_AREA_03/7 (write)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_02/36 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_02) @05d40ee0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: reentry_guard_WDG_EXCLUSIVE_AREA_02/5 (read)reentry_guard_WDG_EXCLUSIVE_AREA_02/5 (write)msr_WDG_EXCLUSIVE_AREA_02/4 (read)reentry_guard_WDG_EXCLUSIVE_AREA_02/5 (read)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_02/35 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_02) @05d40c40
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: reentry_guard_WDG_EXCLUSIVE_AREA_02/5 (read)msr_WDG_EXCLUSIVE_AREA_02/4 (write)msr_WDG_EXCLUSIVE_AREA_02/4 (read)reentry_guard_WDG_EXCLUSIVE_AREA_02/5 (read)reentry_guard_WDG_EXCLUSIVE_AREA_02/5 (write)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_01/34 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_01) @05d409a0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: reentry_guard_WDG_EXCLUSIVE_AREA_01/3 (read)reentry_guard_WDG_EXCLUSIVE_AREA_01/3 (write)msr_WDG_EXCLUSIVE_AREA_01/2 (read)reentry_guard_WDG_EXCLUSIVE_AREA_01/3 (read)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_01/33 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_01) @05d40700
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: reentry_guard_WDG_EXCLUSIVE_AREA_01/3 (read)msr_WDG_EXCLUSIVE_AREA_01/2 (write)msr_WDG_EXCLUSIVE_AREA_01/2 (read)reentry_guard_WDG_EXCLUSIVE_AREA_01/3 (read)reentry_guard_WDG_EXCLUSIVE_AREA_01/3 (write)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00/32 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00) @05d40460
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: reentry_guard_WDG_EXCLUSIVE_AREA_00/1 (read)reentry_guard_WDG_EXCLUSIVE_AREA_00/1 (write)msr_WDG_EXCLUSIVE_AREA_00/0 (read)reentry_guard_WDG_EXCLUSIVE_AREA_00/1 (read)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_00/31 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_00) @05d401c0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: reentry_guard_WDG_EXCLUSIVE_AREA_00/1 (read)msr_WDG_EXCLUSIVE_AREA_00/0 (write)msr_WDG_EXCLUSIVE_AREA_00/0 (read)reentry_guard_WDG_EXCLUSIVE_AREA_00/1 (read)reentry_guard_WDG_EXCLUSIVE_AREA_00/1 (write)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+Wdg_schm_read_msr/30 (Wdg_schm_read_msr) @05d39e00
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+reentry_guard_WDG_EXCLUSIVE_AREA_14/29 (reentry_guard_WDG_EXCLUSIVE_AREA_14) @05d3b000
+  Type: variable definition analyzed
+  Visibility: force_output prevailing_def_ironly
+  References: 
+  Referring: SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_14/59 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_14/59 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_14/59 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_14/60 (read)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_14/60 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_14/60 (read)
+  Availability: available
+  Varpool flags:
+msr_WDG_EXCLUSIVE_AREA_14/28 (msr_WDG_EXCLUSIVE_AREA_14) @05d38f30
+  Type: variable definition analyzed
+  Visibility: force_output prevailing_def_ironly
+  References: 
+  Referring: SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_14/59 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_14/59 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_14/60 (read)
+  Availability: available
+  Varpool flags:
+reentry_guard_WDG_EXCLUSIVE_AREA_13/27 (reentry_guard_WDG_EXCLUSIVE_AREA_13) @05d38ea0
+  Type: variable definition analyzed
+  Visibility: force_output prevailing_def_ironly
+  References: 
+  Referring: SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_13/57 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_13/57 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_13/57 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_13/58 (read)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_13/58 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_13/58 (read)
+  Availability: available
+  Varpool flags:
+msr_WDG_EXCLUSIVE_AREA_13/26 (msr_WDG_EXCLUSIVE_AREA_13) @05d38e10
+  Type: variable definition analyzed
+  Visibility: force_output prevailing_def_ironly
+  References: 
+  Referring: SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_13/57 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_13/57 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_13/58 (read)
+  Availability: available
+  Varpool flags:
+reentry_guard_WDG_EXCLUSIVE_AREA_12/25 (reentry_guard_WDG_EXCLUSIVE_AREA_12) @05d38d80
+  Type: variable definition analyzed
+  Visibility: force_output prevailing_def_ironly
+  References: 
+  Referring: SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_12/55 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_12/55 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_12/55 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_12/56 (read)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_12/56 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_12/56 (read)
+  Availability: available
+  Varpool flags:
+msr_WDG_EXCLUSIVE_AREA_12/24 (msr_WDG_EXCLUSIVE_AREA_12) @05d38cf0
+  Type: variable definition analyzed
+  Visibility: force_output prevailing_def_ironly
+  References: 
+  Referring: SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_12/55 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_12/55 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_12/56 (read)
+  Availability: available
+  Varpool flags:
+reentry_guard_WDG_EXCLUSIVE_AREA_11/23 (reentry_guard_WDG_EXCLUSIVE_AREA_11) @05d38c60
+  Type: variable definition analyzed
+  Visibility: force_output prevailing_def_ironly
+  References: 
+  Referring: SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_11/53 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_11/53 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_11/53 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_11/54 (read)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_11/54 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_11/54 (read)
+  Availability: available
+  Varpool flags:
+msr_WDG_EXCLUSIVE_AREA_11/22 (msr_WDG_EXCLUSIVE_AREA_11) @05d38bd0
+  Type: variable definition analyzed
+  Visibility: force_output prevailing_def_ironly
+  References: 
+  Referring: SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_11/53 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_11/53 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_11/54 (read)
+  Availability: available
+  Varpool flags:
+reentry_guard_WDG_EXCLUSIVE_AREA_10/21 (reentry_guard_WDG_EXCLUSIVE_AREA_10) @05d38b40
+  Type: variable definition analyzed
+  Visibility: force_output prevailing_def_ironly
+  References: 
+  Referring: SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_10/51 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_10/51 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_10/51 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_10/52 (read)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_10/52 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_10/52 (read)
+  Availability: available
+  Varpool flags:
+msr_WDG_EXCLUSIVE_AREA_10/20 (msr_WDG_EXCLUSIVE_AREA_10) @05d38ab0
+  Type: variable definition analyzed
+  Visibility: force_output prevailing_def_ironly
+  References: 
+  Referring: SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_10/51 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_10/51 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_10/52 (read)
+  Availability: available
+  Varpool flags:
+reentry_guard_WDG_EXCLUSIVE_AREA_09/19 (reentry_guard_WDG_EXCLUSIVE_AREA_09) @05d38a20
+  Type: variable definition analyzed
+  Visibility: force_output prevailing_def_ironly
+  References: 
+  Referring: SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_09/49 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_09/49 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_09/49 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_09/50 (read)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_09/50 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_09/50 (read)
+  Availability: available
+  Varpool flags:
+msr_WDG_EXCLUSIVE_AREA_09/18 (msr_WDG_EXCLUSIVE_AREA_09) @05d38990
+  Type: variable definition analyzed
+  Visibility: force_output prevailing_def_ironly
+  References: 
+  Referring: SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_09/49 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_09/49 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_09/50 (read)
+  Availability: available
+  Varpool flags:
+reentry_guard_WDG_EXCLUSIVE_AREA_08/17 (reentry_guard_WDG_EXCLUSIVE_AREA_08) @05d38900
+  Type: variable definition analyzed
+  Visibility: force_output prevailing_def_ironly
+  References: 
+  Referring: SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_08/47 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_08/47 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_08/47 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_08/48 (read)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_08/48 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_08/48 (read)
+  Availability: available
+  Varpool flags:
+msr_WDG_EXCLUSIVE_AREA_08/16 (msr_WDG_EXCLUSIVE_AREA_08) @05d38870
+  Type: variable definition analyzed
+  Visibility: force_output prevailing_def_ironly
+  References: 
+  Referring: SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_08/47 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_08/47 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_08/48 (read)
+  Availability: available
+  Varpool flags:
+reentry_guard_WDG_EXCLUSIVE_AREA_07/15 (reentry_guard_WDG_EXCLUSIVE_AREA_07) @05d387e0
+  Type: variable definition analyzed
+  Visibility: force_output prevailing_def_ironly
+  References: 
+  Referring: SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_07/45 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_07/45 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_07/45 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_07/46 (read)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_07/46 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_07/46 (read)
+  Availability: available
+  Varpool flags:
+msr_WDG_EXCLUSIVE_AREA_07/14 (msr_WDG_EXCLUSIVE_AREA_07) @05d38750
+  Type: variable definition analyzed
+  Visibility: force_output prevailing_def_ironly
+  References: 
+  Referring: SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_07/45 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_07/45 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_07/46 (read)
+  Availability: available
+  Varpool flags:
+reentry_guard_WDG_EXCLUSIVE_AREA_06/13 (reentry_guard_WDG_EXCLUSIVE_AREA_06) @05d386c0
+  Type: variable definition analyzed
+  Visibility: force_output prevailing_def_ironly
+  References: 
+  Referring: SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_06/43 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_06/43 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_06/43 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_06/44 (read)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_06/44 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_06/44 (read)
+  Availability: available
+  Varpool flags:
+msr_WDG_EXCLUSIVE_AREA_06/12 (msr_WDG_EXCLUSIVE_AREA_06) @05d38630
+  Type: variable definition analyzed
+  Visibility: force_output prevailing_def_ironly
+  References: 
+  Referring: SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_06/43 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_06/43 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_06/44 (read)
+  Availability: available
+  Varpool flags:
+reentry_guard_WDG_EXCLUSIVE_AREA_05/11 (reentry_guard_WDG_EXCLUSIVE_AREA_05) @05d385a0
+  Type: variable definition analyzed
+  Visibility: force_output prevailing_def_ironly
+  References: 
+  Referring: SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_05/41 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_05/41 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_05/41 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05/42 (read)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05/42 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05/42 (read)
+  Availability: available
+  Varpool flags:
+msr_WDG_EXCLUSIVE_AREA_05/10 (msr_WDG_EXCLUSIVE_AREA_05) @05d38510
+  Type: variable definition analyzed
+  Visibility: force_output prevailing_def_ironly
+  References: 
+  Referring: SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_05/41 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_05/41 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05/42 (read)
+  Availability: available
+  Varpool flags:
+reentry_guard_WDG_EXCLUSIVE_AREA_04/9 (reentry_guard_WDG_EXCLUSIVE_AREA_04) @05d38480
+  Type: variable definition analyzed
+  Visibility: force_output prevailing_def_ironly
+  References: 
+  Referring: SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_04/39 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_04/39 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_04/39 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_04/40 (read)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_04/40 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_04/40 (read)
+  Availability: available
+  Varpool flags:
+msr_WDG_EXCLUSIVE_AREA_04/8 (msr_WDG_EXCLUSIVE_AREA_04) @05d383f0
+  Type: variable definition analyzed
+  Visibility: force_output prevailing_def_ironly
+  References: 
+  Referring: SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_04/39 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_04/39 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_04/40 (read)
+  Availability: available
+  Varpool flags:
+reentry_guard_WDG_EXCLUSIVE_AREA_03/7 (reentry_guard_WDG_EXCLUSIVE_AREA_03) @05d38360
+  Type: variable definition analyzed
+  Visibility: force_output prevailing_def_ironly
+  References: 
+  Referring: SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_03/37 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_03/37 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_03/37 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_03/38 (read)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_03/38 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_03/38 (read)
+  Availability: available
+  Varpool flags:
+msr_WDG_EXCLUSIVE_AREA_03/6 (msr_WDG_EXCLUSIVE_AREA_03) @05d382d0
+  Type: variable definition analyzed
+  Visibility: force_output prevailing_def_ironly
+  References: 
+  Referring: SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_03/37 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_03/37 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_03/38 (read)
+  Availability: available
+  Varpool flags:
+reentry_guard_WDG_EXCLUSIVE_AREA_02/5 (reentry_guard_WDG_EXCLUSIVE_AREA_02) @05d38240
+  Type: variable definition analyzed
+  Visibility: force_output prevailing_def_ironly
+  References: 
+  Referring: SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_02/35 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_02/35 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_02/35 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_02/36 (read)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_02/36 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_02/36 (read)
+  Availability: available
+  Varpool flags:
+msr_WDG_EXCLUSIVE_AREA_02/4 (msr_WDG_EXCLUSIVE_AREA_02) @05d381b0
+  Type: variable definition analyzed
+  Visibility: force_output prevailing_def_ironly
+  References: 
+  Referring: SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_02/35 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_02/35 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_02/36 (read)
+  Availability: available
+  Varpool flags:
+reentry_guard_WDG_EXCLUSIVE_AREA_01/3 (reentry_guard_WDG_EXCLUSIVE_AREA_01) @05d38120
+  Type: variable definition analyzed
+  Visibility: force_output prevailing_def_ironly
+  References: 
+  Referring: SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_01/33 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_01/33 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_01/33 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_01/34 (read)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_01/34 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_01/34 (read)
+  Availability: available
+  Varpool flags:
+msr_WDG_EXCLUSIVE_AREA_01/2 (msr_WDG_EXCLUSIVE_AREA_01) @05d38090
+  Type: variable definition analyzed
+  Visibility: force_output prevailing_def_ironly
+  References: 
+  Referring: SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_01/33 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_01/33 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_01/34 (read)
+  Availability: available
+  Varpool flags:
+reentry_guard_WDG_EXCLUSIVE_AREA_00/1 (reentry_guard_WDG_EXCLUSIVE_AREA_00) @05d38000
+  Type: variable definition analyzed
+  Visibility: force_output prevailing_def_ironly
+  References: 
+  Referring: SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_00/31 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_00/31 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_00/31 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00/32 (read)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00/32 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00/32 (read)
+  Availability: available
+  Varpool flags:
+msr_WDG_EXCLUSIVE_AREA_00/0 (msr_WDG_EXCLUSIVE_AREA_00) @05db8f30
+  Type: variable definition analyzed
+  Visibility: force_output prevailing_def_ironly
+  References: 
+  Referring: SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_00/31 (read)SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_00/31 (write)SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00/32 (read)
+  Availability: available
+  Varpool flags:
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_14 ()
+{
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG u32CoreId => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_14[0];
+  _2 = _1 + 4294967295;
+  reentry_guard_WDG_EXCLUSIVE_AREA_14[0] ={v} _2;
+  # DEBUG BEGIN_STMT
+  _3 ={v} msr_WDG_EXCLUSIVE_AREA_14[0];
+  _4 = _3 & 1;
+  if (_4 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  _5 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_14[0];
+  if (_5 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+
+  <bb 5> [local count: 1073741824]:
+  return;
+
+}
+
+
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_14 ()
+{
+  register uint32 reg_tmp;
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG u32CoreId => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_14[0];
+  if (_1 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  # DEBUG INLINE_ENTRY Wdg_schm_read_msr
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" mrs %0, primask " : "=r" reg_tmp_11);
+  # DEBUG reg_tmp => reg_tmp_11
+  # DEBUG BEGIN_STMT
+  # DEBUG reg_tmp => NULL
+  msr_WDG_EXCLUSIVE_AREA_14[0] ={v} reg_tmp_11;
+  # DEBUG BEGIN_STMT
+  _2 ={v} msr_WDG_EXCLUSIVE_AREA_14[0];
+  _3 = _2 & 1;
+  if (_3 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+
+  <bb 5> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _4 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_14[0];
+  _5 = _4 + 1;
+  reentry_guard_WDG_EXCLUSIVE_AREA_14[0] ={v} _5;
+  return;
+
+}
+
+
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_13 ()
+{
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG u32CoreId => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_13[0];
+  _2 = _1 + 4294967295;
+  reentry_guard_WDG_EXCLUSIVE_AREA_13[0] ={v} _2;
+  # DEBUG BEGIN_STMT
+  _3 ={v} msr_WDG_EXCLUSIVE_AREA_13[0];
+  _4 = _3 & 1;
+  if (_4 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  _5 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_13[0];
+  if (_5 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+
+  <bb 5> [local count: 1073741824]:
+  return;
+
+}
+
+
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_13 ()
+{
+  register uint32 reg_tmp;
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG u32CoreId => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_13[0];
+  if (_1 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  # DEBUG INLINE_ENTRY Wdg_schm_read_msr
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" mrs %0, primask " : "=r" reg_tmp_11);
+  # DEBUG reg_tmp => reg_tmp_11
+  # DEBUG BEGIN_STMT
+  # DEBUG reg_tmp => NULL
+  msr_WDG_EXCLUSIVE_AREA_13[0] ={v} reg_tmp_11;
+  # DEBUG BEGIN_STMT
+  _2 ={v} msr_WDG_EXCLUSIVE_AREA_13[0];
+  _3 = _2 & 1;
+  if (_3 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+
+  <bb 5> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _4 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_13[0];
+  _5 = _4 + 1;
+  reentry_guard_WDG_EXCLUSIVE_AREA_13[0] ={v} _5;
+  return;
+
+}
+
+
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_12 ()
+{
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG u32CoreId => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_12[0];
+  _2 = _1 + 4294967295;
+  reentry_guard_WDG_EXCLUSIVE_AREA_12[0] ={v} _2;
+  # DEBUG BEGIN_STMT
+  _3 ={v} msr_WDG_EXCLUSIVE_AREA_12[0];
+  _4 = _3 & 1;
+  if (_4 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  _5 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_12[0];
+  if (_5 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+
+  <bb 5> [local count: 1073741824]:
+  return;
+
+}
+
+
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_12 ()
+{
+  register uint32 reg_tmp;
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG u32CoreId => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_12[0];
+  if (_1 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  # DEBUG INLINE_ENTRY Wdg_schm_read_msr
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" mrs %0, primask " : "=r" reg_tmp_11);
+  # DEBUG reg_tmp => reg_tmp_11
+  # DEBUG BEGIN_STMT
+  # DEBUG reg_tmp => NULL
+  msr_WDG_EXCLUSIVE_AREA_12[0] ={v} reg_tmp_11;
+  # DEBUG BEGIN_STMT
+  _2 ={v} msr_WDG_EXCLUSIVE_AREA_12[0];
+  _3 = _2 & 1;
+  if (_3 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+
+  <bb 5> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _4 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_12[0];
+  _5 = _4 + 1;
+  reentry_guard_WDG_EXCLUSIVE_AREA_12[0] ={v} _5;
+  return;
+
+}
+
+
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_11 ()
+{
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG u32CoreId => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_11[0];
+  _2 = _1 + 4294967295;
+  reentry_guard_WDG_EXCLUSIVE_AREA_11[0] ={v} _2;
+  # DEBUG BEGIN_STMT
+  _3 ={v} msr_WDG_EXCLUSIVE_AREA_11[0];
+  _4 = _3 & 1;
+  if (_4 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  _5 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_11[0];
+  if (_5 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+
+  <bb 5> [local count: 1073741824]:
+  return;
+
+}
+
+
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_11 ()
+{
+  register uint32 reg_tmp;
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG u32CoreId => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_11[0];
+  if (_1 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  # DEBUG INLINE_ENTRY Wdg_schm_read_msr
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" mrs %0, primask " : "=r" reg_tmp_11);
+  # DEBUG reg_tmp => reg_tmp_11
+  # DEBUG BEGIN_STMT
+  # DEBUG reg_tmp => NULL
+  msr_WDG_EXCLUSIVE_AREA_11[0] ={v} reg_tmp_11;
+  # DEBUG BEGIN_STMT
+  _2 ={v} msr_WDG_EXCLUSIVE_AREA_11[0];
+  _3 = _2 & 1;
+  if (_3 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+
+  <bb 5> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _4 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_11[0];
+  _5 = _4 + 1;
+  reentry_guard_WDG_EXCLUSIVE_AREA_11[0] ={v} _5;
+  return;
+
+}
+
+
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_10 ()
+{
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG u32CoreId => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_10[0];
+  _2 = _1 + 4294967295;
+  reentry_guard_WDG_EXCLUSIVE_AREA_10[0] ={v} _2;
+  # DEBUG BEGIN_STMT
+  _3 ={v} msr_WDG_EXCLUSIVE_AREA_10[0];
+  _4 = _3 & 1;
+  if (_4 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  _5 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_10[0];
+  if (_5 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+
+  <bb 5> [local count: 1073741824]:
+  return;
+
+}
+
+
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_10 ()
+{
+  register uint32 reg_tmp;
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG u32CoreId => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_10[0];
+  if (_1 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  # DEBUG INLINE_ENTRY Wdg_schm_read_msr
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" mrs %0, primask " : "=r" reg_tmp_11);
+  # DEBUG reg_tmp => reg_tmp_11
+  # DEBUG BEGIN_STMT
+  # DEBUG reg_tmp => NULL
+  msr_WDG_EXCLUSIVE_AREA_10[0] ={v} reg_tmp_11;
+  # DEBUG BEGIN_STMT
+  _2 ={v} msr_WDG_EXCLUSIVE_AREA_10[0];
+  _3 = _2 & 1;
+  if (_3 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+
+  <bb 5> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _4 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_10[0];
+  _5 = _4 + 1;
+  reentry_guard_WDG_EXCLUSIVE_AREA_10[0] ={v} _5;
+  return;
+
+}
+
+
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_09 ()
+{
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG u32CoreId => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_09[0];
+  _2 = _1 + 4294967295;
+  reentry_guard_WDG_EXCLUSIVE_AREA_09[0] ={v} _2;
+  # DEBUG BEGIN_STMT
+  _3 ={v} msr_WDG_EXCLUSIVE_AREA_09[0];
+  _4 = _3 & 1;
+  if (_4 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  _5 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_09[0];
+  if (_5 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+
+  <bb 5> [local count: 1073741824]:
+  return;
+
+}
+
+
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_09 ()
+{
+  register uint32 reg_tmp;
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG u32CoreId => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_09[0];
+  if (_1 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  # DEBUG INLINE_ENTRY Wdg_schm_read_msr
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" mrs %0, primask " : "=r" reg_tmp_11);
+  # DEBUG reg_tmp => reg_tmp_11
+  # DEBUG BEGIN_STMT
+  # DEBUG reg_tmp => NULL
+  msr_WDG_EXCLUSIVE_AREA_09[0] ={v} reg_tmp_11;
+  # DEBUG BEGIN_STMT
+  _2 ={v} msr_WDG_EXCLUSIVE_AREA_09[0];
+  _3 = _2 & 1;
+  if (_3 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+
+  <bb 5> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _4 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_09[0];
+  _5 = _4 + 1;
+  reentry_guard_WDG_EXCLUSIVE_AREA_09[0] ={v} _5;
+  return;
+
+}
+
+
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_08 ()
+{
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG u32CoreId => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_08[0];
+  _2 = _1 + 4294967295;
+  reentry_guard_WDG_EXCLUSIVE_AREA_08[0] ={v} _2;
+  # DEBUG BEGIN_STMT
+  _3 ={v} msr_WDG_EXCLUSIVE_AREA_08[0];
+  _4 = _3 & 1;
+  if (_4 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  _5 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_08[0];
+  if (_5 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+
+  <bb 5> [local count: 1073741824]:
+  return;
+
+}
+
+
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_08 ()
+{
+  register uint32 reg_tmp;
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG u32CoreId => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_08[0];
+  if (_1 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  # DEBUG INLINE_ENTRY Wdg_schm_read_msr
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" mrs %0, primask " : "=r" reg_tmp_11);
+  # DEBUG reg_tmp => reg_tmp_11
+  # DEBUG BEGIN_STMT
+  # DEBUG reg_tmp => NULL
+  msr_WDG_EXCLUSIVE_AREA_08[0] ={v} reg_tmp_11;
+  # DEBUG BEGIN_STMT
+  _2 ={v} msr_WDG_EXCLUSIVE_AREA_08[0];
+  _3 = _2 & 1;
+  if (_3 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+
+  <bb 5> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _4 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_08[0];
+  _5 = _4 + 1;
+  reentry_guard_WDG_EXCLUSIVE_AREA_08[0] ={v} _5;
+  return;
+
+}
+
+
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_07 ()
+{
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG u32CoreId => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_07[0];
+  _2 = _1 + 4294967295;
+  reentry_guard_WDG_EXCLUSIVE_AREA_07[0] ={v} _2;
+  # DEBUG BEGIN_STMT
+  _3 ={v} msr_WDG_EXCLUSIVE_AREA_07[0];
+  _4 = _3 & 1;
+  if (_4 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  _5 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_07[0];
+  if (_5 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+
+  <bb 5> [local count: 1073741824]:
+  return;
+
+}
+
+
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_07 ()
+{
+  register uint32 reg_tmp;
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG u32CoreId => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_07[0];
+  if (_1 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  # DEBUG INLINE_ENTRY Wdg_schm_read_msr
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" mrs %0, primask " : "=r" reg_tmp_11);
+  # DEBUG reg_tmp => reg_tmp_11
+  # DEBUG BEGIN_STMT
+  # DEBUG reg_tmp => NULL
+  msr_WDG_EXCLUSIVE_AREA_07[0] ={v} reg_tmp_11;
+  # DEBUG BEGIN_STMT
+  _2 ={v} msr_WDG_EXCLUSIVE_AREA_07[0];
+  _3 = _2 & 1;
+  if (_3 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+
+  <bb 5> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _4 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_07[0];
+  _5 = _4 + 1;
+  reentry_guard_WDG_EXCLUSIVE_AREA_07[0] ={v} _5;
+  return;
+
+}
+
+
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_06 ()
+{
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG u32CoreId => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_06[0];
+  _2 = _1 + 4294967295;
+  reentry_guard_WDG_EXCLUSIVE_AREA_06[0] ={v} _2;
+  # DEBUG BEGIN_STMT
+  _3 ={v} msr_WDG_EXCLUSIVE_AREA_06[0];
+  _4 = _3 & 1;
+  if (_4 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  _5 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_06[0];
+  if (_5 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+
+  <bb 5> [local count: 1073741824]:
+  return;
+
+}
+
+
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_06 ()
+{
+  register uint32 reg_tmp;
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG u32CoreId => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_06[0];
+  if (_1 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  # DEBUG INLINE_ENTRY Wdg_schm_read_msr
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" mrs %0, primask " : "=r" reg_tmp_11);
+  # DEBUG reg_tmp => reg_tmp_11
+  # DEBUG BEGIN_STMT
+  # DEBUG reg_tmp => NULL
+  msr_WDG_EXCLUSIVE_AREA_06[0] ={v} reg_tmp_11;
+  # DEBUG BEGIN_STMT
+  _2 ={v} msr_WDG_EXCLUSIVE_AREA_06[0];
+  _3 = _2 & 1;
+  if (_3 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+
+  <bb 5> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _4 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_06[0];
+  _5 = _4 + 1;
+  reentry_guard_WDG_EXCLUSIVE_AREA_06[0] ={v} _5;
+  return;
+
+}
+
+
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05 ()
+{
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG u32CoreId => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_05[0];
+  _2 = _1 + 4294967295;
+  reentry_guard_WDG_EXCLUSIVE_AREA_05[0] ={v} _2;
+  # DEBUG BEGIN_STMT
+  _3 ={v} msr_WDG_EXCLUSIVE_AREA_05[0];
+  _4 = _3 & 1;
+  if (_4 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  _5 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_05[0];
+  if (_5 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+
+  <bb 5> [local count: 1073741824]:
+  return;
+
+}
+
+
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_05 ()
+{
+  register uint32 reg_tmp;
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG u32CoreId => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_05[0];
+  if (_1 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  # DEBUG INLINE_ENTRY Wdg_schm_read_msr
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" mrs %0, primask " : "=r" reg_tmp_11);
+  # DEBUG reg_tmp => reg_tmp_11
+  # DEBUG BEGIN_STMT
+  # DEBUG reg_tmp => NULL
+  msr_WDG_EXCLUSIVE_AREA_05[0] ={v} reg_tmp_11;
+  # DEBUG BEGIN_STMT
+  _2 ={v} msr_WDG_EXCLUSIVE_AREA_05[0];
+  _3 = _2 & 1;
+  if (_3 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+
+  <bb 5> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _4 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_05[0];
+  _5 = _4 + 1;
+  reentry_guard_WDG_EXCLUSIVE_AREA_05[0] ={v} _5;
+  return;
+
+}
+
+
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_04 ()
+{
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG u32CoreId => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_04[0];
+  _2 = _1 + 4294967295;
+  reentry_guard_WDG_EXCLUSIVE_AREA_04[0] ={v} _2;
+  # DEBUG BEGIN_STMT
+  _3 ={v} msr_WDG_EXCLUSIVE_AREA_04[0];
+  _4 = _3 & 1;
+  if (_4 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  _5 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_04[0];
+  if (_5 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+
+  <bb 5> [local count: 1073741824]:
+  return;
+
+}
+
+
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_04 ()
+{
+  register uint32 reg_tmp;
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG u32CoreId => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_04[0];
+  if (_1 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  # DEBUG INLINE_ENTRY Wdg_schm_read_msr
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" mrs %0, primask " : "=r" reg_tmp_11);
+  # DEBUG reg_tmp => reg_tmp_11
+  # DEBUG BEGIN_STMT
+  # DEBUG reg_tmp => NULL
+  msr_WDG_EXCLUSIVE_AREA_04[0] ={v} reg_tmp_11;
+  # DEBUG BEGIN_STMT
+  _2 ={v} msr_WDG_EXCLUSIVE_AREA_04[0];
+  _3 = _2 & 1;
+  if (_3 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+
+  <bb 5> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _4 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_04[0];
+  _5 = _4 + 1;
+  reentry_guard_WDG_EXCLUSIVE_AREA_04[0] ={v} _5;
+  return;
+
+}
+
+
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_03 ()
+{
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG u32CoreId => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_03[0];
+  _2 = _1 + 4294967295;
+  reentry_guard_WDG_EXCLUSIVE_AREA_03[0] ={v} _2;
+  # DEBUG BEGIN_STMT
+  _3 ={v} msr_WDG_EXCLUSIVE_AREA_03[0];
+  _4 = _3 & 1;
+  if (_4 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  _5 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_03[0];
+  if (_5 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+
+  <bb 5> [local count: 1073741824]:
+  return;
+
+}
+
+
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_03 ()
+{
+  register uint32 reg_tmp;
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG u32CoreId => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_03[0];
+  if (_1 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  # DEBUG INLINE_ENTRY Wdg_schm_read_msr
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" mrs %0, primask " : "=r" reg_tmp_11);
+  # DEBUG reg_tmp => reg_tmp_11
+  # DEBUG BEGIN_STMT
+  # DEBUG reg_tmp => NULL
+  msr_WDG_EXCLUSIVE_AREA_03[0] ={v} reg_tmp_11;
+  # DEBUG BEGIN_STMT
+  _2 ={v} msr_WDG_EXCLUSIVE_AREA_03[0];
+  _3 = _2 & 1;
+  if (_3 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+
+  <bb 5> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _4 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_03[0];
+  _5 = _4 + 1;
+  reentry_guard_WDG_EXCLUSIVE_AREA_03[0] ={v} _5;
+  return;
+
+}
+
+
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_02 ()
+{
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG u32CoreId => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_02[0];
+  _2 = _1 + 4294967295;
+  reentry_guard_WDG_EXCLUSIVE_AREA_02[0] ={v} _2;
+  # DEBUG BEGIN_STMT
+  _3 ={v} msr_WDG_EXCLUSIVE_AREA_02[0];
+  _4 = _3 & 1;
+  if (_4 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  _5 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_02[0];
+  if (_5 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+
+  <bb 5> [local count: 1073741824]:
+  return;
+
+}
+
+
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_02 ()
+{
+  register uint32 reg_tmp;
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG u32CoreId => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_02[0];
+  if (_1 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  # DEBUG INLINE_ENTRY Wdg_schm_read_msr
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" mrs %0, primask " : "=r" reg_tmp_11);
+  # DEBUG reg_tmp => reg_tmp_11
+  # DEBUG BEGIN_STMT
+  # DEBUG reg_tmp => NULL
+  msr_WDG_EXCLUSIVE_AREA_02[0] ={v} reg_tmp_11;
+  # DEBUG BEGIN_STMT
+  _2 ={v} msr_WDG_EXCLUSIVE_AREA_02[0];
+  _3 = _2 & 1;
+  if (_3 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+
+  <bb 5> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _4 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_02[0];
+  _5 = _4 + 1;
+  reentry_guard_WDG_EXCLUSIVE_AREA_02[0] ={v} _5;
+  return;
+
+}
+
+
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_01 ()
+{
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG u32CoreId => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_01[0];
+  _2 = _1 + 4294967295;
+  reentry_guard_WDG_EXCLUSIVE_AREA_01[0] ={v} _2;
+  # DEBUG BEGIN_STMT
+  _3 ={v} msr_WDG_EXCLUSIVE_AREA_01[0];
+  _4 = _3 & 1;
+  if (_4 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  _5 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_01[0];
+  if (_5 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+
+  <bb 5> [local count: 1073741824]:
+  return;
+
+}
+
+
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_01 ()
+{
+  register uint32 reg_tmp;
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG u32CoreId => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_01[0];
+  if (_1 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  # DEBUG INLINE_ENTRY Wdg_schm_read_msr
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" mrs %0, primask " : "=r" reg_tmp_11);
+  # DEBUG reg_tmp => reg_tmp_11
+  # DEBUG BEGIN_STMT
+  # DEBUG reg_tmp => NULL
+  msr_WDG_EXCLUSIVE_AREA_01[0] ={v} reg_tmp_11;
+  # DEBUG BEGIN_STMT
+  _2 ={v} msr_WDG_EXCLUSIVE_AREA_01[0];
+  _3 = _2 & 1;
+  if (_3 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+
+  <bb 5> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _4 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_01[0];
+  _5 = _4 + 1;
+  reentry_guard_WDG_EXCLUSIVE_AREA_01[0] ={v} _5;
+  return;
+
+}
+
+
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00 ()
+{
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG u32CoreId => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_00[0];
+  _2 = _1 + 4294967295;
+  reentry_guard_WDG_EXCLUSIVE_AREA_00[0] ={v} _2;
+  # DEBUG BEGIN_STMT
+  _3 ={v} msr_WDG_EXCLUSIVE_AREA_00[0];
+  _4 = _3 & 1;
+  if (_4 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  _5 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_00[0];
+  if (_5 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+
+  <bb 5> [local count: 1073741824]:
+  return;
+
+}
+
+
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_00 ()
+{
+  register uint32 reg_tmp;
+  long unsigned int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  long unsigned int _4;
+  long unsigned int _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG u32CoreId => 0
+  # DEBUG BEGIN_STMT
+  _1 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_00[0];
+  if (_1 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  # DEBUG INLINE_ENTRY Wdg_schm_read_msr
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" mrs %0, primask " : "=r" reg_tmp_11);
+  # DEBUG reg_tmp => reg_tmp_11
+  # DEBUG BEGIN_STMT
+  # DEBUG reg_tmp => NULL
+  msr_WDG_EXCLUSIVE_AREA_00[0] ={v} reg_tmp_11;
+  # DEBUG BEGIN_STMT
+  _2 ={v} msr_WDG_EXCLUSIVE_AREA_00[0];
+  _3 = _2 & 1;
+  if (_3 == 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 268435456]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+
+  <bb 5> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _4 ={v} reentry_guard_WDG_EXCLUSIVE_AREA_00[0];
+  _5 = _4 + 1;
+  reentry_guard_WDG_EXCLUSIVE_AREA_00[0] ={v} _5;
+  return;
+
+}
+
+
+Wdg_schm_read_msr ()
+{
+  register uint32 reg_tmp;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" mrs %0, primask " : "=r" reg_tmp_1);
+  # DEBUG reg_tmp => reg_tmp_1
+  # DEBUG BEGIN_STMT
+  return reg_tmp_1;
+
+}
+
+

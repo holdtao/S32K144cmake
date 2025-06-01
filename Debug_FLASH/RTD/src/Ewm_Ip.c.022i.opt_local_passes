@@ -1,0 +1,319 @@
+Ewm_Ip_IrqHandler (uint8 Instance)
+{
+  struct EWM_Type * base;
+  int _1;
+  _Bool _2;
+  int _3;
+  void (*<T487>) (void) _4;
+  int _5;
+  void (*<T487>) (void) _6;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = (int) Instance_8(D);
+  base_9 = 1074139136B;
+  # DEBUG base => base_9
+  # DEBUG BEGIN_STMT
+  _2 = Ewm_Ip_IsIntEnabled (base_9);
+  if (_2 != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  Ewm_Ip_ClearIntenBit (base_9);
+  # DEBUG BEGIN_STMT
+  _3 = (int) Instance_8(D);
+  _4 = Ewm_Ip_apCallbackPtr[_3];
+  if (_4 != 0B)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  _5 = (int) Instance_8(D);
+  _6 = Ewm_Ip_apCallbackPtr[_5];
+  _6 ();
+
+  <bb 5> :
+  return;
+
+}
+
+
+Ewm_Ip_Service (const uint8 Instance)
+{
+  struct EWM_Type * base;
+  int _1;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = (int) Instance_2(D);
+  base_3 = 1074139136B;
+  # DEBUG base => base_3
+  # DEBUG BEGIN_STMT
+  Ewm_Ip_Refresh (base_3);
+  return;
+
+}
+
+
+Ewm_Ip_Init (const uint8 Instance, const struct Ewm_Ip_ConfigType * const ConfigPtr)
+{
+  struct EWM_Type * base;
+  uint8_t tempValue;
+  boolean isModuleEnabled;
+  Ewm_Ip_StatusType statusCode;
+  int _1;
+  unsigned char _2;
+  unsigned char _3;
+  unsigned char _4;
+  unsigned char _5;
+  unsigned char _6;
+  unsigned char _7;
+  _Bool _8;
+  <unnamed type> _9;
+  _Bool _10;
+  int _11;
+  void (*<T487>) (void) _12;
+  int _13;
+  unsigned char iftmp.0_16;
+  unsigned char iftmp.0_30;
+  unsigned char iftmp.0_31;
+  Ewm_Ip_StatusType _39;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  statusCode_19 = 0;
+  # DEBUG statusCode => statusCode_19
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  tempValue_20 = 0;
+  # DEBUG tempValue => tempValue_20
+  # DEBUG BEGIN_STMT
+  _1 = (int) Instance_21(D);
+  base_22 = 1074139136B;
+  # DEBUG base => base_22
+  # DEBUG BEGIN_STMT
+  isModuleEnabled_25 = Ewm_Ip_IsEnabled (base_22);
+  # DEBUG isModuleEnabled => isModuleEnabled_25
+  # DEBUG BEGIN_STMT
+  if (isModuleEnabled_25 != 0)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 3>; [INV]
+
+  <bb 3> :
+  _2 = ConfigPtr_26(D)->CompareHigh;
+  _3 = ConfigPtr_26(D)->CompareLow;
+  if (_2 <= _3)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 4> :
+  _4 = ConfigPtr_26(D)->CompareHigh;
+  if (_4 == 255)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  statusCode_38 = 1;
+  # DEBUG statusCode => statusCode_38
+  goto <bb 16>; [INV]
+
+  <bb 6> :
+  # DEBUG BEGIN_STMT
+  _5 = ConfigPtr_26(D)->Prescaler;
+  Ewm_Ip_SetPrescaler (base_22, _5);
+  # DEBUG BEGIN_STMT
+  _6 = ConfigPtr_26(D)->CompareHigh;
+  Ewm_Ip_SetCompareHigh (base_22, _6);
+  # DEBUG BEGIN_STMT
+  _7 = ConfigPtr_26(D)->CompareLow;
+  Ewm_Ip_SetCompareLow (base_22, _7);
+  # DEBUG BEGIN_STMT
+  _8 = ConfigPtr_26(D)->InterruptEnable;
+  if (_8 != 0)
+    goto <bb 7>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 7> :
+  iftmp.0_31 = 9;
+  goto <bb 9>; [INV]
+
+  <bb 8> :
+  iftmp.0_30 = 1;
+
+  <bb 9> :
+  # iftmp.0_16 = PHI <iftmp.0_31(7), iftmp.0_30(8)>
+  tempValue_32 = iftmp.0_16;
+  # DEBUG tempValue => tempValue_32
+  # DEBUG BEGIN_STMT
+  _9 = ConfigPtr_26(D)->assertLogic;
+  switch (_9) <default: <L17> [INV], case 1: <L7> [INV], case 2: <L8> [INV]>
+
+  <bb 10> :
+<L7>:
+  # DEBUG BEGIN_STMT
+  tempValue_34 = tempValue_32 | 4;
+  # DEBUG tempValue => tempValue_34
+  # DEBUG BEGIN_STMT
+  goto <bb 12>; [INV]
+
+  <bb 11> :
+<L8>:
+  # DEBUG BEGIN_STMT
+  tempValue_33 = tempValue_32 | 6;
+  # DEBUG tempValue => tempValue_33
+  # DEBUG BEGIN_STMT
+
+  <bb 12> :
+  # tempValue_15 = PHI <tempValue_34(10), tempValue_33(11), tempValue_32(9)>
+<L17>:
+  # DEBUG tempValue => tempValue_15
+  # DEBUG BEGIN_STMT
+  _10 = ConfigPtr_26(D)->InterruptEnable;
+  if (_10 != 0)
+    goto <bb 13>; [INV]
+  else
+    goto <bb 14>; [INV]
+
+  <bb 13> :
+  # DEBUG BEGIN_STMT
+  _11 = (int) Instance_21(D);
+  _12 = ConfigPtr_26(D)->pfEwmCallback;
+  Ewm_Ip_apCallbackPtr[_11] = _12;
+  goto <bb 15>; [INV]
+
+  <bb 14> :
+  # DEBUG BEGIN_STMT
+  _13 = (int) Instance_21(D);
+  Ewm_Ip_apCallbackPtr[_13] = 0B;
+
+  <bb 15> :
+  # DEBUG BEGIN_STMT
+  Ewm_Ip_SetControl (base_22, tempValue_15);
+
+  <bb 16> :
+  # statusCode_14 = PHI <statusCode_38(5), statusCode_19(15)>
+  # DEBUG statusCode => statusCode_14
+  # DEBUG BEGIN_STMT
+  _39 = statusCode_14;
+  return _39;
+
+}
+
+
+Ewm_Ip_SetPrescaler (struct EWM_Type * const base, uint8_t value)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  base_2(D)->CLKPRESCALER ={v} value_3(D);
+  return;
+
+}
+
+
+Ewm_Ip_SetCompareHigh (struct EWM_Type * const base, uint8_t value)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  base_2(D)->CMPH ={v} value_3(D);
+  return;
+
+}
+
+
+Ewm_Ip_SetCompareLow (struct EWM_Type * const base, uint8_t value)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  base_2(D)->CMPL ={v} value_3(D);
+  return;
+
+}
+
+
+Ewm_Ip_SetControl (struct EWM_Type * const base, uint8_t value)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  base_2(D)->CTRL ={v} value_3(D);
+  return;
+
+}
+
+
+Ewm_Ip_ClearIntenBit (struct EWM_Type * const base)
+{
+  unsigned char _1;
+  unsigned char _2;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 ={v} base_4(D)->CTRL;
+  _2 = _1 & 247;
+  base_4(D)->CTRL ={v} _2;
+  return;
+
+}
+
+
+Ewm_Ip_IsIntEnabled (const struct EWM_Type * const base)
+{
+  unsigned char _1;
+  unsigned int _2;
+  unsigned int _3;
+  boolean _6;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 ={v} base_5(D)->CTRL;
+  _2 = (unsigned int) _1;
+  _3 = _2 & 8;
+  _6 = _3 != 0;
+  return _6;
+
+}
+
+
+Ewm_Ip_IsEnabled (const struct EWM_Type * const base)
+{
+  unsigned char _1;
+  unsigned int _2;
+  unsigned int _3;
+  boolean _6;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 ={v} base_5(D)->CTRL;
+  _2 = (unsigned int) _1;
+  _3 = _2 & 1;
+  _6 = _3 != 0;
+  return _6;
+
+}
+
+
+Ewm_Ip_Refresh (struct EWM_Type * const base)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+  # DEBUG BEGIN_STMT
+  base_3(D)->SERV ={v} 180;
+  # DEBUG BEGIN_STMT
+  base_3(D)->SERV ={v} 44;
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+  return;
+
+}
+
+

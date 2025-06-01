@@ -1,0 +1,24 @@
+Callgraph clone;Wdg_ChannelValidateMode;7;../RTD/src/Wdg_Channel.c;727;30;Wdg_ChannelValidateMode.isra.0;39;../RTD/src/Wdg_Channel.c;727;30;isra
+Callgraph clone;Wdg_ChannelValidateMode.isra.0;39;../RTD/src/Wdg_Channel.c;727;30;Wdg_ChannelValidateMode.isra.0.part.0;40;../RTD/src/Wdg_Channel.c;727;30;part
+Callgraph clone;Wdg_ChannelTrigger;4;../RTD/src/Wdg_Channel.c;536;24;Wdg_ChannelTrigger.part.0;41;../RTD/src/Wdg_Channel.c;536;24;part
+Callgraph clone;Wdg_VadidateHardwareSetting;9;../RTD/src/Wdg_Channel.c;871;30;Wdg_ChannelInit;13;../RTD/src/Wdg_Channel.c;1082;6;inlining to
+Callgraph removal;Wdg_VadidateHardwareSetting;9;../RTD/src/Wdg_Channel.c;871;30
+Callgraph removal;Wdg_ChannelValidateMode;7;../RTD/src/Wdg_Channel.c;727;30
+Callgraph clone;Wdg_ChannelValidateMode.isra.0.part.0;40;../RTD/src/Wdg_Channel.c;727;30;Wdg_ChannelValidateMode.isra.0;39;../RTD/src/Wdg_Channel.c;727;30;inlining to
+Callgraph clone;Wdg_ChannelValidateMode.isra.0;39;../RTD/src/Wdg_Channel.c;727;30;Wdg_ChannelSetMode;14;../RTD/src/Wdg_Channel.c;1188;16;inlining to
+Callgraph clone;Wdg_ChannelValidateMode.isra.0.part.0;40;../RTD/src/Wdg_Channel.c;727;30;Wdg_ChannelSetMode;14;../RTD/src/Wdg_Channel.c;1188;16;inlining to
+Callgraph clone;Wdg_ChannelValidateMode.isra.0;39;../RTD/src/Wdg_Channel.c;727;30;Wdg_ChannelInit;13;../RTD/src/Wdg_Channel.c;1082;6;inlining to
+Callgraph clone;Wdg_InitialHardware;8;../RTD/src/Wdg_Channel.c;837;30;Wdg_ChannelInit;13;../RTD/src/Wdg_Channel.c;1082;6;inlining to
+Callgraph clone;Wdg_ChannelTrigger.part.0;41;../RTD/src/Wdg_Channel.c;536;24;Wdg_ChannelTrigger;4;../RTD/src/Wdg_Channel.c;536;24;inlining to
+Callgraph clone;Wdg_VadidateDoChannelSetMode;11;../RTD/src/Wdg_Channel.c;973;30;Wdg_ChannelSetMode;14;../RTD/src/Wdg_Channel.c;1188;16;inlining to
+Callgraph clone;Wdg_DoChannelSetMode;10;../RTD/src/Wdg_Channel.c;916;30;Wdg_ChannelSetMode;14;../RTD/src/Wdg_Channel.c;1188;16;inlining to
+Callgraph clone;Wdg_ChannelStartGpt;12;../RTD/src/Wdg_Channel.c;1048;20;Wdg_ChannelInit;13;../RTD/src/Wdg_Channel.c;1082;6;inlining to
+Callgraph removal;Wdg_ChannelTrigger.part.0;41;../RTD/src/Wdg_Channel.c;536;24
+Callgraph removal;Wdg_ChannelValidateMode.isra.0;39;../RTD/src/Wdg_Channel.c;727;30
+Callgraph removal;Wdg_ChannelValidateMode.isra.0.part.0;40;../RTD/src/Wdg_Channel.c;727;30
+Callgraph removal;Wdg_InitialHardware;8;../RTD/src/Wdg_Channel.c;837;30
+Callgraph removal;Wdg_ChannelStartGpt;12;../RTD/src/Wdg_Channel.c;1048;20
+Callgraph removal;Wdg_ChannelValidateMode.isra.0;42;../RTD/src/Wdg_Channel.c;727;30
+Callgraph removal;Wdg_ChannelValidateMode.isra.0.part.0;43;../RTD/src/Wdg_Channel.c;727;30
+Callgraph removal;Wdg_VadidateDoChannelSetMode;11;../RTD/src/Wdg_Channel.c;973;30
+Callgraph removal;Wdg_DoChannelSetMode;10;../RTD/src/Wdg_Channel.c;916;30

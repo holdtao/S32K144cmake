@@ -1,0 +1,11 @@
+Wdog_Ip.c:385:27:Wdog_Ip_HwConfig.part.0	20	static
+Wdog_Ip.c:335:27:Wdog_Ip_IsReconfigurationComplete.constprop	24	static
+Wdog_Ip.c:267:27:Wdog_Ip_Unlock.constprop	24	static
+Wdog_Ip.c:448:20:Wdog_Ip_Init	24	static
+Wdog_Ip.c:529:20:Wdog_Ip_DeInit	16	static
+Wdog_Ip.c:575:6:Wdog_Ip_Service	0	static
+Wdog_Ip.c:593:20:Wdog_Ip_SetTimeout	16	static
+Wdog_Ip.c:732:20:Wdog_Ip_Config	24	static
+Wdog_Ip.c:816:20:Wdog_Ip_StartTimer	8	static
+Wdog_Ip.c:860:20:Wdog_Ip_StopTimer	8	static
+Wdog_Ip.c:902:6:Wdog_Ip_IrqHandler	16	static

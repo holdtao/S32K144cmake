@@ -1,0 +1,58 @@
+callgraph:
+
+Wdg_Cbk_GptNotification1/6 (Wdg_Cbk_GptNotification1) @0603a380
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: Gpt_InitChannelPB_VS_0/1 (addr)
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Wdg_Cbk_GptNotification0/4 (Wdg_Cbk_GptNotification0) @0603a2a0
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: Gpt_InitChannelPB_VS_0/1 (addr)
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+
+
+ ordered call graph: reduced for nothrow
+
+
+
+MALLOC LATTICE Initial:
+
+
+MALLOC LATTICE after propagation:
+callgraph:
+
+Wdg_Cbk_GptNotification1/6 (Wdg_Cbk_GptNotification1) @0603a380
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: Gpt_InitChannelPB_VS_0/1 (addr)
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Wdg_Cbk_GptNotification0/4 (Wdg_Cbk_GptNotification0) @0603a2a0
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: Gpt_InitChannelPB_VS_0/1 (addr)
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+
+
+ ordered call graph: reduced
+

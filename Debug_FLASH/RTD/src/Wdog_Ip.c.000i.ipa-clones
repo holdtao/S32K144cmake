@@ -1,0 +1,40 @@
+Callgraph clone;Wdog_Ip_HwConfig;13;../RTD/src/Wdog_Ip.c;385;27;Wdog_Ip_HwConfig.part.0;25;../RTD/src/Wdog_Ip.c;385;27;part
+Callgraph clone;Wdog_Ip_IsUpdateEnabled;10;../RTD/src/Wdog_Ip.c;322;23;Wdog_Ip_Init;14;../RTD/src/Wdog_Ip.c;448;20;inlining to
+Callgraph clone;Wdog_Ip_IsUpdateEnabled;10;../RTD/src/Wdog_Ip.c;322;23;Wdog_Ip_DeInit;15;../RTD/src/Wdog_Ip.c;529;20;inlining to
+Callgraph clone;Wdog_Ip_IsUpdateEnabled;10;../RTD/src/Wdog_Ip.c;322;23;Wdog_Ip_SetTimeout;17;../RTD/src/Wdog_Ip.c;593;20;inlining to
+Callgraph clone;Wdog_Ip_IsUpdateEnabled;10;../RTD/src/Wdog_Ip.c;322;23;Wdog_Ip_Config;18;../RTD/src/Wdog_Ip.c;732;20;inlining to
+Callgraph clone;Wdog_Ip_IsEnabled;3;../RTD/src/Wdog_Ip.c;184;23;Wdog_Ip_Config;18;../RTD/src/Wdog_Ip.c;732;20;inlining to
+Callgraph clone;Wdog_Ip_IsUpdateEnabled;10;../RTD/src/Wdog_Ip.c;322;23;Wdog_Ip_StartTimer;19;../RTD/src/Wdog_Ip.c;816;20;inlining to
+Callgraph clone;Wdog_Ip_IsEnabled;3;../RTD/src/Wdog_Ip.c;184;23;Wdog_Ip_StartTimer;19;../RTD/src/Wdog_Ip.c;816;20;inlining to
+Callgraph clone;Wdog_Ip_IsUpdateEnabled;10;../RTD/src/Wdog_Ip.c;322;23;Wdog_Ip_StopTimer;20;../RTD/src/Wdog_Ip.c;860;20;inlining to
+Callgraph clone;Wdog_Ip_IsEnabled;3;../RTD/src/Wdog_Ip.c;184;23;Wdog_Ip_StopTimer;20;../RTD/src/Wdog_Ip.c;860;20;inlining to
+Callgraph removal;Wdog_Ip_IsEnabled;3;../RTD/src/Wdog_Ip.c;184;23
+Callgraph removal;Wdog_Ip_IsUpdateEnabled;10;../RTD/src/Wdog_Ip.c;322;23
+Callgraph clone;Wdog_Ip_IsIntEnabled;6;../RTD/src/Wdog_Ip.c;231;23;Wdog_Ip_IrqHandler;21;../RTD/src/Wdog_Ip.c;902;6;inlining to
+Callgraph clone;Wdog_Ip_GetIntFlag;5;../RTD/src/Wdog_Ip.c;219;23;Wdog_Ip_IrqHandler;21;../RTD/src/Wdog_Ip.c;902;6;inlining to
+Callgraph removal;Wdog_Ip_GetIntFlag;5;../RTD/src/Wdog_Ip.c;219;23
+Callgraph removal;Wdog_Ip_IsIntEnabled;6;../RTD/src/Wdog_Ip.c;231;23
+Callgraph clone;Wdog_Ip_HwDeInit;12;../RTD/src/Wdog_Ip.c;364;13;Wdog_Ip_HwDeInit.constprop.0;33;../RTD/src/Wdog_Ip.c;364;13;constprop
+Callgraph clone;Wdog_Ip_IsReconfigurationComplete;11;../RTD/src/Wdog_Ip.c;335;27;Wdog_Ip_IsReconfigurationComplete.constprop.0;34;../RTD/src/Wdog_Ip.c;335;27;constprop
+Callgraph clone;Wdog_Ip_ClearIntFlag;9;../RTD/src/Wdog_Ip.c;298;20;Wdog_Ip_ClearIntFlag.constprop.0;35;../RTD/src/Wdog_Ip.c;298;20;constprop
+Callgraph clone;Wdog_Ip_Unlock;8;../RTD/src/Wdog_Ip.c;267;27;Wdog_Ip_Unlock.constprop.0;36;../RTD/src/Wdog_Ip.c;267;27;constprop
+Callgraph clone;Wdog_Ip_UnlockCmd;7;../RTD/src/Wdog_Ip.c;243;20;Wdog_Ip_UnlockCmd.constprop.0;37;../RTD/src/Wdog_Ip.c;243;20;constprop
+Callgraph clone;Wdog_Ip_Trigger;4;../RTD/src/Wdog_Ip.c;194;20;Wdog_Ip_Trigger.constprop.0;38;../RTD/src/Wdog_Ip.c;194;20;constprop
+Callgraph clone;Wdog_Ip_Trigger.constprop.0;38;../RTD/src/Wdog_Ip.c;194;20;Wdog_Ip_Service;16;../RTD/src/Wdog_Ip.c;575;6;inlining to
+Callgraph clone;Wdog_Ip_Trigger.constprop.0;38;../RTD/src/Wdog_Ip.c;194;20;Wdog_Ip_HwDeInit.constprop.0;33;../RTD/src/Wdog_Ip.c;364;13;inlining to
+Callgraph clone;Wdog_Ip_UnlockCmd.constprop.0;37;../RTD/src/Wdog_Ip.c;243;20;Wdog_Ip_Unlock.constprop.0;36;../RTD/src/Wdog_Ip.c;267;27;inlining to
+Callgraph clone;Wdog_Ip_ClearIntFlag.constprop.0;35;../RTD/src/Wdog_Ip.c;298;20;Wdog_Ip_IrqHandler;21;../RTD/src/Wdog_Ip.c;902;6;inlining to
+Callgraph clone;Wdog_Ip_HwConfig;13;../RTD/src/Wdog_Ip.c;385;27;Wdog_Ip_Config;18;../RTD/src/Wdog_Ip.c;732;20;inlining to
+Callgraph clone;Wdog_Ip_HwConfig;13;../RTD/src/Wdog_Ip.c;385;27;Wdog_Ip_Init;14;../RTD/src/Wdog_Ip.c;448;20;inlining to
+Callgraph clone;Wdog_Ip_HwDeInit.constprop.0;33;../RTD/src/Wdog_Ip.c;364;13;Wdog_Ip_DeInit;15;../RTD/src/Wdog_Ip.c;529;20;inlining to
+Callgraph removal;Wdog_Ip_HwDeInit;12;../RTD/src/Wdog_Ip.c;364;13
+Callgraph removal;Wdog_Ip_IsReconfigurationComplete;11;../RTD/src/Wdog_Ip.c;335;27
+Callgraph removal;Wdog_Ip_ClearIntFlag;9;../RTD/src/Wdog_Ip.c;298;20
+Callgraph removal;Wdog_Ip_Unlock;8;../RTD/src/Wdog_Ip.c;267;27
+Callgraph removal;Wdog_Ip_UnlockCmd;7;../RTD/src/Wdog_Ip.c;243;20
+Callgraph removal;Wdog_Ip_Trigger;4;../RTD/src/Wdog_Ip.c;194;20
+Callgraph removal;Wdog_Ip_UnlockCmd.constprop.0;37;../RTD/src/Wdog_Ip.c;243;20
+Callgraph removal;Wdog_Ip_HwConfig;13;../RTD/src/Wdog_Ip.c;385;27
+Callgraph removal;Wdog_Ip_HwDeInit.constprop.0;33;../RTD/src/Wdog_Ip.c;364;13
+Callgraph removal;Wdog_Ip_Trigger.constprop.0;38;../RTD/src/Wdog_Ip.c;194;20
+Callgraph removal;Wdog_Ip_ClearIntFlag.constprop.0;35;../RTD/src/Wdog_Ip.c;298;20

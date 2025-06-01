@@ -1,0 +1,4 @@
+Callgraph clone;Gpt_Ipw_LpitGetTimeElapsed;1;../RTD/src/Gpt_Ipw.c;276;29;Gpt_Ipw_GetTimeElapsed;5;../RTD/src/Gpt_Ipw.c;502;15;inlining to
+Callgraph clone;Gpt_Ipw_FtmGetTimeElapsed;0;../RTD/src/Gpt_Ipw.c;141;29;Gpt_Ipw_GetTimeElapsed;5;../RTD/src/Gpt_Ipw.c;502;15;inlining to
+Callgraph removal;Gpt_Ipw_FtmGetTimeElapsed;0;../RTD/src/Gpt_Ipw.c;141;29
+Callgraph removal;Gpt_Ipw_LpitGetTimeElapsed;1;../RTD/src/Gpt_Ipw.c;276;29

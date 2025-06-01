@@ -1,0 +1,2 @@
+Callgraph clone;DevAssert;0;C:/NXP/S32DS.3.4/S32DS/software/PlatformSDK_S32K1_2021_08/SW32K1_RTD_4_4_1_0_0_D2108/Base_TS_T40D2M10I0R0/include/Devassert.h;65;20;main;4;../src/main.c;139;5;inlining to
+Callgraph removal;DevAssert;0;C:/NXP/S32DS.3.4/S32DS/software/PlatformSDK_S32K1_2021_08/SW32K1_RTD_4_4_1_0_0_D2108/Base_TS_T40D2M10I0R0/include/Devassert.h;65;20

@@ -1,0 +1,705 @@
+
+Marking local functions: Gpt_Ipw_LpitGetTimeElapsed Gpt_Ipw_FtmGetTimeElapsed
+
+
+Marking externally visible functions: Gpt_Ipw_DisableInterrupt Gpt_Ipw_DeInit Gpt_Ipw_EnableInterrupt Gpt_Ipw_StopTimer Gpt_Ipw_GetTimeElapsed Gpt_Ipw_StartTimer Gpt_Ipw_Init Gpt_Ipw_InitInstances
+
+
+Marking externally visible variables:
+
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Symbol table:
+
+Lpit_Gpt_Ip_DisableChInterrupt/28 (Lpit_Gpt_Ip_DisableChInterrupt) @06131380
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_DisableInterrupt/9 
+  Calls: 
+Lpit_Gpt_Ip_Deinit/27 (Lpit_Gpt_Ip_Deinit) @061311c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_DeInit/8 
+  Calls: 
+Ftm_Gpt_Ip_Deinit/26 (Ftm_Gpt_Ip_Deinit) @061310e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_DeInit/8 
+  Calls: 
+Lpit_Gpt_Ip_EnableChInterrupt/25 (Lpit_Gpt_Ip_EnableChInterrupt) @0612aee0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_EnableInterrupt/7 
+  Calls: 
+Lpit_Gpt_Ip_StopTimer/24 (Lpit_Gpt_Ip_StopTimer) @0612ad20
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_StopTimer/6 
+  Calls: 
+Ftm_Gpt_Ip_DisableChannelInterrupt/23 (Ftm_Gpt_Ip_DisableChannelInterrupt) @0612ac40
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_StopTimer/6 
+  Calls: 
+Lpit_Gpt_Ip_GetInterruptFlagTimerChannels/22 (Lpit_Gpt_Ip_GetInterruptFlagTimerChannels) @0612aa80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_LpitGetTimeElapsed/1 
+  Calls: 
+Lpit_Gpt_Ip_GetCurrentTimervalue/21 (Lpit_Gpt_Ip_GetCurrentTimervalue) @0612a9a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_LpitGetTimeElapsed/1 
+  Calls: 
+Lpit_Gpt_Ip_GetTimerValue/20 (Lpit_Gpt_Ip_GetTimerValue) @0612a8c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_LpitGetTimeElapsed/1 
+  Calls: 
+Ftm_Gpt_Ip_GetInterruptFlag/19 (Ftm_Gpt_Ip_GetInterruptFlag) @0612a700
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_FtmGetTimeElapsed/0 
+  Calls: 
+Ftm_Gpt_Ip_GetCompareValue/18 (Ftm_Gpt_Ip_GetCompareValue) @0612a620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_FtmGetTimeElapsed/0 
+  Calls: 
+Ftm_Gpt_Ip_GetCounter/17 (Ftm_Gpt_Ip_GetCounter) @0612a540
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_FtmGetTimeElapsed/0 
+  Calls: 
+Ftm_Gpt_Ip_u32TargetValue/16 (Ftm_Gpt_Ip_u32TargetValue) @0612f288
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: Gpt_Ipw_FtmGetTimeElapsed/0 (read)
+  Availability: not_available
+  Varpool flags:
+Lpit_Gpt_Ip_StartTimer/15 (Lpit_Gpt_Ip_StartTimer) @0612a2a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_StartTimer/4 
+  Calls: 
+Ftm_Gpt_Ip_StartCounting/14 (Ftm_Gpt_Ip_StartCounting) @0612a1c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_StartTimer/4 
+  Calls: 
+Lpit_Gpt_Ip_InitChannel/13 (Lpit_Gpt_Ip_InitChannel) @0612a000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_Init/3 
+  Calls: 
+Ftm_Gpt_Ip_InitChannel/12 (Ftm_Gpt_Ip_InitChannel) @060ffa80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_Init/3 
+  Calls: 
+Lpit_Gpt_Ip_Init/11 (Lpit_Gpt_Ip_Init) @060ff540
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_InitInstances/2 
+  Calls: 
+Ftm_Gpt_Ip_Init/10 (Ftm_Gpt_Ip_Init) @060ff2a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Gpt_Ipw_InitInstances/2 
+  Calls: 
+Gpt_Ipw_DisableInterrupt/9 (Gpt_Ipw_DisableInterrupt) @060ffc40
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Lpit_Gpt_Ip_DisableChInterrupt/28 
+Gpt_Ipw_DeInit/8 (Gpt_Ipw_DeInit) @060ff9a0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Lpit_Gpt_Ip_Deinit/27 Ftm_Gpt_Ip_Deinit/26 
+Gpt_Ipw_EnableInterrupt/7 (Gpt_Ipw_EnableInterrupt) @060ff700
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Lpit_Gpt_Ip_EnableChInterrupt/25 
+Gpt_Ipw_StopTimer/6 (Gpt_Ipw_StopTimer) @060ff460
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Lpit_Gpt_Ip_StopTimer/24 Ftm_Gpt_Ip_DisableChannelInterrupt/23 
+Gpt_Ipw_GetTimeElapsed/5 (Gpt_Ipw_GetTimeElapsed) @060ff1c0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Gpt_Ipw_LpitGetTimeElapsed/1 Gpt_Ipw_FtmGetTimeElapsed/0 
+Gpt_Ipw_StartTimer/4 (Gpt_Ipw_StartTimer) @060f8ee0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Lpit_Gpt_Ip_StartTimer/15 Ftm_Gpt_Ip_StartCounting/14 
+Gpt_Ipw_Init/3 (Gpt_Ipw_Init) @060f89a0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Lpit_Gpt_Ip_InitChannel/13 Ftm_Gpt_Ip_InitChannel/12 
+Gpt_Ipw_InitInstances/2 (Gpt_Ipw_InitInstances) @060f8e00
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Lpit_Gpt_Ip_Init/11 Ftm_Gpt_Ip_Init/10 
+Gpt_Ipw_LpitGetTimeElapsed/1 (Gpt_Ipw_LpitGetTimeElapsed) @060f8b60
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: local
+  Function flags: body local optimize_size
+  Called by: Gpt_Ipw_GetTimeElapsed/5 
+  Calls: Lpit_Gpt_Ip_GetInterruptFlagTimerChannels/22 Lpit_Gpt_Ip_GetCurrentTimervalue/21 Lpit_Gpt_Ip_GetTimerValue/20 
+Gpt_Ipw_FtmGetTimeElapsed/0 (Gpt_Ipw_FtmGetTimeElapsed) @060f88c0
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly
+  References: Ftm_Gpt_Ip_u32TargetValue/16 (read)
+  Referring: 
+  Availability: local
+  Function flags: body local optimize_size
+  Called by: Gpt_Ipw_GetTimeElapsed/5 
+  Calls: Ftm_Gpt_Ip_GetInterruptFlag/19 Ftm_Gpt_Ip_GetCompareValue/18 Ftm_Gpt_Ip_GetCounter/17 
+Gpt_Ipw_DisableInterrupt (const struct Gpt_Ipw_HwChannelConfigType * pHwChannelConfig)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = pHwChannelConfig->instanceType;
+  switch (_1) <default: <L6> [INV], case 3: <L1> [INV]>
+
+  <bb 3> :
+<L1>:
+  # DEBUG BEGIN_STMT
+  _2 = pHwChannelConfig->instance;
+  _3 = pHwChannelConfig->channel;
+  Lpit_Gpt_Ip_DisableChInterrupt (_2, _3);
+  # DEBUG BEGIN_STMT
+
+  <bb 4> :
+<L6>:
+  # DEBUG BEGIN_STMT
+  return;
+
+}
+
+
+Gpt_Ipw_DeInit (const struct Gpt_Ipw_HwChannelConfigType * pHwChannelConfig)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = pHwChannelConfig->instanceType;
+  switch (_1) <default: <L6> [INV], case 0: <L0> [INV], case 3: <L1> [INV]>
+
+  <bb 3> :
+<L0>:
+  # DEBUG BEGIN_STMT
+  _2 = pHwChannelConfig->instance;
+  Ftm_Gpt_Ip_Deinit (_2);
+  # DEBUG BEGIN_STMT
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+<L1>:
+  # DEBUG BEGIN_STMT
+  _3 = pHwChannelConfig->instance;
+  Lpit_Gpt_Ip_Deinit (_3);
+  # DEBUG BEGIN_STMT
+
+  <bb 5> :
+<L6>:
+  # DEBUG BEGIN_STMT
+  return;
+
+}
+
+
+Gpt_Ipw_EnableInterrupt (const struct Gpt_Ipw_HwChannelConfigType * pHwChannelConfig)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = pHwChannelConfig->instanceType;
+  switch (_1) <default: <L6> [INV], case 3: <L1> [INV]>
+
+  <bb 3> :
+<L1>:
+  # DEBUG BEGIN_STMT
+  _2 = pHwChannelConfig->instance;
+  _3 = pHwChannelConfig->channel;
+  Lpit_Gpt_Ip_EnableChInterrupt (_2, _3);
+  # DEBUG BEGIN_STMT
+
+  <bb 4> :
+<L6>:
+  # DEBUG BEGIN_STMT
+  return;
+
+}
+
+
+Gpt_Ipw_StopTimer (const struct Gpt_Ipw_HwChannelConfigType * pHwChannelConfig)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = pHwChannelConfig->instanceType;
+  switch (_1) <default: <L6> [INV], case 0: <L0> [INV], case 3: <L1> [INV]>
+
+  <bb 3> :
+<L0>:
+  # DEBUG BEGIN_STMT
+  _2 = pHwChannelConfig->instance;
+  _3 = pHwChannelConfig->channel;
+  Ftm_Gpt_Ip_DisableChannelInterrupt (_2, _3);
+  # DEBUG BEGIN_STMT
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+<L1>:
+  # DEBUG BEGIN_STMT
+  _4 = pHwChannelConfig->instance;
+  _5 = pHwChannelConfig->channel;
+  Lpit_Gpt_Ip_StopTimer (_4, _5);
+  # DEBUG BEGIN_STMT
+
+  <bb 5> :
+<L6>:
+  # DEBUG BEGIN_STMT
+  return;
+
+}
+
+
+Gpt_Ipw_GetTimeElapsed (const struct Gpt_Ipw_HwChannelConfigType * pHwChannelConfig, struct Gpt_HwChannelInfoType * pReturnHwChannelInfo)
+{
+  uint32 returnValue;
+  Gpt_ValueType D.6224;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  returnValue = 0;
+  # DEBUG BEGIN_STMT
+  _1 = pHwChannelConfig->instanceType;
+  switch (_1) <default: <L5> [INV], case 0: <L0> [INV], case 3: <L1> [INV]>
+
+  <bb 3> :
+<L0>:
+  # DEBUG BEGIN_STMT
+  returnValue = Gpt_Ipw_FtmGetTimeElapsed (pHwChannelConfig, pReturnHwChannelInfo);
+  # DEBUG BEGIN_STMT
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+<L1>:
+  # DEBUG BEGIN_STMT
+  returnValue = Gpt_Ipw_LpitGetTimeElapsed (pHwChannelConfig, pReturnHwChannelInfo);
+  # DEBUG BEGIN_STMT
+
+  <bb 5> :
+<L5>:
+  # DEBUG BEGIN_STMT
+  D.6224 = returnValue;
+  return D.6224;
+
+}
+
+
+Gpt_Ipw_StartTimer (const struct Gpt_Ipw_HwChannelConfigType * pHwChannelConfig, Gpt_ValueType uValue)
+{
+  Std_ReturnType returnValue;
+  Std_ReturnType D.6221;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  returnValue = 1;
+  # DEBUG BEGIN_STMT
+  _1 = pHwChannelConfig->instanceType;
+  switch (_1) <default: <L5> [INV], case 0: <L0> [INV], case 3: <L1> [INV]>
+
+  <bb 3> :
+<L0>:
+  # DEBUG BEGIN_STMT
+  _2 = pHwChannelConfig->instance;
+  _3 = pHwChannelConfig->channel;
+  _4 = (short unsigned int) uValue;
+  Ftm_Gpt_Ip_StartCounting (_2, _3, _4);
+  # DEBUG BEGIN_STMT
+  returnValue = 0;
+  # DEBUG BEGIN_STMT
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+<L1>:
+  # DEBUG BEGIN_STMT
+  _5 = pHwChannelConfig->instance;
+  _6 = pHwChannelConfig->channel;
+  Lpit_Gpt_Ip_StartTimer (_5, _6, uValue);
+  # DEBUG BEGIN_STMT
+  returnValue = 0;
+  # DEBUG BEGIN_STMT
+
+  <bb 5> :
+<L5>:
+  # DEBUG BEGIN_STMT
+  D.6221 = returnValue;
+  return D.6221;
+
+}
+
+
+Gpt_Ipw_Init (const struct Gpt_Ipw_HwChannelConfigType * pHwChannelConfig)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = pHwChannelConfig->instanceType;
+  switch (_1) <default: <L6> [INV], case 0: <L0> [INV], case 3: <L1> [INV]>
+
+  <bb 3> :
+<L0>:
+  # DEBUG BEGIN_STMT
+  _2 = pHwChannelConfig->instance;
+  _3 = pHwChannelConfig->Gpt_Ipw_ChannelConfig.Ftm_Gpt_Ip_ChannelConfig;
+  Ftm_Gpt_Ip_InitChannel (_2, _3);
+  # DEBUG BEGIN_STMT
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+<L1>:
+  # DEBUG BEGIN_STMT
+  _4 = pHwChannelConfig->instance;
+  _5 = pHwChannelConfig->Gpt_Ipw_ChannelConfig.Lpit_Gpt_Ip_ChannelConfig;
+  Lpit_Gpt_Ip_InitChannel (_4, _5);
+  # DEBUG BEGIN_STMT
+
+  <bb 5> :
+<L6>:
+  # DEBUG BEGIN_STMT
+  return;
+
+}
+
+
+Gpt_Ipw_InitInstances (const struct Gpt_ConfigType * configPtr)
+{
+  uint8 index;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  index = 0;
+  # DEBUG BEGIN_STMT
+  index = 0;
+  goto <bb 7>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  _1 = configPtr->Gpt_Ipw_HwInstanceConfig;
+  _2 = (int) index;
+  _3 = *_1[_2].instanceType;
+  switch (_3) <default: <L8> [INV], case 0: <L1> [INV], case 3: <L2> [INV]>
+
+  <bb 4> :
+<L1>:
+  # DEBUG BEGIN_STMT
+  _4 = configPtr->Gpt_Ipw_HwInstanceConfig;
+  _5 = (int) index;
+  _6 = *_4[_5].instance;
+  _7 = configPtr->Gpt_Ipw_HwInstanceConfig;
+  _8 = (int) index;
+  _9 = *_7[_8].Gpt_Ipw_InstanceConfig.Ftm_Gpt_Ip_InstanceConfig;
+  Ftm_Gpt_Ip_Init (_6, _9);
+  # DEBUG BEGIN_STMT
+  goto <bb 6>; [INV]
+
+  <bb 5> :
+<L2>:
+  # DEBUG BEGIN_STMT
+  _10 = configPtr->Gpt_Ipw_HwInstanceConfig;
+  _11 = (int) index;
+  _12 = *_10[_11].instance;
+  _13 = configPtr->Gpt_Ipw_HwInstanceConfig;
+  _14 = (int) index;
+  _15 = *_13[_14].Gpt_Ipw_InstanceConfig.Lpit_Gpt_Ip_InstanceConfig;
+  Lpit_Gpt_Ip_Init (_12, _15);
+  # DEBUG BEGIN_STMT
+
+  <bb 6> :
+<L8>:
+  # DEBUG BEGIN_STMT
+  index.0_16 = index;
+  index = index.0_16 + 1;
+
+  <bb 7> :
+  # DEBUG BEGIN_STMT
+  _17 = configPtr->instanceCount;
+  if (index < _17)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 8> :
+  # DEBUG BEGIN_STMT
+  return;
+
+}
+
+
+Gpt_Ipw_LpitGetTimeElapsed (const struct Gpt_Ipw_HwChannelConfigType * pHwChannelConfig, struct Gpt_HwChannelInfoType * pReturnHwChannelInfo)
+{
+  uint32 tempValue;
+  uint32 returnValue;
+  Gpt_ValueType D.6241;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  returnValue = 0;
+  # DEBUG BEGIN_STMT
+  tempValue = 0;
+  # DEBUG BEGIN_STMT
+  _1 = pHwChannelConfig->instance;
+  _2 = pHwChannelConfig->channel;
+  _3 = Lpit_Gpt_Ip_GetTimerValue (_1, _2);
+  pReturnHwChannelInfo->uTargetTime = _3;
+  # DEBUG BEGIN_STMT
+  _4 = pReturnHwChannelInfo->uTargetTime;
+  _5 = pHwChannelConfig->instance;
+  _6 = pHwChannelConfig->channel;
+  _7 = Lpit_Gpt_Ip_GetCurrentTimervalue (_5, _6);
+  returnValue = _4 - _7;
+  # DEBUG BEGIN_STMT
+  _8 = pHwChannelConfig->instance;
+  _9 = pHwChannelConfig->channel;
+  _10 = (int) _9;
+  _11 = 1 << _10;
+  _12 = (unsigned char) _11;
+  _13 = Lpit_Gpt_Ip_GetInterruptFlagTimerChannels (_8, _12);
+  _14 = pHwChannelConfig->channel;
+  _15 = (int) _14;
+  tempValue = _13 >> _15;
+  # DEBUG BEGIN_STMT
+  if (tempValue != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  pReturnHwChannelInfo->bChannelRollover = 1;
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  pReturnHwChannelInfo->bChannelRollover = 0;
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  D.6241 = returnValue;
+  return D.6241;
+
+}
+
+
+Gpt_Ipw_FtmGetTimeElapsed (const struct Gpt_Ipw_HwChannelConfigType * pHwChannelConfig, struct Gpt_HwChannelInfoType * pReturnHwChannelInfo)
+{
+  uint32 counterValue;
+  uint32 compareValue;
+  uint32 tempValue;
+  uint32 returnValue;
+  Gpt_ValueType D.6236;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  returnValue = 0;
+  # DEBUG BEGIN_STMT
+  tempValue = 0;
+  # DEBUG BEGIN_STMT
+  compareValue = 0;
+  # DEBUG BEGIN_STMT
+  counterValue = 0;
+  # DEBUG BEGIN_STMT
+  _1 = pHwChannelConfig->instance;
+  _2 = (int) _1;
+  _3 = pHwChannelConfig->channel;
+  _4 = (int) _3;
+  _5 = Ftm_Gpt_Ip_u32TargetValue[_2][_4];
+  pReturnHwChannelInfo->uTargetTime = _5;
+  # DEBUG BEGIN_STMT
+  _6 = pHwChannelConfig->instance;
+  counterValue = Ftm_Gpt_Ip_GetCounter (_6);
+  # DEBUG BEGIN_STMT
+  _7 = pHwChannelConfig->instance;
+  _8 = pHwChannelConfig->channel;
+  compareValue = Ftm_Gpt_Ip_GetCompareValue (_7, _8);
+  # DEBUG BEGIN_STMT
+  if (counterValue > compareValue)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  _9 = compareValue - counterValue;
+  _10 = _9 + 65535;
+  _11 = pReturnHwChannelInfo->uTargetTime;
+  if (_10 <= _11)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  _12 = pReturnHwChannelInfo->uTargetTime;
+  _13 = counterValue - compareValue;
+  _14 = _12 + _13;
+  returnValue = _14 + 4294901762;
+  goto <bb 7>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  returnValue = pReturnHwChannelInfo->uTargetTime;
+  goto <bb 7>; [INV]
+
+  <bb 6> :
+  # DEBUG BEGIN_STMT
+  _15 = pReturnHwChannelInfo->uTargetTime;
+  _16 = counterValue - compareValue;
+  returnValue = _15 + _16;
+
+  <bb 7> :
+  # DEBUG BEGIN_STMT
+  _17 = pHwChannelConfig->instance;
+  _18 = pHwChannelConfig->channel;
+  tempValue = Ftm_Gpt_Ip_GetInterruptFlag (_17, _18);
+  # DEBUG BEGIN_STMT
+  if (tempValue != 0)
+    goto <bb 8>; [INV]
+  else
+    goto <bb 9>; [INV]
+
+  <bb 8> :
+  # DEBUG BEGIN_STMT
+  pReturnHwChannelInfo->bChannelRollover = 1;
+  goto <bb 10>; [INV]
+
+  <bb 9> :
+  # DEBUG BEGIN_STMT
+  pReturnHwChannelInfo->bChannelRollover = 0;
+
+  <bb 10> :
+  # DEBUG BEGIN_STMT
+  D.6236 = returnValue;
+  return D.6236;
+
+}
+
+

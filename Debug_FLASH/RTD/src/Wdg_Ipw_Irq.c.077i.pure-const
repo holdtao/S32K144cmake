@@ -1,0 +1,100 @@
+
+
+ local analysis of Wdg_Ipw_Isr
+   scanning: Ewm_Ip_IrqHandler (0);
+  scanning: __asm__ __volatile__(" DSB");
+    memory asm clobber is not const/pure
+    volatile is not const/pure
+  scanning: return;
+Function is locally looping.
+Function can locally free.
+callgraph:
+
+Ewm_Ip_IrqHandler/1 (Ewm_Ip_IrqHandler) @06a42c40
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_Ipw_Isr/0 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Wdg_Ipw_Isr/0 (Wdg_Ipw_Isr) @06a427e0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @026443b8
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Ewm_Ip_IrqHandler/1 (1073741824 (estimated locally),1.00 per call) 
+
+
+ ordered call graph: reduced for nothrow
+Wdg_Ipw_Isr/0 (Wdg_Ipw_Isr) @06a427e0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @026443b8
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Ewm_Ip_IrqHandler/1 (1073741824 (estimated locally),1.00 per call) 
+
+
+
+MALLOC LATTICE Initial:
+Wdg_Ipw_Isr: malloc_bottom
+
+
+MALLOC LATTICE after propagation:
+Wdg_Ipw_Isr: malloc_bottom
+callgraph:
+
+Ewm_Ip_IrqHandler/1 (Ewm_Ip_IrqHandler) @06a42c40
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_Ipw_Isr/0 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Wdg_Ipw_Isr/0 (Wdg_Ipw_Isr) @06a427e0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @02644298
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Ewm_Ip_IrqHandler/1 (1073741824 (estimated locally),1.00 per call) 
+
+
+ ordered call graph: reduced
+Wdg_Ipw_Isr/0 (Wdg_Ipw_Isr) @06a427e0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @02644298
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Ewm_Ip_IrqHandler/1 (1073741824 (estimated locally),1.00 per call) 
+
+Wdg_Ipw_Isr ()
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  Ewm_Ip_IrqHandler (0);
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" DSB");
+  return;
+
+}
+
+

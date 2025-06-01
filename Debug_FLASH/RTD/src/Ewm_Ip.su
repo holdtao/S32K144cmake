@@ -1,0 +1,3 @@
+Ewm_Ip.c:287:19:Ewm_Ip_Init	12	static
+Ewm_Ip.c:365:6:Ewm_Ip_Service	0	static
+Ewm_Ip.c:382:6:Ewm_Ip_IrqHandler	0	static

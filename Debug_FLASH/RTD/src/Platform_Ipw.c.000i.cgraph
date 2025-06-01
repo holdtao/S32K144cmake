@@ -1,0 +1,321 @@
+Trivially needed symbols: Platform_Ipw_Init
+
+
+Initial Symbol table:
+
+IntCtrl_Ip_DisableIrq/9 (IntCtrl_Ip_DisableIrq) @064791c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Platform_Ipw_InitIntCtrl/5 
+  Calls: 
+IntCtrl_Ip_EnableIrq/8 (IntCtrl_Ip_EnableIrq) @064790e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Platform_Ipw_InitIntCtrl/5 
+  Calls: 
+IntCtrl_Ip_SetPriority/7 (IntCtrl_Ip_SetPriority) @06479000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Platform_Ipw_InitIntCtrl/5 
+  Calls: 
+Platform_Ipw_Init/6 (Platform_Ipw_Init) @05f86a80
+  Type: function definition analyzed
+  Visibility: public
+  Aux: @01733ea0
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Platform_Ipw_InitIntCtrl/5 
+Platform_Ipw_InitIntCtrl/5 (Platform_Ipw_InitIntCtrl) @05f867e0
+  Type: function definition analyzed
+  Visibility:
+  Aux: @01733ea0
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Platform_Ipw_Init/6 
+  Calls: IntCtrl_Ip_DisableIrq/9 IntCtrl_Ip_EnableIrq/8 IntCtrl_Ip_SetPriority/7 
+Platform_Ipw_InstallIrqHandler/4 (Platform_Ipw_InstallIrqHandler) @05f7b7e0
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Platform_Ipw_GetIrqPriority/3 (Platform_Ipw_GetIrqPriority) @05f7b540
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Platform_Ipw_SetIrqPriority/2 (Platform_Ipw_SetIrqPriority) @05f7b2a0
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Platform_Ipw_SetIrq/1 (Platform_Ipw_SetIrq) @05f7b000
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+DevAssert/0 (DevAssert) @063158c0
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+
+Removing unused symbols: Platform_Ipw_InstallIrqHandler Platform_Ipw_GetIrqPriority Platform_Ipw_SetIrqPriority Platform_Ipw_SetIrq DevAssert
+
+Reclaimed Symbol table:
+
+IntCtrl_Ip_DisableIrq/9 (IntCtrl_Ip_DisableIrq) @064791c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Platform_Ipw_InitIntCtrl/5 
+  Calls: 
+IntCtrl_Ip_EnableIrq/8 (IntCtrl_Ip_EnableIrq) @064790e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Platform_Ipw_InitIntCtrl/5 
+  Calls: 
+IntCtrl_Ip_SetPriority/7 (IntCtrl_Ip_SetPriority) @06479000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Platform_Ipw_InitIntCtrl/5 
+  Calls: 
+Platform_Ipw_Init/6 (Platform_Ipw_Init) @05f86a80
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Platform_Ipw_InitIntCtrl/5 
+Platform_Ipw_InitIntCtrl/5 (Platform_Ipw_InitIntCtrl) @05f867e0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Platform_Ipw_Init/6 
+  Calls: IntCtrl_Ip_DisableIrq/9 IntCtrl_Ip_EnableIrq/8 IntCtrl_Ip_SetPriority/7 
+
+
+Initial Symbol table:
+
+IntCtrl_Ip_DisableIrq/9 (IntCtrl_Ip_DisableIrq) @064791c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Platform_Ipw_InitIntCtrl/5 
+  Calls: 
+IntCtrl_Ip_EnableIrq/8 (IntCtrl_Ip_EnableIrq) @064790e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Platform_Ipw_InitIntCtrl/5 
+  Calls: 
+IntCtrl_Ip_SetPriority/7 (IntCtrl_Ip_SetPriority) @06479000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Platform_Ipw_InitIntCtrl/5 
+  Calls: 
+Platform_Ipw_Init/6 (Platform_Ipw_Init) @05f86a80
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Platform_Ipw_InitIntCtrl/5 
+Platform_Ipw_InitIntCtrl/5 (Platform_Ipw_InitIntCtrl) @05f867e0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Platform_Ipw_Init/6 
+  Calls: IntCtrl_Ip_DisableIrq/9 IntCtrl_Ip_EnableIrq/8 IntCtrl_Ip_SetPriority/7 
+
+Removing unused symbols:
+
+Reclaimed Symbol table:
+
+IntCtrl_Ip_DisableIrq/9 (IntCtrl_Ip_DisableIrq) @064791c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Platform_Ipw_InitIntCtrl/5 
+  Calls: 
+IntCtrl_Ip_EnableIrq/8 (IntCtrl_Ip_EnableIrq) @064790e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Platform_Ipw_InitIntCtrl/5 
+  Calls: 
+IntCtrl_Ip_SetPriority/7 (IntCtrl_Ip_SetPriority) @06479000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Platform_Ipw_InitIntCtrl/5 
+  Calls: 
+Platform_Ipw_Init/6 (Platform_Ipw_Init) @05f86a80
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Platform_Ipw_InitIntCtrl/5 
+Platform_Ipw_InitIntCtrl/5 (Platform_Ipw_InitIntCtrl) @05f867e0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Platform_Ipw_Init/6 
+  Calls: IntCtrl_Ip_DisableIrq/9 IntCtrl_Ip_EnableIrq/8 IntCtrl_Ip_SetPriority/7 
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Optimized Symbol table:
+
+IntCtrl_Ip_DisableIrq/9 (IntCtrl_Ip_DisableIrq) @064791c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Platform_Ipw_InitIntCtrl/5 (2322615832 (estimated locally),2.16 per call) 
+  Calls: 
+IntCtrl_Ip_EnableIrq/8 (IntCtrl_Ip_EnableIrq) @064790e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Platform_Ipw_InitIntCtrl/5 (2322615832 (estimated locally),2.16 per call) 
+  Calls: 
+IntCtrl_Ip_SetPriority/7 (IntCtrl_Ip_SetPriority) @06479000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Platform_Ipw_InitIntCtrl/5 (4645231669 (estimated locally),4.33 per call) 
+  Calls: 
+Platform_Ipw_Init/6 (Platform_Ipw_Init) @05f86a80
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Platform_Ipw_InitIntCtrl/5 (inlined) (574129754 (estimated locally),0.53 per call) 
+Platform_Ipw_InitIntCtrl/5 (Platform_Ipw_InitIntCtrl) @05f867e0
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Function Platform_Ipw_InitIntCtrl/5 is inline copy in Platform_Ipw_Init/6
+  Availability: local
+  Function flags: count:574129754 (estimated locally) body local optimize_size
+  Called by: Platform_Ipw_Init/6 (inlined) (574129754 (estimated locally),0.53 per call) 
+  Calls: IntCtrl_Ip_DisableIrq/9 (2322615832 (estimated locally),2.16 per call) IntCtrl_Ip_EnableIrq/8 (2322615832 (estimated locally),2.16 per call) IntCtrl_Ip_SetPriority/7 (4645231669 (estimated locally),4.33 per call) 
+Materializing clones
+Materialization Call site updates done.
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Time profile order in expand_all_functions:Platform_Ipw_Init:0
+Trivially needed variables:
+Removing variables:
+
+Final Symbol table:
+
+IntCtrl_Ip_DisableIrq/9 (IntCtrl_Ip_DisableIrq) @064791c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+IntCtrl_Ip_EnableIrq/8 (IntCtrl_Ip_EnableIrq) @064790e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+IntCtrl_Ip_SetPriority/7 (IntCtrl_Ip_SetPriority) @06479000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Platform_Ipw_Init/6 (Platform_Ipw_Init) @05f86a80
+  Type: function definition analyzed
+  Visibility: externally_visible asm_written public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) optimize_size
+  Called by: 
+  Calls: 

@@ -1,0 +1,623 @@
+IPA function summary for main/4 inlinable
+  global time:     526.300208
+  self size:       70
+  global size:     70
+  min size:       110
+  self stack:      0
+  global stack:    0
+    size:12.000000, time:65.276031
+    size:3.000000, time:1.000000,  executed if:(not inlined)
+  calls:
+    Wdg_43_Instance1_SetTriggerCondition/23 function body not available
+      loop depth: 0 freq:1.00 size: 2 time: 11
+       op0 is compile time invariant
+    Wdg_43_Instance1_Init/21 function body not available
+      loop depth: 0 freq:1.00 size: 2 time: 11
+       op0 is compile time invariant
+    Gpt_EnableNotification/16 function body not available
+      loop depth: 0 freq:1.00 size: 2 time: 11
+       op0 is compile time invariant
+    delay/2 function not considered for inlining
+      loop depth: 0 freq:1.00 size: 2 time: 11callee size: 4 stack: 4
+       op0 is compile time invariant
+    Wdg_43_Instance0_SetMode/20 function body not available
+      loop depth: 0 freq:1.00 size: 2 time: 11
+       op0 is compile time invariant
+    Wdg_43_Instance0_SetTriggerCondition/19 function body not available
+      loop depth: 1 freq:10.00 size: 2 time: 11
+       op0 is compile time invariant
+    delay/2 function not considered for inlining
+      loop depth: 1 freq:10.00 size: 2 time: 11callee size: 4 stack: 4
+       op0 is compile time invariant
+    Wdg_43_Instance0_SetTriggerCondition/19 function body not available
+      loop depth: 0 freq:1.00 size: 2 time: 11
+       op0 is compile time invariant
+    Wdg_43_Instance0_SetMode/20 function body not available
+      loop depth: 0 freq:1.00 size: 2 time: 11
+       op0 is compile time invariant
+    Wdg_43_Instance0_SetTriggerCondition/19 function body not available
+      loop depth: 0 freq:1.00 size: 2 time: 11
+       op0 is compile time invariant
+    Wdg_43_Instance0_Init/17 function body not available
+      loop depth: 0 freq:1.00 size: 2 time: 11
+       op0 is compile time invariant
+    Gpt_EnableNotification/16 function body not available
+      loop depth: 0 freq:1.00 size: 2 time: 11
+       op0 is compile time invariant
+    Gpt_Init/14 function body not available
+      loop depth: 0 freq:1.00 size: 2 time: 11
+       op0 is compile time invariant
+    Platform_InstallIrqHandler/10 function body not available
+      loop depth: 0 freq:1.00 size: 4 time: 13
+       op0 is compile time invariant
+       op1 is compile time invariant
+       op2 is compile time invariant
+    Platform_SetIrq/9 function body not available
+      loop depth: 0 freq:1.00 size: 3 time: 12
+       op0 is compile time invariant
+       op1 is compile time invariant
+    Platform_InstallIrqHandler/10 function body not available
+      loop depth: 0 freq:1.00 size: 4 time: 13
+       op0 is compile time invariant
+       op1 is compile time invariant
+       op2 is compile time invariant
+    Platform_SetIrq/9 function body not available
+      loop depth: 0 freq:1.00 size: 3 time: 12
+       op0 is compile time invariant
+       op1 is compile time invariant
+    Platform_InstallIrqHandler/10 function body not available
+      loop depth: 0 freq:1.00 size: 4 time: 13
+       op0 is compile time invariant
+       op1 is compile time invariant
+       op2 is compile time invariant
+    Platform_SetIrq/9 function body not available
+      loop depth: 0 freq:1.00 size: 3 time: 12
+       op0 is compile time invariant
+       op1 is compile time invariant
+    Platform_Init/8 function body not available
+      loop depth: 0 freq:1.00 size: 2 time: 11
+       op0 is compile time invariant
+    Mcu_SetMode/7 function body not available
+      loop depth: 0 freq:1.00 size: 2 time: 11
+       op0 is compile time invariant
+    Mcu_InitClock/6 function body not available
+      loop depth: 0 freq:1.00 size: 2 time: 11
+       op0 is compile time invariant
+    Mcu_Init/5 function body not available
+      loop depth: 0 freq:1.00 size: 2 time: 11
+       op0 is compile time invariant
+
+IPA function summary for Wdg_CallBackNotification1/3 inlinable
+  global time:     3.000000
+  self size:       4
+  global size:     4
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:1.000000, time:1.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+  calls:
+
+IPA function summary for delay/2 inlinable
+  global time:     48.454546
+  self size:       9
+  global size:     9
+  min size:       0
+  self stack:      4
+  global stack:    4
+    size:6.000000, time:46.454546
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+  calls:
+
+
+Flattening functions:
+Overall time estimate: 577.754754 weighted by profile: 0.000000
+
+Deciding on inlining of small functions.  Starting with size 0.
+Enqueueing calls in main/4.
+Enqueueing calls in Wdg_CallBackNotification1/3.
+Enqueueing calls in delay/2.
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+
+Deciding on functions to be inlined into all callers and removing useless speculations:
+Overall time estimate: 577.754754 weighted by profile: 0.000000
+
+Why inlining failed?
+function body not available                       :       21 calls, 30.001099 freq, 0 count
+call is unlikely and code size would grow         :        2 calls, 11.001099 freq, 0 count
+IPA function summary for main/4 inlinable
+  global time:     526.300208
+  self size:       70
+  global size:     70
+  min size:       110
+  self stack:      0
+  global stack:    0
+    size:12.000000, time:65.276031
+    size:3.000000, time:1.000000,  executed if:(not inlined)
+  calls:
+    Wdg_43_Instance1_SetTriggerCondition/23 function body not available
+      loop depth: 0 freq:1.00 size: 2 time: 11
+       op0 is compile time invariant
+    Wdg_43_Instance1_Init/21 function body not available
+      loop depth: 0 freq:1.00 size: 2 time: 11
+       op0 is compile time invariant
+    Gpt_EnableNotification/16 function body not available
+      loop depth: 0 freq:1.00 size: 2 time: 11
+       op0 is compile time invariant
+    delay/2 call is unlikely and code size would grow
+      loop depth: 0 freq:1.00 size: 2 time: 11callee size: 4 stack: 4
+       op0 is compile time invariant
+    Wdg_43_Instance0_SetMode/20 function body not available
+      loop depth: 0 freq:1.00 size: 2 time: 11
+       op0 is compile time invariant
+    Wdg_43_Instance0_SetTriggerCondition/19 function body not available
+      loop depth: 1 freq:10.00 size: 2 time: 11
+       op0 is compile time invariant
+    delay/2 call is unlikely and code size would grow
+      loop depth: 1 freq:10.00 size: 2 time: 11callee size: 4 stack: 4
+       op0 is compile time invariant
+    Wdg_43_Instance0_SetTriggerCondition/19 function body not available
+      loop depth: 0 freq:1.00 size: 2 time: 11
+       op0 is compile time invariant
+    Wdg_43_Instance0_SetMode/20 function body not available
+      loop depth: 0 freq:1.00 size: 2 time: 11
+       op0 is compile time invariant
+    Wdg_43_Instance0_SetTriggerCondition/19 function body not available
+      loop depth: 0 freq:1.00 size: 2 time: 11
+       op0 is compile time invariant
+    Wdg_43_Instance0_Init/17 function body not available
+      loop depth: 0 freq:1.00 size: 2 time: 11
+       op0 is compile time invariant
+    Gpt_EnableNotification/16 function body not available
+      loop depth: 0 freq:1.00 size: 2 time: 11
+       op0 is compile time invariant
+    Gpt_Init/14 function body not available
+      loop depth: 0 freq:1.00 size: 2 time: 11
+       op0 is compile time invariant
+    Platform_InstallIrqHandler/10 function body not available
+      loop depth: 0 freq:1.00 size: 4 time: 13
+       op0 is compile time invariant
+       op1 is compile time invariant
+       op2 is compile time invariant
+    Platform_SetIrq/9 function body not available
+      loop depth: 0 freq:1.00 size: 3 time: 12
+       op0 is compile time invariant
+       op1 is compile time invariant
+    Platform_InstallIrqHandler/10 function body not available
+      loop depth: 0 freq:1.00 size: 4 time: 13
+       op0 is compile time invariant
+       op1 is compile time invariant
+       op2 is compile time invariant
+    Platform_SetIrq/9 function body not available
+      loop depth: 0 freq:1.00 size: 3 time: 12
+       op0 is compile time invariant
+       op1 is compile time invariant
+    Platform_InstallIrqHandler/10 function body not available
+      loop depth: 0 freq:1.00 size: 4 time: 13
+       op0 is compile time invariant
+       op1 is compile time invariant
+       op2 is compile time invariant
+    Platform_SetIrq/9 function body not available
+      loop depth: 0 freq:1.00 size: 3 time: 12
+       op0 is compile time invariant
+       op1 is compile time invariant
+    Platform_Init/8 function body not available
+      loop depth: 0 freq:1.00 size: 2 time: 11
+       op0 is compile time invariant
+    Mcu_SetMode/7 function body not available
+      loop depth: 0 freq:1.00 size: 2 time: 11
+       op0 is compile time invariant
+    Mcu_InitClock/6 function body not available
+      loop depth: 0 freq:1.00 size: 2 time: 11
+       op0 is compile time invariant
+    Mcu_Init/5 function body not available
+      loop depth: 0 freq:1.00 size: 2 time: 11
+       op0 is compile time invariant
+
+IPA function summary for Wdg_CallBackNotification1/3 inlinable
+  global time:     3.000000
+  self size:       4
+  global size:     4
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:1.000000, time:1.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+  calls:
+
+IPA function summary for delay/2 inlinable
+  global time:     48.454546
+  self size:       9
+  global size:     9
+  min size:       6
+  self stack:      4
+  global stack:    4
+  estimated growth:8
+    size:6.000000, time:46.454546
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+  calls:
+
+Symbol table:
+
+Wdg_43_Instance1_SetTriggerCondition/23 (Wdg_43_Instance1_SetTriggerCondition) @065c8540
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/4 (214748 (estimated locally),1.00 per call) 
+  Calls: 
+Wdg_Config_1_VS_0/22 (Wdg_Config_1_VS_0) @065c4ea0
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: main/4 (addr)
+  Availability: not_available
+  Varpool flags: read-only
+Wdg_43_Instance1_Init/21 (Wdg_43_Instance1_Init) @065c8380
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/4 (214748 (estimated locally),1.00 per call) 
+  Calls: 
+Wdg_43_Instance0_SetMode/20 (Wdg_43_Instance0_SetMode) @065c82a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/4 (214748 (estimated locally),1.00 per call) main/4 (214748 (estimated locally),1.00 per call) 
+  Calls: 
+Wdg_43_Instance0_SetTriggerCondition/19 (Wdg_43_Instance0_SetTriggerCondition) @065c81c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/4 (2147716 (estimated locally),10.00 per call) main/4 (214748 (estimated locally),1.00 per call) main/4 (214748 (estimated locally),1.00 per call) 
+  Calls: 
+Wdg_Config_0_VS_0/18 (Wdg_Config_0_VS_0) @065c4bd0
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: main/4 (addr)
+  Availability: not_available
+  Varpool flags: read-only
+Wdg_43_Instance0_Init/17 (Wdg_43_Instance0_Init) @065c80e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/4 (214748 (estimated locally),1.00 per call) 
+  Calls: 
+Gpt_EnableNotification/16 (Gpt_EnableNotification) @065c8000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/4 (214748 (estimated locally),1.00 per call) main/4 (214748 (estimated locally),1.00 per call) 
+  Calls: 
+Gpt_Config_VS_0/15 (Gpt_Config_VS_0) @065c4af8
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: main/4 (addr)
+  Availability: not_available
+  Varpool flags: read-only
+Gpt_Init/14 (Gpt_Init) @0656bee0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/4 (214748 (estimated locally),1.00 per call) 
+  Calls: 
+Wdg_Ipw_Isr/13 (Wdg_Ipw_Isr) @0656be00
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: main/4 (addr)
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+FTM_0_CH_0_CH_1_ISR/12 (FTM_0_CH_0_CH_1_ISR) @0656bd20
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: main/4 (addr)
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+LPIT_0_CH_0_ISR/11 (LPIT_0_CH_0_ISR) @0656bc40
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: main/4 (addr)
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Platform_InstallIrqHandler/10 (Platform_InstallIrqHandler) @0656bb60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/4 (214748 (estimated locally),1.00 per call) main/4 (214748 (estimated locally),1.00 per call) main/4 (214748 (estimated locally),1.00 per call) 
+  Calls: 
+Platform_SetIrq/9 (Platform_SetIrq) @0656ba80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/4 (214748 (estimated locally),1.00 per call) main/4 (214748 (estimated locally),1.00 per call) main/4 (214748 (estimated locally),1.00 per call) 
+  Calls: 
+Platform_Init/8 (Platform_Init) @0656b9a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/4 (214748 (estimated locally),1.00 per call) 
+  Calls: 
+Mcu_SetMode/7 (Mcu_SetMode) @0656b8c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/4 (214748 (estimated locally),1.00 per call) 
+  Calls: 
+Mcu_InitClock/6 (Mcu_InitClock) @0656b7e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/4 (214748 (estimated locally),1.00 per call) 
+  Calls: 
+Mcu_Init/5 (Mcu_Init) @0656b700
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: main/4 (214748 (estimated locally),1.00 per call) 
+  Calls: 
+main/4 (main) @0656b0e0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: LPIT_0_CH_0_ISR/11 (addr)FTM_0_CH_0_CH_1_ISR/12 (addr)Wdg_Ipw_Isr/13 (addr)Gpt_Config_VS_0/15 (addr)Wdg_Config_0_VS_0/18 (addr)Wdg_Config_1_VS_0/22 (addr)notificationCount/1 (read)notificationCount/1 (read)
+  Referring: 
+  Availability: available
+  Function flags: count:214748 (estimated locally) body only_called_at_startup executed_once optimize_size
+  Called by: 
+  Calls: Wdg_43_Instance1_SetTriggerCondition/23 (214748 (estimated locally),1.00 per call) Wdg_43_Instance1_Init/21 (214748 (estimated locally),1.00 per call) Gpt_EnableNotification/16 (214748 (estimated locally),1.00 per call) delay/2 (214748 (estimated locally),1.00 per call) Wdg_43_Instance0_SetMode/20 (214748 (estimated locally),1.00 per call) Wdg_43_Instance0_SetTriggerCondition/19 (2147716 (estimated locally),10.00 per call) delay/2 (2147716 (estimated locally),10.00 per call) Wdg_43_Instance0_SetTriggerCondition/19 (214748 (estimated locally),1.00 per call) Wdg_43_Instance0_SetMode/20 (214748 (estimated locally),1.00 per call) Wdg_43_Instance0_SetTriggerCondition/19 (214748 (estimated locally),1.00 per call) Wdg_43_Instance0_Init/17 (214748 (estimated locally),1.00 per call) Gpt_EnableNotification/16 (214748 (estimated locally),1.00 per call) Gpt_Init/14 (214748 (estimated locally),1.00 per call) Platform_InstallIrqHandler/10 (214748 (estimated locally),1.00 per call) Platform_SetIrq/9 (214748 (estimated locally),1.00 per call) Platform_InstallIrqHandler/10 (214748 (estimated locally),1.00 per call) Platform_SetIrq/9 (214748 (estimated locally),1.00 per call) Platform_InstallIrqHandler/10 (214748 (estimated locally),1.00 per call) Platform_SetIrq/9 (214748 (estimated locally),1.00 per call) Platform_Init/8 (214748 (estimated locally),1.00 per call) Mcu_SetMode/7 (214748 (estimated locally),1.00 per call) Mcu_InitClock/6 (214748 (estimated locally),1.00 per call) Mcu_Init/5 (214748 (estimated locally),1.00 per call) 
+Wdg_CallBackNotification1/3 (Wdg_CallBackNotification1) @06566e00
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: notificationCount/1 (write)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+delay/2 (delay) @065668c0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:118111600 (estimated locally) body optimize_size
+  Called by: main/4 (214748 (estimated locally),1.00 per call) main/4 (2147716 (estimated locally),10.00 per call) 
+  Calls: 
+notificationCount/1 (notificationCount) @06565b88
+  Type: variable definition analyzed
+  Visibility: force_output externally_visible public
+  References: 
+  Referring: Wdg_CallBackNotification1/3 (write)main/4 (read)main/4 (read)
+  Availability: available
+  Varpool flags: initialized
+
+;; Function delay (delay, funcdef_no=1, decl_uid=7330, cgraph_uid=2, symbol_order=2)
+
+delay (uint32 timeout)
+{
+  volatile uint32 i;
+  long unsigned int i.0_1;
+  long unsigned int _2;
+
+  <bb 2> [local count: 118111600]:
+  # DEBUG BEGIN_STMT
+  i ={v} timeout_5(D);
+  # DEBUG BEGIN_STMT
+
+  <bb 3> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  i.0_1 ={v} i;
+  _2 = i.0_1 + 4294967295;
+  i ={v} _2;
+  if (i.0_1 != 0)
+    goto <bb 5>; [89.00%]
+  else
+    goto <bb 4>; [11.00%]
+
+  <bb 5> [local count: 955630223]:
+  goto <bb 3>; [100.00%]
+
+  <bb 4> [local count: 118111601]:
+  return;
+
+}
+
+
+
+;; Function Wdg_CallBackNotification1 (Wdg_CallBackNotification1, funcdef_no=2, decl_uid=7343, cgraph_uid=3, symbol_order=3)
+
+Wdg_CallBackNotification1 ()
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  notificationCount ={v} 1;
+  return;
+
+}
+
+
+
+;; Function main (main, funcdef_no=3, decl_uid=7346, cgraph_uid=4, symbol_order=4) (executed once)
+
+main ()
+{
+  volatile boolean x;
+  int index;
+  unsigned char notificationCount.2_1;
+  unsigned char notificationCount.3_2;
+  _Bool _3;
+  _Bool x.4_31;
+
+  <bb 2> [local count: 214748]:
+  # DEBUG BEGIN_STMT
+  Mcu_Init (0B);
+  # DEBUG BEGIN_STMT
+  Mcu_InitClock (0);
+  # DEBUG BEGIN_STMT
+  Mcu_SetMode (0);
+  # DEBUG BEGIN_STMT
+  Platform_Init (0B);
+  # DEBUG BEGIN_STMT
+  Platform_SetIrq (48, 1);
+  # DEBUG BEGIN_STMT
+  Platform_InstallIrqHandler (48, LPIT_0_CH_0_ISR, 0B);
+  # DEBUG BEGIN_STMT
+  Platform_SetIrq (99, 1);
+  # DEBUG BEGIN_STMT
+  Platform_InstallIrqHandler (99, FTM_0_CH_0_CH_1_ISR, 0B);
+  # DEBUG BEGIN_STMT
+  Platform_SetIrq (22, 1);
+  # DEBUG BEGIN_STMT
+  Platform_InstallIrqHandler (22, Wdg_Ipw_Isr, 0B);
+  # DEBUG BEGIN_STMT
+  Gpt_Init (&Gpt_Config_VS_0);
+  # DEBUG BEGIN_STMT
+  Gpt_EnableNotification (0);
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance0_Init (&Wdg_Config_0_VS_0);
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance0_SetTriggerCondition (64768);
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance0_SetMode (2);
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance0_SetTriggerCondition (64768);
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  # DEBUG index => 0
+  goto <bb 4>; [100.00%]
+
+  <bb 3> [local count: 2147716]:
+  # DEBUG BEGIN_STMT
+  delay (50000);
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance0_SetTriggerCondition (64768);
+  # DEBUG BEGIN_STMT
+  index_30 = index_4 + 1;
+  # DEBUG index => index_30
+
+  <bb 4> [local count: 2362464]:
+  # index_4 = PHI <0(2), index_30(3)>
+  # DEBUG index => index_4
+  # DEBUG BEGIN_STMT
+  if (index_4 != 10)
+    goto <bb 3>; [90.91%]
+  else
+    goto <bb 5>; [9.09%]
+
+  <bb 5> [local count: 214748]:
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance0_SetMode (0);
+  # DEBUG BEGIN_STMT
+  delay (5000000);
+  # DEBUG BEGIN_STMT
+  Gpt_EnableNotification (1);
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance1_Init (&Wdg_Config_1_VS_0);
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance1_SetTriggerCondition (64768);
+  # DEBUG BEGIN_STMT
+
+  <bb 6> [local count: 1952255]:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  notificationCount.2_1 ={v} notificationCount;
+  if (notificationCount.2_1 == 0)
+    goto <bb 12>; [89.00%]
+  else
+    goto <bb 7>; [11.00%]
+
+  <bb 12> [local count: 1737507]:
+  goto <bb 6>; [100.00%]
+
+  <bb 7> [local count: 214748]:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  notificationCount.3_2 ={v} notificationCount;
+  _3 = notificationCount.3_2 == 1;
+  x ={v} _3;
+  # DEBUG x => x
+  # DEBUG INLINE_ENTRY DevAssert
+  # DEBUG BEGIN_STMT
+  x.4_31 ={v} x;
+  if (x.4_31 != 0)
+    goto <bb 9>; [50.00%]
+  else
+    goto <bb 10>; [50.00%]
+
+  <bb 10> [local count: 107374]:
+
+  <bb 8> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+
+  <bb 11> [local count: 1073741824]:
+  goto <bb 8>; [100.00%]
+
+  <bb 9> [local count: 107374]:
+  # DEBUG BEGIN_STMT
+  # DEBUG x => NULL
+  # DEBUG BEGIN_STMT
+  return 0;
+
+}
+
+

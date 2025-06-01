@@ -1,0 +1,18 @@
+if(NOT DEFINED BOARD)
+    set(BOARD board)
+endif()
+aux_source_directory(. BOARD_SRC)
+
+add_library(${BOARD} STATIC ${BOARD_SRC})
+
+target_link_libraries(${BOARD} PRIVATE ${RTD_TARGET})
+
+target_include_directories(${BOARD} PUBLIC 
+    ${CMAKE_CURRENT_SOURCE_DIR}
+)
+
+target_compile_options(${BOARD} PUBLIC
+    ##
+)
+
+

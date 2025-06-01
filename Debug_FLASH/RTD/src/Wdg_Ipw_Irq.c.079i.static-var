@@ -1,0 +1,56 @@
+callgraph:
+
+Ewm_Ip_IrqHandler/1 (Ewm_Ip_IrqHandler) @06a42c40
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_Ipw_Isr/0 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Wdg_Ipw_Isr/0 (Wdg_Ipw_Isr) @06a427e0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Ewm_Ip_IrqHandler/1 (1073741824 (estimated locally),1.00 per call) 
+Clearing variable flags:
+
+Function name:Wdg_Ipw_Isr/0:
+  locals read: 
+  locals written: 
+
+ ordered call graph: reduced
+Wdg_Ipw_Isr/0 (Wdg_Ipw_Isr) @06a427e0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  Aux: @02644518
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Ewm_Ip_IrqHandler/1 (1073741824 (estimated locally),1.00 per call) 
+
+
+Function name:Wdg_Ipw_Isr/0:
+    locals read: 
+    locals written: 
+  globals read: ALL
+  globals written: ALL
+Wdg_Ipw_Isr ()
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  Ewm_Ip_IrqHandler (0);
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" DSB");
+  return;
+
+}
+
+

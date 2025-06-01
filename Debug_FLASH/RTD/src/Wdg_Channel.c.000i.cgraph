@@ -1,0 +1,1964 @@
+Trivially needed symbols: Wdg_ChannelGetVersionInfo Wdg_ChannelSetTriggerCondition Wdg_ChannelSetMode Wdg_ChannelInit Wdg_Cbk_GptNotification1 Wdg_Cbk_GptNotification0
+
+
+Initial Symbol table:
+
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05/38 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05) @066fcd20
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelSetTriggerCondition/15 Wdg_ChannelSetTriggerCondition/15 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_05/37 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_05) @066fcc40
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelSetTriggerCondition/15 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_04/36 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_04) @066fca80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_VadidateDoChannelSetMode/11 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_04/35 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_04) @066fc9a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_VadidateDoChannelSetMode/11 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_03/34 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_03) @066fc7e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_VadidateDoChannelSetMode/11 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_03/33 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_03) @066fc700
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_VadidateDoChannelSetMode/11 
+  Calls: 
+Gpt_GetTimeElapsed/32 (Gpt_GetTimeElapsed) @066fc620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelSetTriggerCondition/15 Wdg_VadidateDoChannelSetMode/11 
+  Calls: 
+Wdg_Ipw_StartTimer/31 (Wdg_Ipw_StartTimer) @066fc460
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_DoChannelSetMode/10 
+  Calls: 
+Wdg_Ipw_StopTimer/30 (Wdg_Ipw_StopTimer) @066fc380
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_DoChannelSetMode/10 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_01/29 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_01) @066fc0e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelStartGpt/12 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_01/28 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_01) @066fc000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelStartGpt/12 
+  Calls: 
+Gpt_StartTimer/27 (Gpt_StartTimer) @066f5ee0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_VadidateDoChannelSetMode/11 Wdg_ChannelStartGpt/12 
+  Calls: 
+Gpt_EnableNotification/26 (Gpt_EnableNotification) @066f5d20
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelStartGpt/12 
+  Calls: 
+Wdg_Ipw_Init/25 (Wdg_Ipw_Init) @066f5a80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_InitialHardware/8 
+  Calls: 
+Wdg_Ipw_SetMode/24 (Wdg_Ipw_SetMode) @066f59a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_DoChannelSetMode/10 Wdg_DoChannelSetMode/10 Wdg_DoChannelSetMode/10 Wdg_InitialHardware/8 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_02/23 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_02) @066f5700
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelInit/13 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_02/22 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_02) @066f5540
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelInit/13 
+  Calls: 
+Wdg_au16CfgInitialTimeout/21 (Wdg_au16CfgInitialTimeout) @066f7048
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: Wdg_ChannelInit/13 (read)Wdg_ChannelStartGpt/12 (read)
+  Availability: not-ready
+  Varpool flags: read-only
+Wdg_Ipw_Service/20 (Wdg_Ipw_Service) @066f52a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelTrigger/4 
+  Calls: 
+Gpt_StopTimer/19 (Gpt_StopTimer) @066f50e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelSetTriggerCondition/15 Wdg_VadidateDoChannelSetMode/11 Wdg_ChannelStartGpt/12 Wdg_ChannelTrigger/4 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00/18 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00) @066f5000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelTrigger/4 Wdg_ChannelTrigger/4 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_00/17 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_00) @066e7b60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelTrigger/4 
+  Calls: 
+Wdg_ChannelGetVersionInfo/16 (Wdg_ChannelGetVersionInfo) @066e7d20
+  Type: function definition analyzed
+  Visibility: public
+  Aux: @01733ea0
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: 
+Wdg_ChannelSetTriggerCondition/15 (Wdg_ChannelSetTriggerCondition) @066e7a80
+  Type: function definition analyzed
+  Visibility: public
+  Aux: @066e7d20
+  References: Wdg_apConfigPtr/0 (read)Wdg_au32Timeout/1 (read)Wdg_au32Timeout/1 (write)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_au32Timeout/1 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05/38 Gpt_StopTimer/19 SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05/38 SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_05/37 Gpt_GetTimeElapsed/32 
+Wdg_ChannelSetMode/14 (Wdg_ChannelSetMode) @066e77e0
+  Type: function definition analyzed
+  Visibility: public
+  Aux: @066e7a80
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdg_VadidateDoChannelSetMode/11 Wdg_DoChannelSetMode/10 Wdg_ChannelValidateMode/7 
+Wdg_ChannelInit/13 (Wdg_ChannelInit) @066e7540
+  Type: function definition analyzed
+  Visibility: public
+  Aux: @066e77e0
+  References: Wdg_apConfigPtr/0 (write)Wdg_aePreviousMode/3 (read)Wdg_au16CfgInitialTimeout/21 (read)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_aePreviousMode/3 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_02/23 SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_02/22 Wdg_ChannelStartGpt/12 Wdg_VadidateHardwareSetting/9 Wdg_InitialHardware/8 Wdg_ChannelValidateMode/7 
+Wdg_ChannelStartGpt/12 (Wdg_ChannelStartGpt) @066e72a0
+  Type: function definition analyzed
+  Visibility:
+  Aux: @066e77e0
+  References: Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_au32GptPeriod/2 (write)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_au32GptPeriod/2 (read)Wdg_au16CfgInitialTimeout/21 (read)Wdg_apConfigPtr/0 (read)Wdg_au32Timeout/1 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdg_ChannelInit/13 
+  Calls: SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_01/29 SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_01/28 Gpt_StartTimer/27 Gpt_EnableNotification/26 Gpt_StopTimer/19 
+Wdg_VadidateDoChannelSetMode/11 (Wdg_VadidateDoChannelSetMode) @066e7000
+  Type: function definition analyzed
+  Visibility:
+  Aux: @066e7a80
+  References: Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_au32Timeout/1 (read)Wdg_au32Timeout/1 (read)Wdg_au32Timeout/1 (write)Wdg_apConfigPtr/0 (read)Wdg_au32GptPeriod/2 (write)Wdg_apConfigPtr/0 (read)Wdg_au32GptPeriod/2 (read)Wdg_aePreviousMode/3 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdg_ChannelSetMode/14 
+  Calls: SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_04/36 SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_04/35 Gpt_StartTimer/27 SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_03/34 SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_03/33 Gpt_GetTimeElapsed/32 Gpt_StopTimer/19 
+Wdg_DoChannelSetMode/10 (Wdg_DoChannelSetMode) @066e00e0
+  Type: function definition analyzed
+  Visibility:
+  Aux: @066e7000
+  References: Wdg_apConfigPtr/0 (read)Wdg_aePreviousMode/3 (read)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdg_ChannelSetMode/14 
+  Calls: Wdg_Ipw_SetMode/24 Wdg_Ipw_StartTimer/31 Wdg_Ipw_SetMode/24 Wdg_Ipw_SetMode/24 Wdg_Ipw_StopTimer/30 
+Wdg_VadidateHardwareSetting/9 (Wdg_VadidateHardwareSetting) @066e0d20
+  Type: function definition analyzed
+  Visibility:
+  Aux: @066e72a0
+  References: Wdg_apConfigPtr/0 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdg_ChannelInit/13 
+  Calls: 
+Wdg_InitialHardware/8 (Wdg_InitialHardware) @066e0a80
+  Type: function definition analyzed
+  Visibility:
+  Aux: @066e0d20
+  References: Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdg_ChannelInit/13 
+  Calls: Wdg_Ipw_Init/25 Wdg_Ipw_SetMode/24 
+Wdg_ChannelValidateMode/7 (Wdg_ChannelValidateMode) @066e07e0
+  Type: function definition analyzed
+  Visibility:
+  Aux: @066e0a80
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdg_ChannelSetMode/14 Wdg_ChannelInit/13 
+  Calls: 
+Wdg_Cbk_GptNotification1/6 (Wdg_Cbk_GptNotification1) @066e0540
+  Type: function definition analyzed
+  Visibility: public
+  Aux: @066e7540
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdg_ChannelTrigger/4 
+Wdg_Cbk_GptNotification0/5 (Wdg_Cbk_GptNotification0) @066e02a0
+  Type: function definition analyzed
+  Visibility: public
+  Aux: @066e0540
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdg_ChannelTrigger/4 
+Wdg_ChannelTrigger/4 (Wdg_ChannelTrigger) @066e0000
+  Type: function definition analyzed
+  Visibility:
+  Aux: @066e0540
+  References: Wdg_au32Timeout/1 (read)Wdg_au32GptPeriod/2 (read)Wdg_apConfigPtr/0 (read)Wdg_au32Timeout/1 (read)Wdg_au32GptPeriod/2 (read)Wdg_au32Timeout/1 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdg_Cbk_GptNotification1/6 Wdg_Cbk_GptNotification0/5 
+  Calls: Wdg_Ipw_Service/20 SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00/18 Gpt_StopTimer/19 SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00/18 SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_00/17 
+Wdg_aePreviousMode/3 (Wdg_aePreviousMode) @065f0318
+  Type: variable definition analyzed
+  Visibility:
+  Aux: @066e07e0
+  References: 
+  Referring: Wdg_ChannelInit/13 (read)Wdg_ChannelInit/13 (write)Wdg_DoChannelSetMode/10 (read)Wdg_VadidateDoChannelSetMode/11 (write)
+  Availability: not-ready
+  Varpool flags: initialized
+Wdg_au32GptPeriod/2 (Wdg_au32GptPeriod) @065f0288
+  Type: variable definition analyzed
+  Visibility:
+  Aux: @065f01f8
+  References: 
+  Referring: Wdg_ChannelTrigger/4 (read)Wdg_ChannelTrigger/4 (read)Wdg_ChannelStartGpt/12 (write)Wdg_ChannelStartGpt/12 (read)Wdg_VadidateDoChannelSetMode/11 (write)Wdg_VadidateDoChannelSetMode/11 (read)
+  Availability: not-ready
+  Varpool flags:
+Wdg_au32Timeout/1 (Wdg_au32Timeout) @065f01f8
+  Type: variable definition analyzed
+  Visibility:
+  Aux: @066e0540
+  References: 
+  Referring: Wdg_ChannelTrigger/4 (read)Wdg_ChannelTrigger/4 (read)Wdg_ChannelTrigger/4 (write)Wdg_ChannelStartGpt/12 (write)Wdg_VadidateDoChannelSetMode/11 (read)Wdg_VadidateDoChannelSetMode/11 (read)Wdg_VadidateDoChannelSetMode/11 (write)Wdg_ChannelSetTriggerCondition/15 (read)Wdg_ChannelSetTriggerCondition/15 (write)Wdg_ChannelSetTriggerCondition/15 (write)
+  Availability: not-ready
+  Varpool flags:
+Wdg_apConfigPtr/0 (Wdg_apConfigPtr) @065f0120
+  Type: variable definition analyzed
+  Visibility:
+  Aux: @065f0288
+  References: 
+  Referring: Wdg_ChannelTrigger/4 (read)Wdg_ChannelInit/13 (write)Wdg_ChannelInit/13 (read)Wdg_ChannelInit/13 (read)Wdg_InitialHardware/8 (read)Wdg_InitialHardware/8 (read)Wdg_InitialHardware/8 (read)Wdg_InitialHardware/8 (read)Wdg_InitialHardware/8 (read)Wdg_VadidateHardwareSetting/9 (write)Wdg_ChannelStartGpt/12 (read)Wdg_ChannelStartGpt/12 (read)Wdg_ChannelStartGpt/12 (read)Wdg_ChannelStartGpt/12 (read)Wdg_ChannelStartGpt/12 (read)Wdg_ChannelStartGpt/12 (read)Wdg_ChannelStartGpt/12 (read)Wdg_DoChannelSetMode/10 (read)Wdg_DoChannelSetMode/10 (read)Wdg_DoChannelSetMode/10 (read)Wdg_VadidateDoChannelSetMode/11 (read)Wdg_VadidateDoChannelSetMode/11 (read)Wdg_VadidateDoChannelSetMode/11 (read)Wdg_VadidateDoChannelSetMode/11 (read)Wdg_ChannelSetTriggerCondition/15 (read)Wdg_ChannelSetTriggerCondition/15 (read)Wdg_ChannelSetTriggerCondition/15 (read)
+  Availability: not-ready
+  Varpool flags:
+
+Removing unused symbols:
+
+Reclaimed Symbol table:
+
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05/38 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05) @066fcd20
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelSetTriggerCondition/15 Wdg_ChannelSetTriggerCondition/15 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_05/37 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_05) @066fcc40
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelSetTriggerCondition/15 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_04/36 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_04) @066fca80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_VadidateDoChannelSetMode/11 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_04/35 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_04) @066fc9a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_VadidateDoChannelSetMode/11 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_03/34 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_03) @066fc7e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_VadidateDoChannelSetMode/11 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_03/33 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_03) @066fc700
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_VadidateDoChannelSetMode/11 
+  Calls: 
+Gpt_GetTimeElapsed/32 (Gpt_GetTimeElapsed) @066fc620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelSetTriggerCondition/15 Wdg_VadidateDoChannelSetMode/11 
+  Calls: 
+Wdg_Ipw_StartTimer/31 (Wdg_Ipw_StartTimer) @066fc460
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_DoChannelSetMode/10 
+  Calls: 
+Wdg_Ipw_StopTimer/30 (Wdg_Ipw_StopTimer) @066fc380
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_DoChannelSetMode/10 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_01/29 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_01) @066fc0e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelStartGpt/12 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_01/28 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_01) @066fc000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelStartGpt/12 
+  Calls: 
+Gpt_StartTimer/27 (Gpt_StartTimer) @066f5ee0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_VadidateDoChannelSetMode/11 Wdg_ChannelStartGpt/12 
+  Calls: 
+Gpt_EnableNotification/26 (Gpt_EnableNotification) @066f5d20
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelStartGpt/12 
+  Calls: 
+Wdg_Ipw_Init/25 (Wdg_Ipw_Init) @066f5a80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_InitialHardware/8 
+  Calls: 
+Wdg_Ipw_SetMode/24 (Wdg_Ipw_SetMode) @066f59a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_DoChannelSetMode/10 Wdg_DoChannelSetMode/10 Wdg_DoChannelSetMode/10 Wdg_InitialHardware/8 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_02/23 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_02) @066f5700
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelInit/13 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_02/22 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_02) @066f5540
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelInit/13 
+  Calls: 
+Wdg_au16CfgInitialTimeout/21 (Wdg_au16CfgInitialTimeout) @066f7048
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: Wdg_ChannelInit/13 (read)Wdg_ChannelStartGpt/12 (read)
+  Availability: not-ready
+  Varpool flags: read-only
+Wdg_Ipw_Service/20 (Wdg_Ipw_Service) @066f52a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelTrigger/4 
+  Calls: 
+Gpt_StopTimer/19 (Gpt_StopTimer) @066f50e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelSetTriggerCondition/15 Wdg_VadidateDoChannelSetMode/11 Wdg_ChannelStartGpt/12 Wdg_ChannelTrigger/4 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00/18 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00) @066f5000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelTrigger/4 Wdg_ChannelTrigger/4 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_00/17 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_00) @066e7b60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelTrigger/4 
+  Calls: 
+Wdg_ChannelGetVersionInfo/16 (Wdg_ChannelGetVersionInfo) @066e7d20
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: 
+Wdg_ChannelSetTriggerCondition/15 (Wdg_ChannelSetTriggerCondition) @066e7a80
+  Type: function definition analyzed
+  Visibility: public
+  References: Wdg_apConfigPtr/0 (read)Wdg_au32Timeout/1 (read)Wdg_au32Timeout/1 (write)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_au32Timeout/1 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05/38 Gpt_StopTimer/19 SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05/38 SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_05/37 Gpt_GetTimeElapsed/32 
+Wdg_ChannelSetMode/14 (Wdg_ChannelSetMode) @066e77e0
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdg_VadidateDoChannelSetMode/11 Wdg_DoChannelSetMode/10 Wdg_ChannelValidateMode/7 
+Wdg_ChannelInit/13 (Wdg_ChannelInit) @066e7540
+  Type: function definition analyzed
+  Visibility: public
+  References: Wdg_apConfigPtr/0 (write)Wdg_aePreviousMode/3 (read)Wdg_au16CfgInitialTimeout/21 (read)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_aePreviousMode/3 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_02/23 SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_02/22 Wdg_ChannelStartGpt/12 Wdg_VadidateHardwareSetting/9 Wdg_InitialHardware/8 Wdg_ChannelValidateMode/7 
+Wdg_ChannelStartGpt/12 (Wdg_ChannelStartGpt) @066e72a0
+  Type: function definition analyzed
+  Visibility:
+  References: Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_au32GptPeriod/2 (write)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_au32GptPeriod/2 (read)Wdg_au16CfgInitialTimeout/21 (read)Wdg_apConfigPtr/0 (read)Wdg_au32Timeout/1 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdg_ChannelInit/13 
+  Calls: SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_01/29 SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_01/28 Gpt_StartTimer/27 Gpt_EnableNotification/26 Gpt_StopTimer/19 
+Wdg_VadidateDoChannelSetMode/11 (Wdg_VadidateDoChannelSetMode) @066e7000
+  Type: function definition analyzed
+  Visibility:
+  References: Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_au32Timeout/1 (read)Wdg_au32Timeout/1 (read)Wdg_au32Timeout/1 (write)Wdg_apConfigPtr/0 (read)Wdg_au32GptPeriod/2 (write)Wdg_apConfigPtr/0 (read)Wdg_au32GptPeriod/2 (read)Wdg_aePreviousMode/3 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdg_ChannelSetMode/14 
+  Calls: SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_04/36 SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_04/35 Gpt_StartTimer/27 SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_03/34 SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_03/33 Gpt_GetTimeElapsed/32 Gpt_StopTimer/19 
+Wdg_DoChannelSetMode/10 (Wdg_DoChannelSetMode) @066e00e0
+  Type: function definition analyzed
+  Visibility:
+  References: Wdg_apConfigPtr/0 (read)Wdg_aePreviousMode/3 (read)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdg_ChannelSetMode/14 
+  Calls: Wdg_Ipw_SetMode/24 Wdg_Ipw_StartTimer/31 Wdg_Ipw_SetMode/24 Wdg_Ipw_SetMode/24 Wdg_Ipw_StopTimer/30 
+Wdg_VadidateHardwareSetting/9 (Wdg_VadidateHardwareSetting) @066e0d20
+  Type: function definition analyzed
+  Visibility:
+  References: Wdg_apConfigPtr/0 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdg_ChannelInit/13 
+  Calls: 
+Wdg_InitialHardware/8 (Wdg_InitialHardware) @066e0a80
+  Type: function definition analyzed
+  Visibility:
+  References: Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdg_ChannelInit/13 
+  Calls: Wdg_Ipw_Init/25 Wdg_Ipw_SetMode/24 
+Wdg_ChannelValidateMode/7 (Wdg_ChannelValidateMode) @066e07e0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdg_ChannelSetMode/14 Wdg_ChannelInit/13 
+  Calls: 
+Wdg_Cbk_GptNotification1/6 (Wdg_Cbk_GptNotification1) @066e0540
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdg_ChannelTrigger/4 
+Wdg_Cbk_GptNotification0/5 (Wdg_Cbk_GptNotification0) @066e02a0
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdg_ChannelTrigger/4 
+Wdg_ChannelTrigger/4 (Wdg_ChannelTrigger) @066e0000
+  Type: function definition analyzed
+  Visibility:
+  References: Wdg_au32Timeout/1 (read)Wdg_au32GptPeriod/2 (read)Wdg_apConfigPtr/0 (read)Wdg_au32Timeout/1 (read)Wdg_au32GptPeriod/2 (read)Wdg_au32Timeout/1 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdg_Cbk_GptNotification1/6 Wdg_Cbk_GptNotification0/5 
+  Calls: Wdg_Ipw_Service/20 SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00/18 Gpt_StopTimer/19 SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00/18 SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_00/17 
+Wdg_aePreviousMode/3 (Wdg_aePreviousMode) @065f0318
+  Type: variable definition analyzed
+  Visibility:
+  References: 
+  Referring: Wdg_ChannelInit/13 (read)Wdg_ChannelInit/13 (write)Wdg_DoChannelSetMode/10 (read)Wdg_VadidateDoChannelSetMode/11 (write)
+  Availability: not-ready
+  Varpool flags: initialized
+Wdg_au32GptPeriod/2 (Wdg_au32GptPeriod) @065f0288
+  Type: variable definition analyzed
+  Visibility:
+  References: 
+  Referring: Wdg_ChannelTrigger/4 (read)Wdg_ChannelTrigger/4 (read)Wdg_ChannelStartGpt/12 (write)Wdg_ChannelStartGpt/12 (read)Wdg_VadidateDoChannelSetMode/11 (write)Wdg_VadidateDoChannelSetMode/11 (read)
+  Availability: not-ready
+  Varpool flags:
+Wdg_au32Timeout/1 (Wdg_au32Timeout) @065f01f8
+  Type: variable definition analyzed
+  Visibility:
+  References: 
+  Referring: Wdg_ChannelTrigger/4 (read)Wdg_ChannelTrigger/4 (read)Wdg_ChannelTrigger/4 (write)Wdg_ChannelStartGpt/12 (write)Wdg_VadidateDoChannelSetMode/11 (read)Wdg_VadidateDoChannelSetMode/11 (read)Wdg_VadidateDoChannelSetMode/11 (write)Wdg_ChannelSetTriggerCondition/15 (read)Wdg_ChannelSetTriggerCondition/15 (write)Wdg_ChannelSetTriggerCondition/15 (write)
+  Availability: not-ready
+  Varpool flags:
+Wdg_apConfigPtr/0 (Wdg_apConfigPtr) @065f0120
+  Type: variable definition analyzed
+  Visibility:
+  References: 
+  Referring: Wdg_ChannelTrigger/4 (read)Wdg_ChannelInit/13 (write)Wdg_ChannelInit/13 (read)Wdg_ChannelInit/13 (read)Wdg_InitialHardware/8 (read)Wdg_InitialHardware/8 (read)Wdg_InitialHardware/8 (read)Wdg_InitialHardware/8 (read)Wdg_InitialHardware/8 (read)Wdg_VadidateHardwareSetting/9 (write)Wdg_ChannelStartGpt/12 (read)Wdg_ChannelStartGpt/12 (read)Wdg_ChannelStartGpt/12 (read)Wdg_ChannelStartGpt/12 (read)Wdg_ChannelStartGpt/12 (read)Wdg_ChannelStartGpt/12 (read)Wdg_ChannelStartGpt/12 (read)Wdg_DoChannelSetMode/10 (read)Wdg_DoChannelSetMode/10 (read)Wdg_DoChannelSetMode/10 (read)Wdg_VadidateDoChannelSetMode/11 (read)Wdg_VadidateDoChannelSetMode/11 (read)Wdg_VadidateDoChannelSetMode/11 (read)Wdg_VadidateDoChannelSetMode/11 (read)Wdg_ChannelSetTriggerCondition/15 (read)Wdg_ChannelSetTriggerCondition/15 (read)Wdg_ChannelSetTriggerCondition/15 (read)
+  Availability: not-ready
+  Varpool flags:
+
+
+Initial Symbol table:
+
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05/38 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05) @066fcd20
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelSetTriggerCondition/15 Wdg_ChannelSetTriggerCondition/15 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_05/37 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_05) @066fcc40
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelSetTriggerCondition/15 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_04/36 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_04) @066fca80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_VadidateDoChannelSetMode/11 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_04/35 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_04) @066fc9a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_VadidateDoChannelSetMode/11 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_03/34 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_03) @066fc7e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_VadidateDoChannelSetMode/11 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_03/33 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_03) @066fc700
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_VadidateDoChannelSetMode/11 
+  Calls: 
+Gpt_GetTimeElapsed/32 (Gpt_GetTimeElapsed) @066fc620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelSetTriggerCondition/15 Wdg_VadidateDoChannelSetMode/11 
+  Calls: 
+Wdg_Ipw_StartTimer/31 (Wdg_Ipw_StartTimer) @066fc460
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_DoChannelSetMode/10 
+  Calls: 
+Wdg_Ipw_StopTimer/30 (Wdg_Ipw_StopTimer) @066fc380
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_DoChannelSetMode/10 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_01/29 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_01) @066fc0e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelStartGpt/12 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_01/28 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_01) @066fc000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelStartGpt/12 
+  Calls: 
+Gpt_StartTimer/27 (Gpt_StartTimer) @066f5ee0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_VadidateDoChannelSetMode/11 Wdg_ChannelStartGpt/12 
+  Calls: 
+Gpt_EnableNotification/26 (Gpt_EnableNotification) @066f5d20
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelStartGpt/12 
+  Calls: 
+Wdg_Ipw_Init/25 (Wdg_Ipw_Init) @066f5a80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_InitialHardware/8 
+  Calls: 
+Wdg_Ipw_SetMode/24 (Wdg_Ipw_SetMode) @066f59a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_DoChannelSetMode/10 Wdg_DoChannelSetMode/10 Wdg_DoChannelSetMode/10 Wdg_InitialHardware/8 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_02/23 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_02) @066f5700
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelInit/13 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_02/22 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_02) @066f5540
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelInit/13 
+  Calls: 
+Wdg_au16CfgInitialTimeout/21 (Wdg_au16CfgInitialTimeout) @066f7048
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: Wdg_ChannelInit/13 (read)Wdg_ChannelStartGpt/12 (read)
+  Availability: not-ready
+  Varpool flags: read-only
+Wdg_Ipw_Service/20 (Wdg_Ipw_Service) @066f52a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelTrigger/4 
+  Calls: 
+Gpt_StopTimer/19 (Gpt_StopTimer) @066f50e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelSetTriggerCondition/15 Wdg_VadidateDoChannelSetMode/11 Wdg_ChannelStartGpt/12 Wdg_ChannelTrigger/4 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00/18 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00) @066f5000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelTrigger/4 Wdg_ChannelTrigger/4 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_00/17 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_00) @066e7b60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelTrigger/4 
+  Calls: 
+Wdg_ChannelGetVersionInfo/16 (Wdg_ChannelGetVersionInfo) @066e7d20
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: 
+Wdg_ChannelSetTriggerCondition/15 (Wdg_ChannelSetTriggerCondition) @066e7a80
+  Type: function definition analyzed
+  Visibility: public
+  References: Wdg_apConfigPtr/0 (read)Wdg_au32Timeout/1 (read)Wdg_au32Timeout/1 (write)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_au32Timeout/1 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05/38 Gpt_StopTimer/19 SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05/38 SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_05/37 Gpt_GetTimeElapsed/32 
+Wdg_ChannelSetMode/14 (Wdg_ChannelSetMode) @066e77e0
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdg_VadidateDoChannelSetMode/11 Wdg_DoChannelSetMode/10 Wdg_ChannelValidateMode/7 
+Wdg_ChannelInit/13 (Wdg_ChannelInit) @066e7540
+  Type: function definition analyzed
+  Visibility: public
+  References: Wdg_apConfigPtr/0 (write)Wdg_aePreviousMode/3 (read)Wdg_au16CfgInitialTimeout/21 (read)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_aePreviousMode/3 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_02/23 SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_02/22 Wdg_ChannelStartGpt/12 Wdg_VadidateHardwareSetting/9 Wdg_InitialHardware/8 Wdg_ChannelValidateMode/7 
+Wdg_ChannelStartGpt/12 (Wdg_ChannelStartGpt) @066e72a0
+  Type: function definition analyzed
+  Visibility:
+  References: Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_au32GptPeriod/2 (write)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_au32GptPeriod/2 (read)Wdg_au16CfgInitialTimeout/21 (read)Wdg_apConfigPtr/0 (read)Wdg_au32Timeout/1 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdg_ChannelInit/13 
+  Calls: SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_01/29 SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_01/28 Gpt_StartTimer/27 Gpt_EnableNotification/26 Gpt_StopTimer/19 
+Wdg_VadidateDoChannelSetMode/11 (Wdg_VadidateDoChannelSetMode) @066e7000
+  Type: function definition analyzed
+  Visibility:
+  References: Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_au32Timeout/1 (read)Wdg_au32Timeout/1 (read)Wdg_au32Timeout/1 (write)Wdg_apConfigPtr/0 (read)Wdg_au32GptPeriod/2 (write)Wdg_apConfigPtr/0 (read)Wdg_au32GptPeriod/2 (read)Wdg_aePreviousMode/3 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdg_ChannelSetMode/14 
+  Calls: SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_04/36 SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_04/35 Gpt_StartTimer/27 SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_03/34 SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_03/33 Gpt_GetTimeElapsed/32 Gpt_StopTimer/19 
+Wdg_DoChannelSetMode/10 (Wdg_DoChannelSetMode) @066e00e0
+  Type: function definition analyzed
+  Visibility:
+  References: Wdg_apConfigPtr/0 (read)Wdg_aePreviousMode/3 (read)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdg_ChannelSetMode/14 
+  Calls: Wdg_Ipw_SetMode/24 Wdg_Ipw_StartTimer/31 Wdg_Ipw_SetMode/24 Wdg_Ipw_SetMode/24 Wdg_Ipw_StopTimer/30 
+Wdg_VadidateHardwareSetting/9 (Wdg_VadidateHardwareSetting) @066e0d20
+  Type: function definition analyzed
+  Visibility:
+  References: Wdg_apConfigPtr/0 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdg_ChannelInit/13 
+  Calls: 
+Wdg_InitialHardware/8 (Wdg_InitialHardware) @066e0a80
+  Type: function definition analyzed
+  Visibility:
+  References: Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdg_ChannelInit/13 
+  Calls: Wdg_Ipw_Init/25 Wdg_Ipw_SetMode/24 
+Wdg_ChannelValidateMode/7 (Wdg_ChannelValidateMode) @066e07e0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdg_ChannelSetMode/14 Wdg_ChannelInit/13 
+  Calls: 
+Wdg_Cbk_GptNotification1/6 (Wdg_Cbk_GptNotification1) @066e0540
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdg_ChannelTrigger/4 
+Wdg_Cbk_GptNotification0/5 (Wdg_Cbk_GptNotification0) @066e02a0
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdg_ChannelTrigger/4 
+Wdg_ChannelTrigger/4 (Wdg_ChannelTrigger) @066e0000
+  Type: function definition analyzed
+  Visibility:
+  References: Wdg_au32Timeout/1 (read)Wdg_au32GptPeriod/2 (read)Wdg_apConfigPtr/0 (read)Wdg_au32Timeout/1 (read)Wdg_au32GptPeriod/2 (read)Wdg_au32Timeout/1 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdg_Cbk_GptNotification1/6 Wdg_Cbk_GptNotification0/5 
+  Calls: Wdg_Ipw_Service/20 SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00/18 Gpt_StopTimer/19 SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00/18 SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_00/17 
+Wdg_aePreviousMode/3 (Wdg_aePreviousMode) @065f0318
+  Type: variable definition analyzed
+  Visibility:
+  References: 
+  Referring: Wdg_ChannelInit/13 (read)Wdg_ChannelInit/13 (write)Wdg_DoChannelSetMode/10 (read)Wdg_VadidateDoChannelSetMode/11 (write)
+  Availability: not-ready
+  Varpool flags: initialized
+Wdg_au32GptPeriod/2 (Wdg_au32GptPeriod) @065f0288
+  Type: variable definition analyzed
+  Visibility:
+  References: 
+  Referring: Wdg_ChannelTrigger/4 (read)Wdg_ChannelTrigger/4 (read)Wdg_ChannelStartGpt/12 (write)Wdg_ChannelStartGpt/12 (read)Wdg_VadidateDoChannelSetMode/11 (write)Wdg_VadidateDoChannelSetMode/11 (read)
+  Availability: not-ready
+  Varpool flags:
+Wdg_au32Timeout/1 (Wdg_au32Timeout) @065f01f8
+  Type: variable definition analyzed
+  Visibility:
+  References: 
+  Referring: Wdg_ChannelTrigger/4 (read)Wdg_ChannelTrigger/4 (read)Wdg_ChannelTrigger/4 (write)Wdg_ChannelStartGpt/12 (write)Wdg_VadidateDoChannelSetMode/11 (read)Wdg_VadidateDoChannelSetMode/11 (read)Wdg_VadidateDoChannelSetMode/11 (write)Wdg_ChannelSetTriggerCondition/15 (read)Wdg_ChannelSetTriggerCondition/15 (write)Wdg_ChannelSetTriggerCondition/15 (write)
+  Availability: not-ready
+  Varpool flags:
+Wdg_apConfigPtr/0 (Wdg_apConfigPtr) @065f0120
+  Type: variable definition analyzed
+  Visibility:
+  References: 
+  Referring: Wdg_ChannelTrigger/4 (read)Wdg_ChannelInit/13 (write)Wdg_ChannelInit/13 (read)Wdg_ChannelInit/13 (read)Wdg_InitialHardware/8 (read)Wdg_InitialHardware/8 (read)Wdg_InitialHardware/8 (read)Wdg_InitialHardware/8 (read)Wdg_InitialHardware/8 (read)Wdg_VadidateHardwareSetting/9 (write)Wdg_ChannelStartGpt/12 (read)Wdg_ChannelStartGpt/12 (read)Wdg_ChannelStartGpt/12 (read)Wdg_ChannelStartGpt/12 (read)Wdg_ChannelStartGpt/12 (read)Wdg_ChannelStartGpt/12 (read)Wdg_ChannelStartGpt/12 (read)Wdg_DoChannelSetMode/10 (read)Wdg_DoChannelSetMode/10 (read)Wdg_DoChannelSetMode/10 (read)Wdg_VadidateDoChannelSetMode/11 (read)Wdg_VadidateDoChannelSetMode/11 (read)Wdg_VadidateDoChannelSetMode/11 (read)Wdg_VadidateDoChannelSetMode/11 (read)Wdg_ChannelSetTriggerCondition/15 (read)Wdg_ChannelSetTriggerCondition/15 (read)Wdg_ChannelSetTriggerCondition/15 (read)
+  Availability: not-ready
+  Varpool flags:
+
+Removing unused symbols:
+
+Reclaimed Symbol table:
+
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05/38 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05) @066fcd20
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelSetTriggerCondition/15 Wdg_ChannelSetTriggerCondition/15 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_05/37 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_05) @066fcc40
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelSetTriggerCondition/15 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_04/36 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_04) @066fca80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_VadidateDoChannelSetMode/11 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_04/35 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_04) @066fc9a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_VadidateDoChannelSetMode/11 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_03/34 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_03) @066fc7e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_VadidateDoChannelSetMode/11 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_03/33 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_03) @066fc700
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_VadidateDoChannelSetMode/11 
+  Calls: 
+Gpt_GetTimeElapsed/32 (Gpt_GetTimeElapsed) @066fc620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelSetTriggerCondition/15 Wdg_VadidateDoChannelSetMode/11 
+  Calls: 
+Wdg_Ipw_StartTimer/31 (Wdg_Ipw_StartTimer) @066fc460
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_DoChannelSetMode/10 
+  Calls: 
+Wdg_Ipw_StopTimer/30 (Wdg_Ipw_StopTimer) @066fc380
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_DoChannelSetMode/10 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_01/29 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_01) @066fc0e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelStartGpt/12 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_01/28 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_01) @066fc000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelStartGpt/12 
+  Calls: 
+Gpt_StartTimer/27 (Gpt_StartTimer) @066f5ee0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_VadidateDoChannelSetMode/11 Wdg_ChannelStartGpt/12 
+  Calls: 
+Gpt_EnableNotification/26 (Gpt_EnableNotification) @066f5d20
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelStartGpt/12 
+  Calls: 
+Wdg_Ipw_Init/25 (Wdg_Ipw_Init) @066f5a80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_InitialHardware/8 
+  Calls: 
+Wdg_Ipw_SetMode/24 (Wdg_Ipw_SetMode) @066f59a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_DoChannelSetMode/10 Wdg_DoChannelSetMode/10 Wdg_DoChannelSetMode/10 Wdg_InitialHardware/8 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_02/23 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_02) @066f5700
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelInit/13 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_02/22 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_02) @066f5540
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelInit/13 
+  Calls: 
+Wdg_au16CfgInitialTimeout/21 (Wdg_au16CfgInitialTimeout) @066f7048
+  Type: variable
+  Visibility: external public
+  References: 
+  Referring: Wdg_ChannelInit/13 (read)Wdg_ChannelStartGpt/12 (read)
+  Availability: not-ready
+  Varpool flags: read-only
+Wdg_Ipw_Service/20 (Wdg_Ipw_Service) @066f52a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelTrigger/4 
+  Calls: 
+Gpt_StopTimer/19 (Gpt_StopTimer) @066f50e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelSetTriggerCondition/15 Wdg_VadidateDoChannelSetMode/11 Wdg_ChannelStartGpt/12 Wdg_ChannelTrigger/4 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00/18 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00) @066f5000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelTrigger/4 Wdg_ChannelTrigger/4 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_00/17 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_00) @066e7b60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdg_ChannelTrigger/4 
+  Calls: 
+Wdg_ChannelGetVersionInfo/16 (Wdg_ChannelGetVersionInfo) @066e7d20
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: 
+Wdg_ChannelSetTriggerCondition/15 (Wdg_ChannelSetTriggerCondition) @066e7a80
+  Type: function definition analyzed
+  Visibility: public
+  References: Wdg_apConfigPtr/0 (read)Wdg_au32Timeout/1 (read)Wdg_au32Timeout/1 (write)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_au32Timeout/1 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05/38 Gpt_StopTimer/19 SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05/38 SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_05/37 Gpt_GetTimeElapsed/32 
+Wdg_ChannelSetMode/14 (Wdg_ChannelSetMode) @066e77e0
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdg_VadidateDoChannelSetMode/11 Wdg_DoChannelSetMode/10 Wdg_ChannelValidateMode/7 
+Wdg_ChannelInit/13 (Wdg_ChannelInit) @066e7540
+  Type: function definition analyzed
+  Visibility: public
+  References: Wdg_apConfigPtr/0 (write)Wdg_aePreviousMode/3 (read)Wdg_au16CfgInitialTimeout/21 (read)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_aePreviousMode/3 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_02/23 SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_02/22 Wdg_ChannelStartGpt/12 Wdg_VadidateHardwareSetting/9 Wdg_InitialHardware/8 Wdg_ChannelValidateMode/7 
+Wdg_ChannelStartGpt/12 (Wdg_ChannelStartGpt) @066e72a0
+  Type: function definition analyzed
+  Visibility:
+  References: Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_au32GptPeriod/2 (write)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_au32GptPeriod/2 (read)Wdg_au16CfgInitialTimeout/21 (read)Wdg_apConfigPtr/0 (read)Wdg_au32Timeout/1 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdg_ChannelInit/13 
+  Calls: SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_01/29 SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_01/28 Gpt_StartTimer/27 Gpt_EnableNotification/26 Gpt_StopTimer/19 
+Wdg_VadidateDoChannelSetMode/11 (Wdg_VadidateDoChannelSetMode) @066e7000
+  Type: function definition analyzed
+  Visibility:
+  References: Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_au32Timeout/1 (read)Wdg_au32Timeout/1 (read)Wdg_au32Timeout/1 (write)Wdg_apConfigPtr/0 (read)Wdg_au32GptPeriod/2 (write)Wdg_apConfigPtr/0 (read)Wdg_au32GptPeriod/2 (read)Wdg_aePreviousMode/3 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdg_ChannelSetMode/14 
+  Calls: SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_04/36 SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_04/35 Gpt_StartTimer/27 SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_03/34 SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_03/33 Gpt_GetTimeElapsed/32 Gpt_StopTimer/19 
+Wdg_DoChannelSetMode/10 (Wdg_DoChannelSetMode) @066e00e0
+  Type: function definition analyzed
+  Visibility:
+  References: Wdg_apConfigPtr/0 (read)Wdg_aePreviousMode/3 (read)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdg_ChannelSetMode/14 
+  Calls: Wdg_Ipw_SetMode/24 Wdg_Ipw_StartTimer/31 Wdg_Ipw_SetMode/24 Wdg_Ipw_SetMode/24 Wdg_Ipw_StopTimer/30 
+Wdg_VadidateHardwareSetting/9 (Wdg_VadidateHardwareSetting) @066e0d20
+  Type: function definition analyzed
+  Visibility:
+  References: Wdg_apConfigPtr/0 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdg_ChannelInit/13 
+  Calls: 
+Wdg_InitialHardware/8 (Wdg_InitialHardware) @066e0a80
+  Type: function definition analyzed
+  Visibility:
+  References: Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdg_ChannelInit/13 
+  Calls: Wdg_Ipw_Init/25 Wdg_Ipw_SetMode/24 
+Wdg_ChannelValidateMode/7 (Wdg_ChannelValidateMode) @066e07e0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdg_ChannelSetMode/14 Wdg_ChannelInit/13 
+  Calls: 
+Wdg_Cbk_GptNotification1/6 (Wdg_Cbk_GptNotification1) @066e0540
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdg_ChannelTrigger/4 
+Wdg_Cbk_GptNotification0/5 (Wdg_Cbk_GptNotification0) @066e02a0
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdg_ChannelTrigger/4 
+Wdg_ChannelTrigger/4 (Wdg_ChannelTrigger) @066e0000
+  Type: function definition analyzed
+  Visibility:
+  References: Wdg_au32Timeout/1 (read)Wdg_au32GptPeriod/2 (read)Wdg_apConfigPtr/0 (read)Wdg_au32Timeout/1 (read)Wdg_au32GptPeriod/2 (read)Wdg_au32Timeout/1 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdg_Cbk_GptNotification1/6 Wdg_Cbk_GptNotification0/5 
+  Calls: Wdg_Ipw_Service/20 SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00/18 Gpt_StopTimer/19 SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00/18 SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_00/17 
+Wdg_aePreviousMode/3 (Wdg_aePreviousMode) @065f0318
+  Type: variable definition analyzed
+  Visibility:
+  References: 
+  Referring: Wdg_ChannelInit/13 (read)Wdg_ChannelInit/13 (write)Wdg_DoChannelSetMode/10 (read)Wdg_VadidateDoChannelSetMode/11 (write)
+  Availability: not-ready
+  Varpool flags: initialized
+Wdg_au32GptPeriod/2 (Wdg_au32GptPeriod) @065f0288
+  Type: variable definition analyzed
+  Visibility:
+  References: 
+  Referring: Wdg_ChannelTrigger/4 (read)Wdg_ChannelTrigger/4 (read)Wdg_ChannelStartGpt/12 (write)Wdg_ChannelStartGpt/12 (read)Wdg_VadidateDoChannelSetMode/11 (write)Wdg_VadidateDoChannelSetMode/11 (read)
+  Availability: not-ready
+  Varpool flags:
+Wdg_au32Timeout/1 (Wdg_au32Timeout) @065f01f8
+  Type: variable definition analyzed
+  Visibility:
+  References: 
+  Referring: Wdg_ChannelTrigger/4 (read)Wdg_ChannelTrigger/4 (read)Wdg_ChannelTrigger/4 (write)Wdg_ChannelStartGpt/12 (write)Wdg_VadidateDoChannelSetMode/11 (read)Wdg_VadidateDoChannelSetMode/11 (read)Wdg_VadidateDoChannelSetMode/11 (write)Wdg_ChannelSetTriggerCondition/15 (read)Wdg_ChannelSetTriggerCondition/15 (write)Wdg_ChannelSetTriggerCondition/15 (write)
+  Availability: not-ready
+  Varpool flags:
+Wdg_apConfigPtr/0 (Wdg_apConfigPtr) @065f0120
+  Type: variable definition analyzed
+  Visibility:
+  References: 
+  Referring: Wdg_ChannelTrigger/4 (read)Wdg_ChannelInit/13 (write)Wdg_ChannelInit/13 (read)Wdg_ChannelInit/13 (read)Wdg_InitialHardware/8 (read)Wdg_InitialHardware/8 (read)Wdg_InitialHardware/8 (read)Wdg_InitialHardware/8 (read)Wdg_InitialHardware/8 (read)Wdg_VadidateHardwareSetting/9 (write)Wdg_ChannelStartGpt/12 (read)Wdg_ChannelStartGpt/12 (read)Wdg_ChannelStartGpt/12 (read)Wdg_ChannelStartGpt/12 (read)Wdg_ChannelStartGpt/12 (read)Wdg_ChannelStartGpt/12 (read)Wdg_ChannelStartGpt/12 (read)Wdg_DoChannelSetMode/10 (read)Wdg_DoChannelSetMode/10 (read)Wdg_DoChannelSetMode/10 (read)Wdg_VadidateDoChannelSetMode/11 (read)Wdg_VadidateDoChannelSetMode/11 (read)Wdg_VadidateDoChannelSetMode/11 (read)Wdg_VadidateDoChannelSetMode/11 (read)Wdg_ChannelSetTriggerCondition/15 (read)Wdg_ChannelSetTriggerCondition/15 (read)Wdg_ChannelSetTriggerCondition/15 (read)
+  Availability: not-ready
+  Varpool flags:
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Optimized Symbol table:
+
+Wdg_ChannelValidateMode.isra.0.part.0/43 (Wdg_ChannelValidateMode.isra.0.part.0) @066e0d20
+  Type: function definition analyzed
+  Visibility: artificial
+  next sharing asm name: 40
+  References: 
+  Referring: 
+  Function Wdg_ChannelValidateMode.isra.0.part.0/43 is inline copy in Wdg_ChannelSetMode/14
+  Clone of Wdg_ChannelValidateMode.isra.0.part.0/40
+  Availability: local
+  Function flags: count:536870912 (estimated locally) first_run:1 body local split_part nonfreeing_fn optimize_size
+  Called by: Wdg_ChannelValidateMode.isra.0/42 (inlined) (536870912 (estimated locally),0.50 per call) 
+  Calls: 
+Wdg_ChannelValidateMode.isra.0/42 (Wdg_ChannelValidateMode.isra.0) @066e07e0
+  Type: function definition analyzed
+  Visibility: artificial
+  next sharing asm name: 39
+  References: 
+  Referring: 
+  Function Wdg_ChannelValidateMode.isra.0/42 is inline copy in Wdg_ChannelSetMode/14
+  Clone of Wdg_ChannelValidateMode.isra.0/39
+  Availability: local
+  Function flags: count:1073741824 (estimated locally) body local nonfreeing_fn optimize_size
+  Called by: Wdg_ChannelSetMode/14 (inlined) (1073741824 (estimated locally),1.00 per call) 
+  Calls: Wdg_ChannelValidateMode.isra.0.part.0/43 (inlined) (536870912 (estimated locally),0.50 per call) 
+Wdg_ChannelTrigger.part.0/41 (Wdg_ChannelTrigger.part.0) @067e7620
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly artificial
+  References: Wdg_apConfigPtr/0 (read)
+  Referring: 
+  Function Wdg_ChannelTrigger.part.0/41 is inline copy in Wdg_ChannelTrigger/4
+  Availability: local
+  Function flags: count:536870912 (estimated locally) first_run:1 body local split_part optimize_size
+  Called by: Wdg_ChannelTrigger/4 (inlined) (536870912 (estimated locally),0.50 per call) 
+  Calls: SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00/18 (536870912 (estimated locally),0.50 per call) Gpt_StopTimer/19 (536870912 (estimated locally),0.50 per call) 
+Wdg_ChannelValidateMode.isra.0.part.0/40 (Wdg_ChannelValidateMode.isra.0.part.0) @067e7000
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly artificial
+  previous sharing asm name: 43
+  References: 
+  Referring: 
+  Function Wdg_ChannelValidateMode.isra.0.part.0/40 is inline copy in Wdg_ChannelInit/13
+  Availability: local
+  Function flags: count:134217728 (estimated locally) first_run:1 body local split_part nonfreeing_fn optimize_size
+  Called by: Wdg_ChannelValidateMode.isra.0/39 (inlined) (134217728 (estimated locally),0.12 per call) 
+  Calls: 
+Wdg_ChannelValidateMode.isra.0/39 (Wdg_ChannelValidateMode.isra.0) @067bac40
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly artificial
+  previous sharing asm name: 42
+  References: 
+  Referring: 
+  Function Wdg_ChannelValidateMode.isra.0/39 is inline copy in Wdg_ChannelInit/13
+  Availability: local
+  Function flags: count:268435456 (estimated locally) body local nonfreeing_fn optimize_size
+  Called by: Wdg_ChannelInit/13 (inlined) (268435456 (estimated locally),0.25 per call) 
+  Calls: Wdg_ChannelValidateMode.isra.0.part.0/40 (inlined) (134217728 (estimated locally),0.12 per call) 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05/38 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05) @066fcd20
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_ChannelSetTriggerCondition/15 (237404317 (estimated locally),0.22 per call) Wdg_ChannelSetTriggerCondition/15 (836337508 (estimated locally),0.78 per call) 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_05/37 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_05) @066fcc40
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_ChannelSetTriggerCondition/15 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_04/36 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_04) @066fca80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_VadidateDoChannelSetMode/11 (173198851 (estimated locally),0.16 per call) 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_04/35 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_04) @066fc9a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_VadidateDoChannelSetMode/11 (173198851 (estimated locally),0.16 per call) 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_03/34 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_03) @066fc7e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_VadidateDoChannelSetMode/11 (173198851 (estimated locally),0.16 per call) 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_03/33 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_03) @066fc700
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_VadidateDoChannelSetMode/11 (173198851 (estimated locally),0.16 per call) 
+  Calls: 
+Gpt_GetTimeElapsed/32 (Gpt_GetTimeElapsed) @066fc620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_ChannelSetTriggerCondition/15 (1073741824 (estimated locally),1.00 per call) Wdg_VadidateDoChannelSetMode/11 (173198851 (estimated locally),0.16 per call) 
+  Calls: 
+Wdg_Ipw_StartTimer/31 (Wdg_Ipw_StartTimer) @066fc460
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_DoChannelSetMode/10 (39171712 (estimated locally),0.04 per call) 
+  Calls: 
+Wdg_Ipw_StopTimer/30 (Wdg_Ipw_StopTimer) @066fc380
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_DoChannelSetMode/10 (116930485 (estimated locally),0.11 per call) 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_01/29 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_01) @066fc0e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_ChannelStartGpt/12 (354334802 (estimated locally),0.33 per call) 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_01/28 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_01) @066fc000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_ChannelStartGpt/12 (354334802 (estimated locally),0.33 per call) 
+  Calls: 
+Gpt_StartTimer/27 (Gpt_StartTimer) @066f5ee0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_VadidateDoChannelSetMode/11 (57155621 (estimated locally),0.05 per call) Wdg_ChannelStartGpt/12 (116930485 (estimated locally),0.11 per call) 
+  Calls: 
+Gpt_EnableNotification/26 (Gpt_EnableNotification) @066f5d20
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_ChannelStartGpt/12 (354334802 (estimated locally),0.33 per call) 
+  Calls: 
+Wdg_Ipw_Init/25 (Wdg_Ipw_Init) @066f5a80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_InitialHardware/8 (268435456 (estimated locally),0.25 per call) 
+  Calls: 
+Wdg_Ipw_SetMode/24 (Wdg_Ipw_SetMode) @066f59a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_DoChannelSetMode/10 (118702159 (estimated locally),0.11 per call) Wdg_DoChannelSetMode/10 (118702159 (estimated locally),0.11 per call) Wdg_DoChannelSetMode/10 (38587060 (estimated locally),0.04 per call) Wdg_InitialHardware/8 (268435456 (estimated locally),0.25 per call) 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_02/23 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_02) @066f5700
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_ChannelInit/13 (354334802 (estimated locally),0.33 per call) 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_02/22 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_02) @066f5540
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_ChannelInit/13 (354334802 (estimated locally),0.33 per call) 
+  Calls: 
+Wdg_au16CfgInitialTimeout/21 (Wdg_au16CfgInitialTimeout) @066f7048
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: Wdg_ChannelStartGpt/12 (read)Wdg_ChannelInit/13 (read)
+  Availability: not_available
+  Varpool flags: read-only
+Wdg_Ipw_Service/20 (Wdg_Ipw_Service) @066f52a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_ChannelTrigger/4 (536870913 (estimated locally),0.50 per call) 
+  Calls: 
+Gpt_StopTimer/19 (Gpt_StopTimer) @066f50e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_ChannelSetTriggerCondition/15 (836337508 (estimated locally),0.78 per call) Wdg_VadidateDoChannelSetMode/11 (173198851 (estimated locally),0.16 per call) Wdg_ChannelStartGpt/12 (354334802 (estimated locally),0.33 per call) Wdg_ChannelTrigger.part.0/41 (536870912 (estimated locally),0.50 per call) 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00/18 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00) @066f5000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_ChannelTrigger/4 (536870913 (estimated locally),0.50 per call) Wdg_ChannelTrigger.part.0/41 (536870912 (estimated locally),0.50 per call) 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_00/17 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_00) @066e7b60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdg_ChannelTrigger/4 (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Wdg_ChannelGetVersionInfo/16 (Wdg_ChannelGetVersionInfo) @066e7d20
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body nonfreeing_fn optimize_size
+  Called by: 
+  Calls: 
+Wdg_ChannelSetTriggerCondition/15 (Wdg_ChannelSetTriggerCondition) @066e7a80
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: Wdg_apConfigPtr/0 (read)Wdg_au32Timeout/1 (read)Wdg_au32Timeout/1 (write)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_au32Timeout/1 (write)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05/38 (237404317 (estimated locally),0.22 per call) Gpt_StopTimer/19 (836337508 (estimated locally),0.78 per call) SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05/38 (836337508 (estimated locally),0.78 per call) SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_05/37 (1073741824 (estimated locally),1.00 per call) Gpt_GetTimeElapsed/32 (1073741824 (estimated locally),1.00 per call) 
+Wdg_ChannelSetMode/14 (Wdg_ChannelSetMode) @066e77e0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdg_VadidateDoChannelSetMode/11 (inlined) (354334802 (estimated locally),0.33 per call) Wdg_DoChannelSetMode/10 (inlined) (354334802 (estimated locally),0.33 per call) Wdg_ChannelValidateMode.isra.0/42 (inlined) (1073741824 (estimated locally),1.00 per call) 
+Wdg_ChannelInit/13 (Wdg_ChannelInit) @066e7540
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: Wdg_apConfigPtr/0 (write)Wdg_aePreviousMode/3 (read)Wdg_au16CfgInitialTimeout/21 (read)Wdg_apConfigPtr/0 (write)Wdg_apConfigPtr/0 (read)Wdg_aePreviousMode/3 (write)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_02/23 (354334802 (estimated locally),0.33 per call) SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_02/22 (354334802 (estimated locally),0.33 per call) Wdg_ChannelStartGpt/12 (inlined) (354334802 (estimated locally),0.33 per call) Wdg_InitialHardware/8 (inlined) (1073741824 (estimated locally),1.00 per call) Wdg_ChannelValidateMode.isra.0/39 (inlined) (268435456 (estimated locally),0.25 per call) 
+Wdg_ChannelStartGpt/12 (Wdg_ChannelStartGpt) @066e72a0
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly
+  References: Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_au32GptPeriod/2 (write)Wdg_apConfigPtr/0 (read)Wdg_au32GptPeriod/2 (read)Wdg_au16CfgInitialTimeout/21 (read)Wdg_apConfigPtr/0 (read)Wdg_au32Timeout/1 (write)
+  Referring: 
+  Function Wdg_ChannelStartGpt/12 is inline copy in Wdg_ChannelInit/13
+  Availability: local
+  Function flags: count:354334802 (estimated locally) body local optimize_size
+  Called by: Wdg_ChannelInit/13 (inlined) (354334802 (estimated locally),0.33 per call) 
+  Calls: SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_01/29 (354334802 (estimated locally),0.33 per call) SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_01/28 (354334802 (estimated locally),0.33 per call) Gpt_StartTimer/27 (116930485 (estimated locally),0.11 per call) Gpt_EnableNotification/26 (354334802 (estimated locally),0.33 per call) Gpt_StopTimer/19 (354334802 (estimated locally),0.33 per call) 
+Wdg_VadidateDoChannelSetMode/11 (Wdg_VadidateDoChannelSetMode) @066e7000
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly
+  References: Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)Wdg_au32Timeout/1 (read)Wdg_au32Timeout/1 (write)Wdg_apConfigPtr/0 (read)Wdg_au32GptPeriod/2 (write)Wdg_aePreviousMode/3 (write)
+  Referring: 
+  Function Wdg_VadidateDoChannelSetMode/11 is inline copy in Wdg_ChannelSetMode/14
+  Availability: local
+  Function flags: count:354334802 (estimated locally) body local optimize_size
+  Called by: Wdg_ChannelSetMode/14 (inlined) (354334802 (estimated locally),0.33 per call) 
+  Calls: SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_04/36 (173198851 (estimated locally),0.16 per call) SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_04/35 (173198851 (estimated locally),0.16 per call) Gpt_StartTimer/27 (57155621 (estimated locally),0.05 per call) SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_03/34 (173198851 (estimated locally),0.16 per call) SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_03/33 (173198851 (estimated locally),0.16 per call) Gpt_GetTimeElapsed/32 (173198851 (estimated locally),0.16 per call) Gpt_StopTimer/19 (173198851 (estimated locally),0.16 per call) 
+Wdg_DoChannelSetMode/10 (Wdg_DoChannelSetMode) @066e00e0
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly
+  References: Wdg_apConfigPtr/0 (read)Wdg_aePreviousMode/3 (read)Wdg_apConfigPtr/0 (read)Wdg_apConfigPtr/0 (read)
+  Referring: 
+  Function Wdg_DoChannelSetMode/10 is inline copy in Wdg_ChannelSetMode/14
+  Availability: local
+  Function flags: count:354334802 (estimated locally) body local optimize_size
+  Called by: Wdg_ChannelSetMode/14 (inlined) (354334802 (estimated locally),0.33 per call) 
+  Calls: Wdg_Ipw_SetMode/24 (118702159 (estimated locally),0.11 per call) Wdg_Ipw_StartTimer/31 (39171712 (estimated locally),0.04 per call) Wdg_Ipw_SetMode/24 (118702159 (estimated locally),0.11 per call) Wdg_Ipw_SetMode/24 (38587060 (estimated locally),0.04 per call) Wdg_Ipw_StopTimer/30 (116930485 (estimated locally),0.11 per call) 
+Wdg_InitialHardware/8 (Wdg_InitialHardware) @066e0a80
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly
+  References: Wdg_apConfigPtr/0 (read)
+  Referring: 
+  Function Wdg_InitialHardware/8 is inline copy in Wdg_ChannelInit/13
+  Availability: local
+  Function flags: count:1073741824 (estimated locally) body local optimize_size
+  Called by: Wdg_ChannelInit/13 (inlined) (1073741824 (estimated locally),1.00 per call) 
+  Calls: Wdg_Ipw_Init/25 (268435456 (estimated locally),0.25 per call) Wdg_Ipw_SetMode/24 (268435456 (estimated locally),0.25 per call) 
+Wdg_Cbk_GptNotification1/6 (Wdg_Cbk_GptNotification1) @066e0540
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdg_ChannelTrigger/4 (1073741824 (estimated locally),1.00 per call) 
+Wdg_Cbk_GptNotification0/5 (Wdg_Cbk_GptNotification0) @066e02a0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdg_ChannelTrigger/4 (1073741824 (estimated locally),1.00 per call) 
+Wdg_ChannelTrigger/4 (Wdg_ChannelTrigger) @066e0000
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly
+  References: Wdg_au32Timeout/1 (read)Wdg_au32GptPeriod/2 (read)Wdg_au32Timeout/1 (write)
+  Referring: 
+  Availability: local
+  Function flags: count:1073741824 (estimated locally) body local optimize_size
+  Called by: Wdg_Cbk_GptNotification1/6 (1073741824 (estimated locally),1.00 per call) Wdg_Cbk_GptNotification0/5 (1073741824 (estimated locally),1.00 per call) 
+  Calls: Wdg_Ipw_Service/20 (536870913 (estimated locally),0.50 per call) SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00/18 (536870913 (estimated locally),0.50 per call) Wdg_ChannelTrigger.part.0/41 (inlined) (536870912 (estimated locally),0.50 per call) SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_00/17 (1073741824 (estimated locally),1.00 per call) 
+Wdg_aePreviousMode/3 (Wdg_aePreviousMode) @065f0318
+  Type: variable definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: Wdg_VadidateDoChannelSetMode/11 (write)Wdg_DoChannelSetMode/10 (read)Wdg_ChannelInit/13 (read)Wdg_ChannelInit/13 (write)
+  Availability: available
+  Varpool flags: initialized
+Wdg_au32GptPeriod/2 (Wdg_au32GptPeriod) @065f0288
+  Type: variable definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: Wdg_ChannelStartGpt/12 (read)Wdg_ChannelTrigger/4 (read)Wdg_ChannelStartGpt/12 (write)Wdg_VadidateDoChannelSetMode/11 (write)
+  Availability: available
+  Varpool flags:
+Wdg_au32Timeout/1 (Wdg_au32Timeout) @065f01f8
+  Type: variable definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: Wdg_ChannelTrigger/4 (write)Wdg_ChannelTrigger/4 (read)Wdg_ChannelStartGpt/12 (write)Wdg_VadidateDoChannelSetMode/11 (write)Wdg_VadidateDoChannelSetMode/11 (read)Wdg_ChannelSetTriggerCondition/15 (read)Wdg_ChannelSetTriggerCondition/15 (write)Wdg_ChannelSetTriggerCondition/15 (write)
+  Availability: available
+  Varpool flags:
+Wdg_apConfigPtr/0 (Wdg_apConfigPtr) @065f0120
+  Type: variable definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: Wdg_ChannelInit/13 (read)Wdg_DoChannelSetMode/10 (read)Wdg_DoChannelSetMode/10 (read)Wdg_DoChannelSetMode/10 (read)Wdg_ChannelStartGpt/12 (read)Wdg_ChannelStartGpt/12 (read)Wdg_VadidateDoChannelSetMode/11 (read)Wdg_VadidateDoChannelSetMode/11 (read)Wdg_ChannelInit/13 (write)Wdg_VadidateDoChannelSetMode/11 (read)Wdg_InitialHardware/8 (read)Wdg_ChannelStartGpt/12 (read)Wdg_ChannelTrigger.part.0/41 (read)Wdg_ChannelStartGpt/12 (read)Wdg_ChannelInit/13 (write)Wdg_ChannelSetTriggerCondition/15 (read)Wdg_ChannelSetTriggerCondition/15 (read)Wdg_ChannelSetTriggerCondition/15 (read)
+  Availability: available
+  Varpool flags:
+Materializing clones
+Materialization Call site updates done.
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Time profile order in expand_all_functions:Wdg_ChannelTrigger:0
+Time profile order in expand_all_functions:Wdg_Cbk_GptNotification0:0
+Time profile order in expand_all_functions:Wdg_Cbk_GptNotification1:0
+Time profile order in expand_all_functions:Wdg_ChannelInit:0
+Time profile order in expand_all_functions:Wdg_ChannelSetMode:0
+Time profile order in expand_all_functions:Wdg_ChannelSetTriggerCondition:0
+Time profile order in expand_all_functions:Wdg_ChannelGetVersionInfo:0
+Trivially needed variables: Wdg_aePreviousMode Wdg_au32GptPeriod Wdg_au32Timeout Wdg_apConfigPtr
+Removing variables:
+
+Final Symbol table:
+
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05/38 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_05) @066fcd20
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_05/37 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_05) @066fcc40
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_04/36 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_04) @066fca80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_04/35 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_04) @066fc9a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_03/34 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_03) @066fc7e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_03/33 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_03) @066fc700
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Gpt_GetTimeElapsed/32 (Gpt_GetTimeElapsed) @066fc620
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Wdg_Ipw_StartTimer/31 (Wdg_Ipw_StartTimer) @066fc460
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Wdg_Ipw_StopTimer/30 (Wdg_Ipw_StopTimer) @066fc380
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_01/29 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_01) @066fc0e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_01/28 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_01) @066fc000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Gpt_StartTimer/27 (Gpt_StartTimer) @066f5ee0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Gpt_EnableNotification/26 (Gpt_EnableNotification) @066f5d20
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Wdg_Ipw_Init/25 (Wdg_Ipw_Init) @066f5a80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Wdg_Ipw_SetMode/24 (Wdg_Ipw_SetMode) @066f59a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_02/23 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_02) @066f5700
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_02/22 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_02) @066f5540
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Wdg_au16CfgInitialTimeout/21 (Wdg_au16CfgInitialTimeout) @066f7048
+  Type: variable
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Varpool flags: read-only
+Wdg_Ipw_Service/20 (Wdg_Ipw_Service) @066f52a0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Gpt_StopTimer/19 (Gpt_StopTimer) @066f50e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00/18 (SchM_Exit_Wdg_WDG_EXCLUSIVE_AREA_00) @066f5000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_00/17 (SchM_Enter_Wdg_WDG_EXCLUSIVE_AREA_00) @066e7b60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Wdg_ChannelGetVersionInfo/16 (Wdg_ChannelGetVersionInfo) @066e7d20
+  Type: function definition analyzed
+  Visibility: externally_visible asm_written public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) nonfreeing_fn optimize_size
+  Called by: 
+  Calls: 
+Wdg_ChannelSetTriggerCondition/15 (Wdg_ChannelSetTriggerCondition) @066e7a80
+  Type: function definition analyzed
+  Visibility: externally_visible asm_written public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) optimize_size
+  Called by: 
+  Calls: 
+Wdg_ChannelSetMode/14 (Wdg_ChannelSetMode) @066e77e0
+  Type: function definition analyzed
+  Visibility: externally_visible asm_written public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) optimize_size
+  Called by: 
+  Calls: 
+Wdg_ChannelInit/13 (Wdg_ChannelInit) @066e7540
+  Type: function definition analyzed
+  Visibility: externally_visible asm_written public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) optimize_size
+  Called by: 
+  Calls: 
+Wdg_Cbk_GptNotification1/6 (Wdg_Cbk_GptNotification1) @066e0540
+  Type: function definition analyzed
+  Visibility: externally_visible asm_written public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) optimize_size
+  Called by: 
+  Calls: 
+Wdg_Cbk_GptNotification0/5 (Wdg_Cbk_GptNotification0) @066e02a0
+  Type: function definition analyzed
+  Visibility: externally_visible asm_written public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) optimize_size
+  Called by: 
+  Calls: 
+Wdg_ChannelTrigger/4 (Wdg_ChannelTrigger) @066e0000
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly asm_written
+  References: 
+  Referring: 
+  Availability: local
+  Function flags: count:1073741824 (estimated locally) local optimize_size
+  Called by: 
+  Calls: 
+Wdg_aePreviousMode/3 (Wdg_aePreviousMode) @065f0318
+  Type: variable definition analyzed
+  Visibility: prevailing_def_ironly asm_written
+  Aux: @00000001
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags: initialized
+Wdg_au32GptPeriod/2 (Wdg_au32GptPeriod) @065f0288
+  Type: variable definition analyzed
+  Visibility: prevailing_def_ironly asm_written
+  Aux: @065f0318
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags:
+Wdg_au32Timeout/1 (Wdg_au32Timeout) @065f01f8
+  Type: variable definition analyzed
+  Visibility: prevailing_def_ironly asm_written
+  Aux: @065f0288
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags:
+Wdg_apConfigPtr/0 (Wdg_apConfigPtr) @065f0120
+  Type: variable definition analyzed
+  Visibility: prevailing_def_ironly asm_written
+  Aux: @065f01f8
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags:

@@ -1,0 +1,1810 @@
+Trivially needed symbols: Wdog_Ip_IrqHandler Wdog_Ip_StopTimer Wdog_Ip_StartTimer Wdog_Ip_Config Wdog_Ip_SetTimeout Wdog_Ip_Service Wdog_Ip_DeInit Wdog_Ip_Init
+
+
+Initial Symbol table:
+
+OsIf_GetElapsed/24 (OsIf_GetElapsed) @05e4bc40
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 
+  Calls: 
+OsIf_GetCounter/23 (OsIf_GetCounter) @05e4bb60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 
+  Calls: 
+OsIf_MicrosToTicks/22 (OsIf_MicrosToTicks) @05e4ba80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 
+  Calls: 
+Wdog_Ip_IrqHandler/21 (Wdog_Ip_IrqHandler) @05e4b1c0
+  Type: function definition analyzed
+  Visibility: public
+  Aux: @01733ea0
+  References: Wdog_Ip_apCallbackPtr/2 (read)Wdog_Ip_apCallbackPtr/2 (read)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsIntEnabled/6 Wdog_Ip_ClearIntFlag/9 Wdog_Ip_GetIntFlag/5 
+   Indirect call
+Wdog_Ip_StopTimer/20 (Wdog_Ip_StopTimer) @05e3ae00
+  Type: function definition analyzed
+  Visibility: public
+  Aux: @05e4b1c0
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 Wdog_Ip_IsUpdateEnabled/10 Wdog_Ip_IsEnabled/3 
+Wdog_Ip_StartTimer/19 (Wdog_Ip_StartTimer) @05e3a7e0
+  Type: function definition analyzed
+  Visibility: public
+  Aux: @05e3ae00
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 Wdog_Ip_IsUpdateEnabled/10 Wdog_Ip_IsEnabled/3 
+Wdog_Ip_Config/18 (Wdog_Ip_Config) @05e3a2a0
+  Type: function definition analyzed
+  Visibility: public
+  Aux: @05e3a7e0
+  References: Wdog_Ip_apCallbackPtr/2 (write)Wdog_Ip_apCallbackPtr/2 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 Wdog_Ip_HwConfig/13 Wdog_Ip_IsUpdateEnabled/10 Wdog_Ip_IsEnabled/3 
+Wdog_Ip_SetTimeout/17 (Wdog_Ip_SetTimeout) @05e3ad20
+  Type: function definition analyzed
+  Visibility: public
+  Aux: @05e3a2a0
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 Wdog_Ip_IsUpdateEnabled/10 
+Wdog_Ip_Service/16 (Wdog_Ip_Service) @05e3a9a0
+  Type: function definition analyzed
+  Visibility: public
+  Aux: @05e3ad20
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_Trigger/4 
+Wdog_Ip_DeInit/15 (Wdog_Ip_DeInit) @05e3a700
+  Type: function definition analyzed
+  Visibility: public
+  Aux: @05e3a9a0
+  References: Wdog_Ip_apCallbackPtr/2 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_HwDeInit/12 Wdog_Ip_Unlock/8 Wdog_Ip_IsUpdateEnabled/10 
+Wdog_Ip_Init/14 (Wdog_Ip_Init) @05e3a460
+  Type: function definition analyzed
+  Visibility: public
+  Aux: @05e3a700
+  References: Wdog_Ip_apCallbackPtr/2 (write)Wdog_Ip_apCallbackPtr/2 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 Wdog_Ip_HwConfig/13 Wdog_Ip_IsUpdateEnabled/10 
+Wdog_Ip_HwConfig/13 (Wdog_Ip_HwConfig) @05e3a0e0
+  Type: function definition analyzed
+  Visibility:
+  Aux: @05dc31c0
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_Config/18 Wdog_Ip_Init/14 
+  Calls: 
+Wdog_Ip_HwDeInit/12 (Wdog_Ip_HwDeInit) @05dc3d20
+  Type: function definition analyzed
+  Visibility:
+  Aux: @05e3a9a0
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_DeInit/15 
+  Calls: Wdog_Ip_Trigger/4 
+Wdog_Ip_IsReconfigurationComplete/11 (Wdog_Ip_IsReconfigurationComplete) @05dc3a80
+  Type: function definition analyzed
+  Visibility:
+  Aux: @05e3a700
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_StopTimer/20 Wdog_Ip_StartTimer/19 Wdog_Ip_Config/18 Wdog_Ip_SetTimeout/17 Wdog_Ip_DeInit/15 Wdog_Ip_Init/14 
+  Calls: OsIf_GetElapsed/24 OsIf_GetCounter/23 OsIf_MicrosToTicks/22 
+Wdog_Ip_IsUpdateEnabled/10 (Wdog_Ip_IsUpdateEnabled) @05dc37e0
+  Type: function definition analyzed
+  Visibility:
+  Aux: @05e3a0e0
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_StopTimer/20 Wdog_Ip_StartTimer/19 Wdog_Ip_Config/18 Wdog_Ip_SetTimeout/17 Wdog_Ip_DeInit/15 Wdog_Ip_Init/14 
+  Calls: 
+Wdog_Ip_ClearIntFlag/9 (Wdog_Ip_ClearIntFlag) @05dc3540
+  Type: function definition analyzed
+  Visibility:
+  Aux: @05dbec40
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_IrqHandler/21 
+  Calls: Wdog_Ip_Unlock/8 
+Wdog_Ip_Unlock/8 (Wdog_Ip_Unlock) @05dc31c0
+  Type: function definition analyzed
+  Visibility:
+  Aux: @05dc3a80
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_ClearIntFlag/9 Wdog_Ip_StopTimer/20 Wdog_Ip_StartTimer/19 Wdog_Ip_Config/18 Wdog_Ip_SetTimeout/17 Wdog_Ip_DeInit/15 Wdog_Ip_Init/14 
+  Calls: OsIf_GetElapsed/24 Wdog_Ip_UnlockCmd/7 OsIf_GetCounter/23 OsIf_MicrosToTicks/22 
+Wdog_Ip_UnlockCmd/7 (Wdog_Ip_UnlockCmd) @05dbeee0
+  Type: function definition analyzed
+  Visibility:
+  Aux: @05dc3a80
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_Unlock/8 
+  Calls: 
+Wdog_Ip_IsIntEnabled/6 (Wdog_Ip_IsIntEnabled) @05dbec40
+  Type: function definition analyzed
+  Visibility:
+  Aux: @01733ea0
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_IrqHandler/21 
+  Calls: 
+Wdog_Ip_GetIntFlag/5 (Wdog_Ip_GetIntFlag) @05dbe9a0
+  Type: function definition analyzed
+  Visibility:
+  Aux: @05dc3540
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_IrqHandler/21 
+  Calls: 
+Wdog_Ip_Trigger/4 (Wdog_Ip_Trigger) @05dbe700
+  Type: function definition analyzed
+  Visibility:
+  Aux: @05e3a9a0
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_Service/16 Wdog_Ip_HwDeInit/12 
+  Calls: 
+Wdog_Ip_IsEnabled/3 (Wdog_Ip_IsEnabled) @05dbe460
+  Type: function definition analyzed
+  Visibility:
+  Aux: @05e3a7e0
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_StopTimer/20 Wdog_Ip_StartTimer/19 Wdog_Ip_Config/18 
+  Calls: 
+Wdog_Ip_apCallbackPtr/2 (Wdog_Ip_apCallbackPtr) @05dba708
+  Type: variable definition analyzed
+  Visibility:
+  Aux: @05dc37e0
+  References: 
+  Referring: Wdog_Ip_Init/14 (write)Wdog_Ip_Init/14 (write)Wdog_Ip_DeInit/15 (write)Wdog_Ip_Config/18 (write)Wdog_Ip_Config/18 (write)Wdog_Ip_IrqHandler/21 (read)Wdog_Ip_IrqHandler/21 (read)
+  Availability: not-ready
+  Varpool flags:
+s_wdogBase/1 (s_wdogBase) @05dba678
+  Type: variable definition
+  Visibility:
+  References: 
+  Referring: 
+  Availability: not-ready
+  Varpool flags: initialized read-only const-value-known
+DevAssert/0 (DevAssert) @05dda380
+  Type: function definition
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+
+Removing unused symbols: s_wdogBase DevAssert
+
+Reclaimed Symbol table:
+
+OsIf_GetElapsed/24 (OsIf_GetElapsed) @05e4bc40
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 
+  Calls: 
+OsIf_GetCounter/23 (OsIf_GetCounter) @05e4bb60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 
+  Calls: 
+OsIf_MicrosToTicks/22 (OsIf_MicrosToTicks) @05e4ba80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 
+  Calls: 
+Wdog_Ip_IrqHandler/21 (Wdog_Ip_IrqHandler) @05e4b1c0
+  Type: function definition analyzed
+  Visibility: public
+  References: Wdog_Ip_apCallbackPtr/2 (read)Wdog_Ip_apCallbackPtr/2 (read)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsIntEnabled/6 Wdog_Ip_ClearIntFlag/9 Wdog_Ip_GetIntFlag/5 
+   Indirect call
+Wdog_Ip_StopTimer/20 (Wdog_Ip_StopTimer) @05e3ae00
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 Wdog_Ip_IsUpdateEnabled/10 Wdog_Ip_IsEnabled/3 
+Wdog_Ip_StartTimer/19 (Wdog_Ip_StartTimer) @05e3a7e0
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 Wdog_Ip_IsUpdateEnabled/10 Wdog_Ip_IsEnabled/3 
+Wdog_Ip_Config/18 (Wdog_Ip_Config) @05e3a2a0
+  Type: function definition analyzed
+  Visibility: public
+  References: Wdog_Ip_apCallbackPtr/2 (write)Wdog_Ip_apCallbackPtr/2 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 Wdog_Ip_HwConfig/13 Wdog_Ip_IsUpdateEnabled/10 Wdog_Ip_IsEnabled/3 
+Wdog_Ip_SetTimeout/17 (Wdog_Ip_SetTimeout) @05e3ad20
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 Wdog_Ip_IsUpdateEnabled/10 
+Wdog_Ip_Service/16 (Wdog_Ip_Service) @05e3a9a0
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_Trigger/4 
+Wdog_Ip_DeInit/15 (Wdog_Ip_DeInit) @05e3a700
+  Type: function definition analyzed
+  Visibility: public
+  References: Wdog_Ip_apCallbackPtr/2 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_HwDeInit/12 Wdog_Ip_Unlock/8 Wdog_Ip_IsUpdateEnabled/10 
+Wdog_Ip_Init/14 (Wdog_Ip_Init) @05e3a460
+  Type: function definition analyzed
+  Visibility: public
+  References: Wdog_Ip_apCallbackPtr/2 (write)Wdog_Ip_apCallbackPtr/2 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 Wdog_Ip_HwConfig/13 Wdog_Ip_IsUpdateEnabled/10 
+Wdog_Ip_HwConfig/13 (Wdog_Ip_HwConfig) @05e3a0e0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_Config/18 Wdog_Ip_Init/14 
+  Calls: 
+Wdog_Ip_HwDeInit/12 (Wdog_Ip_HwDeInit) @05dc3d20
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_DeInit/15 
+  Calls: Wdog_Ip_Trigger/4 
+Wdog_Ip_IsReconfigurationComplete/11 (Wdog_Ip_IsReconfigurationComplete) @05dc3a80
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_StopTimer/20 Wdog_Ip_StartTimer/19 Wdog_Ip_Config/18 Wdog_Ip_SetTimeout/17 Wdog_Ip_DeInit/15 Wdog_Ip_Init/14 
+  Calls: OsIf_GetElapsed/24 OsIf_GetCounter/23 OsIf_MicrosToTicks/22 
+Wdog_Ip_IsUpdateEnabled/10 (Wdog_Ip_IsUpdateEnabled) @05dc37e0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_StopTimer/20 Wdog_Ip_StartTimer/19 Wdog_Ip_Config/18 Wdog_Ip_SetTimeout/17 Wdog_Ip_DeInit/15 Wdog_Ip_Init/14 
+  Calls: 
+Wdog_Ip_ClearIntFlag/9 (Wdog_Ip_ClearIntFlag) @05dc3540
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_IrqHandler/21 
+  Calls: Wdog_Ip_Unlock/8 
+Wdog_Ip_Unlock/8 (Wdog_Ip_Unlock) @05dc31c0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_ClearIntFlag/9 Wdog_Ip_StopTimer/20 Wdog_Ip_StartTimer/19 Wdog_Ip_Config/18 Wdog_Ip_SetTimeout/17 Wdog_Ip_DeInit/15 Wdog_Ip_Init/14 
+  Calls: OsIf_GetElapsed/24 Wdog_Ip_UnlockCmd/7 OsIf_GetCounter/23 OsIf_MicrosToTicks/22 
+Wdog_Ip_UnlockCmd/7 (Wdog_Ip_UnlockCmd) @05dbeee0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_Unlock/8 
+  Calls: 
+Wdog_Ip_IsIntEnabled/6 (Wdog_Ip_IsIntEnabled) @05dbec40
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_IrqHandler/21 
+  Calls: 
+Wdog_Ip_GetIntFlag/5 (Wdog_Ip_GetIntFlag) @05dbe9a0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_IrqHandler/21 
+  Calls: 
+Wdog_Ip_Trigger/4 (Wdog_Ip_Trigger) @05dbe700
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_Service/16 Wdog_Ip_HwDeInit/12 
+  Calls: 
+Wdog_Ip_IsEnabled/3 (Wdog_Ip_IsEnabled) @05dbe460
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_StopTimer/20 Wdog_Ip_StartTimer/19 Wdog_Ip_Config/18 
+  Calls: 
+Wdog_Ip_apCallbackPtr/2 (Wdog_Ip_apCallbackPtr) @05dba708
+  Type: variable definition analyzed
+  Visibility:
+  References: 
+  Referring: Wdog_Ip_Init/14 (write)Wdog_Ip_Init/14 (write)Wdog_Ip_DeInit/15 (write)Wdog_Ip_Config/18 (write)Wdog_Ip_Config/18 (write)Wdog_Ip_IrqHandler/21 (read)Wdog_Ip_IrqHandler/21 (read)
+  Availability: not-ready
+  Varpool flags:
+
+
+Initial Symbol table:
+
+OsIf_GetElapsed/24 (OsIf_GetElapsed) @05e4bc40
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 
+  Calls: 
+OsIf_GetCounter/23 (OsIf_GetCounter) @05e4bb60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 
+  Calls: 
+OsIf_MicrosToTicks/22 (OsIf_MicrosToTicks) @05e4ba80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 
+  Calls: 
+Wdog_Ip_IrqHandler/21 (Wdog_Ip_IrqHandler) @05e4b1c0
+  Type: function definition analyzed
+  Visibility: public
+  References: Wdog_Ip_apCallbackPtr/2 (read)Wdog_Ip_apCallbackPtr/2 (read)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsIntEnabled/6 Wdog_Ip_ClearIntFlag/9 Wdog_Ip_GetIntFlag/5 
+   Indirect call
+Wdog_Ip_StopTimer/20 (Wdog_Ip_StopTimer) @05e3ae00
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 Wdog_Ip_IsUpdateEnabled/10 Wdog_Ip_IsEnabled/3 
+Wdog_Ip_StartTimer/19 (Wdog_Ip_StartTimer) @05e3a7e0
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 Wdog_Ip_IsUpdateEnabled/10 Wdog_Ip_IsEnabled/3 
+Wdog_Ip_Config/18 (Wdog_Ip_Config) @05e3a2a0
+  Type: function definition analyzed
+  Visibility: public
+  References: Wdog_Ip_apCallbackPtr/2 (write)Wdog_Ip_apCallbackPtr/2 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 Wdog_Ip_HwConfig/13 Wdog_Ip_IsUpdateEnabled/10 Wdog_Ip_IsEnabled/3 
+Wdog_Ip_SetTimeout/17 (Wdog_Ip_SetTimeout) @05e3ad20
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 Wdog_Ip_IsUpdateEnabled/10 
+Wdog_Ip_Service/16 (Wdog_Ip_Service) @05e3a9a0
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_Trigger/4 
+Wdog_Ip_DeInit/15 (Wdog_Ip_DeInit) @05e3a700
+  Type: function definition analyzed
+  Visibility: public
+  References: Wdog_Ip_apCallbackPtr/2 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_HwDeInit/12 Wdog_Ip_Unlock/8 Wdog_Ip_IsUpdateEnabled/10 
+Wdog_Ip_Init/14 (Wdog_Ip_Init) @05e3a460
+  Type: function definition analyzed
+  Visibility: public
+  References: Wdog_Ip_apCallbackPtr/2 (write)Wdog_Ip_apCallbackPtr/2 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 Wdog_Ip_HwConfig/13 Wdog_Ip_IsUpdateEnabled/10 
+Wdog_Ip_HwConfig/13 (Wdog_Ip_HwConfig) @05e3a0e0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_Config/18 Wdog_Ip_Init/14 
+  Calls: 
+Wdog_Ip_HwDeInit/12 (Wdog_Ip_HwDeInit) @05dc3d20
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_DeInit/15 
+  Calls: Wdog_Ip_Trigger/4 
+Wdog_Ip_IsReconfigurationComplete/11 (Wdog_Ip_IsReconfigurationComplete) @05dc3a80
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_StopTimer/20 Wdog_Ip_StartTimer/19 Wdog_Ip_Config/18 Wdog_Ip_SetTimeout/17 Wdog_Ip_DeInit/15 Wdog_Ip_Init/14 
+  Calls: OsIf_GetElapsed/24 OsIf_GetCounter/23 OsIf_MicrosToTicks/22 
+Wdog_Ip_IsUpdateEnabled/10 (Wdog_Ip_IsUpdateEnabled) @05dc37e0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_StopTimer/20 Wdog_Ip_StartTimer/19 Wdog_Ip_Config/18 Wdog_Ip_SetTimeout/17 Wdog_Ip_DeInit/15 Wdog_Ip_Init/14 
+  Calls: 
+Wdog_Ip_ClearIntFlag/9 (Wdog_Ip_ClearIntFlag) @05dc3540
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_IrqHandler/21 
+  Calls: Wdog_Ip_Unlock/8 
+Wdog_Ip_Unlock/8 (Wdog_Ip_Unlock) @05dc31c0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_ClearIntFlag/9 Wdog_Ip_StopTimer/20 Wdog_Ip_StartTimer/19 Wdog_Ip_Config/18 Wdog_Ip_SetTimeout/17 Wdog_Ip_DeInit/15 Wdog_Ip_Init/14 
+  Calls: OsIf_GetElapsed/24 Wdog_Ip_UnlockCmd/7 OsIf_GetCounter/23 OsIf_MicrosToTicks/22 
+Wdog_Ip_UnlockCmd/7 (Wdog_Ip_UnlockCmd) @05dbeee0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_Unlock/8 
+  Calls: 
+Wdog_Ip_IsIntEnabled/6 (Wdog_Ip_IsIntEnabled) @05dbec40
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_IrqHandler/21 
+  Calls: 
+Wdog_Ip_GetIntFlag/5 (Wdog_Ip_GetIntFlag) @05dbe9a0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_IrqHandler/21 
+  Calls: 
+Wdog_Ip_Trigger/4 (Wdog_Ip_Trigger) @05dbe700
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_Service/16 Wdog_Ip_HwDeInit/12 
+  Calls: 
+Wdog_Ip_IsEnabled/3 (Wdog_Ip_IsEnabled) @05dbe460
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_StopTimer/20 Wdog_Ip_StartTimer/19 Wdog_Ip_Config/18 
+  Calls: 
+Wdog_Ip_apCallbackPtr/2 (Wdog_Ip_apCallbackPtr) @05dba708
+  Type: variable definition analyzed
+  Visibility:
+  References: 
+  Referring: Wdog_Ip_Init/14 (write)Wdog_Ip_Init/14 (write)Wdog_Ip_DeInit/15 (write)Wdog_Ip_Config/18 (write)Wdog_Ip_Config/18 (write)Wdog_Ip_IrqHandler/21 (read)Wdog_Ip_IrqHandler/21 (read)
+  Availability: not-ready
+  Varpool flags:
+
+Removing unused symbols:
+
+Reclaimed Symbol table:
+
+OsIf_GetElapsed/24 (OsIf_GetElapsed) @05e4bc40
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 
+  Calls: 
+OsIf_GetCounter/23 (OsIf_GetCounter) @05e4bb60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 
+  Calls: 
+OsIf_MicrosToTicks/22 (OsIf_MicrosToTicks) @05e4ba80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Function flags: optimize_size
+  Called by: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 
+  Calls: 
+Wdog_Ip_IrqHandler/21 (Wdog_Ip_IrqHandler) @05e4b1c0
+  Type: function definition analyzed
+  Visibility: public
+  References: Wdog_Ip_apCallbackPtr/2 (read)Wdog_Ip_apCallbackPtr/2 (read)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsIntEnabled/6 Wdog_Ip_ClearIntFlag/9 Wdog_Ip_GetIntFlag/5 
+   Indirect call
+Wdog_Ip_StopTimer/20 (Wdog_Ip_StopTimer) @05e3ae00
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 Wdog_Ip_IsUpdateEnabled/10 Wdog_Ip_IsEnabled/3 
+Wdog_Ip_StartTimer/19 (Wdog_Ip_StartTimer) @05e3a7e0
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 Wdog_Ip_IsUpdateEnabled/10 Wdog_Ip_IsEnabled/3 
+Wdog_Ip_Config/18 (Wdog_Ip_Config) @05e3a2a0
+  Type: function definition analyzed
+  Visibility: public
+  References: Wdog_Ip_apCallbackPtr/2 (write)Wdog_Ip_apCallbackPtr/2 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 Wdog_Ip_HwConfig/13 Wdog_Ip_IsUpdateEnabled/10 Wdog_Ip_IsEnabled/3 
+Wdog_Ip_SetTimeout/17 (Wdog_Ip_SetTimeout) @05e3ad20
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 Wdog_Ip_IsUpdateEnabled/10 
+Wdog_Ip_Service/16 (Wdog_Ip_Service) @05e3a9a0
+  Type: function definition analyzed
+  Visibility: public
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_Trigger/4 
+Wdog_Ip_DeInit/15 (Wdog_Ip_DeInit) @05e3a700
+  Type: function definition analyzed
+  Visibility: public
+  References: Wdog_Ip_apCallbackPtr/2 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_HwDeInit/12 Wdog_Ip_Unlock/8 Wdog_Ip_IsUpdateEnabled/10 
+Wdog_Ip_Init/14 (Wdog_Ip_Init) @05e3a460
+  Type: function definition analyzed
+  Visibility: public
+  References: Wdog_Ip_apCallbackPtr/2 (write)Wdog_Ip_apCallbackPtr/2 (write)
+  Referring: 
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 Wdog_Ip_HwConfig/13 Wdog_Ip_IsUpdateEnabled/10 
+Wdog_Ip_HwConfig/13 (Wdog_Ip_HwConfig) @05e3a0e0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_Config/18 Wdog_Ip_Init/14 
+  Calls: 
+Wdog_Ip_HwDeInit/12 (Wdog_Ip_HwDeInit) @05dc3d20
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_DeInit/15 
+  Calls: Wdog_Ip_Trigger/4 
+Wdog_Ip_IsReconfigurationComplete/11 (Wdog_Ip_IsReconfigurationComplete) @05dc3a80
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_StopTimer/20 Wdog_Ip_StartTimer/19 Wdog_Ip_Config/18 Wdog_Ip_SetTimeout/17 Wdog_Ip_DeInit/15 Wdog_Ip_Init/14 
+  Calls: OsIf_GetElapsed/24 OsIf_GetCounter/23 OsIf_MicrosToTicks/22 
+Wdog_Ip_IsUpdateEnabled/10 (Wdog_Ip_IsUpdateEnabled) @05dc37e0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_StopTimer/20 Wdog_Ip_StartTimer/19 Wdog_Ip_Config/18 Wdog_Ip_SetTimeout/17 Wdog_Ip_DeInit/15 Wdog_Ip_Init/14 
+  Calls: 
+Wdog_Ip_ClearIntFlag/9 (Wdog_Ip_ClearIntFlag) @05dc3540
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_IrqHandler/21 
+  Calls: Wdog_Ip_Unlock/8 
+Wdog_Ip_Unlock/8 (Wdog_Ip_Unlock) @05dc31c0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_ClearIntFlag/9 Wdog_Ip_StopTimer/20 Wdog_Ip_StartTimer/19 Wdog_Ip_Config/18 Wdog_Ip_SetTimeout/17 Wdog_Ip_DeInit/15 Wdog_Ip_Init/14 
+  Calls: OsIf_GetElapsed/24 Wdog_Ip_UnlockCmd/7 OsIf_GetCounter/23 OsIf_MicrosToTicks/22 
+Wdog_Ip_UnlockCmd/7 (Wdog_Ip_UnlockCmd) @05dbeee0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_Unlock/8 
+  Calls: 
+Wdog_Ip_IsIntEnabled/6 (Wdog_Ip_IsIntEnabled) @05dbec40
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_IrqHandler/21 
+  Calls: 
+Wdog_Ip_GetIntFlag/5 (Wdog_Ip_GetIntFlag) @05dbe9a0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_IrqHandler/21 
+  Calls: 
+Wdog_Ip_Trigger/4 (Wdog_Ip_Trigger) @05dbe700
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_Service/16 Wdog_Ip_HwDeInit/12 
+  Calls: 
+Wdog_Ip_IsEnabled/3 (Wdog_Ip_IsEnabled) @05dbe460
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function flags: body optimize_size
+  Called by: Wdog_Ip_StopTimer/20 Wdog_Ip_StartTimer/19 Wdog_Ip_Config/18 
+  Calls: 
+Wdog_Ip_apCallbackPtr/2 (Wdog_Ip_apCallbackPtr) @05dba708
+  Type: variable definition analyzed
+  Visibility:
+  References: 
+  Referring: Wdog_Ip_Init/14 (write)Wdog_Ip_Init/14 (write)Wdog_Ip_DeInit/15 (write)Wdog_Ip_Config/18 (write)Wdog_Ip_Config/18 (write)Wdog_Ip_IrqHandler/21 (read)Wdog_Ip_IrqHandler/21 (read)
+  Availability: not-ready
+  Varpool flags:
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Optimized Symbol table:
+
+Wdog_Ip_HwConfig/40 (Wdog_Ip_HwConfig) @062742a0
+  Type: function definition analyzed
+  Visibility:
+  next sharing asm name: 13
+  References: 
+  Referring: 
+  Function Wdog_Ip_HwConfig/40 is inline copy in Wdog_Ip_Config/18
+  Clone of Wdog_Ip_HwConfig/13
+  Availability: local
+  Function flags: count:536870913 (estimated locally) body local nonfreeing_fn optimize_size
+  Called by: Wdog_Ip_Config/18 (inlined) (536870913 (estimated locally),0.50 per call) 
+  Calls: Wdog_Ip_HwConfig.part.0/25 (201326593 (estimated locally),0.19 per call) 
+Wdog_Ip_Trigger.constprop.0/39 (Wdog_Ip_Trigger.constprop) @062740e0
+  Type: function definition analyzed
+  Visibility:
+  next sharing asm name: 38
+  References: 
+  Referring: 
+  Function Wdog_Ip_Trigger.constprop/39 is inline copy in Wdog_Ip_Service/16
+  Clone of Wdog_Ip_Trigger.constprop.0/38
+  Availability: local
+  Function flags: count:1073741824 (estimated locally) local optimize_size
+  Called by: Wdog_Ip_Service/16 (inlined) (1073741824 (estimated locally),1.00 per call) 
+  Calls: 
+Wdog_Ip_Trigger.constprop.0/38 (Wdog_Ip_Trigger.constprop) @05fb0380
+  Type: function definition analyzed
+  Visibility:
+  previous sharing asm name: 39
+  References: 
+  Referring: 
+  Function Wdog_Ip_Trigger.constprop/38 is inline copy in Wdog_Ip_DeInit/15
+  Clone of Wdog_Ip_Trigger/4
+  Availability: local
+  Function flags: count:116930485 (estimated locally) local optimize_size
+  Called by: Wdog_Ip_HwDeInit.constprop/33 (inlined) (116930485 (estimated locally),0.11 per call) 
+  Calls: 
+Wdog_Ip_UnlockCmd.constprop.0/37 (Wdog_Ip_UnlockCmd.constprop) @05fb0d20
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function Wdog_Ip_UnlockCmd.constprop/37 is inline copy in Wdog_Ip_Unlock.constprop/36
+  Clone of Wdog_Ip_UnlockCmd/7
+  Availability: local
+  Function flags: count:114863532 (estimated locally) local nonfreeing_fn optimize_size
+  Called by: Wdog_Ip_Unlock.constprop/36 (inlined) (114863532 (estimated locally),1.00 per call) 
+  Calls: 
+Wdog_Ip_Unlock.constprop.0/36 (Wdog_Ip_Unlock.constprop) @05dbe460
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Clone of Wdog_Ip_Unlock/8
+  Availability: local
+  Function flags: count:114863532 (estimated locally) local optimize_size
+  Called by: Wdog_Ip_Init/14 (116930485 (estimated locally),0.11 per call) Wdog_Ip_DeInit/15 (354334802 (estimated locally),0.33 per call) Wdog_Ip_SetTimeout/17 (354334802 (estimated locally),0.33 per call) Wdog_Ip_Config/18 (268435456 (estimated locally),0.25 per call) Wdog_Ip_StartTimer/19 (177167401 (estimated locally),0.17 per call) Wdog_Ip_StopTimer/20 (177167401 (estimated locally),0.17 per call) Wdog_Ip_ClearIntFlag.constprop/35 (354334802 (estimated locally),0.33 per call) 
+  Calls: OsIf_MicrosToTicks/22 (114863532 (estimated locally),1.00 per call) OsIf_GetCounter/23 (114863532 (estimated locally),1.00 per call) Wdog_Ip_UnlockCmd.constprop/37 (inlined) (114863532 (estimated locally),1.00 per call) OsIf_GetElapsed/24 (958878293 (estimated locally),8.35 per call) 
+Wdog_Ip_ClearIntFlag.constprop.0/35 (Wdog_Ip_ClearIntFlag.constprop) @05dc37e0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function Wdog_Ip_ClearIntFlag.constprop/35 is inline copy in Wdog_Ip_IrqHandler/21
+  Clone of Wdog_Ip_ClearIntFlag/9
+  Availability: local
+  Function flags: count:354334802 (estimated locally) local optimize_size
+  Called by: Wdog_Ip_IrqHandler/21 (inlined) (354334802 (estimated locally),0.33 per call) 
+  Calls: Wdog_Ip_Unlock.constprop/36 (354334802 (estimated locally),0.33 per call) 
+Wdog_Ip_IsReconfigurationComplete.constprop.0/34 (Wdog_Ip_IsReconfigurationComplete.constprop) @05dbe9a0
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Clone of Wdog_Ip_IsReconfigurationComplete/11
+  Availability: local
+  Function flags: count:114863532 (estimated locally) local optimize_size
+  Called by: Wdog_Ip_Init/14 (58465242 (estimated locally),0.05 per call) Wdog_Ip_DeInit/15 (116930485 (estimated locally),0.11 per call) Wdog_Ip_SetTimeout/17 (177167401 (estimated locally),0.17 per call) Wdog_Ip_Config/18 (134217728 (estimated locally),0.12 per call) Wdog_Ip_StartTimer/19 (58465242 (estimated locally),0.05 per call) Wdog_Ip_StopTimer/20 (58465242 (estimated locally),0.05 per call) 
+  Calls: OsIf_MicrosToTicks/22 (114863532 (estimated locally),1.00 per call) OsIf_GetCounter/23 (114863532 (estimated locally),1.00 per call) OsIf_GetElapsed/24 (958878293 (estimated locally),8.35 per call) 
+Wdog_Ip_HwDeInit.constprop.0/33 (Wdog_Ip_HwDeInit.constprop) @05dbec40
+  Type: function definition analyzed
+  Visibility:
+  References: 
+  Referring: 
+  Function Wdog_Ip_HwDeInit.constprop/33 is inline copy in Wdog_Ip_DeInit/15
+  Clone of Wdog_Ip_HwDeInit/12
+  Availability: local
+  Function flags: count:116930485 (estimated locally) local optimize_size
+  Called by: Wdog_Ip_DeInit/15 (inlined) (116930485 (estimated locally),0.11 per call) 
+  Calls: Wdog_Ip_Trigger.constprop/38 (inlined) (116930485 (estimated locally),0.11 per call) 
+Wdog_Ip_HwConfig.part.0/25 (Wdog_Ip_HwConfig.part.0) @05dda380
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly artificial
+  References: 
+  Referring: 
+  Availability: local
+  Function flags: count:1073741824 (estimated locally) first_run:1 body local split_part nonfreeing_fn optimize_size
+  Called by: Wdog_Ip_HwConfig/40 (201326593 (estimated locally),0.19 per call) Wdog_Ip_HwConfig/13 (132875551 (estimated locally),0.12 per call) 
+  Calls: 
+OsIf_GetElapsed/24 (OsIf_GetElapsed) @05e4bc40
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdog_Ip_Unlock.constprop/36 (958878293 (estimated locally),8.35 per call) Wdog_Ip_IsReconfigurationComplete.constprop/34 (958878293 (estimated locally),8.35 per call) 
+  Calls: 
+OsIf_GetCounter/23 (OsIf_GetCounter) @05e4bb60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdog_Ip_Unlock.constprop/36 (114863532 (estimated locally),1.00 per call) Wdog_Ip_IsReconfigurationComplete.constprop/34 (114863532 (estimated locally),1.00 per call) 
+  Calls: 
+OsIf_MicrosToTicks/22 (OsIf_MicrosToTicks) @05e4ba80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdog_Ip_Unlock.constprop/36 (114863532 (estimated locally),1.00 per call) Wdog_Ip_IsReconfigurationComplete.constprop/34 (114863532 (estimated locally),1.00 per call) 
+  Calls: 
+Wdog_Ip_IrqHandler/21 (Wdog_Ip_IrqHandler) @05e4b1c0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: Wdog_Ip_apCallbackPtr/2 (read)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741823 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_ClearIntFlag.constprop/35 (inlined) (354334802 (estimated locally),0.33 per call) 
+   Indirect call(124017180 (estimated locally),0.12 per call) 
+Wdog_Ip_StopTimer/20 (Wdog_Ip_StopTimer) @05e3ae00
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete.constprop/34 (58465242 (estimated locally),0.05 per call) Wdog_Ip_Unlock.constprop/36 (177167401 (estimated locally),0.17 per call) 
+Wdog_Ip_StartTimer/19 (Wdog_Ip_StartTimer) @05e3a7e0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete.constprop/34 (58465242 (estimated locally),0.05 per call) Wdog_Ip_Unlock.constprop/36 (177167401 (estimated locally),0.17 per call) 
+Wdog_Ip_Config/18 (Wdog_Ip_Config) @05e3a2a0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: Wdog_Ip_apCallbackPtr/2 (write)Wdog_Ip_apCallbackPtr/2 (write)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete.constprop/34 (134217728 (estimated locally),0.12 per call) Wdog_Ip_Unlock.constprop/36 (268435456 (estimated locally),0.25 per call) Wdog_Ip_HwConfig/40 (inlined) (536870913 (estimated locally),0.50 per call) 
+Wdog_Ip_SetTimeout/17 (Wdog_Ip_SetTimeout) @05e3ad20
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete.constprop/34 (177167401 (estimated locally),0.17 per call) Wdog_Ip_Unlock.constprop/36 (354334802 (estimated locally),0.33 per call) 
+Wdog_Ip_Service/16 (Wdog_Ip_Service) @05e3a9a0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_Trigger.constprop/39 (inlined) (1073741824 (estimated locally),1.00 per call) 
+Wdog_Ip_DeInit/15 (Wdog_Ip_DeInit) @05e3a700
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: Wdog_Ip_apCallbackPtr/2 (write)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete.constprop/34 (116930485 (estimated locally),0.11 per call) Wdog_Ip_HwDeInit.constprop/33 (inlined) (116930485 (estimated locally),0.11 per call) Wdog_Ip_Unlock.constprop/36 (354334802 (estimated locally),0.33 per call) 
+Wdog_Ip_Init/14 (Wdog_Ip_Init) @05e3a460
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: Wdog_Ip_apCallbackPtr/2 (write)Wdog_Ip_apCallbackPtr/2 (write)
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete.constprop/34 (58465242 (estimated locally),0.05 per call) Wdog_Ip_Unlock.constprop/36 (116930485 (estimated locally),0.11 per call) Wdog_Ip_HwConfig/13 (inlined) (354334802 (estimated locally),0.33 per call) 
+Wdog_Ip_HwConfig/13 (Wdog_Ip_HwConfig) @05e3a0e0
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly
+  previous sharing asm name: 40
+  References: 
+  Referring: 
+  Function Wdog_Ip_HwConfig/13 is inline copy in Wdog_Ip_Init/14
+  Availability: local
+  Function flags: count:354334802 (estimated locally) body local nonfreeing_fn optimize_size
+  Called by: Wdog_Ip_Init/14 (inlined) (354334802 (estimated locally),0.33 per call) 
+  Calls: Wdog_Ip_HwConfig.part.0/25 (132875551 (estimated locally),0.12 per call) 
+Wdog_Ip_HwDeInit/12 (Wdog_Ip_HwDeInit) @05dc3d20
+  Type: function
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+Wdog_Ip_IsReconfigurationComplete/11 (Wdog_Ip_IsReconfigurationComplete) @05dc3a80
+  Type: function
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: count:114863532 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+Wdog_Ip_ClearIntFlag/9 (Wdog_Ip_ClearIntFlag) @05dc3540
+  Type: function
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+Wdog_Ip_Unlock/8 (Wdog_Ip_Unlock) @05dc31c0
+  Type: function
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: count:114863532 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+Wdog_Ip_UnlockCmd/7 (Wdog_Ip_UnlockCmd) @05dbeee0
+  Type: function
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+Wdog_Ip_Trigger/4 (Wdog_Ip_Trigger) @05dbe700
+  Type: function
+  Body removed by symtab_remove_unreachable_nodes
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: 
+Wdog_Ip_apCallbackPtr/2 (Wdog_Ip_apCallbackPtr) @05dba708
+  Type: variable definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: Wdog_Ip_Init/14 (write)Wdog_Ip_DeInit/15 (write)Wdog_Ip_Config/18 (write)Wdog_Ip_Config/18 (write)Wdog_Ip_Init/14 (write)Wdog_Ip_IrqHandler/21 (read)
+  Availability: available
+  Varpool flags:
+Materializing clones
+cloning Wdog_Ip_Trigger to Wdog_Ip_Trigger.constprop
+   replace map:  -> 1074077696B(replace);
+   args_to_skip: 0
+   combined_args_to_skip:0
+Wdog_Ip_Trigger (struct WDOG_Type * const base)
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+  # DEBUG BEGIN_STMT
+  _1 ={v} base_6(D)->CS;
+  _2 = _1 & 8192;
+  if (_2 != 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 4>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  base_6(D)->CNT ={v} 3028329986;
+  goto <bb 5>; [100.00%]
+
+  <bb 4> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  base_6(D)->CNT ={v} 42498;
+  # DEBUG BEGIN_STMT
+  vol.11_8 ={v} base_6(D)->CNT;
+  # DEBUG BEGIN_STMT
+  base_6(D)->CNT ={v} 46208;
+
+  <bb 5> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+  return;
+
+}
+
+
+Wdog_Ip_Trigger.constprop ()
+{
+  struct WDOG_Type * const base;
+
+  <bb 6> [local count: 1073741824]:
+  # DEBUG base => 1074077696B
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+  # DEBUG BEGIN_STMT
+  _1 ={v} MEM[(struct WDOG_Type *)1074077696B].CS;
+  _2 = _1 & 8192;
+  if (_2 != 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 4>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  MEM[(struct WDOG_Type *)1074077696B].CNT ={v} 3028329986;
+  goto <bb 5>; [100.00%]
+
+  <bb 4> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  MEM[(struct WDOG_Type *)1074077696B].CNT ={v} 42498;
+  # DEBUG BEGIN_STMT
+  vol.11_3 ={v} MEM[(struct WDOG_Type *)1074077696B].CNT;
+  # DEBUG BEGIN_STMT
+  MEM[(struct WDOG_Type *)1074077696B].CNT ={v} 46208;
+
+  <bb 5> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+  return;
+
+}
+
+
+cloning Wdog_Ip_UnlockCmd to Wdog_Ip_UnlockCmd.constprop
+   replace map:  -> 1074077696B(replace);
+   args_to_skip: 0
+   combined_args_to_skip:0
+Wdog_Ip_UnlockCmd (struct WDOG_Type * const base)
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _1 ={v} base_5(D)->CS;
+  _2 = _1 & 8192;
+  if (_2 != 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 4>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  base_5(D)->CNT ={v} 3643327776;
+  # DEBUG BEGIN_STMT
+  vol.9_10 ={v} base_5(D)->CNT;
+  goto <bb 5>; [100.00%]
+
+  <bb 4> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  base_5(D)->CNT ={v} 50464;
+  # DEBUG BEGIN_STMT
+  vol.10_7 ={v} base_5(D)->CNT;
+  # DEBUG BEGIN_STMT
+  base_5(D)->CNT ={v} 55592;
+
+  <bb 5> [local count: 1073741824]:
+  return;
+
+}
+
+
+Wdog_Ip_UnlockCmd.constprop ()
+{
+  struct WDOG_Type * const base;
+
+  <bb 6> [local count: 1073741824]:
+  # DEBUG base => 1074077696B
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _1 ={v} MEM[(struct WDOG_Type *)1074077696B].CS;
+  _2 = _1 & 8192;
+  if (_2 != 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 4>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  MEM[(struct WDOG_Type *)1074077696B].CNT ={v} 3643327776;
+  # DEBUG BEGIN_STMT
+  vol.9_3 ={v} MEM[(struct WDOG_Type *)1074077696B].CNT;
+  goto <bb 5>; [100.00%]
+
+  <bb 4> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  MEM[(struct WDOG_Type *)1074077696B].CNT ={v} 50464;
+  # DEBUG BEGIN_STMT
+  vol.10_4 ={v} MEM[(struct WDOG_Type *)1074077696B].CNT;
+  # DEBUG BEGIN_STMT
+  MEM[(struct WDOG_Type *)1074077696B].CNT ={v} 55592;
+
+  <bb 5> [local count: 1073741824]:
+  return;
+
+}
+
+
+cloning Wdog_Ip_Unlock to Wdog_Ip_Unlock.constprop
+   replace map:  -> 1074077696B(replace);
+   args_to_skip: 0
+   combined_args_to_skip:0
+Wdog_Ip_Unlock (struct WDOG_Type * const base)
+{
+  uint32 ElapsedTicks;
+  uint32 CurrentTicks;
+  uint32 TimeoutTicks;
+  Wdog_Ip_StatusType status;
+
+  <bb 2> [local count: 114863532]:
+  # DEBUG BEGIN_STMT
+  # DEBUG status => 0
+  # DEBUG BEGIN_STMT
+  TimeoutTicks_9 = OsIf_MicrosToTicks (3000, 0);
+  # DEBUG TimeoutTicks => TimeoutTicks_9
+  # DEBUG BEGIN_STMT
+  _1 = OsIf_GetCounter (0);
+  CurrentTicks = _1;
+  # DEBUG BEGIN_STMT
+  # DEBUG ElapsedTicks => 0
+  # DEBUG BEGIN_STMT
+  Wdog_Ip_UnlockCmd (base_12(D));
+  # DEBUG BEGIN_STMT
+  goto <bb 4>; [100.00%]
+
+  <bb 3> [local count: 958878293]:
+  # DEBUG BEGIN_STMT
+  _15 = OsIf_GetElapsed (&CurrentTicks, 0);
+  ElapsedTicks_16 = ElapsedTicks_5 + _15;
+  # DEBUG ElapsedTicks => ElapsedTicks_16
+
+  <bb 4> [local count: 1073741824]:
+  # ElapsedTicks_5 = PHI <0(2), ElapsedTicks_16(3)>
+  # DEBUG ElapsedTicks => ElapsedTicks_5
+  # DEBUG BEGIN_STMT
+  _2 ={v} base_12(D)->CS;
+  _3 = _2 & 2048;
+  if (_3 == 0)
+    goto <bb 5>; [94.50%]
+  else
+    goto <bb 6>; [5.50%]
+
+  <bb 5> [local count: 1014686025]:
+  if (ElapsedTicks_5 < TimeoutTicks_9)
+    goto <bb 3>; [94.50%]
+  else
+    goto <bb 6>; [5.50%]
+
+  <bb 6> [local count: 114863532]:
+  # ElapsedTicks_17 = PHI <ElapsedTicks_5(4), ElapsedTicks_5(5)>
+  # DEBUG BEGIN_STMT
+  if (TimeoutTicks_9 <= ElapsedTicks_17)
+    goto <bb 7>; [35.00%]
+  else
+    goto <bb 8>; [65.00%]
+
+  <bb 7> [local count: 40202236]:
+  # DEBUG BEGIN_STMT
+  # DEBUG status => 2
+
+  <bb 8> [local count: 114863532]:
+  # status_4 = PHI <0(6), 2(7)>
+  # DEBUG status => status_4
+  # DEBUG BEGIN_STMT
+  CurrentTicks ={v} {CLOBBER};
+  return status_4;
+
+}
+
+
+Wdog_Ip_Unlock.constprop ()
+{
+  Wdog_Ip_StatusType status;
+  uint32 TimeoutTicks;
+  uint32 CurrentTicks;
+  uint32 ElapsedTicks;
+  struct WDOG_Type * const base;
+
+  <bb 9> [local count: 114863532]:
+  # DEBUG base => 1074077696B
+
+  <bb 2> [local count: 114863532]:
+  # DEBUG BEGIN_STMT
+  # DEBUG status => 0
+  # DEBUG BEGIN_STMT
+  TimeoutTicks_1 = OsIf_MicrosToTicks (3000, 0);
+  # DEBUG TimeoutTicks => TimeoutTicks_1
+  # DEBUG BEGIN_STMT
+  _2 = OsIf_GetCounter (0);
+  CurrentTicks = _2;
+  # DEBUG BEGIN_STMT
+  # DEBUG ElapsedTicks => 0
+  # DEBUG BEGIN_STMT
+  Wdog_Ip_UnlockCmd (1074077696B);
+  # DEBUG BEGIN_STMT
+  goto <bb 4>; [100.00%]
+
+  <bb 3> [local count: 958878293]:
+  # DEBUG BEGIN_STMT
+  _3 = OsIf_GetElapsed (&CurrentTicks, 0);
+  ElapsedTicks_5 = _3 + ElapsedTicks_4;
+  # DEBUG ElapsedTicks => ElapsedTicks_5
+
+  <bb 4> [local count: 1073741824]:
+  # ElapsedTicks_4 = PHI <0(2), ElapsedTicks_5(3)>
+  # DEBUG ElapsedTicks => ElapsedTicks_4
+  # DEBUG BEGIN_STMT
+  _6 ={v} MEM[(struct WDOG_Type *)1074077696B].CS;
+  _7 = _6 & 2048;
+  if (_7 == 0)
+    goto <bb 5>; [94.50%]
+  else
+    goto <bb 6>; [5.50%]
+
+  <bb 5> [local count: 1014686025]:
+  if (TimeoutTicks_1 > ElapsedTicks_4)
+    goto <bb 3>; [94.50%]
+  else
+    goto <bb 6>; [5.50%]
+
+  <bb 6> [local count: 114863532]:
+  # ElapsedTicks_8 = PHI <ElapsedTicks_4(4), ElapsedTicks_4(5)>
+  # DEBUG BEGIN_STMT
+  if (TimeoutTicks_1 <= ElapsedTicks_8)
+    goto <bb 7>; [35.00%]
+  else
+    goto <bb 8>; [65.00%]
+
+  <bb 7> [local count: 40202236]:
+  # DEBUG BEGIN_STMT
+  # DEBUG status => 2
+
+  <bb 8> [local count: 114863532]:
+  # status_9 = PHI <0(6), 2(7)>
+  # DEBUG status => status_9
+  # DEBUG BEGIN_STMT
+  CurrentTicks ={v} {CLOBBER};
+  return status_9;
+
+}
+
+
+cloning Wdog_Ip_ClearIntFlag to Wdog_Ip_ClearIntFlag.constprop
+   replace map:  -> 1074077696B(replace);
+   args_to_skip: 0
+   combined_args_to_skip:0
+Wdog_Ip_ClearIntFlag (struct WDOG_Type * const base)
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _1 = Wdog_Ip_Unlock (base_6(D));
+  if (_1 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 4>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  _2 ={v} base_6(D)->CS;
+  _3 = _2 | 16384;
+  base_6(D)->CS ={v} _3;
+
+  <bb 4> [local count: 1073741824]:
+  return;
+
+}
+
+
+Wdog_Ip_ClearIntFlag.constprop ()
+{
+  struct WDOG_Type * const base;
+
+  <bb 5> [local count: 1073741824]:
+  # DEBUG base => 1074077696B
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _1 = Wdog_Ip_Unlock (1074077696B);
+  if (_1 == 0)
+    goto <bb 3>; [50.00%]
+  else
+    goto <bb 4>; [50.00%]
+
+  <bb 3> [local count: 536870913]:
+  # DEBUG BEGIN_STMT
+  _2 ={v} MEM[(struct WDOG_Type *)1074077696B].CS;
+  _3 = _2 | 16384;
+  MEM[(struct WDOG_Type *)1074077696B].CS ={v} _3;
+
+  <bb 4> [local count: 1073741824]:
+  return;
+
+}
+
+
+cloning Wdog_Ip_IsReconfigurationComplete to Wdog_Ip_IsReconfigurationComplete.constprop
+   replace map:  -> 1074077696B(replace);
+   args_to_skip: 0
+   combined_args_to_skip:0
+Wdog_Ip_IsReconfigurationComplete (const struct WDOG_Type * base)
+{
+  uint32 ElapsedTicks;
+  uint32 CurrentTicks;
+  uint32 TimeoutTicks;
+  Wdog_Ip_StatusType status;
+
+  <bb 2> [local count: 114863532]:
+  # DEBUG BEGIN_STMT
+  # DEBUG status => 0
+  # DEBUG BEGIN_STMT
+  TimeoutTicks_9 = OsIf_MicrosToTicks (3000, 0);
+  # DEBUG TimeoutTicks => TimeoutTicks_9
+  # DEBUG BEGIN_STMT
+  _1 = OsIf_GetCounter (0);
+  CurrentTicks = _1;
+  # DEBUG BEGIN_STMT
+  # DEBUG ElapsedTicks => 0
+  # DEBUG BEGIN_STMT
+  goto <bb 4>; [100.00%]
+
+  <bb 3> [local count: 958878293]:
+  # DEBUG BEGIN_STMT
+  _14 = OsIf_GetElapsed (&CurrentTicks, 0);
+  ElapsedTicks_15 = ElapsedTicks_5 + _14;
+  # DEBUG ElapsedTicks => ElapsedTicks_15
+
+  <bb 4> [local count: 1073741824]:
+  # ElapsedTicks_5 = PHI <0(2), ElapsedTicks_15(3)>
+  # DEBUG ElapsedTicks => ElapsedTicks_5
+  # DEBUG BEGIN_STMT
+  _2 ={v} base_12(D)->CS;
+  _3 = _2 & 1024;
+  if (_3 == 0)
+    goto <bb 5>; [94.50%]
+  else
+    goto <bb 6>; [5.50%]
+
+  <bb 5> [local count: 1014686025]:
+  if (ElapsedTicks_5 < TimeoutTicks_9)
+    goto <bb 3>; [94.50%]
+  else
+    goto <bb 6>; [5.50%]
+
+  <bb 6> [local count: 114863532]:
+  # ElapsedTicks_16 = PHI <ElapsedTicks_5(4), ElapsedTicks_5(5)>
+  # DEBUG BEGIN_STMT
+  if (TimeoutTicks_9 <= ElapsedTicks_16)
+    goto <bb 7>; [35.00%]
+  else
+    goto <bb 8>; [65.00%]
+
+  <bb 7> [local count: 40202236]:
+  # DEBUG BEGIN_STMT
+  # DEBUG status => 2
+
+  <bb 8> [local count: 114863532]:
+  # status_4 = PHI <0(6), 2(7)>
+  # DEBUG status => status_4
+  # DEBUG BEGIN_STMT
+  CurrentTicks ={v} {CLOBBER};
+  return status_4;
+
+}
+
+
+Wdog_Ip_IsReconfigurationComplete.constprop ()
+{
+  Wdog_Ip_StatusType status;
+  uint32 TimeoutTicks;
+  uint32 CurrentTicks;
+  uint32 ElapsedTicks;
+  const struct WDOG_Type * base;
+
+  <bb 9> [local count: 114863532]:
+  # DEBUG base => 1074077696B
+
+  <bb 2> [local count: 114863532]:
+  # DEBUG BEGIN_STMT
+  # DEBUG status => 0
+  # DEBUG BEGIN_STMT
+  TimeoutTicks_1 = OsIf_MicrosToTicks (3000, 0);
+  # DEBUG TimeoutTicks => TimeoutTicks_1
+  # DEBUG BEGIN_STMT
+  _2 = OsIf_GetCounter (0);
+  CurrentTicks = _2;
+  # DEBUG BEGIN_STMT
+  # DEBUG ElapsedTicks => 0
+  # DEBUG BEGIN_STMT
+  goto <bb 4>; [100.00%]
+
+  <bb 3> [local count: 958878293]:
+  # DEBUG BEGIN_STMT
+  _3 = OsIf_GetElapsed (&CurrentTicks, 0);
+  ElapsedTicks_5 = _3 + ElapsedTicks_4;
+  # DEBUG ElapsedTicks => ElapsedTicks_5
+
+  <bb 4> [local count: 1073741824]:
+  # ElapsedTicks_4 = PHI <0(2), ElapsedTicks_5(3)>
+  # DEBUG ElapsedTicks => ElapsedTicks_4
+  # DEBUG BEGIN_STMT
+  _6 ={v} MEM[(const struct WDOG_Type *)1074077696B].CS;
+  _7 = _6 & 1024;
+  if (_7 == 0)
+    goto <bb 5>; [94.50%]
+  else
+    goto <bb 6>; [5.50%]
+
+  <bb 5> [local count: 1014686025]:
+  if (TimeoutTicks_1 > ElapsedTicks_4)
+    goto <bb 3>; [94.50%]
+  else
+    goto <bb 6>; [5.50%]
+
+  <bb 6> [local count: 114863532]:
+  # ElapsedTicks_8 = PHI <ElapsedTicks_4(4), ElapsedTicks_4(5)>
+  # DEBUG BEGIN_STMT
+  if (TimeoutTicks_1 <= ElapsedTicks_8)
+    goto <bb 7>; [35.00%]
+  else
+    goto <bb 8>; [65.00%]
+
+  <bb 7> [local count: 40202236]:
+  # DEBUG BEGIN_STMT
+  # DEBUG status => 2
+
+  <bb 8> [local count: 114863532]:
+  # status_9 = PHI <0(6), 2(7)>
+  # DEBUG status => status_9
+  # DEBUG BEGIN_STMT
+  CurrentTicks ={v} {CLOBBER};
+  return status_9;
+
+}
+
+
+cloning Wdog_Ip_HwDeInit to Wdog_Ip_HwDeInit.constprop
+   replace map:  -> 1074077696B(replace);
+   args_to_skip: 0
+   combined_args_to_skip:0
+Wdog_Ip_HwDeInit (struct WDOG_Type * const base)
+{
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  base_2(D)->CS ={v} 9504;
+  # DEBUG BEGIN_STMT
+  base_2(D)->TOVAL ={v} 1024;
+  # DEBUG BEGIN_STMT
+  base_2(D)->WIN ={v} 0;
+  # DEBUG BEGIN_STMT
+  Wdog_Ip_Trigger (base_2(D));
+  return;
+
+}
+
+
+Wdog_Ip_HwDeInit.constprop ()
+{
+  struct WDOG_Type * const base;
+
+  <bb 3> [local count: 1073741824]:
+  # DEBUG base => 1074077696B
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  MEM[(struct WDOG_Type *)1074077696B].CS ={v} 9504;
+  # DEBUG BEGIN_STMT
+  MEM[(struct WDOG_Type *)1074077696B].TOVAL ={v} 1024;
+  # DEBUG BEGIN_STMT
+  MEM[(struct WDOG_Type *)1074077696B].WIN ={v} 0;
+  # DEBUG BEGIN_STMT
+  Wdog_Ip_Trigger (1074077696B);
+  return;
+
+}
+
+
+Materialization Call site updates done.
+
+Reclaiming functions: Wdog_Ip_HwDeInit/12 Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_ClearIntFlag/9 Wdog_Ip_Unlock/8 Wdog_Ip_UnlockCmd/7 Wdog_Ip_Trigger/4
+Reclaiming variables:
+Clearing address taken flags:
+Time profile order in expand_all_functions:Wdog_Ip_HwConfig.part.0:1
+Time profile order in expand_all_functions:Wdog_Ip_IsReconfigurationComplete.constprop.0:0
+Time profile order in expand_all_functions:Wdog_Ip_Unlock.constprop.0:0
+updating call of Wdog_Ip_Unlock.constprop/36 -> Wdog_Ip_UnlockCmd.constprop/37: Wdog_Ip_UnlockCmd (1074077696B);
+ combined args to skip: 0
+  updated to:Wdog_Ip_UnlockCmd.constprop ();
+Time profile order in expand_all_functions:Wdog_Ip_Init:0
+updating call of Wdog_Ip_Init/14 -> Wdog_Ip_IsReconfigurationComplete.constprop/34: status_37 = Wdog_Ip_IsReconfigurationComplete (1074077696B);
+ combined args to skip: 0
+  updated to:status_37 = Wdog_Ip_IsReconfigurationComplete.constprop ();
+updating call of Wdog_Ip_Init/14 -> Wdog_Ip_Unlock.constprop/36: _4 = Wdog_Ip_Unlock (1074077696B);
+ combined args to skip: 0
+  updated to:_4 = Wdog_Ip_Unlock.constprop ();
+Time profile order in expand_all_functions:Wdog_Ip_DeInit:0
+updating call of Wdog_Ip_DeInit/15 -> Wdog_Ip_IsReconfigurationComplete.constprop/34: status_14 = Wdog_Ip_IsReconfigurationComplete (1074077696B);
+ combined args to skip: 0
+  updated to:status_14 = Wdog_Ip_IsReconfigurationComplete.constprop ();
+updating call of Wdog_Ip_DeInit/15 -> Wdog_Ip_HwDeInit.constprop/33: Wdog_Ip_HwDeInit (1074077696B);
+ combined args to skip: 0
+  updated to:Wdog_Ip_HwDeInit.constprop ();
+updating call of Wdog_Ip_DeInit/15 -> Wdog_Ip_Unlock.constprop/36: _2 = Wdog_Ip_Unlock (1074077696B);
+ combined args to skip: 0
+  updated to:_2 = Wdog_Ip_Unlock.constprop ();
+updating call of Wdog_Ip_DeInit/15 -> Wdog_Ip_Trigger.constprop/38: Wdog_Ip_Trigger (1074077696B);
+ combined args to skip: 0
+  updated to:Wdog_Ip_Trigger.constprop ();
+Time profile order in expand_all_functions:Wdog_Ip_Service:0
+updating call of Wdog_Ip_Service/16 -> Wdog_Ip_Trigger.constprop/39: Wdog_Ip_Trigger (1074077696B);
+ combined args to skip: 0
+  updated to:Wdog_Ip_Trigger.constprop ();
+Time profile order in expand_all_functions:Wdog_Ip_SetTimeout:0
+updating call of Wdog_Ip_SetTimeout/17 -> Wdog_Ip_IsReconfigurationComplete.constprop/34: status_23 = Wdog_Ip_IsReconfigurationComplete (1074077696B);
+ combined args to skip: 0
+  updated to:status_23 = Wdog_Ip_IsReconfigurationComplete.constprop ();
+updating call of Wdog_Ip_SetTimeout/17 -> Wdog_Ip_Unlock.constprop/36: _1 = Wdog_Ip_Unlock (1074077696B);
+ combined args to skip: 0
+  updated to:_1 = Wdog_Ip_Unlock.constprop ();
+Time profile order in expand_all_functions:Wdog_Ip_Config:0
+updating call of Wdog_Ip_Config/18 -> Wdog_Ip_IsReconfigurationComplete.constprop/34: status_42 = Wdog_Ip_IsReconfigurationComplete (1074077696B);
+ combined args to skip: 0
+  updated to:status_42 = Wdog_Ip_IsReconfigurationComplete.constprop ();
+updating call of Wdog_Ip_Config/18 -> Wdog_Ip_Unlock.constprop/36: _6 = Wdog_Ip_Unlock (1074077696B);
+ combined args to skip: 0
+  updated to:_6 = Wdog_Ip_Unlock.constprop ();
+Time profile order in expand_all_functions:Wdog_Ip_StartTimer:0
+updating call of Wdog_Ip_StartTimer/19 -> Wdog_Ip_IsReconfigurationComplete.constprop/34: status_14 = Wdog_Ip_IsReconfigurationComplete (1074077696B);
+ combined args to skip: 0
+  updated to:status_14 = Wdog_Ip_IsReconfigurationComplete.constprop ();
+updating call of Wdog_Ip_StartTimer/19 -> Wdog_Ip_Unlock.constprop/36: _1 = Wdog_Ip_Unlock (1074077696B);
+ combined args to skip: 0
+  updated to:_1 = Wdog_Ip_Unlock.constprop ();
+Time profile order in expand_all_functions:Wdog_Ip_StopTimer:0
+updating call of Wdog_Ip_StopTimer/20 -> Wdog_Ip_IsReconfigurationComplete.constprop/34: status_14 = Wdog_Ip_IsReconfigurationComplete (1074077696B);
+ combined args to skip: 0
+  updated to:status_14 = Wdog_Ip_IsReconfigurationComplete.constprop ();
+updating call of Wdog_Ip_StopTimer/20 -> Wdog_Ip_Unlock.constprop/36: _1 = Wdog_Ip_Unlock (1074077696B);
+ combined args to skip: 0
+  updated to:_1 = Wdog_Ip_Unlock.constprop ();
+Time profile order in expand_all_functions:Wdog_Ip_IrqHandler:0
+updating call of Wdog_Ip_IrqHandler/21 -> Wdog_Ip_ClearIntFlag.constprop/35: Wdog_Ip_ClearIntFlag (1074077696B);
+ combined args to skip: 0
+  updated to:Wdog_Ip_ClearIntFlag.constprop ();
+updating call of Wdog_Ip_IrqHandler/21 -> Wdog_Ip_Unlock.constprop/36: _12 = Wdog_Ip_Unlock (1074077696B);
+ combined args to skip: 0
+  updated to:_12 = Wdog_Ip_Unlock.constprop ();
+Trivially needed variables: Wdog_Ip_apCallbackPtr
+Removing variables:
+
+Final Symbol table:
+
+Wdog_Ip_Unlock.constprop.0/36 (Wdog_Ip_Unlock.constprop) @05dbe460
+  Type: function definition analyzed
+  Visibility: asm_written artificial
+  References: 
+  Referring: 
+  Availability: local
+  Function flags: count:114863532 (estimated locally) local optimize_size
+  Called by: 
+  Calls: 
+Wdog_Ip_IsReconfigurationComplete.constprop.0/34 (Wdog_Ip_IsReconfigurationComplete.constprop) @05dbe9a0
+  Type: function definition analyzed
+  Visibility: asm_written artificial
+  References: 
+  Referring: 
+  Availability: local
+  Function flags: count:114863532 (estimated locally) local optimize_size
+  Called by: 
+  Calls: 
+Wdog_Ip_HwConfig.part.0/25 (Wdog_Ip_HwConfig.part.0) @05dda380
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly asm_written artificial
+  References: 
+  Referring: 
+  Availability: local
+  Function flags: count:1073741824 (estimated locally) first_run:1 local split_part nonfreeing_fn optimize_size
+  Called by: 
+  Calls: 
+OsIf_GetElapsed/24 (OsIf_GetElapsed) @05e4bc40
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+OsIf_GetCounter/23 (OsIf_GetCounter) @05e4bb60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+OsIf_MicrosToTicks/22 (OsIf_MicrosToTicks) @05e4ba80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+Wdog_Ip_IrqHandler/21 (Wdog_Ip_IrqHandler) @05e4b1c0
+  Type: function definition analyzed
+  Visibility: externally_visible asm_written public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741823 (estimated locally) optimize_size
+  Called by: 
+  Calls: 
+Wdog_Ip_StopTimer/20 (Wdog_Ip_StopTimer) @05e3ae00
+  Type: function definition analyzed
+  Visibility: externally_visible asm_written public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) optimize_size
+  Called by: 
+  Calls: 
+Wdog_Ip_StartTimer/19 (Wdog_Ip_StartTimer) @05e3a7e0
+  Type: function definition analyzed
+  Visibility: externally_visible asm_written public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) optimize_size
+  Called by: 
+  Calls: 
+Wdog_Ip_Config/18 (Wdog_Ip_Config) @05e3a2a0
+  Type: function definition analyzed
+  Visibility: externally_visible asm_written public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) optimize_size
+  Called by: 
+  Calls: 
+Wdog_Ip_SetTimeout/17 (Wdog_Ip_SetTimeout) @05e3ad20
+  Type: function definition analyzed
+  Visibility: externally_visible asm_written public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) optimize_size
+  Called by: 
+  Calls: 
+Wdog_Ip_Service/16 (Wdog_Ip_Service) @05e3a9a0
+  Type: function definition analyzed
+  Visibility: externally_visible asm_written public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) optimize_size
+  Called by: 
+  Calls: 
+Wdog_Ip_DeInit/15 (Wdog_Ip_DeInit) @05e3a700
+  Type: function definition analyzed
+  Visibility: externally_visible asm_written public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) optimize_size
+  Called by: 
+  Calls: 
+Wdog_Ip_Init/14 (Wdog_Ip_Init) @05e3a460
+  Type: function definition analyzed
+  Visibility: externally_visible asm_written public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) optimize_size
+  Called by: 
+  Calls: 
+Wdog_Ip_apCallbackPtr/2 (Wdog_Ip_apCallbackPtr) @05dba708
+  Type: variable definition analyzed
+  Visibility: prevailing_def_ironly asm_written
+  Aux: @00000001
+  References: 
+  Referring: 
+  Availability: available
+  Varpool flags:

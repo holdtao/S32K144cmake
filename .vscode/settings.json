@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "system_ip_cfgdefines.h": "c",
+        "det.h": "c",
+        "standardtypes.h": "c"
+    }
+}

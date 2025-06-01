@@ -1,0 +1,264 @@
+Histogram:
+Wdg_Ipw_Service (Wdg_Ipw_InstanceType Wdg_Instance)
+{
+  <unnamed type> _1;
+  unsigned char _2;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  _1 = aeWdg_Ipw_Ip[Wdg_Instance_5(D)];
+  switch (_1) <default: <L4> [33.33%], case 0: <L0> [33.33%], case 1: <L1> [33.33%]>
+
+  <bb 3> [local count: 357878150]:
+<L0>:
+  # DEBUG BEGIN_STMT
+  _2 = (unsigned char) Wdg_Instance_5(D);
+  Wdog_Ip_Service (_2);
+  # DEBUG BEGIN_STMT
+  goto <bb 5>; [100.00%]
+
+  <bb 4> [local count: 357878150]:
+<L1>:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  Ewm_Ip_Service (0);
+  # DEBUG BEGIN_STMT
+
+  <bb 5> [local count: 1073634451]:
+<L4>:
+  return;
+
+}
+
+
+Wdg_Ipw_StopTimer (Wdg_Ipw_InstanceType Wdg_Instance)
+{
+  Wdog_Ip_StatusType retIp;
+  Std_ReturnType ret;
+  <unnamed type> _1;
+  unsigned char _2;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG ret => 0
+  # DEBUG BEGIN_STMT
+  # DEBUG retIp => 0
+  # DEBUG BEGIN_STMT
+  _1 = aeWdg_Ipw_Ip[Wdg_Instance_6(D)];
+  if (_1 == 0)
+    goto <bb 3>; [33.00%]
+  else
+    goto <bb 7>; [67.00%]
+
+  <bb 3> [local count: 354334802]:
+<L0>:
+  # DEBUG BEGIN_STMT
+  _2 = (unsigned char) Wdg_Instance_6(D);
+  retIp_8 = Wdog_Ip_StopTimer (_2);
+  # DEBUG retIp => retIp_8
+  # DEBUG BEGIN_STMT
+  if (retIp_8 != 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 7>; [50.00%]
+
+  <bb 4> [local count: 177167401]:
+  # DEBUG BEGIN_STMT
+  if (retIp_8 == 2)
+    goto <bb 5>; [20.24%]
+  else
+    goto <bb 7>; [79.76%]
+
+  <bb 5> [local count: 35858682]:
+  # DEBUG BEGIN_STMT
+  Det_ReportRuntimeError (102, _2, 1, 19);
+
+  <bb 7> [local count: 1073741824]:
+  # ret_3 = PHI <1(5), 1(2), 0(3), 1(4)>
+<L9>:
+  # DEBUG ret => ret_3
+  # DEBUG BEGIN_STMT
+  return ret_3;
+
+}
+
+
+Wdg_Ipw_StartTimer (Wdg_Ipw_InstanceType Wdg_Instance)
+{
+  Wdog_Ip_StatusType retIp;
+  Std_ReturnType ret;
+  <unnamed type> _1;
+  unsigned char _2;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG ret => 0
+  # DEBUG BEGIN_STMT
+  # DEBUG retIp => 0
+  # DEBUG BEGIN_STMT
+  _1 = aeWdg_Ipw_Ip[Wdg_Instance_6(D)];
+  if (_1 == 0)
+    goto <bb 3>; [33.00%]
+  else
+    goto <bb 7>; [67.00%]
+
+  <bb 3> [local count: 354334802]:
+<L0>:
+  # DEBUG BEGIN_STMT
+  _2 = (unsigned char) Wdg_Instance_6(D);
+  retIp_8 = Wdog_Ip_StartTimer (_2);
+  # DEBUG retIp => retIp_8
+  # DEBUG BEGIN_STMT
+  if (retIp_8 != 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 7>; [50.00%]
+
+  <bb 4> [local count: 177167401]:
+  # DEBUG BEGIN_STMT
+  if (retIp_8 == 2)
+    goto <bb 5>; [20.24%]
+  else
+    goto <bb 7>; [79.76%]
+
+  <bb 5> [local count: 35858682]:
+  # DEBUG BEGIN_STMT
+  Det_ReportRuntimeError (102, _2, 1, 19);
+
+  <bb 7> [local count: 1073741824]:
+  # ret_3 = PHI <1(5), 1(2), 0(3), 1(4)>
+<L9>:
+  # DEBUG ret => ret_3
+  # DEBUG BEGIN_STMT
+  return ret_3;
+
+}
+
+
+Wdg_Ipw_SetMode (Wdg_Ipw_InstanceType Wdg_Instance, const struct Wdg_Ipw_ConfigType * const pIpwConfig)
+{
+  Wdog_Ip_StatusType retIp;
+  Std_ReturnType ret;
+  <unnamed type> _1;
+  unsigned char _2;
+  const struct Wdog_Ip_ConfigType * _3;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG ret => 0
+  # DEBUG BEGIN_STMT
+  # DEBUG retIp => 0
+  # DEBUG BEGIN_STMT
+  _1 = pIpwConfig_7(D)->eWdgIp;
+  aeWdg_Ipw_Ip[Wdg_Instance_8(D)] = _1;
+  # DEBUG BEGIN_STMT
+  if (_1 == 0)
+    goto <bb 3>; [33.00%]
+  else
+    goto <bb 7>; [67.00%]
+
+  <bb 3> [local count: 354334802]:
+<L0>:
+  # DEBUG BEGIN_STMT
+  _2 = (unsigned char) Wdg_Instance_8(D);
+  _3 = pIpwConfig_7(D)->pWdogConfig;
+  retIp_11 = Wdog_Ip_Config (_2, _3);
+  # DEBUG retIp => retIp_11
+  # DEBUG BEGIN_STMT
+  if (retIp_11 != 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 7>; [50.00%]
+
+  <bb 4> [local count: 177167401]:
+  # DEBUG BEGIN_STMT
+  if (retIp_11 == 2)
+    goto <bb 5>; [20.24%]
+  else
+    goto <bb 7>; [79.76%]
+
+  <bb 5> [local count: 35858682]:
+  # DEBUG BEGIN_STMT
+  Det_ReportRuntimeError (102, _2, 1, 19);
+
+  <bb 7> [local count: 1073741824]:
+  # ret_4 = PHI <1(5), 1(2), 0(3), 1(4)>
+<L9>:
+  # DEBUG ret => ret_4
+  # DEBUG BEGIN_STMT
+  return ret_4;
+
+}
+
+
+Wdg_Ipw_Init (Wdg_Ipw_InstanceType Wdg_Instance, const struct Wdg_Ipw_ConfigType * const pIpwConfig)
+{
+  Wdog_Ip_StatusType retIp;
+  Std_ReturnType ret;
+  <unnamed type> _1;
+  unsigned char _2;
+  const struct Wdog_Ip_ConfigType * _3;
+  const struct Ewm_Ip_ConfigType * _4;
+  <unnamed type> _5;
+
+  <bb 2> [local count: 1073741824]:
+  # DEBUG BEGIN_STMT
+  # DEBUG ret => 0
+  # DEBUG BEGIN_STMT
+  # DEBUG retIp => 0
+  # DEBUG BEGIN_STMT
+  _1 = pIpwConfig_9(D)->eWdgIp;
+  aeWdg_Ipw_Ip[Wdg_Instance_10(D)] = _1;
+  # DEBUG BEGIN_STMT
+  switch (_1) <default: <L11> [33.33%], case 0: <L0> [33.33%], case 1: <L5> [33.33%]>
+
+  <bb 3> [local count: 357878150]:
+<L0>:
+  # DEBUG BEGIN_STMT
+  _2 = (unsigned char) Wdg_Instance_10(D);
+  _3 = pIpwConfig_9(D)->pWdogConfig;
+  retIp_14 = Wdog_Ip_Init (_2, _3);
+  # DEBUG retIp => retIp_14
+  # DEBUG BEGIN_STMT
+  if (retIp_14 != 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 9>; [50.00%]
+
+  <bb 4> [local count: 178939075]:
+  # DEBUG BEGIN_STMT
+  if (retIp_14 == 2)
+    goto <bb 5>; [20.24%]
+  else
+    goto <bb 9>; [79.76%]
+
+  <bb 5> [local count: 36217269]:
+  # DEBUG BEGIN_STMT
+  Det_ReportRuntimeError (102, _2, 0, 19);
+  goto <bb 9>; [100.00%]
+
+  <bb 7> [local count: 357878150]:
+<L5>:
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  _4 = pIpwConfig_9(D)->pEwmConfig;
+  _5 = Ewm_Ip_Init (0, _4);
+  if (_5 != 0)
+    goto <bb 8>; [50.00%]
+  else
+    goto <bb 9>; [50.00%]
+
+  <bb 8> [local count: 178939075]:
+  # DEBUG BEGIN_STMT
+  # DEBUG ret => 1
+
+  <bb 9> [local count: 1073634451]:
+  # ret_6 = PHI <1(5), 1(8), 1(2), 0(3), 0(7), 1(4)>
+<L11>:
+  # DEBUG ret => ret_6
+  # DEBUG BEGIN_STMT
+  return ret_6;
+
+}
+
+

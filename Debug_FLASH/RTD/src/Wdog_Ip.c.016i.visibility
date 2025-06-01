@@ -1,0 +1,1300 @@
+
+Marking local functions: Wdog_Ip_HwConfig Wdog_Ip_HwDeInit Wdog_Ip_IsReconfigurationComplete Wdog_Ip_IsUpdateEnabled Wdog_Ip_ClearIntFlag Wdog_Ip_Unlock Wdog_Ip_UnlockCmd Wdog_Ip_IsIntEnabled Wdog_Ip_GetIntFlag Wdog_Ip_Trigger Wdog_Ip_IsEnabled
+
+
+Marking externally visible functions: Wdog_Ip_IrqHandler Wdog_Ip_StopTimer Wdog_Ip_StartTimer Wdog_Ip_Config Wdog_Ip_SetTimeout Wdog_Ip_Service Wdog_Ip_DeInit Wdog_Ip_Init
+
+
+Marking externally visible variables:
+
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+Symbol table:
+
+OsIf_GetElapsed/24 (OsIf_GetElapsed) @05e4bc40
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 
+  Calls: 
+OsIf_GetCounter/23 (OsIf_GetCounter) @05e4bb60
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 
+  Calls: 
+OsIf_MicrosToTicks/22 (OsIf_MicrosToTicks) @05e4ba80
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 
+  Calls: 
+Wdog_Ip_IrqHandler/21 (Wdog_Ip_IrqHandler) @05e4b1c0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: Wdog_Ip_apCallbackPtr/2 (read)Wdog_Ip_apCallbackPtr/2 (read)
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsIntEnabled/6 Wdog_Ip_ClearIntFlag/9 Wdog_Ip_GetIntFlag/5 
+   Indirect call
+Wdog_Ip_StopTimer/20 (Wdog_Ip_StopTimer) @05e3ae00
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 Wdog_Ip_IsUpdateEnabled/10 Wdog_Ip_IsEnabled/3 
+Wdog_Ip_StartTimer/19 (Wdog_Ip_StartTimer) @05e3a7e0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 Wdog_Ip_IsUpdateEnabled/10 Wdog_Ip_IsEnabled/3 
+Wdog_Ip_Config/18 (Wdog_Ip_Config) @05e3a2a0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: Wdog_Ip_apCallbackPtr/2 (write)Wdog_Ip_apCallbackPtr/2 (write)
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 Wdog_Ip_HwConfig/13 Wdog_Ip_IsUpdateEnabled/10 Wdog_Ip_IsEnabled/3 
+Wdog_Ip_SetTimeout/17 (Wdog_Ip_SetTimeout) @05e3ad20
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 Wdog_Ip_IsUpdateEnabled/10 
+Wdog_Ip_Service/16 (Wdog_Ip_Service) @05e3a9a0
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_Trigger/4 
+Wdog_Ip_DeInit/15 (Wdog_Ip_DeInit) @05e3a700
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: Wdog_Ip_apCallbackPtr/2 (write)
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_HwDeInit/12 Wdog_Ip_Unlock/8 Wdog_Ip_IsUpdateEnabled/10 
+Wdog_Ip_Init/14 (Wdog_Ip_Init) @05e3a460
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: Wdog_Ip_apCallbackPtr/2 (write)Wdog_Ip_apCallbackPtr/2 (write)
+  Referring: 
+  Availability: available
+  Function flags: body optimize_size
+  Called by: 
+  Calls: Wdog_Ip_IsReconfigurationComplete/11 Wdog_Ip_Unlock/8 Wdog_Ip_HwConfig/13 Wdog_Ip_IsUpdateEnabled/10 
+Wdog_Ip_HwConfig/13 (Wdog_Ip_HwConfig) @05e3a0e0
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: local
+  Function flags: body local optimize_size
+  Called by: Wdog_Ip_Config/18 Wdog_Ip_Init/14 
+  Calls: 
+Wdog_Ip_HwDeInit/12 (Wdog_Ip_HwDeInit) @05dc3d20
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: local
+  Function flags: body local optimize_size
+  Called by: Wdog_Ip_DeInit/15 
+  Calls: Wdog_Ip_Trigger/4 
+Wdog_Ip_IsReconfigurationComplete/11 (Wdog_Ip_IsReconfigurationComplete) @05dc3a80
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: local
+  Function flags: body local optimize_size
+  Called by: Wdog_Ip_StopTimer/20 Wdog_Ip_StartTimer/19 Wdog_Ip_Config/18 Wdog_Ip_SetTimeout/17 Wdog_Ip_DeInit/15 Wdog_Ip_Init/14 
+  Calls: OsIf_GetElapsed/24 OsIf_GetCounter/23 OsIf_MicrosToTicks/22 
+Wdog_Ip_IsUpdateEnabled/10 (Wdog_Ip_IsUpdateEnabled) @05dc37e0
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: local
+  Function flags: body local optimize_size
+  Called by: Wdog_Ip_StopTimer/20 Wdog_Ip_StartTimer/19 Wdog_Ip_Config/18 Wdog_Ip_SetTimeout/17 Wdog_Ip_DeInit/15 Wdog_Ip_Init/14 
+  Calls: 
+Wdog_Ip_ClearIntFlag/9 (Wdog_Ip_ClearIntFlag) @05dc3540
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: local
+  Function flags: body local optimize_size
+  Called by: Wdog_Ip_IrqHandler/21 
+  Calls: Wdog_Ip_Unlock/8 
+Wdog_Ip_Unlock/8 (Wdog_Ip_Unlock) @05dc31c0
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: local
+  Function flags: body local optimize_size
+  Called by: Wdog_Ip_ClearIntFlag/9 Wdog_Ip_StopTimer/20 Wdog_Ip_StartTimer/19 Wdog_Ip_Config/18 Wdog_Ip_SetTimeout/17 Wdog_Ip_DeInit/15 Wdog_Ip_Init/14 
+  Calls: OsIf_GetElapsed/24 Wdog_Ip_UnlockCmd/7 OsIf_GetCounter/23 OsIf_MicrosToTicks/22 
+Wdog_Ip_UnlockCmd/7 (Wdog_Ip_UnlockCmd) @05dbeee0
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: local
+  Function flags: body local optimize_size
+  Called by: Wdog_Ip_Unlock/8 
+  Calls: 
+Wdog_Ip_IsIntEnabled/6 (Wdog_Ip_IsIntEnabled) @05dbec40
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: local
+  Function flags: body local optimize_size
+  Called by: Wdog_Ip_IrqHandler/21 
+  Calls: 
+Wdog_Ip_GetIntFlag/5 (Wdog_Ip_GetIntFlag) @05dbe9a0
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: local
+  Function flags: body local optimize_size
+  Called by: Wdog_Ip_IrqHandler/21 
+  Calls: 
+Wdog_Ip_Trigger/4 (Wdog_Ip_Trigger) @05dbe700
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: local
+  Function flags: body local optimize_size
+  Called by: Wdog_Ip_Service/16 Wdog_Ip_HwDeInit/12 
+  Calls: 
+Wdog_Ip_IsEnabled/3 (Wdog_Ip_IsEnabled) @05dbe460
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Availability: local
+  Function flags: body local optimize_size
+  Called by: Wdog_Ip_StopTimer/20 Wdog_Ip_StartTimer/19 Wdog_Ip_Config/18 
+  Calls: 
+Wdog_Ip_apCallbackPtr/2 (Wdog_Ip_apCallbackPtr) @05dba708
+  Type: variable definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: Wdog_Ip_Init/14 (write)Wdog_Ip_Init/14 (write)Wdog_Ip_DeInit/15 (write)Wdog_Ip_Config/18 (write)Wdog_Ip_Config/18 (write)Wdog_Ip_IrqHandler/21 (read)Wdog_Ip_IrqHandler/21 (read)
+  Availability: available
+  Varpool flags:
+Wdog_Ip_IrqHandler (uint8 Instance)
+{
+  struct WDOG_Type * base;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = (int) Instance;
+  base = 1074077696B;
+  # DEBUG BEGIN_STMT
+  _2 = Wdog_Ip_GetIntFlag (base);
+  if (_2 != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  Wdog_Ip_ClearIntFlag (base);
+  # DEBUG BEGIN_STMT
+  _3 = (int) Instance;
+  _4 = Wdog_Ip_apCallbackPtr[_3];
+  if (_4 != 0B)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 4> :
+  _5 = Wdog_Ip_IsIntEnabled (base);
+  if (_5 != 0)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  _6 = (int) Instance;
+  _7 = Wdog_Ip_apCallbackPtr[_6];
+  _7 ();
+
+  <bb 6> :
+  return;
+
+}
+
+
+Wdog_Ip_StopTimer (const uint8 Instance)
+{
+  Wdog_Ip_StatusType status;
+  struct WDOG_Type * base;
+  Wdog_Ip_StatusType D.5894;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = (int) Instance;
+  base = 1074077696B;
+  # DEBUG BEGIN_STMT
+  status = 0;
+  # DEBUG BEGIN_STMT
+  _2 = Wdog_Ip_IsEnabled (base);
+  if (_2 != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 9>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  _3 = Wdog_Ip_IsUpdateEnabled (base);
+  if (_3 != 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+  # DEBUG BEGIN_STMT
+  _4 = Wdog_Ip_Unlock (base);
+  if (_4 == 0)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  _5 = base->CS;
+  _6 = _5 & 4294967167;
+  base->CS = _6;
+  # DEBUG BEGIN_STMT
+  status = Wdog_Ip_IsReconfigurationComplete (base);
+  goto <bb 7>; [INV]
+
+  <bb 6> :
+  # DEBUG BEGIN_STMT
+  status = 2;
+
+  <bb 7> :
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+  goto <bb 9>; [INV]
+
+  <bb 8> :
+  # DEBUG BEGIN_STMT
+  status = 1;
+
+  <bb 9> :
+  # DEBUG BEGIN_STMT
+  D.5894 = status;
+  return D.5894;
+
+}
+
+
+Wdog_Ip_StartTimer (const uint8 Instance)
+{
+  Wdog_Ip_StatusType status;
+  struct WDOG_Type * base;
+  Wdog_Ip_StatusType D.5884;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = (int) Instance;
+  base = 1074077696B;
+  # DEBUG BEGIN_STMT
+  status = 0;
+  # DEBUG BEGIN_STMT
+  _2 = Wdog_Ip_IsEnabled (base);
+  _3 = ~_2;
+  if (_3 != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 9>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  _4 = Wdog_Ip_IsUpdateEnabled (base);
+  if (_4 != 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+  # DEBUG BEGIN_STMT
+  _5 = Wdog_Ip_Unlock (base);
+  if (_5 == 0)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  _6 = base->CS;
+  _7 = _6 | 128;
+  base->CS = _7;
+  # DEBUG BEGIN_STMT
+  status = Wdog_Ip_IsReconfigurationComplete (base);
+  goto <bb 7>; [INV]
+
+  <bb 6> :
+  # DEBUG BEGIN_STMT
+  status = 2;
+
+  <bb 7> :
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+  goto <bb 9>; [INV]
+
+  <bb 8> :
+  # DEBUG BEGIN_STMT
+  status = 1;
+
+  <bb 9> :
+  # DEBUG BEGIN_STMT
+  D.5884 = status;
+  return D.5884;
+
+}
+
+
+Wdog_Ip_Config (const uint8 Instance, const struct Wdog_Ip_ConfigType * const ConfigPtr)
+{
+  boolean bUpdateEnabled;
+  boolean bWdogEnabled;
+  uint32 u32Cs;
+  Wdog_Ip_StatusType status;
+  struct WDOG_Type * base;
+  Wdog_Ip_StatusType D.5871;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = (int) Instance;
+  base = 1074077696B;
+  # DEBUG BEGIN_STMT
+  status = 0;
+  # DEBUG BEGIN_STMT
+  u32Cs = 0;
+  # DEBUG BEGIN_STMT
+  bWdogEnabled = Wdog_Ip_IsEnabled (base);
+  # DEBUG BEGIN_STMT
+  bUpdateEnabled = Wdog_Ip_IsUpdateEnabled (base);
+  # DEBUG BEGIN_STMT
+  _2 = ~bUpdateEnabled;
+  if (_2 != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  status = 1;
+  goto <bb 7>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  if (bWdogEnabled != 0)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  _3 = base->CS;
+  _4 = _3 & 4294967167;
+  base->CS = _4;
+
+  <bb 6> :
+  # DEBUG BEGIN_STMT
+  status = Wdog_Ip_HwConfig (ConfigPtr, &u32Cs);
+
+  <bb 7> :
+  # DEBUG BEGIN_STMT
+  if (status == 0)
+    goto <bb 8>; [INV]
+  else
+    goto <bb 19>; [INV]
+
+  <bb 8> :
+  # DEBUG BEGIN_STMT
+  if (bWdogEnabled != 0)
+    goto <bb 9>; [INV]
+  else
+    goto <bb 10>; [INV]
+
+  <bb 9> :
+  # DEBUG BEGIN_STMT
+  u32Cs.13_5 = u32Cs;
+  _6 = u32Cs.13_5 | 8320;
+  u32Cs = _6;
+
+  <bb 10> :
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+  # DEBUG BEGIN_STMT
+  _7 = Wdog_Ip_Unlock (base);
+  if (_7 == 0)
+    goto <bb 11>; [INV]
+  else
+    goto <bb 17>; [INV]
+
+  <bb 11> :
+  # DEBUG BEGIN_STMT
+  _8 = ConfigPtr->TimeoutValue;
+  _9 = (long unsigned int) _8;
+  base->TOVAL = _9;
+  # DEBUG BEGIN_STMT
+  _10 = ConfigPtr->WinEnable;
+  if (_10 != 0)
+    goto <bb 12>; [INV]
+  else
+    goto <bb 13>; [INV]
+
+  <bb 12> :
+  # DEBUG BEGIN_STMT
+  u32Cs.14_11 = u32Cs;
+  _12 = u32Cs.14_11 | 32768;
+  u32Cs = _12;
+  # DEBUG BEGIN_STMT
+  _13 = ConfigPtr->WindowValue;
+  _14 = (long unsigned int) _13;
+  base->WIN = _14;
+
+  <bb 13> :
+  # DEBUG BEGIN_STMT
+  u32Cs.15_15 = u32Cs;
+  base->CS = u32Cs.15_15;
+  # DEBUG BEGIN_STMT
+  _16 = ConfigPtr->IntEnable;
+  if (_16 != 0)
+    goto <bb 14>; [INV]
+  else
+    goto <bb 15>; [INV]
+
+  <bb 14> :
+  # DEBUG BEGIN_STMT
+  _17 = (int) Instance;
+  _18 = ConfigPtr->pfWdogCallback;
+  Wdog_Ip_apCallbackPtr[_17] = _18;
+  goto <bb 16>; [INV]
+
+  <bb 15> :
+  # DEBUG BEGIN_STMT
+  _19 = (int) Instance;
+  Wdog_Ip_apCallbackPtr[_19] = 0B;
+
+  <bb 16> :
+  # DEBUG BEGIN_STMT
+  status = Wdog_Ip_IsReconfigurationComplete (base);
+  goto <bb 18>; [INV]
+
+  <bb 17> :
+  # DEBUG BEGIN_STMT
+  status = 2;
+
+  <bb 18> :
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+
+  <bb 19> :
+  # DEBUG BEGIN_STMT
+  D.5871 = status;
+  u32Cs = {CLOBBER};
+  return D.5871;
+
+}
+
+
+Wdog_Ip_SetTimeout (const uint8 Instance, uint16 Timeout, uint16 WindowValue)
+{
+  boolean windowEnable;
+  Wdog_Ip_StatusType status;
+  struct WDOG_Type * base;
+  Wdog_Ip_StatusType D.5852;
+  long unsigned int iftmp.12;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = (int) Instance;
+  base = 1074077696B;
+  # DEBUG BEGIN_STMT
+  status = 0;
+  # DEBUG BEGIN_STMT
+  windowEnable = WindowValue != 0;
+  # DEBUG BEGIN_STMT
+  _2 = Wdog_Ip_IsUpdateEnabled (base);
+  if (_2 != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 12>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+  # DEBUG BEGIN_STMT
+  _3 = Wdog_Ip_Unlock (base);
+  if (_3 == 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 10>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  _4 = (long unsigned int) Timeout;
+  base->TOVAL = _4;
+  # DEBUG BEGIN_STMT
+  if (windowEnable != 0)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  _5 = (long unsigned int) WindowValue;
+  base->WIN = _5;
+
+  <bb 6> :
+  # DEBUG BEGIN_STMT
+  _6 = base->CS;
+  _7 = _6 & 4294934527;
+  if (windowEnable != 0)
+    goto <bb 7>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 7> :
+  iftmp.12 = 32768;
+  goto <bb 9>; [INV]
+
+  <bb 8> :
+  iftmp.12 = 0;
+
+  <bb 9> :
+  _8 = iftmp.12 | _7;
+  base->CS = _8;
+  # DEBUG BEGIN_STMT
+  status = Wdog_Ip_IsReconfigurationComplete (base);
+  goto <bb 11>; [INV]
+
+  <bb 10> :
+  # DEBUG BEGIN_STMT
+  status = 2;
+
+  <bb 11> :
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+  goto <bb 13>; [INV]
+
+  <bb 12> :
+  # DEBUG BEGIN_STMT
+  status = 1;
+
+  <bb 13> :
+  # DEBUG BEGIN_STMT
+  D.5852 = status;
+  return D.5852;
+
+}
+
+
+Wdog_Ip_Service (const uint8 Instance)
+{
+  struct WDOG_Type * base;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = (int) Instance;
+  base = 1074077696B;
+  # DEBUG BEGIN_STMT
+  Wdog_Ip_Trigger (base);
+  return;
+
+}
+
+
+Wdog_Ip_DeInit (const uint8 Instance)
+{
+  Wdog_Ip_StatusType status;
+  struct WDOG_Type * base;
+  Wdog_Ip_StatusType D.5834;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = (int) Instance;
+  base = 1074077696B;
+  # DEBUG BEGIN_STMT
+  status = 0;
+  # DEBUG BEGIN_STMT
+  _2 = Wdog_Ip_IsUpdateEnabled (base);
+  if (_2 != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+  # DEBUG BEGIN_STMT
+  _3 = Wdog_Ip_Unlock (base);
+  if (_3 == 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  Wdog_Ip_HwDeInit (base);
+  # DEBUG BEGIN_STMT
+  _4 = (int) Instance;
+  Wdog_Ip_apCallbackPtr[_4] = 0B;
+  # DEBUG BEGIN_STMT
+  status = Wdog_Ip_IsReconfigurationComplete (base);
+  goto <bb 6>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  status = 2;
+
+  <bb 6> :
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+  goto <bb 8>; [INV]
+
+  <bb 7> :
+  # DEBUG BEGIN_STMT
+  status = 1;
+
+  <bb 8> :
+  # DEBUG BEGIN_STMT
+  D.5834 = status;
+  return D.5834;
+
+}
+
+
+Wdog_Ip_Init (const uint8 Instance, const struct Wdog_Ip_ConfigType * const ConfigPtr)
+{
+  uint32 u32Cs;
+  Wdog_Ip_StatusType status;
+  struct WDOG_Type * base;
+  Wdog_Ip_StatusType D.5773;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = (int) Instance;
+  base = 1074077696B;
+  # DEBUG BEGIN_STMT
+  status = 0;
+  # DEBUG BEGIN_STMT
+  u32Cs = 0;
+  # DEBUG BEGIN_STMT
+  _2 = Wdog_Ip_IsUpdateEnabled (base);
+  _3 = ~_2;
+  if (_3 != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  status = 1;
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  status = Wdog_Ip_HwConfig (ConfigPtr, &u32Cs);
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  if (status == 0)
+    goto <bb 6>; [INV]
+  else
+    goto <bb 15>; [INV]
+
+  <bb 6> :
+  # DEBUG BEGIN_STMT
+  u32Cs.0_4 = u32Cs;
+  _5 = u32Cs.0_4 | 8320;
+  u32Cs = _5;
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+  # DEBUG BEGIN_STMT
+  _6 = Wdog_Ip_Unlock (base);
+  if (_6 == 0)
+    goto <bb 7>; [INV]
+  else
+    goto <bb 13>; [INV]
+
+  <bb 7> :
+  # DEBUG BEGIN_STMT
+  _7 = ConfigPtr->TimeoutValue;
+  _8 = (long unsigned int) _7;
+  base->TOVAL = _8;
+  # DEBUG BEGIN_STMT
+  _9 = ConfigPtr->WinEnable;
+  if (_9 != 0)
+    goto <bb 8>; [INV]
+  else
+    goto <bb 9>; [INV]
+
+  <bb 8> :
+  # DEBUG BEGIN_STMT
+  u32Cs.1_10 = u32Cs;
+  _11 = u32Cs.1_10 | 32768;
+  u32Cs = _11;
+  # DEBUG BEGIN_STMT
+  _12 = ConfigPtr->WindowValue;
+  _13 = (long unsigned int) _12;
+  base->WIN = _13;
+
+  <bb 9> :
+  # DEBUG BEGIN_STMT
+  u32Cs.2_14 = u32Cs;
+  base->CS = u32Cs.2_14;
+  # DEBUG BEGIN_STMT
+  _15 = ConfigPtr->IntEnable;
+  if (_15 != 0)
+    goto <bb 10>; [INV]
+  else
+    goto <bb 11>; [INV]
+
+  <bb 10> :
+  # DEBUG BEGIN_STMT
+  _16 = (int) Instance;
+  _17 = ConfigPtr->pfWdogCallback;
+  Wdog_Ip_apCallbackPtr[_16] = _17;
+  goto <bb 12>; [INV]
+
+  <bb 11> :
+  # DEBUG BEGIN_STMT
+  _18 = (int) Instance;
+  Wdog_Ip_apCallbackPtr[_18] = 0B;
+
+  <bb 12> :
+  # DEBUG BEGIN_STMT
+  status = Wdog_Ip_IsReconfigurationComplete (base);
+  goto <bb 14>; [INV]
+
+  <bb 13> :
+  # DEBUG BEGIN_STMT
+  status = 2;
+
+  <bb 14> :
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+
+  <bb 15> :
+  # DEBUG BEGIN_STMT
+  D.5773 = status;
+  u32Cs = {CLOBBER};
+  return D.5773;
+
+}
+
+
+Wdog_Ip_HwConfig (const struct Wdog_Ip_ConfigType * ConfigPtr, uint32 * u32Cs)
+{
+  Wdog_Ip_StatusType status;
+  Wdog_Ip_StatusType D.5807;
+  long unsigned int iftmp.8;
+  long unsigned int iftmp.7;
+  long unsigned int iftmp.6;
+  long unsigned int iftmp.5;
+  long unsigned int iftmp.4;
+  long unsigned int iftmp.3;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  status = 0;
+  # DEBUG BEGIN_STMT
+  _1 = ConfigPtr->WinEnable;
+  if (_1 != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  _2 = ConfigPtr->WindowValue;
+  _3 = ConfigPtr->TimeoutValue;
+  if (_2 >= _3)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 4> :
+  _4 = ConfigPtr->TimeoutValue;
+  if (_4 == 0)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  status = 1;
+  goto <bb 25>; [INV]
+
+  <bb 6> :
+  # DEBUG BEGIN_STMT
+  _5 = *u32Cs;
+  _6 = _5 & 4294929560;
+  *u32Cs = _6;
+  # DEBUG BEGIN_STMT
+  _7 = *u32Cs;
+  _8 = ConfigPtr->clkSource;
+  _9 = _8 << 8;
+  _10 = _9 & 768;
+  _11 = _7 | _10;
+  *u32Cs = _11;
+  # DEBUG BEGIN_STMT
+  _12 = *u32Cs;
+  _13 = ConfigPtr->PrescalerEnable;
+  if (_13 != 0)
+    goto <bb 7>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 7> :
+  iftmp.3 = 4096;
+  goto <bb 9>; [INV]
+
+  <bb 8> :
+  iftmp.3 = 0;
+
+  <bb 9> :
+  _14 = iftmp.3 | _12;
+  *u32Cs = _14;
+  # DEBUG BEGIN_STMT
+  _15 = *u32Cs;
+  _16 = ConfigPtr->IntEnable;
+  if (_16 != 0)
+    goto <bb 10>; [INV]
+  else
+    goto <bb 11>; [INV]
+
+  <bb 10> :
+  iftmp.4 = 64;
+  goto <bb 12>; [INV]
+
+  <bb 11> :
+  iftmp.4 = 0;
+
+  <bb 12> :
+  _17 = iftmp.4 | _15;
+  *u32Cs = _17;
+  # DEBUG BEGIN_STMT
+  _18 = *u32Cs;
+  _19 = ConfigPtr->UpdateEnable;
+  if (_19 != 0)
+    goto <bb 13>; [INV]
+  else
+    goto <bb 14>; [INV]
+
+  <bb 13> :
+  iftmp.5 = 32;
+  goto <bb 15>; [INV]
+
+  <bb 14> :
+  iftmp.5 = 0;
+
+  <bb 15> :
+  _20 = iftmp.5 | _18;
+  *u32Cs = _20;
+  # DEBUG BEGIN_STMT
+  _21 = *u32Cs;
+  _22 = ConfigPtr->opMode.bDebug;
+  if (_22 != 0)
+    goto <bb 16>; [INV]
+  else
+    goto <bb 17>; [INV]
+
+  <bb 16> :
+  iftmp.6 = 4;
+  goto <bb 18>; [INV]
+
+  <bb 17> :
+  iftmp.6 = 0;
+
+  <bb 18> :
+  _23 = iftmp.6 | _21;
+  *u32Cs = _23;
+  # DEBUG BEGIN_STMT
+  _24 = *u32Cs;
+  _25 = ConfigPtr->opMode.bWait;
+  if (_25 != 0)
+    goto <bb 19>; [INV]
+  else
+    goto <bb 20>; [INV]
+
+  <bb 19> :
+  iftmp.7 = 2;
+  goto <bb 21>; [INV]
+
+  <bb 20> :
+  iftmp.7 = 0;
+
+  <bb 21> :
+  _26 = iftmp.7 | _24;
+  *u32Cs = _26;
+  # DEBUG BEGIN_STMT
+  _27 = *u32Cs;
+  _28 = ConfigPtr->opMode.bStop;
+  if (_28 != 0)
+    goto <bb 22>; [INV]
+  else
+    goto <bb 23>; [INV]
+
+  <bb 22> :
+  iftmp.8 = 1;
+  goto <bb 24>; [INV]
+
+  <bb 23> :
+  iftmp.8 = 0;
+
+  <bb 24> :
+  _29 = iftmp.8 | _27;
+  *u32Cs = _29;
+  # DEBUG BEGIN_STMT
+  _30 = *u32Cs;
+  _31 = _30 | 16384;
+  *u32Cs = _31;
+
+  <bb 25> :
+  # DEBUG BEGIN_STMT
+  D.5807 = status;
+  return D.5807;
+
+}
+
+
+Wdog_Ip_HwDeInit (struct WDOG_Type * const base)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  base->CS = 9504;
+  # DEBUG BEGIN_STMT
+  base->TOVAL = 1024;
+  # DEBUG BEGIN_STMT
+  base->WIN = 0;
+  # DEBUG BEGIN_STMT
+  Wdog_Ip_Trigger (base);
+  return;
+
+}
+
+
+Wdog_Ip_IsReconfigurationComplete (const struct WDOG_Type * base)
+{
+  uint32 ElapsedTicks;
+  uint32 CurrentTicks;
+  uint32 TimeoutTicks;
+  Wdog_Ip_StatusType status;
+  Wdog_Ip_StatusType D.5825;
+  long unsigned int D.5821;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  status = 0;
+  # DEBUG BEGIN_STMT
+  TimeoutTicks = OsIf_MicrosToTicks (3000, 0);
+  # DEBUG BEGIN_STMT
+  _1 = OsIf_GetCounter (0);
+  CurrentTicks = _1;
+  # DEBUG BEGIN_STMT
+  ElapsedTicks = 0;
+  # DEBUG BEGIN_STMT
+  goto <bb 4>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  D.5821 = OsIf_GetElapsed (&CurrentTicks, 0);
+  ElapsedTicks = D.5821 + ElapsedTicks;
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  _2 = base->CS;
+  _3 = _2 & 1024;
+  if (_3 == 0)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  if (ElapsedTicks < TimeoutTicks)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 6> :
+  # DEBUG BEGIN_STMT
+  if (ElapsedTicks >= TimeoutTicks)
+    goto <bb 7>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 7> :
+  # DEBUG BEGIN_STMT
+  status = 2;
+
+  <bb 8> :
+  # DEBUG BEGIN_STMT
+  D.5825 = status;
+  CurrentTicks = {CLOBBER};
+  return D.5825;
+
+}
+
+
+Wdog_Ip_IsUpdateEnabled (const struct WDOG_Type * base)
+{
+  boolean D.5776;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = base->CS;
+  _2 = _1 & 32;
+  D.5776 = _2 != 0;
+  return D.5776;
+
+}
+
+
+Wdog_Ip_ClearIntFlag (struct WDOG_Type * const base)
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = Wdog_Ip_Unlock (base);
+  if (_1 == 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  _2 = base->CS;
+  _3 = _2 | 16384;
+  base->CS = _3;
+
+  <bb 4> :
+  return;
+
+}
+
+
+Wdog_Ip_Unlock (struct WDOG_Type * const base)
+{
+  uint32 ElapsedTicks;
+  uint32 CurrentTicks;
+  uint32 TimeoutTicks;
+  Wdog_Ip_StatusType status;
+  Wdog_Ip_StatusType D.5813;
+  long unsigned int D.5809;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  status = 0;
+  # DEBUG BEGIN_STMT
+  TimeoutTicks = OsIf_MicrosToTicks (3000, 0);
+  # DEBUG BEGIN_STMT
+  _1 = OsIf_GetCounter (0);
+  CurrentTicks = _1;
+  # DEBUG BEGIN_STMT
+  ElapsedTicks = 0;
+  # DEBUG BEGIN_STMT
+  Wdog_Ip_UnlockCmd (base);
+  # DEBUG BEGIN_STMT
+  goto <bb 4>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  D.5809 = OsIf_GetElapsed (&CurrentTicks, 0);
+  ElapsedTicks = D.5809 + ElapsedTicks;
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  _2 = base->CS;
+  _3 = _2 & 2048;
+  if (_3 == 0)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 5> :
+  if (ElapsedTicks < TimeoutTicks)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 6>; [INV]
+
+  <bb 6> :
+  # DEBUG BEGIN_STMT
+  if (ElapsedTicks >= TimeoutTicks)
+    goto <bb 7>; [INV]
+  else
+    goto <bb 8>; [INV]
+
+  <bb 7> :
+  # DEBUG BEGIN_STMT
+  status = 2;
+
+  <bb 8> :
+  # DEBUG BEGIN_STMT
+  D.5813 = status;
+  CurrentTicks = {CLOBBER};
+  return D.5813;
+
+}
+
+
+Wdog_Ip_UnlockCmd (struct WDOG_Type * const base)
+{
+  long unsigned int vol.10;
+  long unsigned int vol.9;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = base->CS;
+  _2 = _1 & 8192;
+  if (_2 != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  base->CNT = 3643327776;
+  # DEBUG BEGIN_STMT
+  vol.9 = base->CNT;
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  base->CNT = 50464;
+  # DEBUG BEGIN_STMT
+  vol.10 = base->CNT;
+  # DEBUG BEGIN_STMT
+  base->CNT = 55592;
+
+  <bb 5> :
+  return;
+
+}
+
+
+Wdog_Ip_IsIntEnabled (const struct WDOG_Type * const base)
+{
+  boolean D.5906;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = base->CS;
+  _2 = _1 & 64;
+  D.5906 = _2 != 0;
+  return D.5906;
+
+}
+
+
+Wdog_Ip_GetIntFlag (const struct WDOG_Type * const base)
+{
+  boolean D.5902;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = base->CS;
+  _2 = _1 & 16384;
+  D.5902 = _2 != 0;
+  return D.5902;
+
+}
+
+
+Wdog_Ip_Trigger (struct WDOG_Type * const base)
+{
+  long unsigned int vol.11;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsid i");
+  # DEBUG BEGIN_STMT
+  _1 = base->CS;
+  _2 = _1 & 8192;
+  if (_2 != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  base->CNT = 3028329986;
+  goto <bb 5>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  base->CNT = 42498;
+  # DEBUG BEGIN_STMT
+  vol.11 = base->CNT;
+  # DEBUG BEGIN_STMT
+  base->CNT = 46208;
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  __asm__ __volatile__(" cpsie i");
+  return;
+
+}
+
+
+Wdog_Ip_IsEnabled (const struct WDOG_Type * base)
+{
+  boolean D.5874;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  _1 = base->CS;
+  _2 = _1 & 128;
+  D.5874 = _2 != 0;
+  return D.5874;
+
+}
+
+

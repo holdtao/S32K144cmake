@@ -1,0 +1,38 @@
+callgraph:
+
+Wdg_CallBackNotification1/1 (Wdg_CallBackNotification1) @068c1000
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: Ewm_Ip_Settings_VS_0/0 (addr)
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+
+
+ ordered call graph: reduced for nothrow
+
+
+
+MALLOC LATTICE Initial:
+
+
+MALLOC LATTICE after propagation:
+callgraph:
+
+Wdg_CallBackNotification1/1 (Wdg_CallBackNotification1) @068c1000
+  Type: function
+  Visibility: external public
+  Address is taken.
+  References: 
+  Referring: Ewm_Ip_Settings_VS_0/0 (addr)
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: 
+  Calls: 
+
+
+ ordered call graph: reduced
+

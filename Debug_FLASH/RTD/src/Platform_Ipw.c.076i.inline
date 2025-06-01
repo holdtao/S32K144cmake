@@ -1,0 +1,249 @@
+IPA function summary for Platform_Ipw_Init/6 inlinable
+  global time:     10.881700
+  self size:       8
+  global size:     8
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:0.000000, time:0.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+    size:0.500000, time:0.500000,  executed if:(not inlined),  nonconst if:(op0[ref offset: 0] changed) && (not inlined)
+    size:2.500000, time:2.500000,  nonconst if:(op0[ref offset: 0] changed)
+  calls:
+    Platform_Ipw_InitIntCtrl/5 function not considered for inlining
+      loop depth: 0 freq:0.53 size: 2 time: 11callee size:13 stack: 0 predicate: (op0[ref offset: 0] != 0B)
+
+IPA function summary for Platform_Ipw_InitIntCtrl/5 inlinable
+  global time:     312.454547
+  self size:       26
+  global size:     26
+  min size:       14
+  self stack:      0
+  global stack:    0
+    size:14.500000, time:111.727273
+    size:4.500000, time:14.636364,  executed if:(not inlined)
+  calls:
+    IntCtrl_Ip_DisableIrq/9 function body not available
+      loop depth: 1 freq:4.05 size: 2 time: 11
+    IntCtrl_Ip_EnableIrq/8 function body not available
+      loop depth: 1 freq:4.05 size: 2 time: 11
+    IntCtrl_Ip_SetPriority/7 function body not available
+      loop depth: 1 freq:8.09 size: 3 time: 12
+
+
+Flattening functions:
+Overall time estimate: 323.336247 weighted by profile: 0.000000
+
+Deciding on inlining of small functions.  Starting with size 0.
+Enqueueing calls in Platform_Ipw_Init/6.
+Enqueueing calls in Platform_Ipw_InitIntCtrl/5.
+
+Considering Platform_Ipw_InitIntCtrl/5 with 26 size
+ to be inlined into Platform_Ipw_Init/6 in ../RTD/src/Platform_Ipw.c:156
+ Estimated badness is -0.097913, frequency 0.53.
+
+Reclaiming functions:
+Reclaiming variables:
+Clearing address taken flags:
+
+Deciding on functions to be inlined into all callers and removing useless speculations:
+Overall time estimate: 164.243383 weighted by profile: 0.000000
+
+Why inlining failed?
+function body not available                       :        3 calls, 8.652418 freq, 0 count
+IPA function summary for Platform_Ipw_Init/6 inlinable
+  global time:     164.243383
+  self size:       8
+  global size:     28
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:0.000000, time:0.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+    size:0.500000, time:0.500000,  executed if:(not inlined),  nonconst if:(op0[ref offset: 0] changed) && (not inlined)
+    size:2.500000, time:2.500000,  nonconst if:(op0[ref offset: 0] changed)
+    size:14.500000, time:59.740573,  executed if:(op0[ref offset: 0] != 0B)
+  calls:
+    Platform_Ipw_InitIntCtrl/5 inlined
+      loop depth: 0 freq:0.53 size: 2 time: 11callee size:13 stack: 0
+      Stack frame offset 0, callee self size 0, callee size 0
+      IntCtrl_Ip_DisableIrq/9 function body not available
+        loop depth: 1 freq:2.16 size: 2 time: 11 predicate: (op0[ref offset: 0] != 0B)
+      IntCtrl_Ip_EnableIrq/8 function body not available
+        loop depth: 1 freq:2.16 size: 2 time: 11 predicate: (op0[ref offset: 0] != 0B)
+      IntCtrl_Ip_SetPriority/7 function body not available
+        loop depth: 1 freq:4.33 size: 3 time: 12 predicate: (op0[ref offset: 0] != 0B)
+
+Symbol table:
+
+IntCtrl_Ip_DisableIrq/9 (IntCtrl_Ip_DisableIrq) @064791c0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Platform_Ipw_InitIntCtrl/5 (2322615832 (estimated locally),2.16 per call) 
+  Calls: 
+IntCtrl_Ip_EnableIrq/8 (IntCtrl_Ip_EnableIrq) @064790e0
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Platform_Ipw_InitIntCtrl/5 (2322615832 (estimated locally),2.16 per call) 
+  Calls: 
+IntCtrl_Ip_SetPriority/7 (IntCtrl_Ip_SetPriority) @06479000
+  Type: function
+  Visibility: external public
+  References: 
+  Referring: 
+  Availability: not_available
+  Function flags: optimize_size
+  Called by: Platform_Ipw_InitIntCtrl/5 (4645231669 (estimated locally),4.33 per call) 
+  Calls: 
+Platform_Ipw_Init/6 (Platform_Ipw_Init) @05f86a80
+  Type: function definition analyzed
+  Visibility: externally_visible public
+  References: 
+  Referring: 
+  Availability: available
+  Function flags: count:1073741824 (estimated locally) body optimize_size
+  Called by: 
+  Calls: Platform_Ipw_InitIntCtrl/5 (inlined) (574129754 (estimated locally),0.53 per call) 
+Platform_Ipw_InitIntCtrl/5 (Platform_Ipw_InitIntCtrl) @05f867e0
+  Type: function definition analyzed
+  Visibility: prevailing_def_ironly
+  References: 
+  Referring: 
+  Function Platform_Ipw_InitIntCtrl/5 is inline copy in Platform_Ipw_Init/6
+  Availability: local
+  Function flags: count:574129754 (estimated locally) body local optimize_size
+  Called by: Platform_Ipw_Init/6 (inlined) (574129754 (estimated locally),0.53 per call) 
+  Calls: IntCtrl_Ip_DisableIrq/9 (2322615832 (estimated locally),2.16 per call) IntCtrl_Ip_EnableIrq/8 (2322615832 (estimated locally),2.16 per call) IntCtrl_Ip_SetPriority/7 (4645231669 (estimated locally),4.33 per call) 
+
+;; Function Platform_Ipw_Init (Platform_Ipw_Init, funcdef_no=6, decl_uid=6296, cgraph_uid=7, symbol_order=6)
+
+
+Symbols to be put in SSA form
+{ D.6346 D.6351 }
+Incremental SSA update started at block: 0
+Number of blocks in CFG: 14
+Number of blocks to update: 13 ( 93%)
+
+
+Removing basic block 3
+Removing basic block 6
+Removing basic block 7
+;; 2 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2 3 4 5 6 7 8 9 10
+;;
+;; Loop 1
+;;  header 7, latch 6
+;;  depth 1, outer 0
+;;  nodes: 7 6 4 5 3
+;; 2 succs { 7 9 }
+;; 3 succs { 4 5 }
+;; 4 succs { 6 }
+;; 5 succs { 6 }
+;; 6 succs { 7 }
+;; 7 succs { 3 8 }
+;; 8 succs { 10 }
+;; 9 succs { 10 }
+;; 10 succs { 1 }
+Platform_Ipw_Init (const struct Platform_Ipw_ConfigType * pConfig)
+{
+  uint32 irqIdx;
+  Std_ReturnType D.6351;
+  const struct IntCtrl_Ip_CtrlConfigType * _1;
+  const struct IntCtrl_Ip_IrqConfigType * _7;
+  long unsigned int _9;
+  const struct IntCtrl_Ip_IrqConfigType * _10;
+  <unnamed type> _11;
+  unsigned char _12;
+  const struct IntCtrl_Ip_IrqConfigType * _13;
+  const struct IntCtrl_Ip_IrqConfigType * _14;
+  _Bool _15;
+  <unnamed type> _16;
+  <unnamed type> _17;
+  long unsigned int _19;
+
+  <bb 2> [local count: 220893212]:
+  # DEBUG BEGIN_STMT
+  # DEBUG ret => 0
+  # DEBUG BEGIN_STMT
+  _1 = pConfig_3(D)->pIntCtrlConfig;
+  if (_1 != 0B)
+    goto <bb 7>; [53.47%]
+  else
+    goto <bb 9>; [46.53%]
+
+  <bb 3> [local count: 955630226]:
+  # DEBUG BEGIN_STMT
+  _7 = _1->aIrqConfig;
+  _9 = irqIdx_8 * 8;
+  _10 = _7 + _9;
+  _11 = _10->eIrqNumber;
+  _12 = _10->u8IrqPriority;
+  IntCtrl_Ip_SetPriority (_11, _12);
+  # DEBUG BEGIN_STMT
+  _13 = _1->aIrqConfig;
+  _14 = _13 + _9;
+  _15 = _14->bIrqEnabled;
+  if (_15 != 0)
+    goto <bb 4>; [50.00%]
+  else
+    goto <bb 5>; [50.00%]
+
+  <bb 4> [local count: 477815113]:
+  # DEBUG BEGIN_STMT
+  _16 = _14->eIrqNumber;
+  IntCtrl_Ip_EnableIrq (_16);
+  goto <bb 6>; [100.00%]
+
+  <bb 5> [local count: 477815113]:
+  # DEBUG BEGIN_STMT
+  _17 = _14->eIrqNumber;
+  IntCtrl_Ip_DisableIrq (_17);
+
+  <bb 6> [local count: 955630226]:
+  # DEBUG BEGIN_STMT
+  irqIdx_18 = irqIdx_8 + 1;
+  # DEBUG irqIdx => irqIdx_18
+
+  <bb 7> [local count: 1073741824]:
+  # irqIdx_8 = PHI <0(2), irqIdx_18(6)>
+  # DEBUG pIntCtrlCtrlConfig => NULL
+  # DEBUG irqIdx => NULL
+  # DEBUG irqIdx => irqIdx_8
+  # DEBUG BEGIN_STMT
+  _19 = _1->u32ConfigIrqCount;
+  if (irqIdx_8 < _19)
+    goto <bb 3>; [89.00%]
+  else
+    goto <bb 8>; [11.00%]
+
+  <bb 8> [local count: 118111601]:
+  # DEBUG BEGIN_STMT
+  _22 = 0;
+  goto <bb 10>; [100.00%]
+
+  <bb 9> [local count: 102781611]:
+  # DEBUG ret => NULL
+  # DEBUG BEGIN_STMT
+
+  <bb 10> [local count: 220893212]:
+  # DEBUG pIntCtrlCtrlConfig => NULL
+  # DEBUG irqIdx => NULL
+  # DEBUG ret => NULL
+  # DEBUG BEGIN_STMT
+  return;
+
+}
+
+

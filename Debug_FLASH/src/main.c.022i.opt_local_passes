@@ -1,0 +1,165 @@
+main ()
+{
+  int index;
+  unsigned char notificationCount.2_1;
+  unsigned char notificationCount.3_2;
+  _Bool _3;
+  int _30;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  Mcu_Init (0B);
+  # DEBUG BEGIN_STMT
+  Mcu_InitClock (0);
+  # DEBUG BEGIN_STMT
+  Mcu_SetMode (0);
+  # DEBUG BEGIN_STMT
+  Platform_Init (0B);
+  # DEBUG BEGIN_STMT
+  Platform_SetIrq (48, 1);
+  # DEBUG BEGIN_STMT
+  Platform_InstallIrqHandler (48, LPIT_0_CH_0_ISR, 0B);
+  # DEBUG BEGIN_STMT
+  Platform_SetIrq (99, 1);
+  # DEBUG BEGIN_STMT
+  Platform_InstallIrqHandler (99, FTM_0_CH_0_CH_1_ISR, 0B);
+  # DEBUG BEGIN_STMT
+  Platform_SetIrq (22, 1);
+  # DEBUG BEGIN_STMT
+  Platform_InstallIrqHandler (22, Wdg_Ipw_Isr, 0B);
+  # DEBUG BEGIN_STMT
+  Gpt_Init (&Gpt_Config_VS_0);
+  # DEBUG BEGIN_STMT
+  Gpt_EnableNotification (0);
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance0_Init (&Wdg_Config_0_VS_0);
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance0_SetTriggerCondition (64768);
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance0_SetMode (2);
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance0_SetTriggerCondition (64768);
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  index_23 = 0;
+  # DEBUG index => index_23
+  goto <bb 4>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  delay (50000);
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance0_SetTriggerCondition (64768);
+  # DEBUG BEGIN_STMT
+  index_33 = index_4 + 1;
+  # DEBUG index => index_33
+
+  <bb 4> :
+  # index_4 = PHI <index_23(2), index_33(3)>
+  # DEBUG index => index_4
+  # DEBUG BEGIN_STMT
+  if (index_4 <= 9)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 5>; [INV]
+
+  <bb 5> :
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance0_SetMode (0);
+  # DEBUG BEGIN_STMT
+  delay (5000000);
+  # DEBUG BEGIN_STMT
+  Gpt_EnableNotification (1);
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance1_Init (&Wdg_Config_1_VS_0);
+  # DEBUG BEGIN_STMT
+  Wdg_43_Instance1_SetTriggerCondition (64768);
+  # DEBUG BEGIN_STMT
+
+  <bb 6> :
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  notificationCount.2_1 ={v} notificationCount;
+  if (notificationCount.2_1 == 0)
+    goto <bb 6>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 7> :
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  notificationCount.3_2 ={v} notificationCount;
+  _3 = notificationCount.3_2 == 1;
+  DevAssert (_3);
+  # DEBUG BEGIN_STMT
+  _30 = 0;
+  return _30;
+
+}
+
+
+Wdg_CallBackNotification1 ()
+{
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  notificationCount ={v} 1;
+  return;
+
+}
+
+
+delay (uint32 timeout)
+{
+  volatile uint32 i;
+  long unsigned int i.0_1;
+  long unsigned int i.1_2;
+  long unsigned int _3;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  i ={v} timeout_6(D);
+  # DEBUG BEGIN_STMT
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  i.0_1 ={v} i;
+  i.1_2 = i.0_1;
+  _3 = i.1_2 + 4294967295;
+  i ={v} _3;
+  if (i.1_2 != 0)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 4>; [INV]
+
+  <bb 4> :
+  return;
+
+}
+
+
+DevAssert (volatile boolean x)
+{
+  _Bool x.4_1;
+
+  <bb 2> :
+  # DEBUG BEGIN_STMT
+  x.4_1 ={v} x;
+  if (x.4_1 != 0)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 3>; [INV]
+
+  <bb 3> :
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  # DEBUG BEGIN_STMT
+  goto <bb 3>; [INV]
+
+  <bb 4> :
+  # DEBUG BEGIN_STMT
+  return;
+
+}
+
+

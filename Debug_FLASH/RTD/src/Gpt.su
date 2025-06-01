@@ -1,0 +1,10 @@
+Gpt.c:1035:31:Gpt_ConvertChannelIndexToChannel.constprop	0	static
+Gpt.c:1130:6:Gpt_Init	32	static
+Gpt.c:1219:6:Gpt_DeInit	32	static
+Gpt.c:1319:15:Gpt_GetTimeElapsed	24	static
+Gpt.c:1412:15:Gpt_GetTimeRemaining	24	static
+Gpt.c:1512:6:Gpt_StartTimer	32	static
+Gpt.c:1589:6:Gpt_StopTimer	32	static
+Gpt.c:1660:6:Gpt_EnableNotification	0	static
+Gpt.c:1717:6:Gpt_DisableNotification	8	static
+Gpt.c:2136:6:Gpt_ProcessCommonInterrupt	16	static
